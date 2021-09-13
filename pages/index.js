@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap'
 
 export default function Home() {
   return (
@@ -15,36 +13,6 @@ export default function Home() {
 
       <main className={styles.main}>
       <header >
-          <Container fluid>
-            <Row >
-              <Col xl={7} lg={7}>
-                <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-              </Col>
-              <Col xl={5} lg={5}>
-                <Nav className="me-auto" style={{ display: 'flex', justifyContent: 'flex-end'}}>
-                  <Nav.Link href="#home">Home</Nav.Link>
-                  <Nav.Link href="#features">Features</Nav.Link>
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
-              </Col>
-            </Row>
-          </Container>
-          <Container fluid>
-            <Navbar>
-              <Row >
-                <Col xl={7} lg={7}>
-                  <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-                </Col>
-                <Col xl={5} lg={5}>
-                  <Nav className="me-auto" style={{ display: 'flex', justifyContent: 'flex-end'}}>
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
-                  </Nav>
-                </Col>
-              </Row>
-            </Navbar>
-          </Container>
       </header>
       </main>
 
