@@ -15,23 +15,36 @@ export default function Home() {
 
       <main className={styles.main}>
       <header >
-        <Navbar bg="light" style={{marginTop: 0, marginBottom:0}}>
           <Container fluid>
             <Row >
-              <Col >
+              <Col xl={7} lg={7}>
                 <Navbar.Brand href="#home">Brand link</Navbar.Brand>
               </Col>
-              <Col >
-              <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-              </Nav>
+              <Col xl={5} lg={5}>
+                <Nav className="me-auto" style={{ display: 'flex', justifyContent: 'flex-end'}}>
+                  <Nav.Link href="#home">Home</Nav.Link>
+                  <Nav.Link href="#features">Features</Nav.Link>
+                  <Nav.Link href="#pricing">Pricing</Nav.Link>
+                </Nav>
               </Col>
             </Row>
-            
           </Container>
-        </Navbar>
+          <Container fluid>
+            <Navbar>
+              <Row >
+                <Col xl={7} lg={7}>
+                  <Navbar.Brand href="#home">Brand link</Navbar.Brand>
+                </Col>
+                <Col xl={5} lg={5}>
+                  <Nav className="me-auto" style={{ display: 'flex', justifyContent: 'flex-end'}}>
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#features">Features</Nav.Link>
+                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                  </Nav>
+                </Col>
+              </Row>
+            </Navbar>
+          </Container>
       </header>
       </main>
 
