@@ -1,13 +1,38 @@
-import React, { useState } from 'react';
+import React from 'react'
+import { Layout } from 'antd'
+import CusHeader from './CusHeader'
+import Slider from './Slider'
+import Carousel from './Carousel'
+import Welcome from './Welcome'
+// import logo from '../../public/images/qb.jpg'
+const {Header, Content, Footer} = Layout
 
-const Cars = ()=>{
- 
+const  Structure = () =>{
   return (
-    <>
-      <nav style={{background:"red"}}> </nav>
-      <nav style={{background:"yellow"}}> </nav>
-    </>
-  );
+    <Layout>
+      <Header style={styles.layout}>
+        <CusHeader/>
+      </Header>
+      <Layout>
+        <Content>
+            <Slider/>
+            <Welcome style={{Color: 'white'}}/>
+            {/* <Carousel/> */}
+        </Content>
+      </Layout>
+      <Footer>footer</Footer>
+    </Layout>
+  )
 }
 
-export default Cars;
+export default Structure
+
+const styles = {
+  layout: {
+    height: 100, 
+    padding: '0 1px 0px 0px',
+    margin: 0, 
+    lineHeight: '20px', 
+    background: '#fff' 
+  },
+}

@@ -1,6 +1,9 @@
+import React from "react";
+import App from "next/app";
 import '../styles/globals.css'
+import "antd/dist/antd.css";
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps })=> {
   return <Component {...pageProps} />
 }
 
