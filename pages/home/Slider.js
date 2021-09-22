@@ -8,7 +8,7 @@ const BgElement = Element.BgElement;
 
 const Slider = () =>{
     return (
-      <BannerAnim prefixCls="banner-user" style={{minHeight: '70vh', position:'relative'}} autoPlay autoPlaySpeed={5000} dragPlay={false} >
+      <BannerAnim prefixCls="banner-user" style={{minHeight: '88vh', position:'relative'}} autoPlay autoPlaySpeed={5000} dragPlay={false} >
         <Element key="aaa"
           prefixCls="banner-user-elem"
           followParallax={{

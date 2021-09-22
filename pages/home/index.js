@@ -4,6 +4,8 @@ import CusHeader from './CusHeader'
 import Slider from './Slider'
 import Carousel from './Carousel'
 import Welcome from './Welcome'
+import Overview from './Overview'
+import Services from './Services'
 // import logo from '../../public/images/qb.jpg'
 const {Header, Content, Footer} = Layout
 
@@ -16,7 +18,9 @@ const  Structure = () =>{
       <Layout>
         <Content>
             <Slider/>
-            <Welcome style={{Color: 'white'}}/>
+            <Welcome />
+            <Services/>
+            <Overview />
             {/* <Carousel/> */}
         </Content>
       </Layout>
