@@ -19,8 +19,8 @@ const  Structure = () =>{
         <Content>
             <Slider/>
             <Welcome />
-            <Services/>
             <Overview />
+            <Services/>
             {/* <Carousel/> */}
         </Content>
       </Layout>

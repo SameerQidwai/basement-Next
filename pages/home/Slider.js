@@ -42,6 +42,7 @@ const Slider = () =>{
           >
             The Fast Way Use Animation In React
           </TweenOne>
+          
         </Element>
         <Element key="bbb"
           prefixCls="banner-user-elem"

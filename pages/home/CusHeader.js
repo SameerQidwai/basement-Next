@@ -7,9 +7,9 @@ const CusHeader = (props) =>{
     return (
         <>
             <Row gutter={1} style={styles.header1}>
-              <Col span={2}>+923312735005</Col>
+              <Col span={3}>+923312735005</Col>
               <Col span={3}>sameerQidwai@gmail.com</Col>
-              <Col span={19}>
+              <Col span={18}>
             <Row justify="end" gutter={10}> 
                 <Col><FacebookOutlined /></Col>
                 <Col><TwitterOutlined /></Col>
@@ -37,12 +37,13 @@ export default CusHeader
 
 const styles = {
     header1:{
-      backgroundColor: 'red',
-      padding: '0 50px'
+      backgroundColor: '#004876;',
+      padding: '0 50px',
+      color: 'white'
     },
     header2:{
       height:90,
-      backgroundColor: 'yellow',
+      backgroundColor: 'white',
       padding: '0 50px'
     }
   }

@@ -1,0 +1,24 @@
+.about-left-side{
+    position: relative
+}
+.mt-30{
+    marginTop: 30
+}
+
+.about-left-side .about-thumb-mid {
+    left: -50px;
+    position: absolute;
+    top: -90px;
+}
+
+.about-left-side .about-thumb-sml {
+    position: absolute;
+    right: 180px;
+    bottom: -45px;
+}
+
+.about-left-side .about-thumb-sml-xs {
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+}

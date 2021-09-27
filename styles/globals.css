@@ -210,3 +210,23 @@ a {
   }
 
 }
+
+div.smallCarousel{
+  /* width: 1000;
+  height: 190;  */
+  overflow: auto; 
+  overflow-y: hidden;
+  margin: 0 auto; 
+  white-space: nowrap;
+  display: flex;
+  scrollbar-width: none;
+}
+div.smallCarousel::-webkit-scrollbar{
+  display: none;
+}
+
+span.sCarouselArrows{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
