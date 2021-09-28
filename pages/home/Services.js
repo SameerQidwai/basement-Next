@@ -50,9 +50,9 @@ function Services() {
             <Col span={11} style={{ paddingRight: 80 }}>
                 {/* <Card hoverable style={{ background: "transparent" }}> */}
                     {/* <Image src={"/house.png"} preview={false} /> */}
-                <div class="about-left-side mt-30">
+                <div className="about-left-side mt-30">
                     <div 
-                        class="about-thumb-big" 
+                        className="about-thumb-big" 
                         data-tilt="" 
                         data-tilt-perspective="3000" 
                         style={{
@@ -64,7 +64,7 @@ function Services() {
                         <Image src="https://pineorchardpgh.com/wp-content/uploads/2020/12/470B451.jpg" alt=""/>
                     </div>
                     {/* <div 
-                        class="about-thumb-mid" 
+                        className="about-thumb-mid" 
                         data-tilt=""
                         data-tilt-perspective="3000" 
                         style={{
@@ -75,14 +75,14 @@ function Services() {
                         <Image src="https://pineorchardpgh.com/wp-content/uploads/2020/12/311b251.jpg" alt=""/>
                     </div> */}
                     <div 
-                        class="about-thumb-sml" 
+                        className="about-thumb-sml" 
                         data-tilt="" 
                         data-tilt-perspective="3000"
                     >
                         <Image src="https://pineorchardpgh.com/wp-content/uploads/2020/12/185By133.jpg" alt=""/>
                     </div>
                     <div 
-                        class="about-thumb-sml-xs" 
+                        className="about-thumb-sml-xs" 
                         data-tilt="" 
                         data-tilt-perspective="3000"
                     >

@@ -37,7 +37,7 @@ export default CusHeader
 
 const styles = {
     header1:{
-      backgroundColor: '#004876;',
+      backgroundColor: '#004876',
       padding: '0 50px',
       color: 'white'
     },

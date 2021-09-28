@@ -27,18 +27,21 @@ function Overview() {
                         />
                     </span>
                     <Col span={8} >
-                        <Image src={'/basment1.jpg'}   style={{padding: 20}} />  
+                        <Image src={'/basement1.jpg'}  width={413} height={276} style={{padding: 20}} />  
                     </Col>
                     <Col span={8}>
-                        <Image src={'/basment2.jpg'}  width={413} height={276} style={{padding: 20}} />  
+                        <Image src={'/basement2.jpg'}  width={413} height={276} style={{padding: 20}} />  
                     </Col>
                     <Col span={8}>
-                        <Image src={'/basment3.jpg'} width={413} height={276}  style={{padding: 20}} /> 
+                        <Image src={'/basement3.jpg'} width={413} height={276}  style={{padding: 20}} /> 
                     </Col>
                     <Col span={8}>
-                        <Image src={'/basment4.jpg'}  width={413} height={276} style={{padding: 20}} /> 
+                        <Image src={'/basement4.jpg'}  width={413} height={276} style={{padding: 20}} /> 
                     </Col>
-                    <span className="sCarouselArrows" style={{left: '97%'}}  >\
+                    <Col span={8}>
+                        <Image src={'/basement5.jpg'}  width={413} height={276} style={{padding: 20}} /> 
+                    </Col>
+                    <span className="sCarouselArrows" style={{left: '97%'}}  >
                         <ArrowRightOutlined 
                             style={{fontSize: 36}} 
                             // onClick={()=>scroll(null,1)}
