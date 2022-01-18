@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Row, Typography, Image, Card } from 'antd'
+import { Col, Row, Typography, Image } from 'antd'
 import { CheckOutlined } from "@ant-design/icons";
 const {Title , Text} = Typography
 function Services() {
