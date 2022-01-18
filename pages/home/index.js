@@ -19,7 +19,7 @@ const  Index = () =>{
       </Header>
       <Layout>
         <Content>
-            <Slider/>
+            <Slider />
             <Welcome />
             <Overview />
             <Services/>
@@ -38,7 +38,7 @@ export default Index
 const styles = {
   layout: {
     height: 100, 
-    padding: '0 1px 0px 0px',
+    padding: '0 0px 0px 0px',
     margin: 0, 
     lineHeight: '20px', 
     background: '#fff' ,
@@ -47,6 +47,6 @@ const styles = {
     width: '100%'
   },
   footer:{
-    padding: '60px 1px 0px 0px'
+    padding: '60px 0px 0px 0px'
   }
 }
