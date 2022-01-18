@@ -5,7 +5,7 @@ const {Title , Text} = Typography
 function Services() {
     return (
         <Row justify={"space-around"} >
-            <Col sm={24} sm={24} md={24} lg={11} className="service-col service">
+            <Col sm={24} md={24} lg={11} className="service-col service">
                 <Row
                     style={{fontSize: "large" }}
                     justify="center"
