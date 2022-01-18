@@ -6,13 +6,15 @@ import Slider from './Slider'
 import Welcome from './Welcome'
 import Overview from './Overview'
 import Services from './Services'
+import CustomFooter from './Footer'
 // import logo from '../../public/images/qb.jpg'
 const {Header, Content, Footer} = Layout
 
-const  Structure = () =>{
+const  Index = () =>{
   return (
-    <Layout>
+    <Layout >
       <Header style={styles.layout}>
+      {/* <Header className="layout-custom"> */}
         <CusHeader/>
       </Header>
       <Layout>
@@ -24,12 +26,14 @@ const  Structure = () =>{
             {/* <Carousel/> */}
         </Content>
       </Layout>
-      <Footer>footer</Footer>
+      <Footer style={styles.footer}>
+        <CustomFooter/>
+      </Footer>
     </Layout>
   )
 }
 
-export default Structure
+export default Index
 
 const styles = {
   layout: {
@@ -37,6 +41,12 @@ const styles = {
     padding: '0 1px 0px 0px',
     margin: 0, 
     lineHeight: '20px', 
-    background: '#fff' 
+    background: '#fff' ,
+    position: 'fixed', 
+    zIndex: 1, 
+    width: '100%'
   },
+  footer:{
+    padding: '60px 1px 0px 0px'
+  }
 }

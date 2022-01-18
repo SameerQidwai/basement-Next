@@ -2,23 +2,101 @@
     position: relative
 }
 .mt-30{
-    marginTop: 30
+    margin-top: 30px
 }
 
 .about-left-side .about-thumb-mid {
-    left: -50px;
-    position: absolute;
-    top: -90px;
+    position: relative;
+}
+
+.about-left-side .about-thumb {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
 }
 
 .about-left-side .about-thumb-sml {
-    position: absolute;
-    right: 180px;
-    bottom: -45px;
+    margin-right: 50px
 }
 
 .about-left-side .about-thumb-sml-xs {
-    position: absolute;
-    left: -50px;
-    bottom: -50px;
+    margin-left: -50px
 }
+
+@media only screen and (max-width: 1800px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: 30px
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: 10px
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: -10px
+    }
+ 
+}
+@media only screen and (max-width: 1500px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: -30px
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: -40px
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: -50px
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .service-image{
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service-image{
+        margin-left: 0px;
+        margin-top: 5%;
+    }
+    /* .about-thumb-big{
+        width: 400px;
+        height: 390px;
+    } */
+    .about-left-side .about-thumb-sml {
+        margin-right: -40%
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: -70%
+    }
+    .about-left-side .about-thumb-sml-xs {
+        margin-left: -20px
+    }
+    .about-thumb-big{
+        width: 330px;
+        height: 332px;
+    }
+}
+@media only screen and (max-width: 368px) {
+    .about-left-side .about-thumb-sml {
+        margin-right: -70%
+    }
+    .about-thumb-big{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+  

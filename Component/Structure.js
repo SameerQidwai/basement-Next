@@ -7,20 +7,20 @@ function Structure() {
   return (
     <Layout>
       <Header >
-      <Row >
-      <Col className="gutter-row" span={1}>
-        <div style={style}>col-6</div>
-      </Col>
-      <Col className="gutter-row" span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-      <Col className="gutter-row" span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-      <Col className="gutter-row" span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-    </Row>
+        <Row >
+          <Col className="gutter-row" span={1}>
+            <div style={style}>col-6</div>
+          </Col>
+          <Col className="gutter-row" span={6}>
+            <div style={style}>col-6</div>
+          </Col>
+          <Col className="gutter-row" span={6}>
+            <div style={style}>col-6</div>
+          </Col>
+          <Col className="gutter-row" span={6}>
+            <div style={style}>col-6</div>
+          </Col>
+        </Row>
       </Header>
       <Layout>
         <Content>main content</Content>

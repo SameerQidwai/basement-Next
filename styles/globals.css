@@ -1,19 +1,8 @@
-/* html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Poppins', cursive !important;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-} */
 .banner-user{
   height: 220px;
 }
@@ -209,24 +198,4 @@ a {
     display: none;
   }
 
-}
-
-div.smallCarousel{
-  /* width: 1000;
-  height: 190;  */
-  overflow: auto; 
-  overflow-y: hidden;
-  margin: 0 auto; 
-  white-space: nowrap;
-  display: flex;
-  scrollbar-width: none;
-}
-div.smallCarousel::-webkit-scrollbar{
-  display: none;
-}
-
-span.sCarouselArrows{
-    position: absolute;
-    top: 50%;
-    z-index: 1;
 }

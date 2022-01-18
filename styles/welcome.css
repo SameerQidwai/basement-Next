@@ -1,0 +1,57 @@
+.welcome{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.overview{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f7fbff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .welcome{
+        padding-top: 50px !important;
+        padding-bottom: 10px
+    }
+    .overview{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .overview-font3{
+        font-size: 20px !important;
+    }
+    .overview-font1{
+        font-size: 24px !important;
+    }
+    
+}
+
+div.smallCarousel{
+    /* width: 1000;
+    height: 190;  */
+    overflow: auto; 
+    overflow-y: hidden;
+    margin: 0 auto; 
+    white-space: nowrap;
+    display: flex;
+    scrollbar-width: none;
+}
+
+div.smallCarousel::-webkit-scrollbar{
+    display: none;
+}
+  
+span.sCarouselArrows{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+span.arrow-left{
+    left:-5%
+}
+span.arrow-right{
+    left: 100%
+}
+  
+  
