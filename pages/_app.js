@@ -32,4 +32,6 @@ const MyApp = ({ Component, pageProps })=> {
   </>
 }
  // https://nextjs.org/docs/basic-features/layouts
+     // "heroku-postbuild": "npm run build",
+// 
 export default MyApp
