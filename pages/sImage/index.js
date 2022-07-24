@@ -1,6 +1,6 @@
 import React from 'react'
 import {  Image } from 'antd'
-import SplitPane, { Pane } from 'react-split-pane';
+// import SplitPane, { Pane } from 'react-split-pane';
 
 const  index = () =>{
   const {Fname, Lname, email, contact, subject, message} = {Fname :'Sameer', Lname: 'Qidwai', email: 'gmail.com', contact: '89878', subject: 'you', message: 'do I need a msg?'}
