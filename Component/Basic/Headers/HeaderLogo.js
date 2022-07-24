@@ -47,37 +47,43 @@ const HeaderLogo = (props) =>{
                         destroyPopupOnHide={true}
                         visible={showMenu}
                         overlay={<Menu onSelect={()=> openMenu(!showMenu)}>
-                         <Menu.Item key="Home" className='mr-a' >
+                         <Menu.Item key="/" className='mr-a' onClick={() => router.push('/')}>
                             Home
                         </Menu.Item>
-                        <Menu.Item key="Our Team" className='mr-a'>
+                        {/* <Menu.Item key="/our-team" className='mr-a' onClick={() => router.push('/our-team')}>
                             Our Team
+                        </Menu.Item> */}
+                        <Menu.Item key="/our-process/steps-to-a-successful-build" onClick={() => router.push('/our-process/steps-to-a-successful-build')}>
+                            Our Process
                         </Menu.Item>
-                        <Menu.SubMenu key="SubMenu" title="Our Process" className='mr-a'>
-                            <Menu.Item key="Successful" >
+                        {/* <Menu.SubMenu key="/our-process" title="Our Process" className='mr-a' onTitleClick={() => router.push('/our-process')}>
+                            <Menu.Item key="/our-process/steps-to-a-successful-build" onClick={() => router.push('/our-process/steps-to-a-successful-build')}>
                                 5 Steps To A Successful Build
-                            </Menu.Item>
-                            <Menu.Item key="Contracting" >
+                            </Menu.Item> 
+                            <Menu.Item key="/our-process/fair-and-balanced-contracting" onClick={() => router.push('/our-process/fair-and-balanced-contracting')}>
                                 Fair and Balanced Contracting
                             </Menu.Item>
-                            <Menu.Item key="Warranty" >
+                            <Menu.Item key="/our-process/warranty" onClick={() => router.push('/our-process/warranty')}>
                                 Warranty
-                            </Menu.Item>
-                        </Menu.SubMenu>
+                            </Menu.Item> 
+                        </Menu.SubMenu>*/}
                         <Menu.Item key="Our Work" className='mr-a'>
                             Our Work
                         </Menu.Item>
-                        <Menu.Item key="Renovation" className='mr-a'>
+                        <Menu.Item key="Renovation" className='mr-a' onClick={() => router.push('/renovation')}>
                             Renovation
                         </Menu.Item>
-                        <Menu.Item key="Custom & Design Build" className='mr-a'>
+                        {/* <Menu.Item key="Custom & Design Build" className='mr-a'>
                             Custom & Design Build
-                        </Menu.Item>
-                        <Menu.Item key="Consulting" className='mr-a'>
+                        </Menu.Item> */}
+                        <Menu.Item key="/consulting" className='mr-a'onClick={() => router.push('/consulting')}>
                             Consulting
                         </Menu.Item>
                         <Menu.Item key="Contact us" >
-                            Contact US
+                            <Button 
+                                style={{backgroundColor: '#fed03d', fontWeight: 600}} 
+                                onClick={()=>props.openModal()}
+                            > Contact US </Button>
                         </Menu.Item>
                         </Menu>}
                     >

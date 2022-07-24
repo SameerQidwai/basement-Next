@@ -44,9 +44,9 @@ const WidgetFooter = () => {
                         <Row gutter={[0, 10]}>
                             <Col span={24}>
                                 <Row justify="space-around">
-                                    <Col><GlobalOutlined /></Col>
-                                    <Col span={22} className="address-span">
-                                        <Text >Office 936 The East Mall, 1st FL Toronto, ON M9B 6J9</Text>
+                                    <Col><MailOutlined /></Col>
+                                    <Col span={22} >
+                                        <Text >azim.qidwai@gmail.com</Text>
                                     </Col>
                                 </Row>
                             </Col>

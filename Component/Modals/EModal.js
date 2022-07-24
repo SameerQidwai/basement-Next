@@ -68,7 +68,7 @@ export default function EModal ({visible, close}) {
                 <Row justify="space-between" className='mb-10'>
                     <Col><MailOutlined /></Col>
                     <Col span={22} className="address-span">
-                        <Text >azimqidwai@gmail.com</Text>
+                        <Text >azim.qidwai@gmail.com</Text>
                     </Col>
                 </Row>
                 <Row justify="space-between">
