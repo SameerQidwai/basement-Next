@@ -1,0 +1,119 @@
+.reviews-curve-up {
+    padding:0 !important;
+    position: relative !important;
+    /* top: 100px !important; */
+}
+
+.reviews-curve-bottom {
+    padding:0 !important;
+    position: relative !important;
+    bottom: 0px
+    /* bottom: 100px !important; */
+}
+.reviews-svg {
+    display: block !important; 
+    transform: scale(1,1) !important
+}
+
+.reviews-content{
+    height: 550px;
+    padding-top: 30px;
+}
+
+
+.reviews-main{
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.reviews-title-area{
+    display: -moz-box;
+    display: flex;
+    -moz-box-flex: 1;
+    flex: 1 1;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+}
+
+.reviews-main .ant-carousel .slick-dots-bottom{
+    bottom: -30px !important;
+}
+
+.bg-f5{
+    background-color: #f5f5f5;
+}
+
+.reviews-main h1.ant-typography{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: calc(38px + (60 - 45) * (49.2vw - 768px) / (1440 - 768)) !important;
+    margin-bottom: 16px;
+}
+.reviews-main h4.ant-typography{
+    color: #ffffff;
+    font-size: calc(18px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
+}
+
+.reviews-main span.ant-typography{
+    font-size: calc(18px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;    
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #ffffff
+}
+
+.reviews-main .my-30{
+    margin: 10px 30px 30px;
+}
+
+.reviews-main span.anticon{
+    font-size: 84px;
+}
+
+@media only screen and (min-width: 1100px) {
+    .reviews-main h1.ant-typography{
+        font-size: 32px !important
+    }
+    .reviews-main h4.ant-typography{
+        font-size: 18px !important;
+    }
+    .reviews-main span.ant-typography{
+        font-size: 18px !important;    
+        font-weight: 300 !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 785px) {
+     .reviews-content{
+        height: 560px;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 785px) and (min-width: 575px) {
+     .reviews-content{
+        height: 610px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 575px) and (min-width: 401px) {
+     .reviews-content{
+        height: 750px;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+     .reviews-content{
+        height: 800px;
+        padding-top: 10px;
+    }
+}

@@ -1,14 +1,148 @@
-.service{
+.service {
     padding-left: 8%;
     padding-top: 3%;
 }
 
-.service-list{
+.service-row {
+    padding: 0px 0px 80px;
+}
+
+.service-col {
+    padding-left: 0px;
+}
+
+.service-icon {
+    color:#58351c;
+    font-weight: 900;
+}
+
+.service-avatar {
+    background-color: #fff !important;
+}
+
+.service-row .center-col {
+    text-align: center;
+}
+
+.flip-Q-card {
+    background-color: transparent;
+    perspective: 1000px;
+    height: 363px !important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+  
+.flip-Q-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.flip-Q-card:hover .flip-Q-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-Q-card-front {
+    background-color: #58351c;
+    border-color: rgb(72, 167, 214);
+    border-radius: 10px;
+}
+
+.flip-Q-card-front, .flip-Q-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-Q-card-back {
+    background-color: #ffffff !important;
+    border-color: rgb(72, 167, 214);
+    border-radius: 10px;
+    transform: rotateY(180deg);
+}
+
+.flip-Q-card-front h2.ant-typography {
+    font-size: calc(32px + (50 - 45) * (60vw - 768px) / (1440 - 768)) !important;
+    line-height: 1.31;
+    color: #fff !important;
+    font-weight: 400 !important;
+}
+
+.flip-Q-card-front span.ant-typography {
+    font-size: 15px;
+    line-height: 2.27;
+    color: #fff !important
+}
+
+.flip-Q-card-back h3.ant-typography {
+    font-size: 20px;
+    /* line-height: 0.5; */
+    color: rgb(88, 53, 28) !important;
+    font-weight: 400;
+}
+
+.flip-Q-card-back span.ant-typography {
+    font-size: 15px;
+    line-height: 2.27;
+    color: rgb(96, 125, 139)
+}
+
+.flip-Q-card-back .button-col {
+    margin: 20px auto 0;
+}
+
+.flip-Q-card-back button {
+    border-color: #ffffff;
+    border-radius: 0px 0px 0px 0px;
+    background: #336f94;
+    height: auto;
+    padding: 13px 29px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-size: 14px;
+    white-space: break-spaces;
+}
+
+.flip-Q-card-back button:hover{
+    border-color: #ffffff;
+    background: #336f94;
+    background-image: linear-gradient(180deg,#336f94 0%,#48a7d6 100%);
+}
+
+.service-list {
     padding-left: 18%;
     padding-top: 8%;
 }
-.service-col{
-    padding-left: 0px;
+
+@media only screen and (min-width: 1100px) {
+    .flip-Q-card-front h2.ant-typography {
+        font-size: 32px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .flip-Q-card-front h2.ant-typography {
+        font-weight: 300 !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .flip-Q-card {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .flip-Q-card {
+        height: 400px !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {

@@ -1,0 +1,75 @@
+// "react-google-maps": "^9.4.5",
+// "react-split-pane": "^2.0.3"
+
+make overlay a component and pass image and link as params
+our-team {
+    bottoms
+}
+
+layout{ 
+    image don't work when I go deep nest
+}
+
+Modal {
+    Google api
+}
+
+Header1{
+    tooltip: closer to icon and smaller
+}
+
+min-size{
+    dropdown subMenu
+}
+
+nav header: {
+    submenu: change submenu color
+    hover: underline and color
+    heighlight menu as link
+}
+
+cards {
+    hover routes cards
+}
+
+Work {
+    add links
+}
+
+Blogs {
+    add links
+}
+
+
+
+import { defaultMaxListeners } from "events"
+
+home page PUr process   
+    center onlu one
+
+Our Team (x)
+Costom buold design 
+
+in Consulting:
+    Consultant Overview 
+
+
+    No partners
+
+In renovation 
+    defaults    
+    Other images
+
+60 -> 25
+
+profestional networ will bre removed
+
+client remove
+Blg remove
+
+footer
+    address x
+
+    our Team x
+
+    Map x

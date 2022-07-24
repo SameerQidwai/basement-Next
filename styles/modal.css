@@ -1,0 +1,29 @@
+.ant-modal-header{
+    background-color: #ab8b65 !important;
+    border-width: 0px !important;
+    border-color: #f5f5f5 !important;
+    border-style: solid !important;
+    text-align: center !important;
+    padding: 27px 24px;;
+}
+.ant-modal-title{
+    margin: 0 !important;
+    color: #333333 !important;
+    font-weight: 300 !important;
+    font-size: calc(32px + (50 - 45) * (60vw - 768px) / (1440 - 768)) !important;
+    line-height: 22px !important;
+    word-wrap: break-word !important;
+}
+
+.ant-modal-body span.ant-typography{
+    color: #747474 !important;
+}
+.required-sign{
+    color: red
+}
+
+@media only screen and (min-width: 1100px) {
+    .ant-modal-title{
+        font-size: 32px
+    }
+}

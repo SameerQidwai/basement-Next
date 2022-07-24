@@ -1,0 +1,135 @@
+.work-overview {
+    padding: 0px 30px 50px;
+}
+
+
+
+.work-overview .card-Q-cover{
+    position: relative;
+    width: 100%;
+}
+
+.work-overview .card-Q-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.work-overview .card-Q-cover .card-Q-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top,#d69e5a,#e8c090);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.work-card{
+    height: 100% !important;
+}
+
+.work-card .ant-card-meta-title {
+    white-space: normal
+}
+
+.work-card .ant-card-meta-title a{
+    font-size: calc(24px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
+    font-weight: 300 !important;
+    color: #333333;
+}
+
+.work-card .ant-card-meta-description a{
+    font-size: calc(18px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
+    font-weight: 300 !important;
+    color: #333333;
+}
+
+.work-card a:hover{
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.work-card span.ant-typography, .work-card div.ant-typography{
+    font-size: 15px !important;
+    color: #747474 !important;
+}
+
+
+
+.card-Q-cover:hover .card-Q-overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.card-Q-cover .card-Q-text {
+    color: white;
+    /* font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+
+.card-Q-cover h4.ant-typography{
+    color: #ffffff !important;
+    font-weight: 200 !important;
+    font-size: 18px !important;
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+}
+.card-Q-cover span.ant-typography{
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+}
+
+.card-Q-cover span.anticon{
+    color: #fbcf46;
+    font-weight: 900 !important;
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+    .work-card .ant-card-meta-title a{
+        font-size: 24px !important;
+    }
+
+    .work-card .ant-card-meta-description a{
+        font-size: 18px !important;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .work-card .ant-card-meta-title a{
+        font-weight: 400 !important;
+    }
+    
+}
+
+/* Bog page */
+.blog-wrapper{
+    background-color: #f5f5f5 !important
+}
+
+.blog-wrapper .ant-card-meta-description {
+    font-size: 12px !important;
+}

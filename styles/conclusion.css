@@ -1,0 +1,66 @@
+.conclusion-main {
+    max-width: 100%;
+    padding: 100px 30px 90px;
+    color: #fff;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-width: 0px;
+    border-color: rgb(234, 233, 233);
+    border-style: solid;
+    
+}
+.conclusion{
+    background-color: rgba(214, 220, 101, 0);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-image: none;
+    min-height: 150px;
+}
+
+.conclusion-main h1.ant-typography{
+    font-size: calc(39px + (60 - 42) * (51.9vw - 768px) / (1440 - 768)) !important;
+    line-height: 1.4;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.consultant-btn{
+    height: auto !important;
+    padding: 17px 40px !important;
+    background-color: #336F94 !important;
+    color: #ffffff !important;
+    border: #336F94 !important;
+    line-height: 21px !important;
+    font-weight: 300 !important;
+    letter-spacing: 2px !important;
+    font-size: 18px !important;
+    text-shadow: 2px 2px #333 !important;
+    white-space: normal !important;
+}
+
+.conclusion-main span.ant-typography{
+    font-size: 15px !important;
+    line-height: 2.27 !important;
+    color: #ffffff !important;
+    font-weight: 500 !important;
+}
+
+@media only screen and (min-width: 1100px) {
+    .conclusion-main h1.ant-typography{
+        font-size: 32px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .conclusion-main h1.ant-typography{
+        font-size: 21px !important;
+    }
+    
+}

@@ -1,0 +1,240 @@
+/* *****PADDINGS***** */
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+} 
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+.py-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+.py-2{
+    padding-top: 2px;
+    padding-bottom: 2px;
+} 
+
+.px-80{
+    padding-left: 80px;
+    padding-right: 80px;
+} 
+.pb-80{
+    padding-bottom: 80px;
+} 
+
+.px-30{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.py-40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pl-30{
+    padding-left: 30px;
+} 
+.pr-20{
+    padding-left: 20px;
+} 
+
+/* *****PADDINGS***** */
+/* *****MARGINS***** */
+.m{
+    margin: 0px  !important;
+}
+.mt-0{
+    margin-top: 0px  !important;
+}
+.mt-10{
+    margin-top: 10px !important;
+}
+
+.mt-25{
+    margin-top: 25px !important;
+}
+
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mt-80{
+    margin-top: 80px !important;
+}
+.mb-16{
+    margin-bottom: 16px !important;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* *****MARGINS***** */
+
+.left-center{
+    text-align: left !important;
+}
+
+.txt-center {
+    text-align: center !important;
+}
+
+.cursor-text{
+    cursor: text !important;
+}
+
+.fs-15{
+    font-size: 15px !important;
+}
+.fs-14{
+    font-size: 14px !important;
+}
+
+.c-74{
+    color: #747474 !important;
+}
+
+.lh-2_27{
+    line-height: 2.27 !important;
+}
+
+.ls-1{
+    letter-spacing: 1px !important;
+}
+.width-30{
+    width: 30px !important;
+}
+.height-2 {
+    height: 2px !important;
+}
+.height-4 {
+    height: 4px !important;
+}
+.border-0 {
+    border: 0px !important
+}
+.h-auto{
+    height: auto !important;
+}
+.bg-33f{
+    background-color: #336f94;
+}
+.bg-ff{
+    background-color: #ffffff;
+}
+.bg-f5{
+    background-color: #f5f5f5;
+}
+.bg-ab{
+    background-color: #ab8b65 !important;
+}
+.bg-fed{
+    background-color: #fed03d !important;
+}
+
+.c-33{
+    color: #333333  !important;
+}
+.fs-18{
+    font-size: 18px  !important;
+}
+.fs-13{
+    font-size: 13px  !important;
+}
+.fs-15{
+    font-size: 15px  !important;
+}
+.fs-20{
+    font-size: 20px !important;
+}
+.fs-20c{
+    font-size: calc(18px + (50 - 30) * (70vw - 768px) / (1440 - 768)) !important;;
+}
+
+.fs-32{
+    font-size: 32px !important;
+}
+
+.fw-4{
+    font-weight: 400  !important;
+}
+.fw-3{
+    font-weight: 300  !important;
+}
+
+.lh-1_52{
+    line-height: 1.52  !important;
+}
+
+.lh-1{
+    line-height: 1  !important;
+}
+
+.lh-1_45{
+    line-height: 1.45  !important;
+}
+
+/* ANT PARAGRAPHS IN COL*/
+.c-74 div.ant-typography{
+    color: #747474 !important;
+}
+
+.fs-15 div.ant-typography{
+    font-size: 15px !important;
+}
+
+.lh-2_27 div.ant-typography{
+    line-height: 2.27 !important;
+}
+
+.mb-20 div.ant-typography{
+    margin-bottom: 20px;
+}
+
+.mb-20 span.ant-typography{
+    margin-bottom: 20px !important;
+}
+
+.fs-15 span.ant-typography{
+    font-size: 15px !important;
+}
+.c-74 span.ant-typography{
+    color: #747474 !important;
+}
+.lh-2_27 span.ant-typography{
+    line-height: 2.27 !important;
+}
+.fs-20c h3.ant-typography{
+    font-size: calc(15px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
+}
+
+.mb-20 h3.ant-typography{
+    margin-bottom: 20px;
+}
+.ls-1 h3.ant-typography{
+    letter-spacing: 1px;
+}
+.fw-4 h3.ant-typography{
+    font-weight: 400 !important
+}
+
+/***********ANT PARAGRAPH IN COL***************/
+
+@media only screen and (max-width: 768px) {
+    .left-center{
+      text-align: center !important;
+    }
+}

@@ -1,54 +1,163 @@
+/* in use */
+.reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: pointer
+}
+
+/* Old classes will be use */
+.header-p{
+  padding: 0px 30px !important;
+}
+
+.header-logo{
+  margin: 31px 0px
+}
 
 .header1{ 
-    background-color: #004876 !important;
-    padding: 0px 50px !important;
+    background-color: #ab8b65 !important;
+    height: auto;
     color: white !important
 }
 
+.custom-menu{
+  line-height: 40px !important;
+  border-bottom: none !important;
+}
+
+.custom-menu span.ant-menu-title-content{
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/* .ant-menu.custom-menu > .ant-menu-submenu{
+  background-color: ;
+} */
 .header2{
     height: 90px;
     background-color: white;
     padding: 0px 50px !important;
 }
-  
-@media only screen and (max-width: 576px) {
-    .header1{
-      display: none !important;
-    }
-  }
-  
-  @media only screen and (max-width: 400px) {
-    .header1{
-      background-color: #004876 !important;
-      padding: 0px 10px !important;
-      color: white!important
-    }
-    .header2{
-        padding: 0px 20px 0 10px !important;
-    }
-  }
+.mr-a{
+  margin: auto 0px !important;
+}
 
-.header-left{
-    margin-left: 0px;
+.header-1-right{
+  width: 260px !important;
 }
-  /* 950 */
-  
-@media only screen and (min-width: 576px )  {
-    .header-left{
-        margin-left: auto !important;
-    }
-} 
-  
-@media only screen and (max-width: 900px) {
-    .menu-li{
-        display: none !important;
-    }
+
+.sticky-wrapper {
+  position: relative;
+  height: 3rem; /* We need to change this value */
 }
-  
-@media only screen and (min-width: 901px) {
-    .menu-list{
-        display: none !important;
-    }
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
+
+.is-sticky-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+  background-color: #ffffff !important;
+  animation: 500ms ease-in-out 0s normal none 1 running slidein;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
   
+ @media only screen and (max-width: 576px) {
+  .header-1-right{
+    padding-top: 10px !important;
+    width: 100% !important;
+  }
+  .xs-center{
+    justify-content: center;
+  }
   
+}
+.header-logo-mobile{
+  display: none
+}
+
+.img-visible{
+  display: none;
+}
+
+.is-sticky-mobile .img-hidden{
+  display: none;
+}
+.is-sticky-mobile .img-visible{
+  display:inline
+}
+
+ @media only screen and (max-width: 862px) {
+  .header-logo-standard{
+    display: none;
+  }
+  .nav-header {
+    display: none;
+  }
+  .header-logo-mobile{
+    display: flex
+  }
+  .is-sticky-mobile.header-p.header-logo{
+    padding: 0px 10px !important;
+    margin: 0px 0px;
+    line-height: 50px;
+  }
+  
+}
+
+ @media only screen and (max-width: 400px) {
+  .header-logo-standard{
+    display: none;
+  }
+  .nav-header {
+    display: none;
+  }
+  .header-logo-mobile{
+    display: flex
+  }
+  .header-p.header-logo{
+    padding: 0px 10px !important;
+    margin: 0px 0px;
+    line-height: 50px;
+  }
+  .img-hidden{
+    display: none;
+  }
+  .img-visible{
+    display:inline
+  }
+  
+}
+
+@media only screen and (max-width: 1070px) and (min-width: 1024px){
+  .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+    padding: 0px calc(18px + (50 - 40) * (70vw - 768px) / (1440 - 768)) !important;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 934px){
+  .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+    padding: 0px calc(15px + (50 - 30) * (70vw - 768px) / (1440 - 768)) !important;
+  }
+}
+@media only screen and (max-width: 934px) and (min-width: 863px){
+  .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+    padding: 0px calc(12px + (50 - 30) * (70vw - 768px) / (1440 - 768)) !important;
+  }
+}

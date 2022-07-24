@@ -1,52 +1,31 @@
-import React from 'react'
-import { Layout } from 'antd'
-import CusHeader from './CusHeader'
-import Slider from './Slider'
-// import Carousel from './Carousel'
-import Welcome from './Welcome'
-import Overview from './Overview'
-import Services from './Services'
-import CustomFooter from './Footer'
-// import logo from '../../public/images/qb.jpg'
-const {Header, Content, Footer} = Layout
+import React, { useState } from 'react'
 
-const  Index = () =>{
+import Welcome from './Welcome'
+import Process from './Process'
+import Services from './Services'
+import SlideCarousel from './SlideCarousel'
+import Success from './Success'
+import Work from './Work'
+import Blogs from './Blogs'
+import Conclusion from './Conclusion'
+import Reviews from './Reviews'
+
+const  Index = (props) =>{
+  // const [open, setOpen] = useState(false)
   return (
-    <Layout >
-      <Header style={styles.layout}>
-      {/* <Header className="layout-custom"> */}
-        <CusHeader/>
-      </Header>
-      <Layout>
-        <Content>
-            <Slider />
-            <Welcome />
-            <Overview />
-            <Services/>
-            {/* <Carousel/> */}
-        </Content>
-      </Layout>
-      <Footer style={styles.footer}>
-        <CustomFooter/>
-      </Footer>
-    </Layout>
+    <>
+      <SlideCarousel/>
+      <Welcome />
+      <Services/>
+      <Success />
+      <Work />
+      <Process />
+      <Reviews/>
+      <Blogs />
+      <Conclusion />
+      {/* <EModal visible={open} close={()=>setOpen(false)}/> */}
+    </>
   )
 }
 
 export default Index
-
-const styles = {
-  layout: {
-    height: 100, 
-    padding: '0 0px 0px 0px',
-    margin: 0, 
-    lineHeight: '20px', 
-    background: '#fff' ,
-    position: 'fixed', 
-    zIndex: 1, 
-    width: '100%'
-  },
-  footer:{
-    padding: '60px 0px 0px 0px'
-  }
-}

@@ -1,113 +1,108 @@
-import React from 'react'
-import { Col, Row, Typography, Image } from 'antd'
-import { CheckOutlined } from "@ant-design/icons";
+import React, {useEffect} from 'react'
+import { Col, Row, Typography, Image, Card, Avatar, Button } from 'antd'
+import { FormatPainterFilled, HomeFilled, UserOutlined } from "@ant-design/icons";
 const {Title , Text} = Typography
-function Services() {
+const { Meta } = Card
+
+const services = [
+    {
+        icon: <FormatPainterFilled className="service-icon" />,
+        title: 'Renovations',
+        description: 'Whether you are adding an extension to your home, or gutting your bathroom or renovating your basement into a home entertainment sanctuary',
+        titleBack: 'WE TURN SPACE INTO AWESOME LIVING',
+        descriptionBack: 'Anvale Homes provides full-scale renovations to improve your existing living area and increase the value of your home.',
+        button: 'Learn More',
+        buttonLink: 'a'
+    },
+    {
+        icon: <HomeFilled className="service-icon" />,
+        title: 'Custom Homes',
+        description: 'Our in-house architect works collaboratively with you to draw up custom floor plans to spec and our management team brings your floor plan to fruition',
+        titleBack: 'HELPING BUILD YOUR DREAMS',
+        descriptionBack: 'as we help you select the perfect materials, finishes and fixtures. From design to management to construction, our approach is personal, accommodating and customized.',
+        button: 'Find Out How',
+        buttonLink: 'a'
+    },
+    {
+        icon: <UserOutlined className="service-icon" />,
+        title: 'Consulting',
+        description: 'With over 50+ years experience in the real estate, design and construction industry our know how and best practices will help keep your renovation or',
+        titleBack: 'EXPERIENCE YOU CAN RELY ON',
+        descriptionBack: 'custom home build project on time and within your budget. Let’s sit down for a first free consultation to answer your questions and get your project on track.',
+        button: 'Get Free Consultation',
+        buttonLink: 'a'
+    },
+]
+const  Services = () =>{
+
     return (
-        <Row justify={"space-around"} >
-            <Col sm={24} md={24} lg={11} className="service-col service">
-                <Row
-                    style={{fontSize: "large" }}
-                    justify="center"
-                    className="service-title-col"
-                >
-                    <Col sm={24} md={24} lg={24} >
-                        <Title className={"service-title"}>Services We Provide</Title>
-                    </Col>
-                    <Col sm={24} md={24} lg={24} >
-                        <Row 
-                            gutter={[10, 40]}
-                            style={{fontSize: "large" }}
-                            justify="start"
-                        >
-                            
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code> CONSECTETUR</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>ADIPISCING</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>VOLUPTATE</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>CUPIDATAT</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>EXCEPTEUR</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>DESERUNT</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>NOSTURD</Text>
-                            </Col>
-                            <Col xs={12} sm={12} md={12} lg={12}>
-                                <CheckOutlined style={{ fontSize: 20 }} />
-                                <Text code>NOSTURD</Text>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
-            </Col>
-            <Col xs={12} sm={12} md={12} lg={8} className="service-image">
-                {/* <Card hoverable style={{ background: "transparent" }}> */}
-                    {/* <Image src={"/house.png"} preview={false} /> */}
-                    <div className="about-left-side mt-30">
-                        <div 
-                            data-tilt="" 
-                            data-tilt-perspective="3000" 
-                            style={{
-                                willChange: "transform", 
-                                transform: 'perspective(3000px) rotateX(0deg) rotateY(0deg)', 
-                                color: 'rgb(247, 251, 255)'
-                            }}
-                        >
-                            <Image
-                                className="about-thumb-big" 
-                                src="https://pineorchardpgh.com/wp-content/uploads/2020/12/470B451.jpg" alt=""
-                            />
-                        </div>
-                        {/* <div 
-                            className="about-thumb-mid" 
-                            data-tilt=""
-                            data-tilt-perspective="3000" 
-                            style={{
-                                willChange: 'transform', 
-                                transform: 'perspective(3000px) rotateX(0deg) rotateY(0deg)'
-                                }}
+        <div >
+            <Row justify="center"  className="service-row" gutter={[0, 20]}>
+                {services.map((el, index) =>(
+                    <Col xs={22} sm={10} md={10} lg={7}  xl={6} key={index} className="flip-Q-card">
+                        <div className="flip-Q-card-inner">
+                            <Card 
+                                className='flip-Q-card-front'
+                                bodyStyle={{padding: '27px 20px'}}
                             >
-                            <Image src="https://pineorchardpgh.com/wp-content/uploads/2020/12/311b251.jpg" alt=""/>
-                        </div> */}
-                        <div className="about-thumb" >
-                        <div 
-                                className="about-thumb-sml-xs" 
-                                data-tilt="" 
-                                data-tilt-perspective="3000"
-                            >
-                                <Image src="https://pineorchardpgh.com/wp-content/uploads/2020/12/165b133.jpg" alt=""/>
-                            </div>
-                        <div 
-                            className="about-thumb-sml" 
-                            data-tilt="" 
-                            data-tilt-perspective="3000"
-                        >
-                                <Image src="https://pineorchardpgh.com/wp-content/uploads/2020/12/185By133.jpg" alt="" />
+                                <Row justify='center' >
+                                    <Col span={24}>
+                                        <Row justify='center' style={{marginBottom: 20}}>
+                                            <Col>
+                                                <Avatar 
+                                                    className='service-avatar'
+                                                    size={61} 
+                                                    icon={el.icon}
+                                                />
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                    <Col span={24}>
+                                        <Row justify='center'>
+                                            <Col>
+                                                <Title level={2} className='service-content' >{el.title}</Title>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                    <Col span={24}>
+                                    <Row justify='center' >
+                                            <Col className='center-col'>
+                                                <Text className='service-content'>{el.description}</Text>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Card>
+                            <Card className="flip-Q-card-back" bodyStyle={{padding: '27px 20px'}}>
+                                <Row justify='center' >
+                                    <Col span={24}>
+                                        <Row justify='center' >
+                                            <Col>
+                                                <Title level={3}>{el.titleBack}</Title>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                    <Col span={24}>
+                                        <Row justify='center' >
+                                            <Col>
+                                                <Text level={2} className='service-content' >{el.descriptionBack}</Text>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                    <Col span={24}>
+                                    <Row justify='center' >
+                                            <Col className="button-col">
+                                                <Button type="primary">{el.button}</Button>
+                                            </Col>
+                                        </Row>
+                                    </Col>
+                                </Row>
+                            </Card>
                         </div>
-                            
-                        </div>
-                    </div>
-                {/* </Card> */}
-            </Col>
-            <Col span={2}></Col>
-        </Row>
+                    </Col>
+                ))}
+            </Row>
+        </div>
     );
 }
 
