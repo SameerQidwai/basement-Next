@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Col, Row, Typography } from 'antd'
-import { PhoneFilled, ClockCircleOutlined, GlobalOutlined } from '@ant-design/icons'
+import { PhoneFilled, ClockCircleOutlined, MailOutlined } from '@ant-design/icons'
 // import GMap from "../../Core/GMap" 
 const {Title , Text} = Typography
 
