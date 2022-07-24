@@ -69,8 +69,8 @@ const index = () =>{
                                 </Title>
                                 <Paragraph >
                                     <ul>
-                                        {el.points.map(el=>(
-                                            <li className='c-74 fs-15 lh-2_27'>{el}</li>
+                                        {el.points.map((el, index)=>(
+                                            <li key={index} className='c-74 fs-15 lh-2_27'>{el}</li>
                                         ))}
                                     </ul>
                                 </Paragraph>
