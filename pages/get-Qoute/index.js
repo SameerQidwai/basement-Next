@@ -4,7 +4,7 @@ import { MailOutlined, PhoneFilled } from '@ant-design/icons';
 
 const { Text, Title } = Typography
 
-const index = () =>{
+const Index = () =>{
     const [required, setRequried] = useState(true)
     const [form] = Form.useForm();
     const [loading, setLoading] = useState(false)
@@ -199,4 +199,4 @@ const index = () =>{
     )
 }
 
-export default index
+export default Index
