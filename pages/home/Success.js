@@ -1,11 +1,11 @@
 import React, {useRef, useEffect} from 'react'
 import SuccessCounter from '../../Component/Core/SuccessCounter'
-import { useIntersection, useWindowDimensions } from '../../Component/useFunction'
+import { useWindowDimensions } from '../../Component/useFunction'
 
 const Success = () => {
     const ref = useRef()
     const {height, width} = useWindowDimensions()
-    let inViewport = useIntersection(ref, '-100px'); // Trigger as soon as the element becomes visible    
+    // let inViewport = useIntersection(ref, '-100px'); // Trigger as soon as the element becomes visible    
 
     return (
         <div>
@@ -33,8 +33,7 @@ const Success = () => {
                     <path d="M0 0 C50 180 100 0 100 0 Z" ></path>
                 </svg>
             </div>
-                {!inViewport &&<SuccessCounter  />}
-                {inViewport &&<SuccessCounter inViewport={true} />}
+                <SuccessCounter inViewport={true} />
                 <div className="counter-curve-bottom"
             >
                 <svg 
