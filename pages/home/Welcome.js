@@ -1,36 +1,42 @@
-import React from 'react'
-import { Col, Row, Typography, Button, Divider } from 'antd'
-import {useRouter} from 'next/router';
+import React from 'react';
+import { Col, Row, Typography, Button, Divider } from 'antd';
+import { useRouter } from 'next/router';
 
-const {Title , Text} = Typography
-const  Welcome = () => {
-    const router = useRouter()
-    return (
-        <div className="intro">
-            <Row className='intro-container'>
-                <Col xs={24} sm={24} md={12}>
-                    <img style={{width: '91%'}} src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/about_pic.png" alt=""/>
-                </Col>
-                <Col xs={24} sm={24} md={12}> 
-                    <h3>Who WE ARE?</h3>
-                    <p><strong>A construction company with expertise in creating legal basements</strong></p>
-                    <p>
-                        We are a team of construction &amp; engineering professionals with a combined industry experience of over 30 years with in-house expertise of architecture, interior design and project management.
-                    </p>
-                    
-                    <p>
-                        Whether its a legal basement second dwelling  unit or a kitchen remodel or a complete teardown we provide all these services under one roof. Starting from the planning phase till the final move in we manage all aspects of the project through our team of expert architectural designers, engineers and project managers. With our experience in this industry, we know how to stay on time and budget to create maximum value for our clients.
-                    </p>
-                    <Row>
-
-                    </Row>
-                    <Col xs={24} sm={24} md={12}>
-                        <a href="https://mylegalbasement.ca/our-process"><button class="lop_mommb">Read More</button></a>
-                    </Col>				
-                </Col>
+const { Title, Paragraph } = Typography;
+const Welcome = () => {
+  const router = useRouter();
+  return (
+    <Row>
+      <Col span={24} className="welcome">
+        <Row className="welcome-container" align="middle">
+          <Col xs={24} sm={24} md={12}>
+            <img className="welcome-picture" src="/basement1.jpg" alt="" />
+          </Col>
+          <Col xs={24} sm={24} md={12}>
+            <Title level={4}>Welcome to my LEGAL BASEMENT</Title>
+            <Paragraph>
+              We offer an end-to-end client experience that includes seamless
+              communication, budgeting, staffing, on-site organization, and
+              solid, quality handy work every time. A construction company which
+              knows how to make legal basements!
+            </Paragraph>
+            <Row>
+              <Button
+                // xs={24}
+                // sm={24}
+                ghost
+                shape="round"
+                href={'/service-pricing'}
+                type="ghost"
+              >
+                LEARN MORE
+              </Button>
             </Row>
-        </div>
-    )
-}
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  );
+};
 
-export default Welcome
+export default Welcome;

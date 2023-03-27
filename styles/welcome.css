@@ -36,16 +36,29 @@
 /* deprecated */
 
 .welcome{
-    background-color: #ab8b65;
-    background-position: left top;
-    background-repeat: no-repeat;
-    padding: 50px 30px;
-    margin: 0px;
-    border-width: 0px 0px 0px 0px;
-    border-color: #eae9e9;
-    border-style: solid;
+    width: 100%;
+    float: left;
+    background: url(/basement2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
-
+.welcome-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.welcome-picture{
+    width: 94%;
+    float: left;
+    height: 438px;
+    object-fit: cover;
+    object-position: center;
+}
+/* 
 h2.welcome-title{
     color: #ffffff;
     letter-spacing: 1px;
@@ -111,6 +124,6 @@ div.welcome-overview span.ant-typography{
         padding: 40px 30px 70px;
     }
     
-}
+} */
 
 

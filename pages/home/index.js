@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Welcome from './Welcome'
+import Intoduction from './Intoduction'
 import Process from './Process'
 import Services from './Services'
 import SlideCarousel from './SlideCarousel'
@@ -9,20 +9,30 @@ import Work from './Work'
 import Blogs from './Blogs'
 import Conclusion from './Conclusion'
 import Reviews from './Reviews'
+import Welcome from './Welcome'
+import Choose from './Choose'
+import ContactArea from './ContactArea'
+import Appointment from './Appointment'
+import Municipalities from './Municipalities'
 
 const  Index = (props) =>{
   // const [open, setOpen] = useState(false)
   return (
     <>
       <SlideCarousel/>
-      <Welcome />
-      <Services/>
-      <Success />
-      <Work />
-      <Process />
+      <Intoduction />
+      {/* <Services/> */}
+      <Welcome/>
+      {/* <Work /> */}
+      <Choose/>
+      <ContactArea/>
+      <Appointment/>
       <Reviews/>
+      <Municipalities/>
+      {/* <Success />
+      <Process />
       <Blogs />
-      <Conclusion />
+      <Conclusion /> */}
       {/* <EModal visible={open} close={()=>setOpen(false)}/> */}
     </>
   )
