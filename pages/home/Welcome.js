@@ -6,36 +6,30 @@ const {Title , Text} = Typography
 const  Welcome = () => {
     const router = useRouter()
     return (
-        <>
-            <Row justify={'space-around'} className="welcome" >
-                <Col> <Title level={2} className="welcome-title"> Need Help With A Project? </Title> </Col>
-            </Row>
-            <Row justify={'space-around'} className="welcome-btn">
-                <Col> <Button onClick={() => router.push('/get-Qoute')}>Get a free consultation</Button> </Col>
-            </Row>
-            <Row className="welcome-overview" justify="space-around" align="top">
-                <Col span={24}>
-                    <Row justify="space-around">
-                        <Col span={16}>
-                            <Title> Your Toronto Custom Home & Design Team</Title>
-                        </Col>
+        <div className="intro">
+            <Row className='intro-container'>
+                <Col xs={24} sm={24} md={12}>
+                    <img style={{width: '91%'}} src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/about_pic.png" alt=""/>
+                </Col>
+                <Col xs={24} sm={24} md={12}> 
+                    <h3>Who WE ARE?</h3>
+                    <p><strong>A construction company with expertise in creating legal basements</strong></p>
+                    <p>
+                        We are a team of construction &amp; engineering professionals with a combined industry experience of over 30 years with in-house expertise of architecture, interior design and project management.
+                    </p>
+                    
+                    <p>
+                        Whether its a legal basement second dwelling  unit or a kitchen remodel or a complete teardown we provide all these services under one roof. Starting from the planning phase till the final move in we manage all aspects of the project through our team of expert architectural designers, engineers and project managers. With our experience in this industry, we know how to stay on time and budget to create maximum value for our clients.
+                    </p>
+                    <Row>
+
                     </Row>
-                </Col>
-                <Col>
-                    <Divider className="blue-line"/>
-                </Col>
-                <Col span={24}>
-                    <Row justify="space-around">
-                        <Col xs={20} sm={16} lg={15}>
-                            <Text> With over 50+ years of combined experience in the real estate, design and construction industries, 
-                                Angelo Gerardi &
-                                his team makes all the right fits to bring your home renovation or custom build dreams come to life.
-                            </Text>
-                        </Col>
-                    </Row>
+                    <Col xs={24} sm={24} md={12}>
+                        <a href="https://mylegalbasement.ca/our-process"><button class="lop_mommb">Read More</button></a>
+                    </Col>				
                 </Col>
             </Row>
-        </>
+        </div>
     )
 }
 

@@ -30,20 +30,20 @@ const NavHeader = (props) =>{
 
       // Sticky Nav bar
     return (
-        <Header style={styles.header} className={"header-section nav-header header2"} >
-            <Row justify="space-between" align="middle" style={{ padding: '0px 15px'}}>
-                <Col xs={24} sm={24} md={20}>
+        <Header style={styles.header} className={"header-section nav-header"} >
+            <Row justify="center" align="middle">
+                <Col >
                     <Menu mode="horizontal" className="custom-menu" disabledOverflow={true} >
-                        <Menu.Item key="/"  onClick={() => router.push('/')}>
+                        <Menu.Item key="/" className='mr-a' onClick={() => router.push('/')}>
                             Home
                         </Menu.Item>
-                        {/* <Menu.Item key="/our-team"  onClick={() => router.push('/our-team')}>
+                        {/* <Menu.Item key="/our-team" className='mr-a' onClick={() => router.push('/our-team')}>
                             Our Team
                         </Menu.Item> */}
-                        <Menu.Item key="/our-services" onClick={() => router.push('/our-services')}>
-                            Our services
+                        <Menu.Item key="/our-process/steps-to-a-successful-build" onClick={() => router.push('/our-process/steps-to-a-successful-build')}>
+                            Our Process
                         </Menu.Item>
-                        {/* <Menu.SubMenu key="/our-process" title="Our Process"  onTitleClick={() => router.push('/our-process')}>
+                        {/* <Menu.SubMenu key="/our-process" title="Our Process" className='mr-a' onTitleClick={() => router.push('/our-process')}>
                             <Menu.Item key="/our-process/steps-to-a-successful-build" onClick={() => router.push('/our-process/steps-to-a-successful-build')}>
                                 5 Steps To A Successful Build
                             </Menu.Item> 
@@ -54,38 +54,25 @@ const NavHeader = (props) =>{
                                 Warranty
                             </Menu.Item> 
                         </Menu.SubMenu>*/}
-                        <Menu.Item key="/our-projects"  onClick={() => router.push('/our-projects')}>
-                            Our Projects
+                        <Menu.Item key="Our Work" className='mr-a'>
+                            Our Work
                         </Menu.Item>
-                        <Menu.Item key="/services-pricing"  onClick={() => router.push('/services-pricing')}>
-                            services pricing
+                        <Menu.Item key="Renovation" className='mr-a' onClick={() => router.push('/renovation')}>
+                            Renovation
                         </Menu.Item>
-                        <Menu.Item key="/blog"  onClick={() => router.push('/blog')}>
-                            Blog
-                        </Menu.Item>
-                        <Menu.Item key="/careers"  onClick={() => router.push('/careers')}>
-                            careers
-                        </Menu.Item>
-                        <Menu.Item key="/contact-us"  onClick={() => router.push('/contact-us')}>
-                            Contact us
-                        </Menu.Item>
-                        {/* <Menu.Item key="Custom & Design Build" >
+                        {/* <Menu.Item key="Custom & Design Build" className='mr-a'>
                             Custom & Design Build
                         </Menu.Item> */}
-                        <Menu.Item key="/consulting" onClick={() => router.push('/consulting')}>
+                        <Menu.Item key="/consulting" className='mr-a'onClick={() => router.push('/consulting')}>
                             Consulting
                         </Menu.Item>
+                        <Menu.Item key="Contact us" >
+                            <Button 
+                                style={{backgroundColor: '#fed03d', fontWeight: 600}} 
+                                onClick={()=>props.openModal()}
+                            > Contact US </Button>
+                        </Menu.Item>
                     </Menu>
-                </Col>
-                <Col xs={24} sm={24} md={4}>
-                    <Button
-                        // type="ghost" 
-                        ghost
-                        size='large'
-                        block
-                        // style={{backgroundColor: '#fed03d', fontWeight: 600}} 
-                        onClick={()=>props.openModal()}
-                    > Contact US </Button>
                 </Col>
             </Row>
         </Header>
@@ -99,7 +86,7 @@ const styles = {
       height: 'auto', 
       padding: 0,
       margin: 0, 
-    //   background: 'rgba(57,63,67,0.01)' ,
+      background: '#fff' ,
       width: '100%'
     }
 }

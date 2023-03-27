@@ -1,3 +1,40 @@
+
+.intro{
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.intro-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.intro-container h3{
+    color: #000000;
+    font-size: 23px;
+    text-align: left;
+    width: 100%;
+    margin-top: 40px;
+    font-weight: 700;
+    float: left;
+    margin-bottom: 0px;
+}
+.intro-container p {
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-top: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    float: left;
+    padding-right: 22px;
+}
+/* deprecated */
+
 .welcome{
     background-color: #ab8b65;
     background-position: left top;
@@ -58,6 +95,7 @@ div.welcome-overview span.ant-typography{
     color:#747474;
 }
 
+
 @media only screen and (min-width: 1100px) {
     h2.welcome-title{
         font-size: 32px !important;
@@ -74,3 +112,5 @@ div.welcome-overview span.ant-typography{
     }
     
 }
+
+

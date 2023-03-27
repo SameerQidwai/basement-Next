@@ -12,7 +12,7 @@ export default function PageLayout({ children, openContact }) {
   return (
       <Layout className="overflowX-hidden">
         <Header1/>
-        <HeaderLogo openModal={openContact}/>
+        {/* <HeaderLogo openModal={openContact}/> */}
         <NavHeader openModal={openContact} />
         <Content style={{backgroundColor: '#ffff'}}>
           

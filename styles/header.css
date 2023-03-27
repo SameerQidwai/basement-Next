@@ -93,7 +93,7 @@
     position: absolute;
     border-radius: inherit;
     aspect-ratio: 1;
-  }
+}
 .instagram::before{
     border: 0.05em solid;
     width: 65%;
@@ -105,26 +105,47 @@
     box-shadow: 0.22em -0.22em 0 -0.18em;
 }
 
-
+.header2{
+  width: 100%;
+  float: left;
+  position: relative;
+  z-index: 9;
+  background-color: rgba(57,63,67,0.7);
+  line-height: 64px;
+  /* line-height: 40px !important; */
+}
 
 .custom-menu{
-  line-height: 40px !important;
+  /* line-height: 40px !important; */
   border-bottom: none !important;
+  background-color: rgba(57,63,67,0.01) !important;
 }
 
 .custom-menu span.ant-menu-title-content{
-  letter-spacing: 1px;
-  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 20px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
+
+
+.custom-menu li.ant-menu-item{
+  padding: 0px !important
+}
+.custom-menu li.ant-menu-item.ant-menu-item-selected span.ant-menu-title-content{
+  color: #1890ff !important;
+}
+
+/* .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item{
+
+} */
 
 /* .ant-menu.custom-menu > .ant-menu-submenu{
   background-color: ;
 } */
-.header2{
-    height: 90px;
-    background-color: white;
-    padding: 0px 50px !important;
-}
+
+
 .mr-a{
   margin: auto 0px !important;
 }
@@ -145,10 +166,11 @@
   width: 100%;
   z-index: 999;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-  background-color: #ffffff !important;
+  /* background-color: #ffffff !important; */
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding-top: 0px;
   padding-bottom: 0px;
+  line-height: 40px !important;
 }
 
 .is-sticky-mobile {
@@ -158,7 +180,7 @@
   width: 100%;
   z-index: 999;
   box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-  background-color: #ffffff !important;
+  /* background-color: #ffffff !important; */
   animation: 500ms ease-in-out 0s normal none 1 running slidein;
   padding-top: 0px;
   padding-bottom: 0px;
