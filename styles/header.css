@@ -20,6 +20,92 @@
     height: auto;
     color: white !important
 }
+.header_logo{
+  width: 38%;
+  margin-left: 10px;
+  margin-top: 4px
+}
+.hedear-basement-1{
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  box-shadow: 7px 3px 14px 4px #101010;
+  position: relative;
+  z-index: 99;
+}
+.header-basment-btn{
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 600;
+    float: none;
+    /* width: auto; */
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: -3px;
+    padding-left: 108px;
+    background-color: #28427b;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
+    line-height: 24px;
+    height: 86px;
+}
+
+.header-basment-btn::after{
+  content: "";
+  position: absolute;
+  background: url(/phone-icone.png) no-repeat;
+  width: 47px;
+  height: 58px;
+  left: 47px;
+  top: 11px;
+}
+
+.fb-icon {
+  color: #3b5998;
+}
+.tw-icon{
+  color: #0378e1;
+}
+
+
+.instagram {
+  font-size: 25px;
+  width: 1em;
+  aspect-ratio: 1;
+  background: radial-gradient(
+      circle farthest-corner at 28% 100%,
+      #fcdf8f 0%,
+      #fbd377 10%,
+      #fa8e37 22%,
+      #f73344 35%,
+      transparent 65%
+    ),
+    linear-gradient(145deg, #3051f1 10%, #c92bb7 70%);
+  border-radius: 0.2em;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.instagram::before, .instagram::after {
+    content: "";
+    color: #fff;
+    position: absolute;
+    border-radius: inherit;
+    aspect-ratio: 1;
+  }
+.instagram::before{
+    border: 0.05em solid;
+    width: 65%;
+  }
+.instagram::after{
+    border-radius: 50%;
+    border: 0.05em solid;
+    width: 35%;
+    box-shadow: 0.22em -0.22em 0 -0.18em;
+}
+
+
 
 .custom-menu{
   line-height: 40px !important;
