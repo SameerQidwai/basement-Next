@@ -29,12 +29,12 @@ const Appointment = () => {
     <Row>
       <Col span={24} className="appointment">
         <Row
-          gutter={[20, 0]}
+          gutter={[40, 0]}
           align="top"
           className="choose-container"
           justify="center"
         >
-          <Col xs={24} sm={24} md={10} className="appointment-legal">
+          <Col xs={24} sm={24} md={9} className="appointment-legal">
             <Title level={1}>LEGAL BASEMENT</Title>
             <Title level={5}>
               Whether its a legal basement second dwelling unit or a kitchen
@@ -68,123 +68,69 @@ const Appointment = () => {
               // onFieldsChange={validateInfo}
               validateTrigger="onSubmit"
             >
-              <Row gutter={[0, 2]}>
+              <Row gutter={[0, 25]}>
                 <Col span={24}>
                   <Form.Item noStyle>
                     <Text>We are ready to help build your dreams</Text>
                   </Form.Item>
                 </Col>
                 <Col sm={24} md={12}>
-                  <Row>
-                    <Col span={24}>
-                      <Form.Item noStyle>
-                        <Text>FIRST NAME</Text>
-                      </Form.Item>
-                    </Col>
-                    <Col span={24}>
-                      <Form.Item
-                        name="Fname"
-                        rules={[
-                          {
-                            required: true,
-                            message: 'Enter Your name',
-                          },
-                        ]}
-                      >
-                        <Input placeholder={'FIRST NAME'} />
-                      </Form.Item>
-                    </Col>
-                  </Row>
+                  <Form.Item
+                    name="Fname"
+                    rules={[
+                      {
+                        required: true,
+                        message: 'Enter Your name',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'FIRST NAME'} />
+                  </Form.Item>
                 </Col>
                 <Col sm={24} md={12}>
-                  <Row>
-                    <Col span={24}>
-                      <Form.Item noStyle>
-                        <Text>LAST NAME</Text>
-                      </Form.Item>
-                    </Col>
-                    <Col span={24}>
-                      <Form.Item name="Lname">
-                        <Input placeholder={'LAST NAME'} />
-                      </Form.Item>
-                    </Col>
-                  </Row>
+                  <Form.Item name="Lname">
+                    <Input placeholder={'LAST NAME'} />
+                  </Form.Item>
                 </Col>
                 <Col sm={24} md={12}>
-                  <Row>
-                    <Col span={24}>
-                      <Form.Item noStyle>
-                        <Text>EMAIL ADDRESS</Text>
-                      </Form.Item>
-                    </Col>
-                    <Col span={24}>
-                      <Form.Item
-                        name="email"
-                        rules={[
-                          {
-                            required: required,
-                            message: 'One Contact Information Required',
-                          },
-                          {
-                            type: 'email',
-                            message: 'The input is not valid E-mail!',
-                          },
-                        ]}
-                      >
-                        <Input placeholder={'EMAIL ADDRESS'} />
-                      </Form.Item>
-                    </Col>
-                  </Row>
+                  <Form.Item
+                    name="email"
+                    rules={[
+                      {
+                        required: required,
+                        message: 'One Contact Information Required',
+                      },
+                      {
+                        type: 'email',
+                        message: 'The input is not valid E-mail!',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'EMAIL ADDRESS'} />
+                  </Form.Item>
                 </Col>
                 <Col sm={24} md={12}>
-                  <Row>
-                    <Col span={24}>
-                      <Form.Item noStyle>
-                        <Text>HOME NUMBER</Text>
-                      </Form.Item>
-                    </Col>
-                    <Col span={24}>
-                      <Form.Item
-                        name="contact"
-                        rules={[
-                          {
-                            required: required,
-                            message: 'So We Can Contact You',
-                          },
-                        ]}
-                      >
-                        <Input placeholder={'HOME NUMBER'} />
-                      </Form.Item>
-                    </Col>
-                  </Row>
+                  <Form.Item
+                    name="contact"
+                    rules={[
+                      {
+                        required: required,
+                        message: 'So We Can Contact You',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'HOME NUMBER'} />
+                  </Form.Item>
                 </Col>
                 <Col span={24}>
-                  <Row>
-                    <Col span={24}>
-                      <Form.Item noStyle>
-                        <Text>SUBJECT</Text>
-                      </Form.Item>
-                    </Col>
-                    <Col span={24}>
-                      <Form.Item name="subject">
-                        <Input placeholder="SUBJECT" />
-                      </Form.Item>
-                    </Col>
-                  </Row>
+                  <Form.Item name="subject">
+                    <Input placeholder="SUBJECT" />
+                  </Form.Item>
                 </Col>
                 <Col span={24}>
-                  <Row>
-                    <Col span={24}>
-                      <Form.Item noStyle>
-                        <Text>MESSAGE</Text>
-                      </Form.Item>
-                    </Col>
-                    <Col span={24}>
-                      <Form.Item name="message">
-                        <Input.TextArea placeholder="HOW CAN WE HELP?" />
-                      </Form.Item>
-                    </Col>
-                  </Row>
+                  <Form.Item name="message">
+                    <Input.TextArea autoSize={{ minRows: 3, maxRows: 3 }} placeholder="HOW CAN WE HELP?" />
+                  </Form.Item>
                 </Col>
               </Row>
               <Row className="py-30">

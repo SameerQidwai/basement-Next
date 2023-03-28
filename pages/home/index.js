@@ -14,6 +14,7 @@ import Choose from './Choose'
 import ContactArea from './ContactArea'
 import Appointment from './Appointment'
 import Municipalities from './Municipalities'
+import NewsLetter from './NewsLetter'
 
 const  Index = (props) =>{
   // const [open, setOpen] = useState(false)
@@ -30,6 +31,7 @@ const  Index = (props) =>{
       <Reviews/>
       <Municipalities/>
       <Blogs />
+      <NewsLetter/>
       {/* <Success />
       <Process />
       <Conclusion /> */}

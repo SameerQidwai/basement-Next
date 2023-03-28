@@ -26,23 +26,63 @@ const  Blogs = () => {
         <Row>
             <Col span={24} className="blog-wrapper">
                 <div className='blog-overlay'></div>
-                <Row className='wrapper' gutter={[10,20]}>
-                    <Col md={8} sm={8} xs={24} classname="more">
+                <Row className='wrapper' gutter={[50,20]} justify="center">
+                    <Col md={7} sm={7} xs={23} className="more">
+                        <Row>
+                            <Col span={24}>
                         <h6><span>OUR</span> BLOG</h6>
-                        <h5>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col span={24}>
+                            <h5>
                             We are delighted to have our work acknowledged in the media. Take a look at some of the publications we have featured in recently.
                         </h5>
+                            </Col>
+                        </Row>
                         <Row justify='center'>
-                            <Col>
-                                <Button className="round" href="https://mylegalbasement.ca/blog/">VIEW MORE</Button>
+                            <Col >
+                                <div>
+                                    <Button size="large" className="round-button" href="https://mylegalbasement.ca/blog/">VIEW MORE</Button>
+                                </div>
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={8} sm={8} xs={24}>
-
+                    <Col md={7} sm={7} xs={23}>
+                        <Row >
+                            <Col span={24}> 
+                                <img class="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/>
+                            </Col>
+                            <Col>
+                                <Text> DATE : FEBRUARY 28, 2023</Text>
+                                <Title level={4}>Steps To Get a Legal Basement Apartment</Title>
+                            </Col>
+                        </Row>
+                        <Row gutter={[20,40]}>
+                            <Col>
+                                <Row gutter={[20,20]}>
+                                    
+                                </Row>
+                            </Col>
+                            <Col>
+                                <Row>
+                                    <Col>
+                                        <a>Read More</a>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
                     </Col>
-                    <Col md={8} sm={8} xs={24}>
-
+                    <Col md={7} sm={7} xs={23}>
+                        <Row >
+                            <Col span={24}> <img class="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/></Col>
+                            <Col>
+                                <Text> DATE : JANUARY 18, 2023</Text>
+                                <Title level={4}>2023 basement ideas</Title> 
+                                <a>READ MORE</a>
+                            </Col>
+                        </Row>
+                        
                     </Col>
                 </Row>
             </Col>
