@@ -34,7 +34,7 @@ const Reviews = () => {
               pauseOnDotsHover
               style={{ cursor: 'pointer' }}
               swipeToSlide
-              arrows
+            //   arrows
               // nextArrow={'<'}
               // prevArrow={'>'}
             >

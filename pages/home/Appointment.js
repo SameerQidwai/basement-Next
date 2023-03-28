@@ -31,7 +31,7 @@ const Appointment = () => {
         <Row
           gutter={[40, 0]}
           align="top"
-          className="choose-container"
+          className="choose-container row-margin-null"
           justify="center"
         >
           <Col xs={24} sm={24} md={9} className="appointment-legal">

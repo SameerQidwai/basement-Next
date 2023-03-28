@@ -22,7 +22,7 @@ const  Index = (props) =>{
     <>
       <SlideCarousel/>
       <Intoduction />
-      {/* <Services/> */}
+      <Services/>
       <Welcome/>
       {/* <Work /> */}
       <Choose/>

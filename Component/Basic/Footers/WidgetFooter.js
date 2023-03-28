@@ -12,10 +12,13 @@ const WidgetFooter = () => {
             justify='space-between'
             gutter={[16, 40]}
         > 
-            <Col xs={24} sm={24} md={12} lg={12} xl={6} >
-                <Row gutter={[16, 40]}>
+            <Col xs={24} sm={24} md={10} lg={12} xl={6} >
+                <Row gutter={[16, 20]}>
                     <Col span={24}>
-                        <img src='footer-logo.png' width={150} height={150}/>
+                        <Title level={4}>ABOUT OUR COMPANY</Title>
+                    </Col>
+                    <Col span={24}>
+                        <img src='footer-logo.png' width={80} height={80}/>
                     </Col>
                     <Col span={24}>
                         <Text>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</Text>
@@ -25,17 +28,38 @@ const WidgetFooter = () => {
                     </Col> */}
                 </Row>
             </Col>
-            <Col xs={24} sm={9} md={5}>
-                <Row gutter={[16, 20]}>
+            <Col xs={24} sm={9} md={6}>
+                <Row gutter={[16, 5]}>
                     <Col span={24}>
-                        <Title level={4}>LATEST TWEETS</Title>
+                        <Title level={4}>QUICK LINK</Title>
                     </Col>
                     <Col span={24}>
-                        <Text>Tweets by anvalehomes</Text>
+                        <Text>HOME</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>OUR SERVICES</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>OUR PROJECTS</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>FINANCING</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>CAREERS</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>BLOG</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>SERVICE PRICING</Text>
+                    </Col>
+                    <Col span={24}>
+                        <Text>CONTACT US</Text>
                     </Col>
                 </Row>
             </Col>
-            <Col xs={24} sm={24} md={12} lg={12} xl={6}>
+            <Col xs={24} sm={24} md={8} lg={12} xl={6}>
                 <Row gutter={[16, 20]}>
                     <Col span={24}>
                         <Title level={4}>CONTACT US TODAY</Title>
@@ -78,21 +102,6 @@ const WidgetFooter = () => {
                     </Col>
                 </Row>
             </Col>
-            {/* <Col xs={24} sm={24} md={12} lg={12} xl={6}>
-                <Row gutter={[0, 20]}>
-                    <Col span={24}>
-                        <Title level={4}>FIND US</Title>
-                    </Col>
-                    <Col span={24}>
-                    <GMap
-                        googleMapURL={`https://maps.googleapis.com/maps/api/js?key=AIzaSyC3te5IVkEUMgEcDH6d5l1ofxmsq3oUnVU&#038;language=en&#038;ver=1`}
-                        loadingElement={<div style={{ height: `100%` }} />}
-                        containerElement={<div style={{ height: `275px` }} />}
-                        mapElement={<div style={{ height: `100%` }} />}
-                    />
-                    </Col>
-                </Row>
-            </Col> */}
         </Row>
         </>
     )

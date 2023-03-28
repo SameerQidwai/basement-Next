@@ -10,9 +10,10 @@
 }
 
 .work-overview .card-Q-image {
-    display: block;
     width: 100%;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
 }
 .work-overview .card-Q-cover .card-Q-overlay{
     display: flex;
@@ -34,24 +35,55 @@
 }
 
 .work-card{
-    height: 100% !important;
+    width: 100%;
+    border: 1px solid #cfd5d5;
+    height: auto;
+    margin-top: 21px;
+    box-shadow: 7px 9px 10px -7px #bcbcbc;
+    padding-bottom: 40px;
 }
 
-.work-card .ant-card-meta-title {
-    white-space: normal
+.work-card .ant-card-body{
+    padding: 0px;
 }
 
-.work-card .ant-card-meta-title a{
+.work-card .card-title {
+    color: #4c5254;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin-top: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    margin-bottom: 0px;
+}
+.work-card .card-type {
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.work-card button{
+    margin-top: 19px;
+}
+
+/* .work-card .ant-card-meta-title a{
     font-size: calc(24px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
     font-weight: 300 !important;
     color: #333333;
-}
+} */
 
-.work-card .ant-card-meta-description a{
+/* .work-card .ant-card-meta-description a{
     font-size: calc(18px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
     font-weight: 300 !important;
     color: #333333;
-}
+} */
+/* .work-card .ant-card-meta-detail .ant-card-meta-description a{
+    
+} */
 
 .work-card a:hover{
     color: #1890ff;
@@ -108,7 +140,7 @@
 
 
 
-@media only screen and (min-width: 1100px) {
+/* @media only screen and (min-width: 1100px) {
     .work-card .ant-card-meta-title a{
         font-size: 24px !important;
     }
@@ -123,7 +155,7 @@
         font-weight: 400 !important;
     }
     
-}
+} */
 
 /* Bog page */
 .blog-wrapper{

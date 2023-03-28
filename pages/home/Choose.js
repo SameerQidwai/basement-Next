@@ -24,8 +24,8 @@ const Choose = () => {
                 </Col>
             </Row>
           </Col>
-          <Col xs={24} sm={24} md={24}>
-            <Row gutter={30}>
+          <Col xs={24} sm={24} md={24} style={{padding: '10px'}}>
+            <Row gutter={30} justify="space-around">
               <Col xs={24} sm={8} md={8}>
                 <Card className="choose-card">
                   <Row>

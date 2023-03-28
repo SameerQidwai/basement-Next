@@ -63,13 +63,16 @@
 
 .fb-icon {
   color: #3b5998;
+  background-color: #ffffff;
 }
 .tw-icon{
   color: #0378e1;
+  background-color: #ffffff;
 }
 
 
 .instagram {
+  background-color: #ffffff;
   font-size: 25px;
   width: 1em;
   aspect-ratio: 1;

@@ -270,6 +270,9 @@ div.ant-divider.blue-line {
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
 }
+.row-margin-null{
+  margin: 0px !important
+}
 
 @keyframes zoomInRight {
   0% {

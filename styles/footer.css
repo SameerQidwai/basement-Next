@@ -5,7 +5,7 @@
 }
 
 .page-footer-widget .top-footer{
-  padding: 80px 0px 70px 0px
+  padding: 40px 0px 10px 0px
 }
 
 .address-span{
@@ -50,7 +50,16 @@
 
 .ant-layout-footer.page-footer-bottom {
   padding: 0px 0px;
+  background-color: #1e1e1e
+}
+.page-footer-bottom .link-footer {
+  padding: 10px;
   background-color: #111111
+}
+.page-footer-bottom .link-footer span.ant-typography{
+  /* font-size: 11px; */
+  color: #747474;
+  line-height: 1em;
 }
 
 .page-footer-bottom .bottom-footer{
@@ -62,10 +71,10 @@
   color: #747474;
   line-height: 1em;
 }
-.page-footer-bottom .bottom-footer span.anticon{
+/* .page-footer-bottom .bottom-footer span.anticon{
   font-size: 18px;
   color: #ffffff;
-}
+} */
 
 .page-footer-bottom .bottom-footer .ant-divider{
   background-color: #747474;

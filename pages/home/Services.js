@@ -1,109 +1,416 @@
-import React, {useEffect} from 'react'
-import { Col, Row, Typography, Image, Card, Avatar, Button } from 'antd'
-import { FormatPainterFilled, HomeFilled, UserOutlined } from "@ant-design/icons";
-const {Title , Text} = Typography
-const { Meta } = Card
+import React, { useEffect } from 'react';
+import {
+  Col,
+  Row,
+  Typography,
+  Image,
+  Card,
+  Avatar,
+  Button,
+  Carousel,
+} from 'antd';
+import {
+  FormatPainterFilled,
+  HomeFilled,
+  LinkOutlined,
+  SearchOutlined,
+  UserOutlined,
+} from '@ant-design/icons';
+const { Title, Text, Paragraph } = Typography;
+const { Meta } = Card;
 
-const services = [
-    {
-        icon: <FormatPainterFilled className="service-icon" />,
-        title: 'Renovations',
-        description: 'Whether you are adding an extension to your home, or gutting your bathroom or renovating your basement into a home entertainment sanctuary',
-        titleBack: 'WE TURN SPACE INTO AWESOME LIVING',
-        descriptionBack: 'Anvale Homes provides full-scale renovations to improve your existing living area and increase the value of your home.',
-        button: 'Learn More',
-        buttonLink: 'a'
-    },
-    {
-        icon: <HomeFilled className="service-icon" />,
-        title: 'Custom Homes',
-        description: 'Our in-house architect works collaboratively with you to draw up custom floor plans to spec and our management team brings your floor plan to fruition',
-        titleBack: 'HELPING BUILD YOUR DREAMS',
-        descriptionBack: 'as we help you select the perfect materials, finishes and fixtures. From design to management to construction, our approach is personal, accommodating and customized.',
-        button: 'Find Out How',
-        buttonLink: 'a'
-    },
-    {
-        icon: <UserOutlined className="service-icon" />,
-        title: 'Consulting',
-        description: 'With over 50+ years experience in the real estate, design and construction industry our know how and best practices will help keep your renovation or',
-        titleBack: 'EXPERIENCE YOU CAN RELY ON',
-        descriptionBack: 'custom home build project on time and within your budget. Let’s sit down for a first free consultation to answer your questions and get your project on track.',
-        button: 'Get Free Consultation',
-        buttonLink: 'a'
-    },
-]
-const  Services = () =>{
+const cards = [
+  {
+    img: 'cover1.jpg',
+    title: 'HOME',
+    link: 'a',
+    type: 'IMPROVEMENTS',
+    typaLink: 'a',
+    description:
+      'Have A Project You Need Help With? Get a free consultation BASEMENT RENOVATION Features coming soon',
+    details: 'LOCATION: Richmond Hill',
+  },
+  {
+    img: 'cover2.jpg',
+    title: 'KITCHENS',
+    link: 'a',
+    type: 'RENOVATIONS',
+    typaLink: 'a',
+    description:
+      'Have A Project You Need Help With? Get a free consultation FULL HOME RENOVATION Features coming soon Project',
+    details: 'Details coming soon ',
+  },
+  {
+    img: 'cover3.jpg',
+    title: 'BASEMENT',
+    link: 'a',
+    type: 'CONSTRUCTION',
+    typaLink: 'a',
+    description:
+      'Have A Project You Need Help With? Get a free consultation BATHROOM RENOVATION  Features coming soon ',
+    details: 'LOCATION  Etobicoke,',
+  },
+  {
+    img: 'cover4.jpg',
+    title: 'ARCHITECTURAL DRAWINGS/',
+    link: 'a',
+    type: 'BUILDING PERMITS',
+    typaLink: 'a',
+    description:
+      'Have A Project You Need Help With? Get a free consultation TOWNHOUSE KITCHEN  & BATH RENOVATION Feature',
+    details: 'Details coming soon',
+  },
+  {
+    img: 'cover5.jpg',
+    title: 'BATHROOMS',
+    link: 'a',
+    type: 'RENOVATIONS',
+    typaLink: 'a',
+    description:
+      'Have A Project You Need Help With? Get a free consultation WONDERFUL 2 STORY CAPE COD CHARMER Features',
+    details: 'Details coming soon',
+  },
+  
+];
 
-    return (
-        <div >
-            <Row justify="center"  className="service-row" gutter={[0, 20]}>
-                {services.map((el, index) =>(
-                    <Col xs={22} sm={10} md={10} lg={7}  xl={6} key={index} className="flip-Q-card">
-                        <div className="flip-Q-card-inner">
-                            <Card 
-                                className='flip-Q-card-front'
-                                bodyStyle={{padding: '27px 20px'}}
-                            >
-                                <Row justify='center' >
-                                    <Col span={24}>
-                                        <Row justify='center' style={{marginBottom: 20}}>
-                                            <Col>
-                                                <Avatar 
-                                                    className='service-avatar'
-                                                    size={61} 
-                                                    icon={el.icon}
-                                                />
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                    <Col span={24}>
-                                        <Row justify='center'>
-                                            <Col>
-                                                <Title level={2} className='service-content' >{el.title}</Title>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                    <Col span={24}>
-                                    <Row justify='center' >
-                                            <Col className='center-col'>
-                                                <Text className='service-content'>{el.description}</Text>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </Row>
-                            </Card>
-                            <Card className="flip-Q-card-back" bodyStyle={{padding: '27px 20px'}}>
-                                <Row justify='center' >
-                                    <Col span={24}>
-                                        <Row justify='center' >
-                                            <Col>
-                                                <Title level={3}>{el.titleBack}</Title>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                    <Col span={24}>
-                                        <Row justify='center' >
-                                            <Col>
-                                                <Text level={2} className='service-content' >{el.descriptionBack}</Text>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                    <Col span={24}>
-                                    <Row justify='center' >
-                                            <Col className="button-col">
-                                                <Button type="primary">{el.button}</Button>
-                                            </Col>
-                                        </Row>
-                                    </Col>
-                                </Row>
-                            </Card>
+const Services = () => {
+  return (
+    <Row>
+      <Col span={24}>
+        <Row justify="center">
+          <Col span={18} className="txt-center">
+            <Title level={1}>
+              {' '}
+              <span>OUR</span> SERVICES
+            </Title>
+          </Col>
+          <Col span={18} className="txt-center">
+            <Text>
+              As one of the leaders in residential construction, we offer a full
+              design and build service.
+            </Text>
+          </Col>
+          <Col span={23}>
+            <Carousel
+                autoplay
+              dots={false}
+              style={{ cursor: 'pointer' }}
+              swipeToSlide
+              infinite={true}
+                speed={500}
+              slidesToShow={4}
+              slidesToScroll={1}
+              //   arrows
+              // nextArrow={'<'}
+              // prevArrow={'>'}
+            >
+              
+              <div className="work-overview">
+                <Card
+                  // hoverable
+                  className="work-card"
+                  cover={
+                    <div>
+                        <div className="card-Q-cover">
+                        <img
+                            alt={cards[0].img}
+                            src={cards[0].img}
+                            className="card-Q-image"
+                        />
+                        <div className="card-Q-overlay">
+                            <div className="card-Q-text">
+                            <Row justify="center" gutter={16} align="middle">
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<LinkOutlined />}
+                                />
+                                </Col>
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<SearchOutlined />}
+                                />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={24}>
+                                <Title level={4}>{cards[0].title}</Title>
+                                </Col>
+                            </Row>
+                            <Row justify="center">
+                                <Col>
+                                <Text>{cards[0].type}</Text>
+                                </Col>
+                            </Row>
+                            </div>
                         </div>
-                    </Col>
-                ))}
-            </Row>
-        </div>
-    );
-}
+                        </div>
+                        <Row>
+                            <Col span={24}>
+                                <Title level={4} className="card-title">{cards[0].title}</Title>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                                <Text className="card-type"> {cards[0].type} </Text>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                            <Button size="large" shape="round" type="primary">
+                                Learn More
+                            </Button>
+                            </Col>
+                        </Row>
+                    </div>
+                  }
+                />
+              </div>
+              <div className="work-overview">
+                <Card
+                  // hoverable
+                  className="work-card"
+                  cover={
+                    <div>
+                        <div className="card-Q-cover">
+                        <img
+                            alt={cards[1].img}
+                            src={cards[1].img}
+                            className="card-Q-image"
+                        />
+                        <div className="card-Q-overlay">
+                            <div className="card-Q-text">
+                            <Row justify="center" gutter={16} align="middle">
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<LinkOutlined />}
+                                />
+                                </Col>
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<SearchOutlined />}
+                                />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={24}>
+                                <Title level={4}>{cards[1].title}</Title>
+                                </Col>
+                            </Row>
+                            <Row justify="center">
+                                <Col>
+                                <Text>{cards[1].type}</Text>
+                                </Col>
+                            </Row>
+                            </div>
+                        </div>
+                        </div>
+                        <Row>
+                            <Col span={24}>
+                                <Title level={4} className="card-title">{cards[1].title}</Title>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                                <Text className="card-type"> {cards[1].type} </Text>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                            <Button size="large" shape="round" type="primary">
+                                Learn More
+                            </Button>
+                            </Col>
+                        </Row>
+                    </div>
+                  }
+                />
+              </div>
+              <div className="work-overview">
+                <Card
+                  // hoverable
+                  className="work-card"
+                  cover={
+                    <div>
+                        <div className="card-Q-cover">
+                        <img
+                            alt={cards[2].img}
+                            src={cards[2].img}
+                            className="card-Q-image"
+                        />
+                        <div className="card-Q-overlay">
+                            <div className="card-Q-text">
+                            <Row justify="center" gutter={16} align="middle">
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<LinkOutlined />}
+                                />
+                                </Col>
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<SearchOutlined />}
+                                />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={24}>
+                                <Title level={4}>{cards[2].title}</Title>
+                                </Col>
+                            </Row>
+                            <Row justify="center">
+                                <Col>
+                                <Text>{cards[2].type}</Text>
+                                </Col>
+                            </Row>
+                            </div>
+                        </div>
+                        </div>
+                        <Row>
+                            <Col span={24}>
+                                <Title level={4} className="card-title">{cards[2].title}</Title>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                                <Text className="card-type"> {cards[2].type} </Text>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                            <Button size="large" shape="round" type="primary">
+                                Learn More
+                            </Button>
+                            </Col>
+                        </Row>
+                    </div>
+                  }
+                />
+              </div>
+              <div className="work-overview">
+                <Card
+                  // hoverable
+                  className="work-card"
+                  cover={
+                    <div>
+                        <div className="card-Q-cover">
+                        <img
+                            alt={cards[3].img}
+                            src={cards[3].img}
+                            className="card-Q-image"
+                        />
+                        <div className="card-Q-overlay">
+                            <div className="card-Q-text">
+                            <Row justify="center" gutter={16} align="middle">
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<LinkOutlined />}
+                                />
+                                </Col>
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<SearchOutlined />}
+                                />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={24}>
+                                <Title level={4}>{cards[3].title}</Title>
+                                </Col>
+                            </Row>
+                            <Row justify="center">
+                                <Col>
+                                <Text>{cards[3].type}</Text>
+                                </Col>
+                            </Row>
+                            </div>
+                        </div>
+                        </div>
+                        <Row>
+                            <Col span={24}>
+                                <Title level={4} className="card-title">{cards[3].title}</Title>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                                <Text className="card-type"> {cards[3].type} </Text>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                            <Button size="large" shape="round" type="primary">
+                                Learn More
+                            </Button>
+                            </Col>
+                        </Row>
+                    </div>
+                  }
+                />
+              </div>
+              <div className="work-overview">
+                <Card
+                  // hoverable
+                  className="work-card"
+                  cover={
+                    <div>
+                        <div className="card-Q-cover">
+                        <img
+                            alt={cards[4].img}
+                            src={cards[4].img}
+                            className="card-Q-image"
+                        />
+                        <div className="card-Q-overlay">
+                            <div className="card-Q-text">
+                            <Row justify="center" gutter={16} align="middle">
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<LinkOutlined />}
+                                />
+                                </Col>
+                                <Col>
+                                <Avatar
+                                    className="service-avatar"
+                                    size={48.19}
+                                    icon={<SearchOutlined />}
+                                />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={24}>
+                                <Title level={4}>{cards[4].title}</Title>
+                                </Col>
+                            </Row>
+                            <Row justify="center">
+                                <Col>
+                                <Text>{cards[4].type}</Text>
+                                </Col>
+                            </Row>
+                            </div>
+                        </div>
+                        </div>
+                        <Row>
+                            <Col span={24}>
+                                <Title level={4} className="card-title">{cards[4].title}</Title>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                                <Text className="card-type"> {cards[4].type} </Text>
+                            </Col>
+                            <Col span={24} className="txt-center">
+                            <Button size="large" shape="round" type="primary">
+                                Learn More
+                            </Button>
+                            </Col>
+                        </Row>
+                    </div>
+                  }
+                />
+              </div>
+            </Carousel>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  );
+};
 
-export default Services
+export default Services;

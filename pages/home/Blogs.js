@@ -26,7 +26,7 @@ const  Blogs = () => {
         <Row>
             <Col span={24} className="blog-wrapper">
                 <div className='blog-overlay'></div>
-                <Row className='wrapper' gutter={[50,20]} justify="center">
+                <Row className='wrapper row-margin-null' gutter={[20,20]} justify="space-around" >
                     <Col md={7} sm={7} xs={23} className="more">
                         <Row>
                             <Col span={24}>
