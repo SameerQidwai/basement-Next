@@ -29,9 +29,9 @@ const  Index = (props) =>{
       <Appointment/>
       <Reviews/>
       <Municipalities/>
+      <Blogs />
       {/* <Success />
       <Process />
-      <Blogs />
       <Conclusion /> */}
       {/* <EModal visible={open} close={()=>setOpen(false)}/> */}
     </>

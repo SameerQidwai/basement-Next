@@ -28,7 +28,7 @@
 }
 
 
-.reviews-main{
+/* .reviews-content{
     max-width: 100%;
     color: #fff;
     text-align: center;
@@ -36,7 +36,7 @@
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
-}
+} */
 
 .reviews-title-area{
     display: -moz-box;
@@ -49,7 +49,7 @@
     align-items: center;
 }
 
-.reviews-main .ant-carousel .slick-dots-bottom{
+.reviews-content .ant-carousel .slick-dots-bottom{
     bottom: -30px !important;
 }
 
@@ -57,18 +57,18 @@
     background-color: #f5f5f5;
 }
 
-.reviews-main h1.ant-typography{
+.reviews-content h1.ant-typography{
     color: #ffffff;
     font-weight: 300;
     font-size: calc(38px + (60 - 45) * (49.2vw - 768px) / (1440 - 768)) !important;
     margin-bottom: 16px;
 }
-.reviews-main h4.ant-typography{
+.reviews-content h4.ant-typography{
     color: #ffffff;
     font-size: calc(18px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;
 }
 
-.reviews-main span.ant-typography{
+.reviews-content span.ant-typography{
     font-size: calc(18px + (50 - 45) * (70vw - 768px) / (1440 - 768)) !important;    
     line-height: 30px;
     text-align: center;
@@ -77,22 +77,23 @@
     color: #ffffff
 }
 
-.reviews-main .my-30{
+/* .reviews-content .my-30{
     margin: 10px 30px 30px;
-}
+} */
 
-.reviews-main span.anticon{
+.reviews-content span.anticon{
     font-size: 84px;
+    color: #f5f5f5
 }
 
 @media only screen and (min-width: 1100px) {
-    .reviews-main h1.ant-typography{
+    .reviews-content h1.ant-typography{
         font-size: 32px !important
     }
-    .reviews-main h4.ant-typography{
+    .reviews-content h4.ant-typography{
         font-size: 18px !important;
     }
-    .reviews-main span.ant-typography{
+    .reviews-content span.ant-typography{
         font-size: 18px !important;    
         font-weight: 300 !important;
     }

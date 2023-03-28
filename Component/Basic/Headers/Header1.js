@@ -34,7 +34,7 @@ const Header1 = (props) =>{
                   <Tooltip title="Instagram" arrowPointAtCenter>
                     <a target={"_blank"} href="https://www.instagram.com/" className='reset-a'> 
                       {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
-                      <div class="instagram"></div>
+                      <div className="instagram"></div>
                     </a> 
                   </Tooltip>
                 </Col>

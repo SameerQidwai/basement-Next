@@ -42,7 +42,7 @@ const Introduction = () => {
             <Row></Row>
             <Col xs={24} sm={24} md={12}>
               <a href="https://mylegalbasement.ca/our-process">
-                <button class="lop_mommb">Read More</button>
+                <button className="lop_mommb">Read More</button>
               </a>
             </Col>
           </Col>

@@ -23,91 +23,30 @@ const  Blogs = () => {
         },
     ]
     return (
-        <>
-            <Row className="work-overview blog-wrapper" justify="center" align="top">
-                <Col span={24}>
-                    <Row justify="space-around">
-                        <Col>
-                            <Title className='main-light-title' >Blog</Title>
-                        </Col>
-                    </Row>
-                </Col>
-                <Col span={24}>
-                    <Row justify="space-around">
-                        <Col>
-                            <Divider className="blue-line"/>
-                        </Col>
-                    </Row>
-                </Col>
-                <Col span={24}>
-                    <Row justify="center" gutter={[40, 30]}>
-                        {cards.map((el, key)=>(
-                            <Col key={key} xs={24} sm={12} lg={8} xl={8}>
-                                <Card
-                                    // hoverable
-                                    className="work-card"
-                                    cover={
-                                        <div className="card-Q-cover">
-                                            <img alt={el.img} src={el.img} className="card-Q-image"/>
-                                            <div className="card-Q-overlay">
-                                                <div className="card-Q-text">
-                                                    <Row justify='center'  gutter={16} align="middle">
-                                                        <Col>
-                                                            <Avatar
-                                                                className='service-avatar'
-                                                                size={48.19} 
-                                                                icon={<LinkOutlined />}
-                                                            />
-                                                        </Col>
-                                                        <Col>
-                                                            <Avatar 
-                                                                className='service-avatar'
-                                                                size={48.19} 
-                                                                icon={<SearchOutlined />}
-                                                            />
-                                                        </Col>
-                                                    </Row>
-                                                    <Row >
-                                                        <Col span={24}>
-                                                            <Title level={4} >{el.title}</Title>
-                                                        </Col>
-                                                    </Row> 
-                                                    <Row justify="center">
-                                                        <Col><Text >{el.type}</Text></Col>
-                                                    </Row> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    }
-                                >
-                                    <Meta className='title-no-wrap' title={<a>{el.title}</a>} description={el.date} />
-                                    <Divider />
-                                    <Paragraph 
-                                        className='lh-2_27'
-                                        // ellipsis={{ 
-                                        //     rows: 2, 
-                                        //     expandable: false, 
-                                        //     tooltip: el.description 
-                                        // }}
-                                    >
-                                        {el.description}
-                                    </Paragraph>
-                                </Card>
+        <Row>
+            <Col span={24} className="blog-wrapper">
+                <div className='blog-overlay'></div>
+                <Row className='wrapper' gutter={[10,20]}>
+                    <Col md={8} sm={8} xs={24} classname="more">
+                        <h6><span>OUR</span> BLOG</h6>
+                        <h5>
+                            We are delighted to have our work acknowledged in the media. Take a look at some of the publications we have featured in recently.
+                        </h5>
+                        <Row justify='center'>
+                            <Col>
+                                <Button className="round" href="https://mylegalbasement.ca/blog/">VIEW MORE</Button>
                             </Col>
-                        ))}
-                    </Row>
-                </Col>
-                <Divider  plain={true} className="btn-divider">
-                    <Button 
-                        type="text" 
-                        className="projectBtn"
-                    > 
-                        VIEW MORE ARTICLES
-                    </Button>
-                </Divider>
-                            
-            </Row>
-        </>
+                        </Row>
+                    </Col>
+                    <Col md={8} sm={8} xs={24}>
+
+                    </Col>
+                    <Col md={8} sm={8} xs={24}>
+
+                    </Col>
+                </Row>
+            </Col>
+        </Row>
     )
 }
 
