@@ -10,10 +10,10 @@ const SlideCarousel = () => {
     <Carousel
       className="carousel-slider"
       effect="fade"
-      autoplay
+      // autoplay
       autoplaySpeed={2000}
       // accessibility
-      arrows
+      // arrows
       lazyLoad="ondemand"
       beforeChange={(from, to) => {
         setSlideNumber(to);
@@ -23,13 +23,13 @@ const SlideCarousel = () => {
         <img
           src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban.jpg"
           alt=""
-          className="carousel-image"
+          className="carousel-img"
         />
         <div className="carousel-overlay"></div>
         {slideNumber === 0 && (
           <div className="carousel-container">
             <div className="carousel-inner-content">
-              <Row gutter={[0, 10]}>
+              <Row  gutter={[16, 16]} justify="center" align="middle">
                 <Col
                   span={24}
                   data-animation="animated zoomInRight"
@@ -58,7 +58,7 @@ const SlideCarousel = () => {
                 <Col span={24}>
                   <Row
                     data-animation="animated fadeInLeft"
-                    className="animated fadeInLeft"
+                    className="animated fadeInLeft delay-1_1"
                   >
                     <Col>
                       <Paragraph className="carousel-p">
@@ -72,7 +72,7 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[25]}>
+                    <Row align="middle" gutter={[24,25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
@@ -101,7 +101,7 @@ const SlideCarousel = () => {
         <img
           src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban2.jpg"
           alt=""
-          className="carousel-image"
+          className="carousel-img"
         />
         <div className="carousel-overlay"></div>
         {slideNumber === 1 && (
@@ -136,7 +136,7 @@ const SlideCarousel = () => {
                 <Col span={24}>
                   <Row
                     data-animation="animated fadeInLeft"
-                    className="animated fadeInLeft"
+                    className="animated fadeInLeft  delay-1_1"
                   >
                     <Col>
                       <Paragraph className="carousel-p">
@@ -151,7 +151,7 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[25]}>
+                    <Row align="middle" gutter={[24,25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
@@ -180,7 +180,7 @@ const SlideCarousel = () => {
         <img
           src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban3.jpg"
           alt=""
-          className="carousel-image"
+          className="carousel-img"
         />
         <div className="carousel-overlay"></div>
         {slideNumber === 2 && (
@@ -215,7 +215,7 @@ const SlideCarousel = () => {
                 <Col span={24}>
                   <Row
                     data-animation="animated fadeInLeft"
-                    className="animated fadeInLeft"
+                    className="animated fadeInLeft  delay-1_1"
                   >
                     <Col>
                       <Paragraph className="carousel-p">
@@ -230,7 +230,7 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[25]}>
+                    <Row align="middle" gutter={[24,25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
@@ -259,7 +259,7 @@ const SlideCarousel = () => {
         <img
           src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban4.jpg"
           alt=""
-          className="carousel-image"
+          className="carousel-img"
         />
         <div className="carousel-overlay"></div>
         {slideNumber === 3 && (
@@ -294,7 +294,7 @@ const SlideCarousel = () => {
                 <Col span={24}>
                   <Row
                     data-animation="animated fadeInLeft"
-                    className="animated fadeInLeft"
+                    className="animated fadeInLeft  delay-1_1"
                   >
                     <Col>
                       <Paragraph className="carousel-p">
@@ -309,7 +309,7 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[25]}>
+                    <Row align="middle" gutter={[24,25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"

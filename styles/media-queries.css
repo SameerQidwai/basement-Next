@@ -1,0 +1,73 @@
+@media only screen and (max-width:479px)  { 
+    h1.ant-typography.carousel-title {
+        font-size: 1.5em;
+        margin-top: 0.2em;
+    }
+    h2.ant-typography.carousel-title {
+        font-size: 2.5em;
+    }
+    div.ant-typography.carousel-p {
+        font-size: 0.9em;
+        margin-top: 0.2em;
+        margin-bottom: 0.4em;
+        line-height: 1.1em;
+    }
+    .carousel-img{
+        margin: auto;
+        width: 100% !important;
+        opacity: 0.5;
+        height: 400px !important;
+        object-fit: cover;
+        object-position: center;
+    }
+} 
+@media only screen and (min-width:480px) and (max-width:767px)  { 
+    .carousel-img{
+        margin: auto;
+        width: 100% !important;
+        opacity: 0.5;
+        height: 500px !important;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carousel-container {
+        width: 750px;
+    }
+    h1.ant-typography.carousel-title {
+        font-size: 2em;
+        margin-top: 0.5em;
+    }
+    h2.ant-typography.carousel-title {
+        font-size: 3em;
+    }
+    div.ant-typography.carousel-p {
+        font-size: 0.9em;
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        line-height: 1.2em;
+    }
+} 
+@media only screen and (min-width:768px) and (max-width:991px)  { 
+    .carousel-container {
+        width: 970px;
+    }
+    h1.ant-typography.carousel-title {
+        font-size: 2.5em;
+        margin-top: 0.8em;
+    }
+    h2.ant-typography.carousel-title {
+        font-size: 3.2em;
+    }
+    div.ant-typography.carousel-p {
+        font-size: 1.1em;
+        margin-top: 0.9em;
+        margin-bottom: 1em;
+        line-height: 1.3em;
+    }
+} 
+/* @media only screen and (min-width:1024px) and (max-width:1899px) { 
+
+} 
+@media only screen and (min-width:1900px) { 
+
+}  */

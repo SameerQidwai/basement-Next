@@ -18,7 +18,7 @@ import "../styles/modal.css";
 import "../styles/general.css";
 import "../styles/team.css";
 import "../styles/choose.css";
-import "../styles/choose.css";
+import "../styles/media-queries.css";
 
 import Layout from "../Component/Basic/PageLayout";
 import EModal from "../Component/Modals/EModal";

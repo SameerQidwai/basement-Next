@@ -62,7 +62,6 @@
     position: absolute;
     text-align: left;
     padding: 10px 36px;
-    padding-right: 440px;
 }
 
 .carousel-heading{
@@ -78,13 +77,14 @@
 
 
 
+/* font-size: 3em; */
 h1.ant-typography.carousel-title {
     /* font-size: 5.454vw !important; */
     color: #ffffff;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     font-size: 64px;
     font-style: normal;
-    margin-top: 20px;
+    margin-top: 20;
     text-align: left;
     width: 100%;
     float: left;
@@ -97,9 +97,9 @@ h1.ant-typography.carousel-title {
 h2.ant-typography.carousel-title {
     color: #ffffff;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
-    font-size: 74px;
+    /* font-size: 74px; */
+    font-size: 3.2em;
     font-style: normal;
-    margin-top: 30px;
     text-align: left;
     width: 100%;
     float: left;
@@ -112,62 +112,22 @@ div.ant-typography.carousel-p {
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     padding: 0;
     color: #ffffff;
-    font-size: 16px;
-    line-height: 29px;
+    font-size: 1.2em;;
+    line-height: 1.45em;
     animation-delay: 1.1s;
     width: 100%;
     text-align: left;
     margin-left: 0;
-    margin-bottom: 23px;
+    margin-bottom: 1.15em;
     font-weight: 400;
-    margin-top: 30px;
-    float: left;
-    padding-right: 130px;
-    
+    margin-top: 1.5px;
+    float: left;    
 }
 
-/* .slide-text > h1 {
-    color: #ffffff;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 64px;
-    font-style: normal;
-    margin-top: 20px;
-    text-align: left;
-    width: 100%;
-    float: left;
-    margin-bottom: 0px;
-    font-weight: 700;
-    text-transform: uppercase;
-} */
-/* .slide-text > h1 {
-    color: #ffffff;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 74px;
-    font-style: normal;
-    margin-top: 30px;
-    text-align: left;
-    width: 100%;
-    float: left;
-    margin-bottom: 0px;
-    font-weight: 400;
-    text-transform: uppercase;
-} */
-/* .slide-text > p {
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding: 0;
-    color: #ffffff;
-    font-size: 16px;
-    line-height: 29px;
+.delay-1_1{
     animation-delay: 1.1s;
-    width: 100%;
-    text-align: left;
-    margin-left: 0;
-    margin-bottom: 23px;
-    font-weight: 400;
-    margin-top: 30px;
-    float: left;
-    padding-right: 130px;
-} */
+}
+
 .carousel-text {
     font-size: calc(38px + (60 - 42) * (24vw - 768px) / (1440 - 768)) !important;
     color: #ffffff;
@@ -191,7 +151,7 @@ div.ant-typography.carousel-p {
 }
 
 .carousel-btn-col{
-    width: auto !important;
+    /* width: auto !important; */
 }
 
 .carousel-btn1{
@@ -204,7 +164,7 @@ div.ant-typography.carousel-p {
     border: #336f94;
 }
 
-@media only screen and (min-width: 1100px) {
+/* @media only screen and (min-width: 1100px) {
     .carousel-title{
         font-size: 60px !important; 
     }
@@ -242,18 +202,61 @@ div.ant-typography.carousel-p {
     }
 }
 
-@media (min-width: 1200px){
+@media only screen and (min-width: 1200px){
     .carousel-container {
         width: 1170px;
     }
+    
 }
-@media (min-width: 992px){
+@media only screen and (min-width: 992px){
     .carousel-container {
         width: 970px;
     }
+    h1.ant-typography.carousel-title {
+        font-size: 2.5em;
+        margin-top: 0.8em;
+    }
+    h2.ant-typography.carousel-title {
+        font-size: 3.2em;
+    }
+    div.ant-typography.carousel-p {
+        font-size: 1.1em;
+        margin-top: 0.9em;
+        margin-bottom: 1em;
+        line-height: 1.3em;
+    }
 }
-@media (min-width: 768px){
+@media only screen and (min-width: 768px){
     .carousel-container {
         width: 750px;
     }
+    h1.ant-typography.carousel-title {
+        font-size: 2em;
+        margin-top: 0.5em;
+    }
+    h2.ant-typography.carousel-title {
+        font-size: 3em;
+    }
+    div.ant-typography.carousel-p {
+        font-size: 0.9em;
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        line-height: 1.2em;
+    }
 }
+
+@media only screen and (max-width: 480px) {
+    h1.ant-typography.carousel-title {
+        font-size: 1.5em;
+        margin-top: 0.2em;
+    }
+    h2.ant-typography.carousel-title {
+        font-size: 2.5em;
+    }
+    div.ant-typography.carousel-p {
+        font-size: 0.9em;
+        margin-top: 0.2em;
+        margin-bottom: 0.4em;
+        line-height: 1.1em;
+    }
+} */
