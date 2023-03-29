@@ -246,7 +246,21 @@ div.ant-divider.blue-line {
   color: #333333 !important;
   text-align: center;
 }
-
+h1.ant-typography span {
+  font-weight: 700;
+}
+h2.ant-typography span {
+  font-weight: 700;
+}
+h3.ant-typography span {
+  font-weight: 700;
+}
+h4.ant-typography span {
+  font-weight: 700;
+}
+h5.ant-typography span {
+  font-weight: 700;
+}
 
 .back-top{
   height: 35px;

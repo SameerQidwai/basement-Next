@@ -30,14 +30,14 @@ const  Blogs = () => {
                     <Col md={7} sm={7} xs={23} className="more">
                         <Row>
                             <Col span={24}>
-                        <h6><span>OUR</span> BLOG</h6>
+                                <Title level={4}><span>OUR</span> BLOG</Title>
                             </Col>
                         </Row>
                         <Row>
                             <Col span={24}>
-                            <h5>
+                            <Title level={5}>
                             We are delighted to have our work acknowledged in the media. Take a look at some of the publications we have featured in recently.
-                        </h5>
+                        </Title>
                             </Col>
                         </Row>
                         <Row justify='center'>

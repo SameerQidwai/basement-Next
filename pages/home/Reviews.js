@@ -12,16 +12,17 @@ const Reviews = () => {
   return (
     <Row>
       <Col span={24} className="reviews-content">
+        <div className="reviews-overlay"></div>
         <Row justify="center" align="middle" gutter={[0, 15]}>
-          <Col span={18}>
+          <Col span={22}>
             <Row justify="space-around">
               <Col>
-                <Text>What Our Clients Say</Text>
+                <Title level={3} className="review-title">What Our Clients Say</Title>
               </Col>
             </Row>
             <Row justify="space-around">
               <Col>
-                <Title level={4}> OUR TESTIMONIAL</Title>
+                <Title level={2} className="reviews-testimonials"> OUR TESTIMONIAL</Title>
               </Col>
             </Row>
           </Col>

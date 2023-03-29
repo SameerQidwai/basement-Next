@@ -33,7 +33,22 @@
     float: left;
     padding-right: 22px;
 }
-/* deprecated */
+.lop_mommb {
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    width: auto;
+    margin-top: 30px;
+    font-weight: 600;
+    float: left;
+    margin-bottom: 0px;
+    background-color: #28427b;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+}
 
 .welcome{
     width: 100%;
@@ -58,15 +73,8 @@
     object-fit: cover;
     object-position: center;
 }
+
 /* 
-h2.welcome-title{
-    color: #ffffff;
-    letter-spacing: 1px;
-    line-height: 1.31;
-    font-weight: 300;
-    text-align: center;
-    font-size: calc(38px + (60 - 42) * (49.2vw - 768px) / (1440 - 768)) !important;
-}    
 
 
 .welcome-btn{

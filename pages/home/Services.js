@@ -78,14 +78,13 @@ const Services = () => {
     <Row>
       <Col span={24}>
         <Row justify="center">
-          <Col span={18} className="txt-center">
-            <Title level={1}>
-              {' '}
+          <Col span={20} className="txt-center">
+            <Title level={5} className="service-title">
               <span>OUR</span> SERVICES
             </Title>
           </Col>
-          <Col span={18} className="txt-center">
-            <Text>
+          <Col span={20} className="txt-center">
+            <Text className='service-txt'>
               As one of the leaders in residential construction, we offer a full
               design and build service.
             </Text>

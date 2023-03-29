@@ -48,6 +48,11 @@
   color: #747474;
 }
 
+.ant-layout-footer.page-footer-news-letter {
+  padding: 0px 0px;
+  background-color: transparent
+}
+
 .ant-layout-footer.page-footer-bottom {
   padding: 0px 0px;
   background-color: #1e1e1e

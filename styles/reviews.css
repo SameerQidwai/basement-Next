@@ -26,7 +26,37 @@
     background-position: center;
     
 }
-
+.reviews-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-image: linear-gradient(to top,#d69e5a,#e8c090); */
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+h3.ant-typography.review-title{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    font-family: 'IBM Plex Sans',  'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 19px;
+}
+h2.ant-typography.reviews-testimonials{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Barlow Condensed',  'Poppins', sans-serif;
+    text-transform: uppercase;
+}
 
 /* .reviews-content{
     max-width: 100%;

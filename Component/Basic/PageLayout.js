@@ -5,6 +5,7 @@ import HeaderLogo from './Headers/HeaderLogo'
 import NavHeader from './Headers/NavHeader'
 import WidgetFooter from './Footers/WidgetFooter'
 import BottomFooter from './Footers/BottomFooter'
+import NewsLetter from './Footers/NewsLetter'
 
 const {Content, Footer} = Layout
 
@@ -19,6 +20,9 @@ export default function PageLayout({ children, openContact }) {
             <main>{children}</main>
             {/* <main>{children}</main> */}
         </Content>
+        <Footer className='page-footer-news-letter' >
+          <NewsLetter/>
+        </Footer>
         <Footer className='page-footer-widget' >
           <WidgetFooter/>
         </Footer>
