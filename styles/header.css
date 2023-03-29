@@ -32,35 +32,25 @@
   box-shadow: 7px 3px 14px 4px #101010;
   position: relative;
   z-index: 99;
+  height: 30px;
 }
 .header-basment-btn{
     /* font-family: 'Barlow Condensed', sans-serif; */
-    font-size: 34px;
+    font-size: 14px;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 300;
     float: none;
     /* width: auto; */
     text-align: left;
     margin-bottom: 0px;
     margin-top: -3px;
-    padding-left: 108px;
+    padding-left: 30px;
     background-color: #28427b;
     border: none;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
     line-height: 24px;
-    height: 86px;
+    /* height: 86px; */
 }
-
-.header-basment-btn::after{
-  content: "";
-  position: absolute;
-  background: url(/phone-icone.png) no-repeat;
-  width: 47px;
-  height: 58px;
-  left: 47px;
-  top: 11px;
-}
-
 .fb-icon {
   color: #3b5998;
   background-color: #ffffff;

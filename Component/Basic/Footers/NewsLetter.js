@@ -8,15 +8,15 @@ const NewsLetter = () => {
         <Row>
             <Col className="news-letter-background">
                 <Row justify='center' >
-                    <Col span={10} className="txt-center"><h3>Subscribe To Our Newsletter​</h3></Col>
+                    <Col xs={20} sm={18} md={16} lg={12} className="txt-center"><h3>Subscribe To Our Newsletter​</h3></Col>
                 </Row>
                 <Row justify='center'>
                     <Col><p>Join to get special offers</p></Col>
                 </Row>
                 <Row justify='center'>
-                    <Col span={10} >
-                        <Row justify='center' align="stretch" gutter={10}>
-                            <Col span={9}>
+                    <Col xs={20} sm={16} md={14} lg={12} >
+                        <Row justify='center' align="stretch" gutter={[10,10]}>
+                            <Col xs={20} sm={16} md={14} lg={12}>
                                 <Input size="large" placeholder='your-email@example.com'/>
                             </Col>
                             <Col>

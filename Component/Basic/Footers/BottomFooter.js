@@ -1,13 +1,6 @@
 import React from 'react';
 import { Col, Divider, Row, Tooltip, Typography } from 'antd';
-import {
-  LinkedinOutlined,
-  InstagramOutlined,
-  TwitterOutlined,
-  FacebookOutlined,
-  FacebookFilled,
-  TwitterSquareFilled,
-} from '@ant-design/icons';
+import { FacebookFilled, TwitterSquareFilled, } from '@ant-design/icons';
 
 const { Text } = Typography;
 

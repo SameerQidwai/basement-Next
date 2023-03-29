@@ -51,7 +51,7 @@ const  Blogs = () => {
                     <Col lg={7} md={8} sm={23} xs={23}>
                         <Row >
                             <Col span={24}> 
-                                <img class="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/>
+                                <img className="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/>
                             </Col>
                             <Col>
                                 <Title level={3}className="blog-date"> DATE : FEBRUARY 28, 2023</Title>
@@ -64,7 +64,7 @@ const  Blogs = () => {
                     </Col>
                     <Col lg={7} md={8} sm={23} xs={23}>
                         <Row >
-                            <Col span={24}> <img class="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/></Col>
+                            <Col span={24}> <img className="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/></Col>
                             <Col>
                                 <Title level={3}className="blog-date"> DATE : JANUARY 18, 2023</Title>
                                 <Title level={2}className="blog-title" >2023 basement ideas</Title> 
