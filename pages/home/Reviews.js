@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Col, Row, Typography, Carousel, Divider } from 'antd';
+import { Col, Row, Typography, Carousel, Divider, Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import { useWindowDimensions } from '../../Component/useFunction';
 
@@ -41,8 +41,12 @@ const Reviews = () => {
             >
               <div>
                 <Row justify="space-around">
-                  <Col>
-                    <UserOutlined />
+                  <Col className='mb-30'>
+                    {/* <UserOutlined /> */}
+                    <Avatar 
+                      size={{lg:100, md:80, sm:80, xs:80}} 
+                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                    />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
@@ -65,9 +69,11 @@ const Reviews = () => {
               </div>
               <div>
                 <Row justify="space-around">
-                  <Col>
-                    <UserOutlined />
-                  </Col>
+                  <Col className='mb-30'>
+                    <Avatar 
+                      size={{lg:100, md:80, sm:80, xs:80}} 
+                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                    />                  </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
                   <Col xs={24} sm={21} md={18} lg={15}>
@@ -90,8 +96,11 @@ const Reviews = () => {
               </div>
               <div>
                 <Row justify="space-around">
-                  <Col>
-                    <UserOutlined />
+                  <Col className='mb-30'>
+                    <Avatar 
+                      size={{lg:100, md:80, sm:80, xs:80}} 
+                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                    />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
@@ -118,8 +127,11 @@ const Reviews = () => {
               </div>
               <div>
                 <Row justify="space-around">
-                  <Col>
-                    <UserOutlined />
+                  <Col className='mb-30'>
+                    <Avatar 
+                      size={{lg:100, md:80, sm:80, xs:80}} 
+                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                    />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>

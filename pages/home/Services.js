@@ -78,8 +78,8 @@ const Services = () => {
     <Row>
       <Col span={24}>
         <Row justify="center">
-          <Col span={20} className="txt-center">
-            <Title level={5} className="service-title">
+          <Col span={24} className="txt-center">
+            <Title level={3} className="service-title">
               <span>OUR</span> SERVICES
             </Title>
           </Col>
@@ -343,7 +343,7 @@ const Services = () => {
                             </Row>
                             <Row>
                                 <Col span={24}>
-                                <Title level={4}>{cards[3].title}</Title>
+                                  <Title level={4}>{cards[3].title}</Title>
                                 </Col>
                             </Row>
                             <Row justify="center">
@@ -356,7 +356,7 @@ const Services = () => {
                         </div>
                         <Row>
                             <Col span={24}>
-                                <Title level={4} className="card-title">{cards[3].title}</Title>
+                                <Title level={4} className="card-title" style={{fontSize: '16px'}}>{cards[3].title}</Title>
                             </Col>
                             <Col span={24} className="txt-center">
                                 <Text className="card-type"> {cards[3].type} </Text>

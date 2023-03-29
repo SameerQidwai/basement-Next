@@ -8,25 +8,25 @@ const Choose = () => {
   return (
     <Row>
       <Col span={24} className="choose">
-        <Row className="choose-container" justify="center">
+        <Row className="choose-container" justify="center" align="stretch">
           <Col xs={24} sm={24} md={24} className="txt-center">
-            <Title level={2}>Why CHOOSE US?</Title>
+            <Title level={2} className="choose-title">Why CHOOSE US?</Title>
           </Col>
           <Col xs={24} sm={24} md={24} className="txt-center">
             <Row justify="center">
-              <Col xs={18} sm={18} md={18}>
-                <Text>
+              <Col xs={22} sm={22} md={22}>
+                <Title level={5} className="choose-text">
                   Any individual who is looking for home renovation or
                   remodelling. Legal Basements is our speciality. Call us today
                   and bring our project management skills and extensive
                   construction experience to your next project.
-                </Text>
+                </Title>
               </Col>
             </Row>
           </Col>
           <Col xs={24} sm={24} md={24} style={{ padding: '10px' }}>
-            <Row gutter={30} justify="space-around" align="bottom">
-              <Col xs={24} sm={8} md={8}>
+            <Row gutter={[10,30]} justify="space-around" align="stretch">
+              <Col xs={24} sm={24} md={7}   className="choose-col">
                 <Card className="choose-card">
                   <Row>
                     <Col sm={24} xs={24}>
@@ -49,7 +49,7 @@ const Choose = () => {
                   </Row>
                 </Card>
               </Col>
-              <Col xs={24} sm={8} md={8}>
+              <Col xs={24} sm={24} md={7}  className="choose-col">
                 <Card className="choose-card">
                   <Row>
                     <Col sm={24} xs={24}>
@@ -72,7 +72,7 @@ const Choose = () => {
                   </Row>
                 </Card>
               </Col>
-              <Col xs={24} sm={8} md={8}>
+              <Col xs={24} sm={24} md={7}  className="choose-col">
                 <Card className="choose-card">
                   <Row>
                     <Col sm={24} xs={24}>

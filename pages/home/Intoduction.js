@@ -9,14 +9,14 @@ const Introduction = () => {
     <Row>
       <Col span={24} className="intro">
         <Row className="intro-container">
-          <Col xs={24} sm={24} md={12}>
+          <Col xs={24} sm={24} md={24} lg={12}>
             <img
               style={{ width: '91%' }}
               src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/about_pic.png"
               alt=""
             />
           </Col>
-          <Col xs={24} sm={24} md={12}>
+          <Col xs={24} sm={24} md={24} lg={12}>
             <h3>Who WE ARE?</h3>
             <p>
               <strong>

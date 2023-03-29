@@ -7,7 +7,7 @@
     padding: 0px 0px 80px;
 }
 
-h5.ant-typography.service-title {
+h3.ant-typography.service-title {
     color: #131010;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     font-size: 59px;
@@ -169,19 +169,3 @@ span.ant-typography.service-txt {
     }
 }
 
-@media only screen and (max-width: 992px) {
-    .service{
-        padding-left: 10%;
-        padding-top: 2%;
-    }
-    
-    .service-list{
-        padding-left: 12%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-    .service-title{
-        font-size: 30px !important;
-    }
-    
-}

@@ -13,6 +13,24 @@
         margin-bottom: 0.4em;
         line-height: 1.1em;
     }
+    h1.welcome-title{
+        font-size: 27px;
+        margin-top: 14px;
+        line-height: 43px;
+    }
+    h2.choose-title{
+        font-size: 37px;
+        margin-bottom: 22px;
+    }
+    h1.conact-for-basment-renovation{
+        font-size: 29px;
+        margin-top: 4px;
+        line-height: 44px;
+    }
+    h1.legal-title{
+        font-size: 30px;
+        margin-bottom: 5px;    
+    }
     .carousel-img{
         margin: auto;
         width: 100% !important;
@@ -41,6 +59,11 @@
     h2.ant-typography.carousel-title {
         /* font-size: 2em; chat gpt */
         font-size: 3em;
+    }
+    h1.conact-for-basment-renovation{
+        font-size: 35px;
+        margin-top: 4px;
+        line-height: 44px;
     }
     div.ant-typography.carousel-p {
         font-size: 0.9em;
@@ -81,3 +104,5 @@
 @media only screen and (min-width:1900px) { 
 
 }  */
+
+

@@ -35,8 +35,8 @@ const Appointment = () => {
           justify="center"
         >
           <Col xs={24} sm={24} md={9} className="appointment-legal">
-            <Title level={1}>LEGAL BASEMENT</Title>
-            <Title level={5}>
+            <Title level={1} className="legal-title">LEGAL BASEMENT</Title>
+            <Title level={5} className="legal-text">
               Whether its a legal basement second dwelling unit or a kitchen
               remodel or a complete teardown we provide all these services under
               one roof. Starting from the planning phase till the final move in
@@ -45,19 +45,25 @@ const Appointment = () => {
               experience in this industry, we know how to stay on time and
               budget to create maximum value for our clients.
             </Title>
-
+            <a href={'/service-pricing'}>
             <Button
-              // xs={24}
-              // sm={24}
-              ghost
-              // shape="round"
-              href={'/service-pricing'}
-              type="ghost"
-            >
-              VIEW MORE
-            </Button>
+                // xs={24}
+                // sm={24}
+                size='large'
+                ghost
+                // shape="round"
+                href={'/service-pricing'}
+                type="ghost"
+              >
+                VIEW MORE
+              </Button>
+             </a>
+            
           </Col>
           <Col xs={24} sm={24} md={14}>
+            <Title level={5} className="appointment-sub-title">We are ready to help build your dreams</Title>
+            <Title level={1} className="appointment-title">Get In Touch</Title>
+
             <Form
               id={'my-form'}
               onFinish={onFinish}
@@ -69,11 +75,16 @@ const Appointment = () => {
               validateTrigger="onSubmit"
             >
               <Row gutter={[0, 25]}>
-                <Col span={24}>
+                {/* <Col span={24}>
                   <Form.Item noStyle>
-                    <Text>We are ready to help build your dreams</Text>
+                    <Title level={5} className="appointment-sub-title">We are ready to help build your dreams</Title>
                   </Form.Item>
                 </Col>
+                <Col span={24}>
+                  <Form.Item noStyle>
+                    <Title level={1} className="appointment-title">Get In Touch</Title>
+                  </Form.Item>
+                </Col> */}
                 <Col sm={24} md={12}>
                   <Form.Item
                     name="Fname"

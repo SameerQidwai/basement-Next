@@ -11,12 +11,35 @@
     margin-right: auto;
     margin-left: auto;
 }
-.choose-card{
-    background-color: #f6f6f6;
-    /* padding: 30px; */
+h2.choose-title{
+    font-family: 'Barlow Condensed', 'Poppins';
+    font-size: 55px;
+    color: #414141;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+h5.choose-text{
+    font-family: 'IBM Plex Sans', 'Poppins' sans-serif;
+    font-size: 15px;
+    color: #414141;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+.choose-col{
     box-shadow: 7px 9px 10px -7px #bcbcbc;
     z-index: 10;
-    /* margin-top: 30px; */
+    background-color: #f6f6f6;
+}
+.choose-card{
+    background-color: #f6f6f6;
 }
 .choose-number{
     color: #ffffff;
@@ -48,7 +71,7 @@
     padding-top: 40px;
     padding-bottom: 60px;
 }
-h1.ant-typography.conact-for-basment-renovation{
+h1.conact-for-basment-renovation{
     color: #ffffff;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     font-size: 55px;
@@ -64,7 +87,8 @@ h1.ant-typography.conact-for-basment-renovation{
 .conact-area-btn{
     font-weight: 600;
     padding: 21px 53px !important;
-    border-width: 3px ;
+    border-width: 3px;
+    height: auto !important ;
     text-transform: uppercase;
     font-size: 18px;
 }
@@ -82,7 +106,50 @@ h1.ant-typography.conact-for-basment-renovation{
     border: 2px solid #ffffff;
     padding: 55px 21px;
 }
-
+h1.legal-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    color: #ffffff;
+    word-wrap: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+h5.legal-text{
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 9px;
+    line-height: 32px;
+}
+h5.appointment-sub-title{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    width: 100%;
+    margin-top: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+    
+}
+h1.appointment-title{
+    
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 49px;
+    width: 100%;
+    margin-top: 8px !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    line-height: 49px;
+}
 .municipal-container{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -180,6 +247,27 @@ h1.ant-typography.conact-for-basment-renovation{
     border-radius: 0px;
     width: auto;
     text-transform: uppercase;
+}
+
+h3.ant-typography.blog-date{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 19px;
+    text-transform: uppercase
+}
+h2.ant-typography.blog-title{
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    min-height: 90px;
 }
 
 .smblog_picture{

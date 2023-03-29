@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row, Typography, Button, Divider, Card, Avatar } from 'antd'
-import { LinkOutlined, SearchOutlined } from '@ant-design/icons';
+import { LinkOutlined, RightCircleOutlined, SearchOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
 const {Title , Text, Paragraph} = Typography
@@ -27,7 +27,7 @@ const  Blogs = () => {
             <Col span={24} className="blog-wrapper">
                 <div className='blog-overlay'></div>
                 <Row className='wrapper row-margin-null' gutter={[20,20]} justify="space-around" >
-                    <Col md={7} sm={7} xs={23} className="more">
+                    <Col lg={7} md={8} sm={23} xs={23} className="more">
                         <Row>
                             <Col span={24}>
                                 <Title level={4}><span>OUR</span> BLOG</Title>
@@ -48,38 +48,29 @@ const  Blogs = () => {
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={7} sm={7} xs={23}>
+                    <Col lg={7} md={8} sm={23} xs={23}>
                         <Row >
                             <Col span={24}> 
                                 <img class="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/>
                             </Col>
                             <Col>
-                                <Text> DATE : FEBRUARY 28, 2023</Text>
-                                <Title level={4}>Steps To Get a Legal Basement Apartment</Title>
-                            </Col>
-                        </Row>
-                        <Row gutter={[20,40]}>
-                            <Col>
-                                <Row gutter={[20,20]}>
-                                    
-                                </Row>
-                            </Col>
-                            <Col>
-                                <Row>
-                                    <Col>
-                                        <a>Read More</a>
-                                    </Col>
-                                </Row>
+                                <Title level={3}className="blog-date"> DATE : FEBRUARY 28, 2023</Title>
+                                <Title level={2}className="blog-title">Steps To Get a Legal Basement Apartment</Title>
+                                <a>
+                                    <Button size="small" type="link"> READ MORE <RightCircleOutlined /></Button>
+                                </a>
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={7} sm={7} xs={23}>
+                    <Col lg={7} md={8} sm={23} xs={23}>
                         <Row >
                             <Col span={24}> <img class="smblog_picture" src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg" alt="Legal Basement Apartment"/></Col>
                             <Col>
-                                <Text> DATE : JANUARY 18, 2023</Text>
-                                <Title level={4}>2023 basement ideas</Title> 
-                                <a>READ MORE</a>
+                                <Title level={3}className="blog-date"> DATE : JANUARY 18, 2023</Title>
+                                <Title level={2}className="blog-title" >2023 basement ideas</Title> 
+                                <a>
+                                    <Button size="small" type="link"> READ MORE <RightCircleOutlined /></Button>
+                                </a>
                             </Col>
                         </Row>
                         

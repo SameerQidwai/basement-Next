@@ -8,13 +8,17 @@ const Header1 = (props) =>{
     return (
       <Header style={styles.header}>
         <div>
-          <Row className="hedear-basement-1" align="middle">
-            <Col  xs={24} sm={8} md={8}>
+          <Row className="hedear-basement-1" align="stretch" justify="space-between">
+            <Col xs={24} sm={10} md={10}>
+            
               <a href="https://mylegalbasement.ca/">
                 <img className="header_logo" src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/logo.png" alt=""/>
               </a>
             </Col>
-            <Col xs={24} sm={8} md={10}>
+            <Col>
+            <Row justify="end" align="middle">
+            <Col >
+            {/* xs={24} sm={8} md={10} */}
               <Row gutter={[16]} justify="end" align="middle">
                 <Col>
                   <Tooltip title="Facebook" arrowPointAtCenter>
@@ -41,8 +45,8 @@ const Header1 = (props) =>{
               </Row>
 
             </Col>
-
-            <Col xs={24} sm={8} md={6}>
+            <Col >
+            {/* xs={24} sm={8} md={6} */}
               <Button 
                 type="primary" 
                 size='large'
@@ -54,6 +58,8 @@ const Header1 = (props) =>{
                 <br/>
                 <span> 647 218 9786</span>
               </Button>
+            </Col>
+            </Row>
             </Col>
           </Row>
         </div>

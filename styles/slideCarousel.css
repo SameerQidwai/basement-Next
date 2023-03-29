@@ -3,6 +3,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
+    margin-top: -70px;
     
 }
 .carousel-slider:hover{
