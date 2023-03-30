@@ -65,7 +65,7 @@
     border: none;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
     line-height: 24px;
-    height: 86px;
+    height: 97px;
 }
 
 .header-basment-btn::after{
@@ -153,7 +153,7 @@
 .instagram::before{
     border: 0.05em solid;
     width: 65%;
-  }
+}
 .instagram::after{
     border-radius: 50%;
     border: 0.05em solid;
