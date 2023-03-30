@@ -14,15 +14,15 @@ const {Content, Footer} = Layout
 export default function PageLayout({ children, openContact }) {
   return (
       <Layout className="overflowX-hidden">
-        <MobileHeader1 openModal={openContact} />
-        <MobileNavHeader/>
-        {/* <div className="mobile-headers">
+        <div className="mobile-headers">
+          <MobileHeader1 openModal={openContact} />
+          <MobileNavHeader/>
         </div>
-        <div className='desktop-headers'> */}
-          {/* <Header1/> */}
+        <div className='desktop-headers'>
+          <Header1/>
           {/* <HeaderLogo openModal={openContact}/> */}
-          {/* <NavHeader openModal={openContact} /> */}
-        {/* </div> */}
+          <NavHeader openModal={openContact} />
+        </div>
         <Content style={{backgroundColor: '#ffff'}}>
           
             <main>{children}</main>
