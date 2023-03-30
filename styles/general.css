@@ -144,7 +144,9 @@
 .bg-fed{
     background-color: #fed03d !important;
 }
-
+.c-ff{
+    color: #ffffff;
+}
 .c-33{
     color: #333333  !important;
 }

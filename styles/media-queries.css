@@ -37,6 +37,9 @@
         font-size: 37px;
         margin-bottom: 22px;
     }
+    h2.ant-typography.services-title{
+        font-size: 20px;
+    }
     h1.conact-for-basment-renovation{
         font-size: 29px;
         margin-top: 4px;
@@ -76,6 +79,7 @@
     .carousel-container {
         width: 750px;
     }
+   
     h1.ant-typography.carousel-title {
         font-size: 2em;
         margin-top: 0.5em;
@@ -107,6 +111,9 @@
     h2.ant-typography.carousel-title {
         font-size: 3.2em;
         /* font-size: 2.4em; chat gpt */
+    }
+    h2.ant-typography.services-title{
+        font-size: 25px;
     }
     div.ant-typography.carousel-p {
         font-size: 1.1em;

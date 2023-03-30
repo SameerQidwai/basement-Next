@@ -40,19 +40,19 @@ const NavHeader = (props) =>{
                             Home
                         </Menu.Item>
                         <Menu.Item key="/our-services" onClick={() => router.push('/our-services')}>
-                            Our services
+                            Our Services
                         </Menu.Item>
                         <Menu.Item key="/our-projects"  onClick={() => router.push('/our-projects')}>
                             Our Projects
                         </Menu.Item>
                         <Menu.Item key="/services-pricing"  onClick={() => router.push('/services-pricing')}>
-                            services pricing
+                            Services Areas
                         </Menu.Item>
                         <Menu.Item key="/blog"  onClick={() => router.push('/blog')}>
                             Blog
                         </Menu.Item>
                         <Menu.Item key="/careers"  onClick={() => router.push('/careers')}>
-                            careers
+                            Careers
                         </Menu.Item>
                         <Menu.Item key="/contact-us"  onClick={() => router.push('/contact-us')}>
                             Contact us

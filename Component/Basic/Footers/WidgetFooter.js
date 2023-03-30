@@ -43,9 +43,6 @@ const WidgetFooter = () => {
                         <Text>OUR PROJECTS</Text>
                     </Col>
                     <Col span={24}>
-                        <Text>FINANCING</Text>
-                    </Col>
-                    <Col span={24}>
                         <Text>CAREERS</Text>
                     </Col>
                     <Col span={24}>

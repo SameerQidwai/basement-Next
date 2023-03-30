@@ -11,8 +11,8 @@ const Introduction = () => {
         <Row className="intro-container">
           <Col xs={24} sm={24} md={24} lg={12}>
             <img
-              style={{ width: '91%' }}
-              src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/about_pic.png"
+              style={{ width: '91%', height: '91%' }}
+              src="/basement-renovation-into-pic.png"
               alt=""
             />
           </Col>

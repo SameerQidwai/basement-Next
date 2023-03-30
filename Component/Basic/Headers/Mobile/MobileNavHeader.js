@@ -77,7 +77,7 @@ const MobileNavHeader = (props) => {
                   key="/services-pricing"
                   onClick={() => callRoute('/services-pricing')}
                 >
-                  services pricing
+                  Services Areas
                 </Menu.Item>
                 <Menu.Item key="/blog" onClick={() => callRoute('/blog')}>
                   Blog

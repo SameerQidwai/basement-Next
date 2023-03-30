@@ -1,21 +1,58 @@
-.service {
-    padding-left: 8%;
-    padding-top: 3%;
+.services {
+    width: 100%;
+    float: left;
+    background: url(/process-background.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
+.services-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.services-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-image: linear-gradient(to top,#d69e5a,#e8c090); */
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.services-card{
+    box-shadow: 7px 9px 10px -7px #bcbcbc;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 40px
+}
+h3.ant-typography.h3-ff{
+    color: #ffffff;
+}
+h5.ant-typography.services-point{
+    font-size: 14px;
+    font-weight: 500;
 
+}
 .service-row {
     padding: 0px 0px 80px;
 }
 
-h3.ant-typography.service-title {
+h2.ant-typography.services-title {
     color: #131010;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
-    font-size: 59px;
-    text-align: center;
+    font-size: 30px;
     width: 100%;
     margin-top: 0px;
     margin-bottom: 10px;
-    font-weight: 300;
     text-transform: uppercase;
 }
 span.ant-typography.service-txt {
