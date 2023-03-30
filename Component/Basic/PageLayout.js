@@ -7,16 +7,22 @@ import WidgetFooter from './Footers/WidgetFooter'
 import BottomFooter from './Footers/BottomFooter'
 import NewsLetter from './Footers/NewsLetter'
 import MobileHeader1 from './Headers/Mobile/MobileHeader1'
+import MobileNavHeader from './Headers/Mobile/MobileNavHeader'
 
 const {Content, Footer} = Layout
 
 export default function PageLayout({ children, openContact }) {
   return (
       <Layout className="overflowX-hidden">
-        {/* <Header1/> */}
-        <MobileHeader1/>
-        {/* <HeaderLogo openModal={openContact}/> */}
-        <NavHeader openModal={openContact} />
+        <MobileHeader1 openModal={openContact} />
+        <MobileNavHeader/>
+        {/* <div className="mobile-headers">
+        </div>
+        <div className='desktop-headers'> */}
+          {/* <Header1/> */}
+          {/* <HeaderLogo openModal={openContact}/> */}
+          {/* <NavHeader openModal={openContact} /> */}
+        {/* </div> */}
         <Content style={{backgroundColor: '#ffff'}}>
           
             <main>{children}</main>

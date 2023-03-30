@@ -52,6 +52,7 @@ const Header1Dep = (props) =>{
                 </Col>
                 <Col  >
                   <Tooltip title="Contact Now" arrowPointAtCenter>
+                    <a href="tel:+16472189786">
                       <Button  
                         type="primary" 
                         size='large' 
@@ -61,6 +62,7 @@ const Header1Dep = (props) =>{
                       >
                         <span className='fs-14'>Call Us +1 (647) 218-9786</span>
                       </Button>
+                    </a>
                   </Tooltip>
                 </Col>
               </Row>

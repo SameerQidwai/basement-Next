@@ -3,9 +3,7 @@ import { Col, Row, Button, Tooltip, Typography, Layout } from 'antd';
 import {
   FacebookFilled,
   TwitterSquareFilled,
-  InstagramFilled,
-  RedditOutlined,
-  LinkedinOutlined,
+  SolutionOutlined,
   PhoneFilled,
 } from '@ant-design/icons';
 
@@ -16,14 +14,26 @@ const MobileHeader1 = (props) => {
     <Header style={styles.header}>
       <div>
         <Row
-          className="hedear-basement-1"
-          // align="stretch"
+          className="hedear-basement-mobile-1"
+          align="stretch"
           justify="space-between"
         >
-          <Col xs={24} sm={10} md={10}></Col>
           <Col>
+            {/* xs={24} sm={8} md={6} */}
+              <Button
+                type="primary"
+                // size="large"
+                className="header-basment-mobile-btn-left"
+                block
+                onClick={()=>props.openModal()}
+              >
+                <SolutionOutlined />
+                <span>Get A Quote</span>
+              </Button>
+            </Col>
+          <Col className="header-basment-mobile-btn-icons">
             {/* xs={24} sm={8} md={10} */}
-            <Row gutter={[16]} justify="end">
+            <Row gutter={[16]} align="middle" justify="center">
               <Col>
                 <Tooltip title="Facebook" arrowPointAtCenter>
                   <a
@@ -62,16 +72,18 @@ const MobileHeader1 = (props) => {
           </Col>
           <Col>
             {/* xs={24} sm={8} md={6} */}
+            <a href="tel:+16472189786">
             <Button
               type="primary"
               // size="large"
-              className="header-basment-btn"
+              className="header-basment-mobile-btn"
               block
               href="tel:+16472189786"
             >
               <PhoneFilled />
               <span> 647 218 9786</span>
             </Button>
+            </a>
           </Col>
         </Row>
       </div>

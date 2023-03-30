@@ -1,4 +1,19 @@
+@media only screen and (max-width:450px)  { 
+    .header-basment-mobile-btn-icons{
+        display: none
+    }
+}
+
 @media only screen and (max-width:575px)  { 
+    .desktop-headers{
+        display: none;
+    }
+    .mobile-headers{
+        display: block;
+        width: 100%;
+        float: left;
+        background-color: #5e5e5e;
+    }
     h1.ant-typography.carousel-title {
         font-size: 1.5em;
         margin-top: 0.2em;
@@ -40,7 +55,16 @@
         object-position: center;
     }
 } 
-@media only screen and (min-width:576px) and (max-width:767px)  { 
+@media only screen and (min-width:576px) and (max-width:767px)  {
+    .desktop-headers{
+        display: none;
+    }
+    .mobile-headers{
+        display: block;
+        width: 100%;
+        float: left;
+        background-color: #5e5e5e;
+    }
     .carousel-img{
         margin: auto;
         width: 100% !important;

@@ -39,23 +39,9 @@ const NavHeader = (props) =>{
                         <Menu.Item key="/"  onClick={() => router.push('/')}>
                             Home
                         </Menu.Item>
-                        {/* <Menu.Item key="/our-team"  onClick={() => router.push('/our-team')}>
-                            Our Team
-                        </Menu.Item> */}
                         <Menu.Item key="/our-services" onClick={() => router.push('/our-services')}>
                             Our services
                         </Menu.Item>
-                        {/* <Menu.SubMenu key="/our-process" title="Our Process"  onTitleClick={() => router.push('/our-process')}>
-                            <Menu.Item key="/our-process/steps-to-a-successful-build" onClick={() => router.push('/our-process/steps-to-a-successful-build')}>
-                                5 Steps To A Successful Build
-                            </Menu.Item> 
-                            <Menu.Item key="/our-process/fair-and-balanced-contracting" onClick={() => router.push('/our-process/fair-and-balanced-contracting')}>
-                                Fair and Balanced Contracting
-                            </Menu.Item>
-                            <Menu.Item key="/our-process/warranty" onClick={() => router.push('/our-process/warranty')}>
-                                Warranty
-                            </Menu.Item> 
-                        </Menu.SubMenu>*/}
                         <Menu.Item key="/our-projects"  onClick={() => router.push('/our-projects')}>
                             Our Projects
                         </Menu.Item>
@@ -71,9 +57,6 @@ const NavHeader = (props) =>{
                         <Menu.Item key="/contact-us"  onClick={() => router.push('/contact-us')}>
                             Contact us
                         </Menu.Item>
-                        {/* <Menu.Item key="Custom & Design Build" >
-                            Custom & Design Build
-                        </Menu.Item> */}
                         <Menu.Item key="/consulting" onClick={() => router.push('/consulting')}>
                             Consulting
                         </Menu.Item>

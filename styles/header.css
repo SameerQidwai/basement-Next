@@ -1,3 +1,11 @@
+.desktop-headers{
+  display: block;
+  width: 100%;
+}
+.mobile-headers{
+  display:none
+}
+
 /* in use */
 .reset-a, .reset-a:hover, .reset-a:visited, .reset-a:focus, .reset-a:active  {
   text-decoration: none;
@@ -32,9 +40,45 @@
   box-shadow: 7px 3px 14px 4px #101010;
   position: relative;
   z-index: 99;
+}
+.hedear-basement-mobile-1{
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  box-shadow: 7px 3px 14px 4px #101010;
+  position: relative;
+  z-index: 99;
   height: 30px;
 }
 .header-basment-btn{
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 600;
+    float: none;
+    /* width: auto; */
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: -3px;
+    padding-left: 108px;
+    background-color: #28427b;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
+    line-height: 24px;
+    height: 86px;
+}
+
+.header-basment-btn::after{
+  content: "";
+  position: absolute;
+  background: url(/phone-icone.png) no-repeat;
+  width: 47px;
+  height: 58px;
+  left: 47px;
+  top: 11px;
+}
+
+.header-basment-mobile-btn{
     /* font-family: 'Barlow Condensed', sans-serif; */
     font-size: 14px;
     color: #ffffff;
@@ -43,7 +87,7 @@
     /* width: auto; */
     text-align: left;
     margin-bottom: 0px;
-    margin-top: -3px;
+    margin-top: -2px;
     padding-left: 30px;
     background-color: #28427b;
     border: none;
@@ -51,6 +95,25 @@
     line-height: 24px;
     /* height: 86px; */
 }
+.header-basment-mobile-btn-left{
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+    float: none;
+    /* width: auto; */
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: -2px;
+    padding-left: 5px;
+    margin-right: 10px;
+    background-color: #28427b;
+    border: none;
+    clip-path: polygon(100% 0, 87% 100%, 87% 100%, 0 100%, 0 0);
+    line-height: 24px;
+    /* height: 86px; */
+}
+
 .fb-icon {
   color: #3b5998;
   background-color: #ffffff;
@@ -106,6 +169,19 @@
   background-color: rgba(57,63,67,0.7);
   line-height: 64px;
   /* line-height: 40px !important; */
+}
+.header-mobile-2{
+  width: 100%;
+  float: left;
+  position: relative;
+  z-index: 9;
+  background-color: whitesmoke;
+  line-height: 64px;
+  /* line-height: 40px !important; */
+}
+.is-sticky-mobile.header-mobile-2{
+  background-color: rgba(57,63,67,0.5);
+  line-height: 35px !important;
 }
 
 .custom-menu{
@@ -190,9 +266,9 @@
   }
   
 }
-.header-logo-mobile{
+/* .header-logo-mobile{
   display: none
-}
+} */
 
 .img-visible{
   display: none;
@@ -205,7 +281,7 @@
   display:inline
 }
 
- @media only screen and (max-width: 862px) {
+ /* @media only screen and (max-width: 862px) {
   .header-logo-standard{
     display: none;
   }
@@ -220,8 +296,7 @@
     margin: 0px 0px;
     line-height: 50px;
   }
-  
-}
+} */
 
  @media only screen and (max-width: 400px) {
   .header-logo-standard{
@@ -230,9 +305,9 @@
   .nav-header {
     display: none;
   }
-  .header-logo-mobile{
+  /* .header-logo-mobile{
     display: flex
-  }
+  } */
   .header-p.header-logo{
     padding: 0px 10px !important;
     margin: 0px 0px;

@@ -85,7 +85,7 @@ const Appointment = () => {
                     <Title level={1} className="appointment-title">Get In Touch</Title>
                   </Form.Item>
                 </Col> */}
-                <Col sm={24} md={12}>
+                <Col xs={24} sm={24} md={12}>
                   <Form.Item
                     name="Fname"
                     rules={[
@@ -95,15 +95,15 @@ const Appointment = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'FIRST NAME'} />
+                    <Input placeholder={'FIRST NAME'}  />
                   </Form.Item>
                 </Col>
-                <Col sm={24} md={12}>
+                <Col xs={24} sm={24} md={12}>
                   <Form.Item name="Lname">
                     <Input placeholder={'LAST NAME'} />
                   </Form.Item>
                 </Col>
-                <Col sm={24} md={12}>
+                <Col xs={24} sm={24} md={12}>
                   <Form.Item
                     name="email"
                     rules={[
@@ -120,7 +120,7 @@ const Appointment = () => {
                     <Input placeholder={'EMAIL ADDRESS'} />
                   </Form.Item>
                 </Col>
-                <Col sm={24} md={12}>
+                <Col xs={24} sm={24} md={12}>
                   <Form.Item
                     name="contact"
                     rules={[
