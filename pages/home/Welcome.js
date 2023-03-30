@@ -11,7 +11,7 @@ const Welcome = () => {
         <div className="welcome-overlay"></div>
         <Row className="welcome-container" align="middle">
           <Col xs={24} sm={24} md={24} lg={12}>
-            <img className="welcome-picture" src="/basement1.jpg" alt="" />
+            <img className="welcome-picture" src="/images/basement1.jpg" alt="" />
           </Col>
           <Col xs={24} sm={24} md={24} lg={12}>
             <Title level={1} className="welcome-title">Welcome to my LEGAL BASEMENT</Title>

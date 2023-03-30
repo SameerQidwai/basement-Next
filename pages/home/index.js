@@ -14,6 +14,7 @@ import Choose from './Choose'
 import ContactArea from './ContactArea'
 import Appointment from './Appointment'
 import Municipalities from './Municipalities'
+import Projects from './Projects'
 
 const  Index = (props) =>{
   // const [open, setOpen] = useState(false)
@@ -26,6 +27,7 @@ const  Index = (props) =>{
       {/* <Work /> */}
       <Choose/>
       <ContactArea/>
+      <Projects/>
       <Appointment/>
       <Reviews/>
       <Municipalities/>

@@ -100,16 +100,22 @@ const index = () => {
             <Col xs={24} sm={24} md={22} lg={22} className="services-card">
               <Row justify="space-between">
                 {/* background number Color */}
-                <Col xs={24} sm={18} md={18} lg={18} className="txt-center mb-16">
-                    <Row justify='center'>
-                        <Col xs={24} sm={12} md={8} lg={5}>
-                            <Button size="large" type="primary" block>
-                                <Title level={3} className="m h3-ff">
-                                0{index + 1}
-                                </Title>
-                            </Button>
-                        </Col>
-                    </Row>
+                <Col
+                  xs={24}
+                  sm={18}
+                  md={18}
+                  lg={18}
+                  className="txt-center mb-16"
+                >
+                  <Row justify="center">
+                    <Col xs={24} sm={12} md={8} lg={5}>
+                      <Button size="large" type="primary" block>
+                        <Title level={3} className="m h3-ff">
+                          0{index + 1}
+                        </Title>
+                      </Button>
+                    </Col>
+                  </Row>
                 </Col>
                 <Col xs={24} sm={24} md={16} lg={18}>
                   <Row gutter={[0, 20]}>
@@ -119,7 +125,7 @@ const index = () => {
                       </Title>
                     </Col>
                     <Col span={24}>
-                      <Row justify='space-between'>
+                      <Row justify="space-between">
                         {children.map((process) => (
                           <Col span={11}>
                             <Title level={5} className="services-point">
@@ -132,16 +138,14 @@ const index = () => {
                   </Row>
                 </Col>
                 <Col>
-                  <a href="tel:+16472189786">
-                    <Button
-                      type="primary"
-                      size="large"
-                      block
-                      href="tel:+16472189786"
-                    >
-                      <span>CONTACT US</span>
-                    </Button>
-                  </a>
+                  <Button
+                    type="primary"
+                    size="large"
+                    block
+                    href="tel:+16472189786"
+                  >
+                    <span>CONTACT US</span>
+                  </Button>
                 </Col>
               </Row>
             </Col>

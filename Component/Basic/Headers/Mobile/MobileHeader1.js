@@ -20,17 +20,17 @@ const MobileHeader1 = (props) => {
         >
           <Col>
             {/* xs={24} sm={8} md={6} */}
-              <Button
-                type="primary"
-                // size="large"
-                className="header-basment-mobile-btn-left"
-                block
-                onClick={()=>props.openModal()}
-              >
-                <SolutionOutlined />
-                <span>Get A Quote</span>
-              </Button>
-            </Col>
+            <Button
+              type="primary"
+              // size="large"
+              className="header-basment-mobile-btn-left"
+              block
+              onClick={() => props.openModal()}
+            >
+              <SolutionOutlined />
+              <span>Get A Quote</span>
+            </Button>
+          </Col>
           <Col className="header-basment-mobile-btn-icons">
             {/* xs={24} sm={8} md={10} */}
             <Row gutter={[16]} align="middle" justify="center">
@@ -72,7 +72,6 @@ const MobileHeader1 = (props) => {
           </Col>
           <Col>
             {/* xs={24} sm={8} md={6} */}
-            <a href="tel:+16472189786">
             <Button
               type="primary"
               // size="large"
@@ -83,7 +82,6 @@ const MobileHeader1 = (props) => {
               <PhoneFilled />
               <span> 647 218 9786</span>
             </Button>
-            </a>
           </Col>
         </Row>
       </div>

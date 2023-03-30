@@ -1,9 +1,6 @@
 import React from 'react';
 import { Col, Row, Button, Tooltip, Typography, Layout } from 'antd';
-import {
-  FacebookFilled,
-  TwitterSquareFilled,
-} from '@ant-design/icons';
+import { FacebookFilled, TwitterSquareFilled } from '@ant-design/icons';
 
 const { Paragraph, Text } = Typography;
 const { Header } = Layout;
@@ -68,21 +65,19 @@ const Header1 = (props) => {
               </Col>
               <Col>
                 {/* xs={24} sm={8} md={6} */}
-                <a href="tel:+16472189786">
-                  <Button
-                    type="primary"
-                    size="large"
-                    className="header-basment-btn"
-                    block
-                    href="tel:+16472189786"
-                  >
-                    <span className="fs-13 lh-1">
-                      we are only a phone call away
-                    </span>
-                    <br />
-                    <span> 647 218 9786</span>
-                  </Button>
-                </a>
+                <Button
+                  type="primary"
+                  size="large"
+                  className="header-basment-btn"
+                  block
+                  href="tel:+16472189786"
+                >
+                  <span className="fs-13 lh-1">
+                    we are only a phone call away
+                  </span>
+                  <br />
+                  <span> 647 218 9786</span>
+                </Button>
               </Col>
             </Row>
           </Col>

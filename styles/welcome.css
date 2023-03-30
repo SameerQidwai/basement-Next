@@ -53,7 +53,7 @@
 .welcome{
     width: 100%;
     float: left;
-    background: url(/basement2.jpg) no-repeat;
+    background: url(/images/basement2.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

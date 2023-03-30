@@ -42,9 +42,9 @@ const  Blogs = () => {
                         </Row>
                         <Row justify='center'>
                             <Col >
-                                <div>
-                                    <Button size="large" className="round-button" href="https://mylegalbasement.ca/blog/">VIEW MORE</Button>
-                                </div>
+                                <a>
+                                    <Button size="large" className="round-button" href="/blog">VIEW MORE</Button>
+                                </a>
                             </Col>
                         </Row>
                     </Col>

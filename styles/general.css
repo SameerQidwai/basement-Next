@@ -28,6 +28,10 @@
     padding-left: 30px;
     padding-right: 30px;
 }
+.px-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .py-40{
     padding-top: 40px;
     padding-bottom: 40px;
@@ -64,6 +68,18 @@
 .my-20{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.my-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mb-25{
+    margin-bottom: 50px;
 }
 
 .mb-30 {

@@ -64,7 +64,7 @@ h5.choose-text{
 .conact-area{
     width: 100%;
     float: left;
-    background: url(/basement5.jpg) no-repeat;
+    background: url(/images/basement5.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,7 @@ h1.appointment-title{
     float: left;
     padding-top: 40px;
     padding-bottom: 60px;
-    background: url(/basement2.jpg) no-repeat;
+    background: url(/images/basement2.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -251,9 +251,16 @@ h1.appointment-title{
     width: auto;
     text-transform: uppercase;
 }
+.blog-card{
+    width: 100%;
+    box-shadow: 0px 6px 10px -2px #979797;
+    padding: 24px;
+    margin-bottom: 29px;
+    min-height: 350px;
+}
 
-h3.ant-typography.blog-date{
-    font-family: 'Barlow Condensed', sans-serif;
+.blog-wrapper h3.ant-typography.blog-date{
+    font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     font-size: 17px;
     color: #ffffff;
     font-weight: 500;
@@ -262,7 +269,7 @@ h3.ant-typography.blog-date{
     margin-top: 19px;
     text-transform: uppercase
 }
-h2.ant-typography.blog-title{
+.blog-wrapper h2.ant-typography.blog-title{
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     font-size: 29px;
     color: #ffffff;
@@ -271,6 +278,87 @@ h2.ant-typography.blog-title{
     margin-bottom: 10px;
     margin-top: 7px;
     min-height: 90px;
+}
+.blog-page{
+    padding-top:  40px;
+    padding-bottom: 40px ;
+}
+.blog-page h3.ant-typography.blog-date{
+    color: #080808;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    border-bottom: 1px dashed #b2afaf;
+    padding-bottom: 17px;
+}
+
+.blog-page h2.ant-typography.blog-title{
+    color: #080808;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.blog-page p.blog-content{
+    color: #080808;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 29px;
+}
+
+.blog-page .round-button{
+    background-color: #0a75c2;
+    color: #ffffff;
+    padding: 11px 37px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-family: 'Barlow Condensed', 'Poppins', sans-serif;
+    border-radius: 46px;
+    width: auto;
+    border: 2px solid #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: inset 0 3px 8px rgb(0 0 0 / 60%);
+}
+h3.ant-typography.blog-services{
+    color: #080808;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 22px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-left: 16px;
+    text-transform: uppercase;
+}
+.bottom-border{
+    border-bottom: 1px solid #dfdbdb;
+}
+h5.ant-typography.blog-services-item{
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #080808;
+    text-decoration: none;
+    padding: 10px 17px;
+}
+.border-1{
+    border: 1px solid #dfdbdb;
 }
 
 .smblog_picture{
@@ -299,3 +387,136 @@ h2.ant-typography.blog-title{
       background-position:560px 0px;
     }
   }
+
+.carrers-form{
+    width: 100%;
+    border: 1px solid #e3e1e1;
+    padding: 25px;
+    box-shadow: -1px 12px 10px -10px #bdbdbd;
+    background-color: #fff;
+    padding-left: 36px;
+}
+
+h1.ant-typography.consult-title{
+    color: #05ade7;
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+h4.ant-typography.consult-sub-title{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #000;
+}
+p.consult-para{
+    color: #131010;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    font-weight: 400;
+    padding: 0px 160px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.consult-form-title{
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #1c1b1d;
+    width: 100%;
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.contact-box{
+    width: 100%;
+    background-color: #1c1b1d;
+    padding: 30px;
+    height: 310px;
+}
+.contact-main-box{
+    background-color: #05ade7;
+    height: 340px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.contact-box h3.ant-typography{
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    float: left;
+}
+
+.contact-box h4.ant-typography span{
+    color: #ffffff;
+    font-family: 'Barlow Condensed', 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contact-last-box{
+    width: 100%;
+    background-color: #1c1b1d;
+    padding: 30px;
+    height: 310px;
+}
+
+.contact-last-box h3.ant-typography{
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    float: left;
+}
+
+.contact-last-box h4.ant-typography span{
+    color: #ffffff;
+    font-family: 'Barlow Condensed', 'Poppins', sans-serif;
+    font-size: 27px !important;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.contact-box h4.ant-typography a.ant-btn-text{
+    padding: 0 !important
+}
+
+.contact-avatar{
+    color: #ffffff;
+    font-size: 48px;
+    /* text-align: center; */
+    /* margin-top: 19px; */
+    font-weight: 600;
+    background-color: #05ade7;
+    /* border: 3px solid #05ade7; */
+    /* border-radius: 50%; */
+    text-transform: uppercase;
+    /* float: none; */
+    /* width: 80px; */
+    /* height: 80px; */
+}

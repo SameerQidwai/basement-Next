@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectsPreview from '../../Component/Core/Projects'
+import ProjectsPreview from '../../Component/Core/ProjectsPreview'
 
 
 const index = () =>{

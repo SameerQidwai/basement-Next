@@ -30,11 +30,11 @@ const  Municipalities = () => {
 
     const router = useRouter()
     return (
-      <Row>
+      <Row className="my-50">
         <Col span={24} className="municipal-container">
           <Row className="choose-container" justify="center">
             <Col span={24} className="txt-center">
-              <Title level={3}>Municipalities we work with</Title>
+              <Title level={3}>MUNICIPALITIES WE WORK WITH</Title>
             </Col>
             <Col span={20}>
               <Row gutter={[20, 34]}>

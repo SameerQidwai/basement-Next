@@ -87,7 +87,7 @@ const Appointment = () => {
                 </Col> */}
                 <Col xs={24} sm={24} md={12}>
                   <Form.Item
-                    name="Fname"
+                    name="name"
                     rules={[
                       {
                         required: true,
@@ -95,12 +95,20 @@ const Appointment = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'FIRST NAME'}  />
+                    <Input placeholder={'FULL NAME:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
-                  <Form.Item name="Lname">
-                    <Input placeholder={'LAST NAME'} />
+                  <Form.Item
+                    name="contact"
+                    rules={[
+                      {
+                        required: required,
+                        message: 'So We Can Contact You',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'PHONE NUMBER:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -117,30 +125,25 @@ const Appointment = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'EMAIL ADDRESS'} />
+                    <Input placeholder={'EMAIL:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
-                  <Form.Item
-                    name="contact"
-                    rules={[
-                      {
-                        required: required,
-                        message: 'So We Can Contact You',
-                      },
-                    ]}
-                  >
-                    <Input placeholder={'HOME NUMBER'} />
+                  <Form.Item name="subject">
+                    <Input placeholder="SUBJECT:" />
                   </Form.Item>
                 </Col>
                 <Col span={24}>
-                  <Form.Item name="subject">
-                    <Input placeholder="SUBJECT" />
+                  <Form.Item name="address">
+                    <Input placeholder={'ADDRESS:'} />
                   </Form.Item>
                 </Col>
                 <Col span={24}>
                   <Form.Item name="message">
-                    <Input.TextArea autoSize={{ minRows: 3, maxRows: 3 }} placeholder="HOW CAN WE HELP?" />
+                    <Input.TextArea
+                      autoSize={{ minRows: 3, maxRows: 3 }}
+                      placeholder="HOW CAN WE HELP?"
+                    />
                   </Form.Item>
                 </Col>
               </Row>

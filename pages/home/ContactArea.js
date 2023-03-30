@@ -17,20 +17,18 @@ const ContactArea = () => {
           <Col sm={24} md={24} xs={24}>
             <Row justify="center" align="middle" gutter={[10,20]}>
               <Col>
-                <a href="tel:+16472189786">
-                  <Button
-                    type="ghost"
-                    ghost
-                    size="large"
-                    block
-                    className="conact-area-btn"
-                  >
-                    <span>CALL US</span>
-                  </Button>
-                </a>
+                <Button
+                  type="ghost"
+                  ghost
+                  size="large"
+                  block
+                  className="conact-area-btn"
+                  href="tel:+16472189786"
+                >
+                  <span>CALL US</span>
+                </Button>
               </Col>
               <Col>
-              <a href="tel:+16472189786">
                 <Button
                   type="primary"
                   size="large"
@@ -40,7 +38,6 @@ const ContactArea = () => {
                 >
                   <span>CONTACT US</span>
                 </Button>
-                </a>
               </Col>
             </Row>
           </Col>
