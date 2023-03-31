@@ -61,7 +61,7 @@ const ContactArea = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'NAME:'}  />
+                    <Input placeholder={'Full Name:'}  />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -74,7 +74,7 @@ const ContactArea = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'Phone Number'} />
+                    <Input placeholder={'Phone Number:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -91,7 +91,7 @@ const ContactArea = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'EMAIL ADDRESS'} />
+                    <Input placeholder={'Email:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -103,11 +103,11 @@ const ContactArea = () => {
                 </Col>
                 <Col span={24}>
                   <Form.Item name="subject">
-                    <Input placeholder="SUBJECT" />
+                    <Input placeholder="Subject:" />
                   </Form.Item>
                 </Col>
                 <Col span={24}>
-                  <Form.Item name="address">
+                  <Form.Item name="Address:">
                     <Input.TextArea autoSize={{ minRows: 3, maxRows: 3 }} placeholder="Address:" />
                   </Form.Item>
                 </Col>

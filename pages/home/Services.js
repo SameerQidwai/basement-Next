@@ -10,18 +10,14 @@ import {
   Carousel,
 } from 'antd';
 import {
-  FormatPainterFilled,
-  HomeFilled,
   LinkOutlined,
   SearchOutlined,
-  UserOutlined,
 } from '@ant-design/icons';
 const { Title, Text, Paragraph } = Typography;
-const { Meta } = Card;
 
 const cards = [
   {
-    img: 'cover1.jpg',
+    img: 'HOME_Remodling_Renovations.jpeg',
     title: 'HOME',
     link: 'a',
     type: 'IMPROVEMENTS',
@@ -31,7 +27,7 @@ const cards = [
     details: 'LOCATION: Richmond Hill',
   },
   {
-    img: 'cover2.jpg',
+    img: 'Kitchen_Renovations_Imrovments.jpg',
     title: 'KITCHENS',
     link: 'a',
     type: 'RENOVATIONS',
@@ -41,7 +37,7 @@ const cards = [
     details: 'Details coming soon ',
   },
   {
-    img: 'cover3.jpg',
+    img: 'Basements-legal-basment.jpeg',
     title: 'BASEMENT',
     link: 'a',
     type: 'CONSTRUCTION',
@@ -51,7 +47,7 @@ const cards = [
     details: 'LOCATION  Etobicoke,',
   },
   {
-    img: 'cover4.jpg',
+    img: 'Architectural_drawing_permits_builds_Planning.jpg',
     title: 'ARCHITECTURAL DRAWINGS/',
     link: 'a',
     type: 'BUILDING PERMITS',
@@ -61,7 +57,7 @@ const cards = [
     details: 'Details coming soon',
   },
   {
-    img: 'cover5.jpg',
+    img: 'Bathroom.jpg',
     title: 'BATHROOMS',
     link: 'a',
     type: 'RENOVATIONS',
@@ -80,13 +76,12 @@ const Services = () => {
         <Row justify="center">
           <Col span={24} className="txt-center">
             <Title level={3} className="service-title">
-              <span>OUR</span> SERVICES
+              <span>OUR</span> Services 
             </Title>
           </Col>
           <Col span={20} className="txt-center">
             <Text className='service-txt'>
-              As one of the leaders in residential construction, we offer a full
-              design and build service.
+            At our construction company, we excel in providing a complete design and build service for residential projects, placing us at the forefront of the industry.
             </Text>
           </Col>
           <Col span={23}>

@@ -11,7 +11,7 @@ const ContactArea = () => {
         <Row>
           <Col sm={24} md={24} xs={24}>
             <Title level={1} className="conact-for-basment-renovation">
-              Make The Most Out Of Your Space - A Valuable Room For Your Needs
+              Transform Your Space with Our Expertise - Customize Room As Per Your Needs
             </Title>
           </Col>
           <Col sm={24} md={24} xs={24}>

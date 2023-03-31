@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 
 const { Title, Paragraph } = Typography;
 const Welcome = () => {
-  const router = useRouter();
   return (
     <Row>
       <Col span={24} className="welcome">
@@ -14,12 +13,11 @@ const Welcome = () => {
             <img className="welcome-picture" src="/images/basement1.jpg" alt="" />
           </Col>
           <Col xs={24} sm={24} md={24} lg={12}>
-            <Title level={1} className="welcome-title">Welcome to my LEGAL BASEMENT</Title>
+            <Title level={1} className="welcome-title">Welcome to our legal basement service!</Title>
             <p className="welcome-describtions">
-              We offer an end-to-end client experience that includes seamless
-              communication, budgeting, staffing, on-site organization, and
-              solid, quality handy work every time. A construction company which
-              knows how to make legal basements!
+              We provide seamless communication, budgeting, staffing, and high-quality workmanship. 
+              Trust us to create a legal basement that meets your needs. Choose us for your legal basement needs, 
+              and experience the difference of working with a reliable and experienced construction company.!
             </p>
             <Row></Row>
               <Button

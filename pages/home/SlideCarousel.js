@@ -21,7 +21,7 @@ const SlideCarousel = () => {
     >
       <div>
         <img
-          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban.jpg"
+          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban1.jpg"
           alt=""
           className="carousel-img"
         />
@@ -38,7 +38,7 @@ const SlideCarousel = () => {
                   <Row>
                     <Col>
                       <Title className="carousel-title">
-                        Marvelous Kitchen
+                        Marvelous Kitchen Remodels
                       </Title>
                     </Col>
                   </Row>
@@ -62,7 +62,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Paragraph className="carousel-p">
-                        Remodeling just got even fancier
+                        Revamp Your Home with Marvelous Kitchen Remodeling
                       </Paragraph>
                     </Col>
                   </Row>

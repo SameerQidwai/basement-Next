@@ -36,7 +36,7 @@ const  Blogs = () => {
                         <Row>
                             <Col span={24}>
                             <Title level={5}>
-                            We are delighted to have our work acknowledged in the media. Take a look at some of the publications we have featured in recently.
+                            Stay updated with our latest construction insights, tips and tricks for your next home renovation project. Take a look at some of the publications we have featured in recently.
                         </Title>
                             </Col>
                         </Row>

@@ -21,7 +21,7 @@ const WidgetFooter = () => {
                         <img src='footer-logo.png' width={80} height={80}/>
                     </Col>
                     <Col span={24}>
-                        <Text>We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.</Text>
+                        <Text>At our construction company, we specialize in crafting one-of-a-kind and luxurious properties that are sure to impress. Let us inspire you with our outstanding workmanship and expertise..</Text>
                     </Col>
                     {/* <Col span={24}>
                         <Button >Our Team</Button>

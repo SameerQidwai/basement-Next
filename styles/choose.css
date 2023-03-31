@@ -108,7 +108,7 @@ h1.conact-for-basment-renovation{
 }
 h1.legal-title{
     font-family: 'Poppins', sans-serif;
-    font-size: 52px;
+    font-size: 45px;
     color: #ffffff;
     word-wrap: normal;
     font-weight: 600;
@@ -151,7 +151,9 @@ h1.appointment-title{
     line-height: 49px;
 }
 
-.appointment form 
+form.appointment-form  .ant-input-lg {
+    line-height: 1.57 !important;
+  }
 
 .municipal-container{
     padding-top: 50px;
@@ -378,6 +380,9 @@ h5.ant-typography.blog-services-item{
     background-image: url(/lopp.png);
     animation: movement 10s linear infinite;
 }
+.news-letter-background input.ant-input-lg{
+    line-height: 1.5715 !important;
+}
 
 @keyframes movement{
     0% {
@@ -395,6 +400,11 @@ h5.ant-typography.blog-services-item{
     box-shadow: -1px 12px 10px -10px #bdbdbd;
     background-color: #fff;
     padding-left: 36px;
+}
+
+.consult{
+    padding-top: 40px;
+    padding-bottom: 10px
 }
 
 h1.ant-typography.consult-title{
@@ -422,7 +432,6 @@ p.consult-para{
     width: 100%;
     margin-top: 5px;
     font-weight: 400;
-    padding: 0px 160px;
     line-height: 30px;
     margin-bottom: 40px;
 }
@@ -447,7 +456,31 @@ p.consult-para{
     background-color: #05ade7;
     height: 340px;
     margin-top: 0px;
+    padding: 30px;
     width: 100%;
+}
+.contact-main-box h4.ant-typography a{
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+    float: left;
+}
+
+
+.contact-main-box h3.ant-typography{
+    color: #ffffff;
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    float: left;
 }
 
 .contact-box h3.ant-typography{
@@ -489,18 +522,18 @@ p.consult-para{
     margin-top: 20px;
     font-weight: 700;
     text-transform: capitalize;
-    float: left;
 }
 
 .contact-last-box h4.ant-typography span{
     color: #ffffff;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
-    font-size: 27px !important;
+    font-size: 20px !important;
     text-align: center;
     width: 100%;
     margin-top: 10px;
     font-weight: 700;
     text-transform: capitalize;
+    white-space:    break-spaces !important;
 }
 .contact-box h4.ant-typography a.ant-btn-text{
     padding: 0 !important
@@ -509,14 +542,15 @@ p.consult-para{
 .contact-avatar{
     color: #ffffff;
     font-size: 48px;
-    /* text-align: center; */
-    /* margin-top: 19px; */
     font-weight: 600;
     background-color: #05ade7;
-    /* border: 3px solid #05ade7; */
-    /* border-radius: 50%; */
     text-transform: uppercase;
-    /* float: none; */
-    /* width: 80px; */
-    /* height: 80px; */
+}
+
+.contact-main-avatar{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    background-color: #196aaf;
+    text-transform: uppercase;
 }

@@ -16,10 +16,11 @@ const Choose = () => {
             <Row justify="center">
               <Col xs={22} sm={22} md={22}>
                 <Title level={5} className="choose-text">
-                  Any individual who is looking for home renovation or
-                  remodelling. Legal Basements is our speciality. Call us today
-                  and bring our project management skills and extensive
-                  construction experience to your next project.
+                  Are you looking for a reliable construction company that specializes in legal basement construction, 
+                  kitchen remodeling, and home renovation? Look no further! Our team of construction and engineering 
+                  professionals with over 30 years of industry experience offers end-to-end client experience that 
+                  includes seamless communication, budgeting, staffing, on-site organization, and top-quality 
+                  workmanship every time. Contact us today and let us bring our expertise to your next project!
                 </Title>
               </Col>
             </Row>

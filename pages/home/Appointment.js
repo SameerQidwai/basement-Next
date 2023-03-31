@@ -30,20 +30,19 @@ const Appointment = () => {
       <Col span={24} className="appointment">
         <Row
           gutter={[40, 0]}
-          align="top"
+          // align="top"
           className="choose-container row-margin-null"
           justify="center"
+          align="stretch"
         >
-          <Col xs={24} sm={24} md={9} className="appointment-legal">
-            <Title level={1} className="legal-title">LEGAL BASEMENT</Title>
+          <Col xs={24} sm={24} md={9} className="appointment-legal mb-20">
+            <Title level={1} className="legal-title">Expertise in Legal Basements & more</Title>
             <Title level={5} className="legal-text">
-              Whether its a legal basement second dwelling unit or a kitchen
-              remodel or a complete teardown we provide all these services under
-              one roof. Starting from the planning phase till the final move in
-              we manage all aspects of the project through our team of expert
-              architectural designers, engineers and project managers. With our
-              experience in this industry, we know how to stay on time and
-              budget to create maximum value for our clients.
+              At our construction company, we offer a range of services including legal 
+              basement second dwelling units, kitchen remodeling, and complete teardowns. 
+              Our team of architectural designers, engineers and project managers handle every 
+              aspect of the project from start to finish. We prioritize staying on time and budget 
+              to ensure maximum value for our clients. Contact us today to bring your vision to life.
             </Title>
             <a href={'/service-pricing'}>
             <Button
@@ -71,20 +70,11 @@ const Appointment = () => {
               scrollToFirstError={true}
               size="large"
               layout="inline"
+              className='appointment-form'
               // onFieldsChange={validateInfo}
               validateTrigger="onSubmit"
             >
               <Row gutter={[0, 25]}>
-                {/* <Col span={24}>
-                  <Form.Item noStyle>
-                    <Title level={5} className="appointment-sub-title">We are ready to help build your dreams</Title>
-                  </Form.Item>
-                </Col>
-                <Col span={24}>
-                  <Form.Item noStyle>
-                    <Title level={1} className="appointment-title">Get In Touch</Title>
-                  </Form.Item>
-                </Col> */}
                 <Col xs={24} sm={24} md={12}>
                   <Form.Item
                     name="name"
@@ -95,7 +85,7 @@ const Appointment = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'FULL NAME:'} />
+                    <Input placeholder={'Full Name:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -108,7 +98,7 @@ const Appointment = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'PHONE NUMBER:'} />
+                    <Input placeholder={'Phone Number:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -125,17 +115,17 @@ const Appointment = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'EMAIL:'} />
+                    <Input placeholder={'Email:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
                   <Form.Item name="subject">
-                    <Input placeholder="SUBJECT:" />
+                    <Input placeholder="Subject:" />
                   </Form.Item>
                 </Col>
                 <Col span={24}>
                   <Form.Item name="address">
-                    <Input placeholder={'ADDRESS:'} />
+                    <Input placeholder={'Address:'} />
                   </Form.Item>
                 </Col>
                 <Col span={24}>

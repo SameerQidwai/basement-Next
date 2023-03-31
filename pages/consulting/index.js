@@ -1,6 +1,16 @@
 import { useState } from 'react';
-import { Avatar, Button, Col, Divider, Form, Input, Row, Typography } from 'antd';
-import { MailOutlined, PhoneFilled, UserOutlined } from '@ant-design/icons';
+import {
+  Avatar,
+  Button,
+  Col,
+  Divider,
+  Form,
+  Input,
+  Row,
+  Tooltip,
+  Typography,
+} from 'antd';
+import { FacebookFilled, MailOutlined, PhoneFilled, TwitterSquareFilled, UserOutlined } from '@ant-design/icons';
 
 const { Text, Title } = Typography;
 
@@ -30,7 +40,7 @@ const Index = () => {
   return (
     <Row>
       <Col span={24}>
-        <Row justify="center">
+        <Row justify="center" className="consult">
           <Col span={24} className="txt-center">
             <Title level={1} className={'consult-title'}>
               WE ARE HERE TO HELP YOU
@@ -50,10 +60,10 @@ const Index = () => {
               industrial projects.
             </p>
           </Col>
-          <Col span={20}>
+          <Col xs={24} md={20}>
             <Row>
               <Col xs={24} sm={8} md={8}>
-                <Row className="contact-box">
+                <Row className="contact-box" justify="center">
                   <Col span={24} className="txt-center">
                     <Avatar
                       className="contact-avatar"
@@ -78,53 +88,55 @@ const Index = () => {
                       icon={<UserOutlined />}
                     />
                   </Col>
-                  <Title level={3}>Email Us</Title>
-                  <Title level={4}>
-                    <Button type="text" href="mail:info@mylegalbasement.ca">
-                      info@mylegalbasement.ca
-                    </Button>
-                  </Title>
+                  <Col span={24}>
+                    <Title level={3} className="txt-center">
+                      Email Us
+                    </Title>
+                  </Col>
+                  <Col span={24}>
+                    <Title level={4} className="txt-center">
+                      <Button type="text" href="mail:info@mylegalbasement.ca">
+                        info@mylegalbasement.ca
+                      </Button>
+                    </Title>
+                  </Col>
                   <Title level={3}>follow Us</Title>
-                  <div className="col-sm-12 col-xs-12 no-padding t-c">
-                    <div className="social_ic">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://www.facebook.com/mylegalbasement/"
-                            target="_blank"
-                          >
-                            <i
-                              className="fa fa-facebook"
-                              aria-hidden="true"
-                            ></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/mylegalbasement.ca/?hl=en"
-                            target="_blank"
-                          >
-                            <i
-                              className="fa fa-instagram"
-                              aria-hidden="true"
-                            ></i>
-                          </a>
-                        </li>
-
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/company/my-legal-basement/?originalSubdomain=ca"
-                            target="_blank"
-                          >
-                            <i
-                              className="fa fa-linkedin"
-                              aria-hidden="true"
-                            ></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  <Row gutter={[16]} justify="center"  style={{width:'100%'}} >
+                    <Col>
+                      <Tooltip title="Facebook" arrowPointAtCenter>
+                        <a
+                          target={'_blank'}
+                          href="https://www.facebook.com/"
+                          className="reset-a"
+                        >
+                          <FacebookFilled className="fs-25 fb-icon" />
+                        </a>
+                      </Tooltip>
+                    </Col>
+                    <Col>
+                      <Tooltip title="Twitter" arrowPointAtCenter>
+                        <a
+                          target={'_blank'}
+                          href="https://www.twitter.com/"
+                          className="reset-a"
+                        >
+                          <TwitterSquareFilled className="fs-25 tw-icon" />
+                        </a>
+                      </Tooltip>
+                    </Col>
+                    <Col>
+                      <Tooltip title="Instagram" arrowPointAtCenter>
+                        <a
+                          target={'_blank'}
+                          href="https://www.instagram.com/"
+                          className="reset-a"
+                        >
+                          {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
+                          <div className="instagram"></div>
+                        </a>
+                      </Tooltip>
+                    </Col>
+                  </Row>
                 </Row>
               </Col>
               <Col xs={24} sm={8} md={8}>
@@ -146,12 +158,12 @@ const Index = () => {
               </Col>
             </Row>
           </Col>
-          <Col span={24}>
+          <Col span={24} className="pt-30">
             <Title level={1} className="consult-form-title">
               We Are Ready to Listen
             </Title>
           </Col>
-          <Col span={24}>
+          <Col sm={23} md={18} xs={23} className="txt-enter">
             <Form
               id={'my-form'}
               onFinish={onFinish}
@@ -162,7 +174,7 @@ const Index = () => {
               // onFieldsChange={validateInfo}
               validateTrigger="onSubmit"
             >
-              <Row gutter={[0, 25]}>
+              <Row gutter={[0, 25]} justify="center">
                 <Col xs={24} sm={24} md={12}>
                   <Form.Item
                     name="name"
@@ -173,7 +185,7 @@ const Index = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'FULL NAME:'} />
+                    <Input placeholder={'Full Name:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -186,7 +198,7 @@ const Index = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'PHONE NUMBER:'} />
+                    <Input placeholder={'Phone Number:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
@@ -203,17 +215,17 @@ const Index = () => {
                       },
                     ]}
                   >
-                    <Input placeholder={'EMAIL:'} />
+                    <Input placeholder={'Email:'} />
                   </Form.Item>
                 </Col>
                 <Col xs={24} sm={24} md={12}>
                   <Form.Item name="subject">
-                    <Input placeholder="SUBJECT:" />
+                    <Input placeholder="Subject:" />
                   </Form.Item>
                 </Col>
                 <Col span={24}>
                   <Form.Item name="address">
-                    <Input placeholder={'ADDRESS:'} />
+                    <Input placeholder={'Address:'} />
                   </Form.Item>
                 </Col>
                 <Col span={24}>
