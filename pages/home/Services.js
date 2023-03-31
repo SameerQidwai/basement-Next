@@ -71,17 +71,17 @@ const cards = [
 
 const Services = () => {
   return (
-    <Row>
+    <Row className='bgc-white pt-20'>
       <Col span={24}>
         <Row justify="center">
           <Col span={24} className="txt-center">
-            <Title level={3} className="service-title">
+            <Title level={3} className="service-title c-blackish">
               <span>OUR</span> Services 
             </Title>
           </Col>
           <Col span={20} className="txt-center">
-            <Text className='service-txt'>
-            At our construction company, we excel in providing a complete design and build service for residential projects, placing us at the forefront of the industry.
+            <Text className='service-txt c-blackish'>
+              At our construction company, we excel in providing a complete design and build service for residential projects, placing us at the forefront of the industry.
             </Text>
           </Col>
           <Col span={23}>
@@ -171,13 +171,13 @@ const Services = () => {
                         </div>
                         <Row>
                             <Col span={24}>
-                                <Title level={4} className="card-title">{cards[0].title}</Title>
+                                <Title level={4} className="card-title c-blackish">{cards[0].title}</Title>
                             </Col>
                             <Col span={24} className="txt-center">
-                                <Text className="card-type"> {cards[0].type} </Text>
+                                <Text className="card-type c-blackish"> {cards[0].type} </Text>
                             </Col>
                             <Col span={24} className="txt-center">
-                            <Button size="large" shape="round" type="primary">
+                            <Button size="large" shape="round" type="primary" className='bgc-goldish b-goldish c-blackish'>
                                 Learn More
                             </Button>
                             </Col>
@@ -237,7 +237,7 @@ const Services = () => {
                                 <Text className="card-type"> {cards[1].type} </Text>
                             </Col>
                             <Col span={24} className="txt-center">
-                            <Button size="large" shape="round" type="primary">
+                            <Button size="large" shape="round" type="primary" className="bgc-goldish b-goldish c-blackish ">
                                 Learn More
                             </Button>
                             </Col>
@@ -297,7 +297,7 @@ const Services = () => {
                                 <Text className="card-type"> {cards[2].type} </Text>
                             </Col>
                             <Col span={24} className="txt-center">
-                            <Button size="large" shape="round" type="primary">
+                            <Button size="large" shape="round" type="primary" className="bgc-goldish b-goldish c-blackish">
                                 Learn More
                             </Button>
                             </Col>
@@ -357,7 +357,7 @@ const Services = () => {
                                 <Text className="card-type"> {cards[3].type} </Text>
                             </Col>
                             <Col span={24} className="txt-center">
-                            <Button size="large" shape="round" type="primary">
+                            <Button size="large" shape="round" type="primary" className="bgc-goldish b-goldish c-blackish">
                                 Learn More
                             </Button>
                             </Col>
@@ -417,7 +417,7 @@ const Services = () => {
                                 <Text className="card-type"> {cards[4].type} </Text>
                             </Col>
                             <Col span={24} className="txt-center">
-                            <Button size="large" shape="round" type="primary">
+                            <Button size="large" shape="round" type="primary" className="bgc-goldish b-goldish c-blackish">
                                 Learn More
                             </Button>
                             </Col>

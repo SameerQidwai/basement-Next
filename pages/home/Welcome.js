@@ -26,6 +26,7 @@ const Welcome = () => {
                 size='large'
                 ghost
                 shape="round"
+                className="hover-b-goldish hover-c-goldish"
                 href={'/service-pricing'}
                 type="ghost"
               >

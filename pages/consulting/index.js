@@ -43,21 +43,21 @@ const Index = () => {
         <Row justify="center" className="consult">
           <Col span={24} className="txt-center">
             <Title level={1} className={'consult-title'}>
-              WE ARE HERE TO HELP YOU
+              WE ARE HERE To Build your Dream
             </Title>
           </Col>
           <Col span={24} className="txt-center">
             <Title level={4} className={'consult-sub-title'}>
-              QUICK CONTACT
+            CONTACT US NOW
             </Title>
           </Col>
           <Col span={24}>
             <p className="consult-para">
-              To talk to a team of basement builders in Ontario who hold
-              themselves to the same high standards that you do, talk to the
-              team at My Legal Basement today. We can quote on basement
-              construction services for luxury developments, commercial, or
-              industrial projects.
+            Get in touch with our team of skilled basement builders 
+            in Ontario who share the same level of commitment as you. 
+            At My Legal Basement, we offer basement construction services 
+            for luxury developments, commercial, and industrial projects. 
+            Request a quote today and let us bring your vision to life.
             </p>
           </Col>
           <Col xs={24} md={20}>

@@ -1,15 +1,7 @@
 import React from 'react';
 import { Col, Row, Typography, Image, Divider, Avatar, Button } from 'antd';
-import {
-  CaretRightOutlined,
-  CheckOutlined,
-  HomeFilled,
-  LeftOutlined,
-  LineOutlined,
-  PaperClipOutlined,
-  RightOutlined,
-} from '@ant-design/icons';
-import Process from './Process';
+import { CaretRightOutlined, } from '@ant-design/icons';
+import { useWindowDimensions } from '../../Component/useFunction';
 
 const { Title, Text } = Typography;
 
@@ -89,6 +81,7 @@ const processes = [
 ];
 
 const index = () => {
+  const {height, width} = useWindowDimensions()
   return (
     <Row>
       {/* background Image  */}
@@ -107,22 +100,22 @@ const index = () => {
                   lg={18}
                   className="txt-center mb-16"
                 >
-                  <Row justify="center">
-                    <Col xs={24} sm={12} md={8} lg={5}>
-                      <Button size="large" type="primary" block>
-                        <Title level={3} className="m h3-ff">
-                          0{index + 1}
-                        </Title>
-                      </Button>
-                    </Col>
-                  </Row>
                 </Col>
                 <Col xs={24} sm={24} md={16} lg={18}>
                   <Row gutter={[0, 20]}>
                     <Col span={24}>
-                      <Title level={2} className="services-title">
+                      <Row gutter={[10,10]}>
+                      <Col span={width < 790 && 24}>
+                        <Button size="large" type="primary" block>
+                          <Title level={3} className="m h3-ff">
+                            0{index + 1}
+                          </Title>
+                        </Button>
+                      </Col>
+                      <Col ><Title level={2} className="services-title">
                         {title}
-                      </Title>
+                      </Title></Col>
+                    </Row>
                     </Col>
                     <Col span={24}>
                       <Row justify="space-between">

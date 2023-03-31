@@ -6,7 +6,7 @@ const { Title } = Typography;
 
 const Projects = () => {
   return (
-    <div className="mt-50 mb-25">
+    <div className="mt-50 mb-25 bgc-white">
       <div className='txt-center'>
         <Title level={1}>OUR PROJECTS</Title>
       </div>

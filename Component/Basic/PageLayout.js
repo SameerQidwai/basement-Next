@@ -23,7 +23,7 @@ export default function PageLayout({ children, openContact }) {
           {/* <HeaderLogo openModal={openContact}/> */}
           <NavHeader openModal={openContact} />
         </div>
-        <Content style={{backgroundColor: '#ffff'}}>
+        <Content className="bgc-blackish">
           
             <main>{children}</main>
             {/* <main>{children}</main> */}

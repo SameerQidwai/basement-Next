@@ -143,27 +143,35 @@ div.ant-typography.carousel-p {
     height: auto !important;
     font-size: 15px !important;
     letter-spacing: 2px;
-    color: #fff !important;
     padding: 10px 40px !important;
 }
+/* .carousel-btn.c-blackish.bgc-goldish.b-goldish:hover {
+    color: #ffffff !important;
+    background-color: #1d1f1c;
+}
+.carousel-btn.c-white.bgc-blackish.b-blackish:hover {
+    color: #ffffff !important;
+    background-color: #d8ae5e;
+} */
 
 .carousel-btn:hover {
     color: #333333 !important;
+    background-color: #ffffff;
 }
 
 .carousel-btn-col{
     /* width: auto !important; */
 }
 
-.carousel-btn1{
+/* .carousel-btn1{
     background-color: #48a7d6;
     border:#48a7d6;
-}
+} */
 
-.carousel-btn2{
+/* .carousel-btn2{
     background-color:  #336f94;
     border: #336f94;
-}
+} */
 
 /* @media only screen and (min-width: 1100px) {
     .carousel-title{

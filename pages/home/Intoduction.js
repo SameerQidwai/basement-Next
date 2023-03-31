@@ -6,24 +6,25 @@ const { Title, Text } = Typography;
 const Introduction = () => {
   const router = useRouter();
   return (
-    <Row>
+    <Row className='shadow-goldish'>
       <Col span={24} className="intro">
         <Row className="intro-container">
           <Col xs={24} sm={24} md={24} lg={12}>
             <img
               style={{ width: '91%', height: '91%' }}
+              className="shadow-goldish"
               src="/basement-renovation-into-pic.png"
               alt=""
             />
           </Col>
           <Col xs={24} sm={24} md={24} lg={12}>
-            <h3>Who WE ARE?</h3>
-            <p>
+            <Title level={3} className="c-goldish">Who WE ARE?</Title>
+            <p className='c-white'>
               <strong>
                 We are a construction company specializing in basement construction, kitchen remodeling, and renovation projects.
               </strong>
             </p>
-            <p>
+            <p className='c-white'>
               Our goal is to provide a seamless experience from start to finish. When you choose us for your project, you can rest 
               assured that you're in good hands. We offer a comprehensive range of services that cover everything from planning 
               to the final move-in. Our team of expert expertise of architecture, interior design and project management. 
@@ -31,7 +32,7 @@ const Introduction = () => {
               comprehensive services to our clients.
             </p>
 
-            <p>
+            <p className='c-white'>
               At Azim Constructions, we understand the importance of creating maximum value for our clients. 
               That's why we work diligently to stay on top of industry trends, technology, and best practices 
               to ensure that we deliver exceptional results. Whether you're looking to build a legal basement, 
@@ -41,7 +42,7 @@ const Introduction = () => {
             <Row></Row>
             <Col xs={24} sm={24} md={12}>
               <a href="https://mylegalbasement.ca/our-process">
-                <button className="lop_mommb">Read More</button>
+                <button className="lop_mommb c-white bgc-goldish">Read More</button>
               </a>
             </Col>
           </Col>

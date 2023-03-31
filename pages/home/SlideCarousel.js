@@ -4,7 +4,6 @@ import { useWindowDimensions } from '../../Component/useFunction';
 const { Title, Text, Paragraph } = Typography;
 
 const SlideCarousel = () => {
-  const { height, width } = useWindowDimensions();
   const [slideNumber, setSlideNumber] = useState(0);
   return (
     <Carousel
@@ -21,7 +20,7 @@ const SlideCarousel = () => {
     >
       <div>
         <img
-          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban1.jpg"
+          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban2.jpg"
           alt=""
           className="carousel-img"
         />
@@ -29,7 +28,7 @@ const SlideCarousel = () => {
         {slideNumber === 0 && (
           <div className="carousel-container">
             <div className="carousel-inner-content">
-              <Row  gutter={[16, 16]} justify="center" align="middle">
+              <Row gutter={[16, 16]} justify="center" align="middle">
                 <Col
                   span={24}
                   data-animation="animated zoomInRight"
@@ -72,11 +71,11 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[24,25]}>
+                    <Row align="middle" gutter={[24, 25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn1 carousel-btn"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -84,7 +83,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn2 carousel-btn"
+                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>
@@ -151,11 +150,11 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[24,25]}>
+                    <Row align="middle" gutter={[24, 25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn1 carousel-btn"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -163,7 +162,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn2 carousel-btn"
+                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>
@@ -230,11 +229,11 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[24,25]}>
+                    <Row align="middle" gutter={[24, 25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn1 carousel-btn"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -242,7 +241,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn2 carousel-btn"
+                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>
@@ -309,11 +308,11 @@ const SlideCarousel = () => {
                     data-animation="animated fadeInLeft"
                     className="animated fadeInLeft"
                   >
-                    <Row align="middle" gutter={[24,25]}>
+                    <Row align="middle" gutter={[24, 25]}>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn1 carousel-btn"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -321,7 +320,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn2 carousel-btn"
+                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>

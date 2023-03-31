@@ -12,29 +12,19 @@
     margin-right: auto;
     margin-left: auto;
 }
-.intro-container h3{
-    color: #000000;
-    font-size: 23px;
-    text-align: left;
-    width: 100%;
+.intro-container h3.ant-typography{
     margin-top: 40px;
     font-weight: 700;
-    float: left;
     margin-bottom: 0px;
 }
 .intro-container p {
-    color: #000000;
     font-size: 16px;
-    text-align: left;
-    width: 100%;
     margin-top: 26px;
     font-weight: 400;
     line-height: 30px;
-    float: left;
     padding-right: 22px;
 }
 .lop_mommb {
-    color: #000000;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 12px;
     text-align: left;
@@ -43,8 +33,6 @@
     font-weight: 600;
     float: left;
     margin-bottom: 0px;
-    background-color: #28427b;
-    color: #fff;
     border: none;
     text-transform: uppercase;
     padding: 15px 25px;

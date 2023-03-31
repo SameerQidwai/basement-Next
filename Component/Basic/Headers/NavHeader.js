@@ -7,7 +7,6 @@ const { Header } = Layout
 
 // 1078
 const NavHeader = (props) =>{
-    const {height, width} = useWindowDimensions()
     const [urlKey, setKey] = useState('/')
     // Sticky Nav bar
     // .is-sticky { //     position: fixed; //     top: 0; //     left: 0; //     width: 100%; //     z-index: 999; //     box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%); //     background-color: #ffffff !important; //     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown; //     padding-top: 0px; //     padding-bottom: 0px; //   }
@@ -35,7 +34,7 @@ const NavHeader = (props) =>{
         <Header style={styles.header} className={"header-section nav-header header2"} >
             <Row justify="space-between" align="middle" style={{ padding: '0px 15px'}}>
                 <Col xs={24} sm={24} md={20}>
-                    <Menu mode="horizontal" className="custom-menu"  selectedKeys={[urlKey]}>
+                    <Menu mode="horizontal" className="custom-menu c-goldish"  selectedKeys={[urlKey]}>
                         <Menu.Item key="/"  onClick={() => router.push('/')}>
                             Home
                         </Menu.Item>
@@ -68,6 +67,7 @@ const NavHeader = (props) =>{
                         ghost
                         size='large'
                         block
+                        className='c-goldish-hover b-goldish-hover'
                         // style={{backgroundColor: '#fed03d', fontWeight: 600}} 
                         onClick={()=>props.openModal()}
                     > Contact US </Button>
