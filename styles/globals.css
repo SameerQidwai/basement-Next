@@ -183,6 +183,7 @@ h5.ant-typography.c-blackish{
 /* Button */
 .bgc-goldish.ant-btn-primary:not([class^="hover-b-"]):hover{
   background-color : #d8ae5e !important;
+  background : #d8ae5e !important;
   
 }
 .bgc-goldish.ant-btn-primary:not([class^="hover-b-"]):hover{
