@@ -440,7 +440,6 @@ a.ant-btn.ant-btn-link.blog-services-item{
 }
 
 h1.ant-typography.consult-title{
-    color: #05ade7;
     font-family: 'Montserrat', 'Poppins', sans-serif;
     font-size: 42px;
     text-align: center;
@@ -467,10 +466,9 @@ p.consult-para{
     line-height: 30px;
     margin-bottom: 40px;
 }
-.consult-form-title{
+h1.ant-typography.consult-form-title{
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     font-size: 50px;
-    color: #1c1b1d;
     width: 100%;
     margin-bottom: 0px;
     font-weight: 700;
@@ -485,7 +483,6 @@ p.consult-para{
     height: 310px;
 }
 .contact-main-box{
-    background-color: #05ade7;
     height: 340px;
     margin-top: 0px;
     padding: 30px;
@@ -572,17 +569,57 @@ p.consult-para{
 }
 
 .contact-avatar{
-    color: #ffffff;
     font-size: 48px;
     font-weight: 600;
-    background-color: #05ade7;
     text-transform: uppercase;
+}
+.contact-box:hover .contact-avatar{
+    box-shadow: 7px 3px 14px 0px #d8ae5e;
+}
+.contact-last-box:hover .contact-avatar{
+    box-shadow: 7px 3px 14px 0px #d8ae5e;
+}
+.contact-main-box:hover .contact-main-avatar{
+    box-shadow: 7px 3px 14px 0px #1d1f1c;
+}
+a.hover-c-goldish:hover span{
+    color: #d8ae5e !important;
+}
+
+a.hover-c-blackish:hover span{
+    color: #1d1f1c !important;
 }
 
 .contact-main-avatar{
-    color: #ffffff;
     font-size: 48px;
     font-weight: 600;
-    background-color: #196aaf;
     text-transform: uppercase;
+}
+button.ant-btn.ant-btn-text.ant-btn-block.button-overlay {
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    height: 100% !important;
+    font-weight:600;
+    font-size: x-large !important;
+    padding: auto !important;
+}
+button.ant-btn.ant-btn-text.ant-btn-block.button-overlay:hover{
+    color:#d8ae5e !important
+}
+a.ant-btn.ant-btn-text.ant-btn-block.button-overlay {
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+    height: 100% !important;
+    font-weight:600;
+    font-size: x-large !important;
+    padding: auto !important;
+}
+a.ant-btn.ant-btn-text.ant-btn-block.button-overlay:hover{
+    color:#d8ae5e !important
+}
+
+form.modal-form .ant-input-lg {
+    line-height: 1.42 !important;
 }

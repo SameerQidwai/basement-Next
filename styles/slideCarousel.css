@@ -139,11 +139,11 @@ div.ant-typography.carousel-p {
     background-color: rgba(72,167,214,0.4)
 }
 
-.carousel-btn {
+a.ant-btn.carousel-btn {
     height: auto !important;
     font-size: 15px !important;
     letter-spacing: 2px;
-    padding: 10px 40px !important;
+    padding: 5px 40px !important;
 }
 /* .carousel-btn.c-blackish.bgc-goldish.b-goldish:hover {
     color: #ffffff !important;

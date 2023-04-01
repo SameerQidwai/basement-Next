@@ -10,7 +10,13 @@ import {
   Tooltip,
   Typography,
 } from 'antd';
-import { FacebookFilled, MailOutlined, PhoneFilled, TwitterSquareFilled, UserOutlined } from '@ant-design/icons';
+import {
+  FacebookFilled,
+  MailOutlined,
+  PhoneFilled,
+  TwitterSquareFilled,
+  UserOutlined,
+} from '@ant-design/icons';
 
 const { Text, Title } = Typography;
 
@@ -39,25 +45,25 @@ const Index = () => {
 
   return (
     <Row>
-      <Col span={24}>
+      <Col span={24} className="bgc-white">
         <Row justify="center" className="consult">
           <Col span={24} className="txt-center">
-            <Title level={1} className={'consult-title'}>
+            <Title level={1} className={'consult-title c-goldish'}>
               WE ARE HERE To Build your Dream
             </Title>
           </Col>
           <Col span={24} className="txt-center">
             <Title level={4} className={'consult-sub-title'}>
-            CONTACT US NOW
+              CONTACT US NOW
             </Title>
           </Col>
           <Col span={24}>
             <p className="consult-para">
-            Get in touch with our team of skilled basement builders 
-            in Ontario who share the same level of commitment as you. 
-            At My Legal Basement, we offer basement construction services 
-            for luxury developments, commercial, and industrial projects. 
-            Request a quote today and let us bring your vision to life.
+              Get in touch with our team of skilled basement builders in Ontario
+              who share the same level of commitment as you. At My Legal
+              Basement, we offer basement construction services for luxury
+              developments, commercial, and industrial projects. Request a quote
+              today and let us bring your vision to life.
             </p>
           </Col>
           <Col xs={24} md={20}>
@@ -66,24 +72,28 @@ const Index = () => {
                 <Row className="contact-box" justify="center">
                   <Col span={24} className="txt-center">
                     <Avatar
-                      className="contact-avatar"
+                      className="contact-avatar bgc-goldish c-white"
                       size={80}
                       icon={<UserOutlined />}
                     />
                   </Col>
                   <Title level={3}>Frequently Asked Questions</Title>
                   <Title level={4}>
-                    <Button type="text" href="tel:9058055633">
+                    <Button
+                      type="text"
+                      href="tel:9058055633"
+                      className="hover-c-goldish"
+                    >
                       905 805 5633
                     </Button>
                   </Title>
                 </Row>
               </Col>
               <Col xs={24} sm={8} md={8}>
-                <Row className="contact-main-box">
+                <Row className="contact-main-box bgc-goldish">
                   <Col span={24} className="txt-center">
                     <Avatar
-                      className="contact-main-avatar"
+                      className="contact-main-avatar bgc-blackish c-white"
                       size={80}
                       icon={<UserOutlined />}
                     />
@@ -95,13 +105,17 @@ const Index = () => {
                   </Col>
                   <Col span={24}>
                     <Title level={4} className="txt-center">
-                      <Button type="text" href="mail:info@mylegalbasement.ca">
+                      <Button
+                        type="text"
+                        href="mail:info@mylegalbasement.ca"
+                        className="hover-c-blackish"
+                      >
                         info@mylegalbasement.ca
                       </Button>
                     </Title>
                   </Col>
                   <Title level={3}>follow Us</Title>
-                  <Row gutter={[16]} justify="center"  style={{width:'100%'}} >
+                  <Row gutter={[16]} justify="center" style={{ width: '100%' }}>
                     <Col>
                       <Tooltip title="Facebook" arrowPointAtCenter>
                         <a
@@ -143,7 +157,7 @@ const Index = () => {
                 <Row className="contact-last-box">
                   <Col span={24} className="txt-center">
                     <Avatar
-                      className="contact-avatar"
+                      className="contact-avatar  bgc-goldish c-white"
                       size={80}
                       icon={<UserOutlined />}
                     />
@@ -159,8 +173,13 @@ const Index = () => {
             </Row>
           </Col>
           <Col span={24} className="pt-30">
-            <Title level={1} className="consult-form-title">
+            <Title level={1} className="consult-form-title c-goldish">
               We Are Ready to Listen
+            </Title>
+          </Col>
+          <Col span={24} className="txt-center mb-20">
+            <Title level={4} className="consult-sub-title">
+              Leave A Message
             </Title>
           </Col>
           <Col sm={23} md={18} xs={23} className="txt-enter">
@@ -243,7 +262,7 @@ const Index = () => {
                     type="primary"
                     size="large"
                     shape="round"
-                    // className="conact-area-btn"
+                    className="bgc-goldish b-goldish c-blackish  hover-bgc-goldish hover-b-goldish hover-c-blackish hover-s-goldish"
                     block
                     htmlType="submit"
                   >

@@ -41,7 +41,7 @@ const Introduction = () => {
             </p>
             <Row></Row>
             <Col xs={24} sm={24} md={12}>
-              <a href="https://mylegalbasement.ca/our-process">
+              <a href="/our-process">
                 <button className="lop_mommb c-blackish bgc-goldish hover-s-goldish hover-c-white">Read More</button>
               </a>
             </Col>

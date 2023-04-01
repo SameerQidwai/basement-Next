@@ -8,7 +8,7 @@ const BottomFooter = () => {
   return (
     <div>
         <Row justify='center' className="link-footer row-margin-null " gutter={[30,10]}>
-            <Col><Button type="text" href="#">ARCHITECTURAL DRAWINGS & BUILDING PERMITS</Button></Col>
+            <Col><Button type="text" href="#" style={{whiteSpace: "break-spaces"}}>ARCHITECTURAL DRAWINGS & BUILDING PERMITS</Button></Col>
             <Col><Button type="text" href="#">BASEMENT CONSTRUCTION</Button></Col>
             <Col><Button type="text" href="#">KITCHENS</Button></Col>
             <Col><Button type="text" href="#">BATHROOMS</Button></Col>

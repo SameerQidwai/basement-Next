@@ -58,16 +58,15 @@ const NavHeader = (props) =>{
                         </Menu.Item>
                     </Menu>
                 </Col>
-                <Col xs={24} sm={24} md={4}>
+                <Col xs={24} sm={24} md={3} className="txt-center">
                     <Button
                         // type="ghost" 
-                        ghost
+                        // ghost
                         size='large'
                         block
-                        className='c-goldish-hover b-goldish-hover'
-                        // style={{backgroundColor: '#fed03d', fontWeight: 600}} 
+                        className='c-white b-blackish bgc-blackish hover-bgc-blackish hover-b-blackish hover-c-white hover-s-goldish scroll-down'
                         onClick={()=>props.openModal()}
-                    > Contact US </Button>
+                    > CONTACT US </Button>
                 </Col>
             </Row>
         </Header>

@@ -46,7 +46,7 @@ const MobileNavHeader = (props) => {
       <Row
         justify="space-between"
         align="middle"
-        style={{ padding: '0px 15px' }}
+        style={{ padding: '0px 2px' }}
       >
         <Col xs={24} sm={24} md={20}>
           <Dropdown
@@ -87,12 +87,6 @@ const MobileNavHeader = (props) => {
                   onClick={() => callRoute('/careers')}
                 >
                   careers
-                </Menu.Item>
-                <Menu.Item
-                  key="/contact-us"
-                  onClick={() => callRoute('/contact-us')}
-                >
-                  Contact us
                 </Menu.Item>
                 <Menu.Item
                   key="/consulting"

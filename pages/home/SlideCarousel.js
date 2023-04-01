@@ -9,8 +9,8 @@ const SlideCarousel = () => {
     <Carousel
       className="carousel-slider"
       effect="fade"
-      autoplay
-      autoplaySpeed={2000}
+      // autoplay
+      // autoplaySpeed={2000}
       // accessibility
       // arrows
       lazyLoad="ondemand"
@@ -76,16 +76,18 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
+                        href='/our-services'
                         >
-                          SEE ARE PROCESS
+                          SEE OUR SERVICES
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
+                        href='/consulting'
                         >
-                          GET A QOUTE TODAY
+                          GET A QOUTE NOW
                         </Button>
                       </Col>
                     </Row>
@@ -154,16 +156,18 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
+                        href='/our-services'
                         >
-                          SEE ARE PROCESS
+                          SEE OUR SERVICES
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
+                        href='/consulting'
                         >
-                          GET A QOUTE TODAY
+                          GET A QOUTE NOW
                         </Button>
                       </Col>
                     </Row>
@@ -232,16 +236,18 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
+                        href='/our-services'
                         >
-                          SEE ARE PROCESS
+                          SEE OUR SERVICES
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
+                        href='/consulting'
                         >
-                          GET A QOUTE TODAY
+                          GET A QOUTE NOW
                         </Button>
                       </Col>
                     </Row>
@@ -310,16 +316,18 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
+                          href='/our-services'
                         >
-                          SEE ARE PROCESS
+                          SEE OUR SERVICES
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
+                          href='/consulting'
                         >
-                          GET A QOUTE TODAY
+                          GET A QOUTE NOW
                         </Button>
                       </Col>
                     </Row>

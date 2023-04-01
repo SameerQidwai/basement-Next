@@ -1,7 +1,7 @@
 import {useState} from 'react'
-import {  Col, Divider, Form, Input, Modal, Row, Typography } from "antd";
+import {  Button, Col, Divider, Form, Input, Modal, Row, Tooltip, Typography } from "antd";
 import { useWindowDimensions } from '../useFunction';
-import { GlobalOutlined, PhoneFilled, MailOutlined } from '@ant-design/icons';
+import { GlobalOutlined, PhoneFilled, MailOutlined, TwitterSquareFilled, FacebookFilled } from '@ant-design/icons';
 
 const { Text, Title } = Typography
 export default function EModal ({visible, close}) {
@@ -36,7 +36,7 @@ export default function EModal ({visible, close}) {
     }
 
     return( <Modal
-        title={<div>Get a Free Consultation Today</div>}
+        title={<div className='c-blackish'>Get a Free Consultation Today</div>}
         maskClosable={true}
         centered={false}
         destroyOnClose
@@ -65,18 +65,62 @@ export default function EModal ({visible, close}) {
                         <Text >Office 936 The East Mall, 1st FL Toronto, ON M9B 6J9</Text>
                     </Col>
                 </Row> */}
-                <Row justify="space-between" className='mb-10'>
+                <Row justify="space-between" className='mb-10' align='middle'>
                     <Col><MailOutlined /></Col>
-                    <Col span={22} className="address-span">
-                        <Text >azim.qidwai@gmail.com</Text>
+                    <Col span={22}  >
+                        <Button
+                        type="link"
+                        href="mail:info@mylegalbasement.ca">azim.qidwai@gmail.com</Button>
                     </Col>
                 </Row>
-                <Row justify="space-between">
+                <Row justify="space-between" className='mb-10' align='middle'>
                     <Col> <PhoneFilled /> </Col>
                     <Col span={22}>
-                        <Text>905-669-0471</Text>
+                        <Button
+                      type="link"
+                      href="tel:9058055633">905-669-0471</Button>
                     </Col>
                 </Row>
+                <Row justify="space-between" className='mb-10' align='middle'>
+                <Col> <GlobalOutlined /> </Col>
+                    <Col span={22}> Follow us </Col>
+                </Row>
+                <Row gutter={[16]} justify="center" style={{ width: '100%' }}>
+                    <Col>
+                      <Tooltip title="Facebook" arrowPointAtCenter>
+                        <a
+                          target={'_blank'}
+                          href="https://www.facebook.com/"
+                          className="reset-a"
+                        >
+                          <FacebookFilled className="fs-25 fb-icon" />
+                        </a>
+                      </Tooltip>
+                    </Col>
+                    <Col>
+                      <Tooltip title="Twitter" arrowPointAtCenter>
+                        <a
+                          target={'_blank'}
+                          href="https://www.twitter.com/"
+                          className="reset-a"
+                        >
+                          <TwitterSquareFilled className="fs-25 tw-icon" />
+                        </a>
+                      </Tooltip>
+                    </Col>
+                    <Col>
+                      <Tooltip title="Instagram" arrowPointAtCenter>
+                        <a
+                          target={'_blank'}
+                          href="https://www.instagram.com/"
+                          className="reset-a"
+                        >
+                          {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
+                          <div className="instagram"></div>
+                        </a>
+                      </Tooltip>
+                    </Col>
+                  </Row>
             </Col>
             <Col span={18}>
                 <Form
@@ -88,124 +132,76 @@ export default function EModal ({visible, close}) {
                     layout="inline"
                     onFieldsChange={validateInfo}
                     validateTrigger='onSubmit'
+                    className="modal-form"
                 >
-                    <Row gutter={[0 , 30]}>
+                    <Row gutter={[0 , 25]}>
                         <Col span={24}>
                             <Form.Item noStyle >
                                 <Text>We are ready to help build your dreams</Text>
                             </Form.Item>
                         </Col>
-                        <Col sm={24} md={12}>
-                            <Row>
-                                <Col span={24}>
-                                    <Form.Item noStyle>
-                                        <Text >FIRST NAME <span className='required-sign'>*</span></Text>
-                                    </Form.Item>
-                                </Col>
-                                <Col span={24}>
-                                    <Form.Item name="Fname" >
-                                        <Input 
-                                            autoFocus
-                                            rules={[
-                                                {
-                                                    required: true,
-                                                    message: 'Enter Your name',
-                                                },
-                                            ]}
-                                        />
-                                    </Form.Item>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col sm={24} md={12}>
-                            <Row>
-                                <Col span={24}>
-                                    <Form.Item noStyle>
-                                        <Text >LAST NAME</Text>
-                                    </Form.Item>
-                                </Col>
-                                <Col span={24}>
-                                    <Form.Item name="Lname" >
-                                        <Input />
-                                    </Form.Item>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col sm={24} md={12}>
-                            <Row>
-                                <Col span={24}>
-                                    <Form.Item noStyle>
-                                        <Text >EMAIL ADDRESS</Text>
-                                    </Form.Item>
-                                </Col>
-                                <Col span={24}>
-                                    <Form.Item 
-                                        name="email" 
-                                        rules={[
-                                            {
-                                                required: required,
-                                                message: 'One Contact Information Required',
-                                            },
-                                            {
-                                                type: 'email',
-                                                message: 'The input is not valid E-mail!',
-                                            },
-                                        ]}
-                                    >
-                                        <Input />
-                                    </Form.Item>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col sm={24} md={12}>
-                            <Row>
-                                <Col span={24}>
-                                    <Form.Item noStyle>
-                                        <Text>HOME NUMBER</Text>
-                                    </Form.Item>
-                                </Col>
-                                <Col span={24}>
-                                    <Form.Item name="contact" 
-                                        rules={[
-                                            {
-                                                required: required,
-                                                message: 'So We Can Contact You',
-                                            },
-                                        ]}
-                                    >
-                                        <Input />
-                                    </Form.Item>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col span={24}>
-                            <Row>
-                                <Col span={24}>
-                                    <Form.Item noStyle>
-                                        <Text >SUBJECT</Text>
-                                    </Form.Item>
-                                </Col>
-                                <Col span={24}>
-                                    <Form.Item name="subject" >
-                                        <Input />
-                                    </Form.Item>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col span={24}>
-                            <Row>
-                                <Col span={24}>
-                                    <Form.Item noStyle>
-                                    <Text >HOW CAN WE HELP?</Text>
-                                    </Form.Item>
-                                </Col>
-                                <Col span={24}>
-                                    <Form.Item name="message" >
-                                    <Input.TextArea/>
-                                    </Form.Item>
-                                </Col>
-                            </Row>
-                        </Col>
+                        {/* <Row gutter={[0, 25]} justify="center"> */}
+                <Col xs={24} sm={24} md={12}>
+                  <Form.Item
+                    name="name"
+                    rules={[
+                      {
+                        required: true,
+                        message: 'Enter Your name',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'Full Name:'} />
+                  </Form.Item>
+                </Col>
+                <Col xs={24} sm={24} md={12}>
+                  <Form.Item
+                    name="contact"
+                    rules={[
+                      {
+                        required: required,
+                        message: 'So We Can Contact You',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'Phone Number:'} />
+                  </Form.Item>
+                </Col>
+                <Col xs={24} sm={24} md={12}>
+                  <Form.Item
+                    name="email"
+                    rules={[
+                      {
+                        required: required,
+                        message: 'One Contact Information Required',
+                      },
+                      {
+                        type: 'email',
+                        message: 'The input is not valid E-mail!',
+                      },
+                    ]}
+                  >
+                    <Input placeholder={'Email:'} />
+                  </Form.Item>
+                </Col>
+                <Col xs={24} sm={24} md={12}>
+                  <Form.Item name="subject">
+                    <Input placeholder="Subject:" />
+                  </Form.Item>
+                </Col>
+                <Col span={24}>
+                  <Form.Item name="address">
+                    <Input placeholder={'Address:'} />
+                  </Form.Item>
+                </Col>
+                <Col span={24}>
+                  <Form.Item name="message">
+                    <Input.TextArea
+                      autoSize={{ minRows: 3, maxRows: 3 }}
+                      placeholder="HOW CAN WE HELP?"
+                    />
+                  </Form.Item>
+                </Col>
                     </Row>
                 </Form>
             </Col>

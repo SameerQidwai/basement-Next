@@ -10,7 +10,7 @@ const Projects = () => {
       <div className='txt-center'>
         <Title level={3} className="service-title c-blackish "><span>OUR</span> PROJECTS</Title>
       </div>
-      <ProjectsPreview />
+      <ProjectsPreview home={true}/>
     </div>
   );
 };

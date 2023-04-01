@@ -74,7 +74,6 @@ const Blogs = () => {
               </Col>
               <Col>
                 <Title level={3} className="blog-date">
-                  {' '}
                   DATE : FEBRUARY 28, 2023
                 </Title>
                 <Title level={2} className="blog-title">
@@ -82,7 +81,6 @@ const Blogs = () => {
                 </Title>
                 <a>
                   <Button size="small" type="link">
-                    {' '}
                     READ MORE <RightCircleOutlined />
                   </Button>
                 </a>

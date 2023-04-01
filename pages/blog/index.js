@@ -70,7 +70,7 @@ const index = () => {
                                     </Title>
                                 </Col>
                                 <Col span={24}>
-                                    <Title level={2} className="blog-title c-goldish">
+                                    <Title level={2} className="blog-title c-blackish">
                                     {title}
                                     </Title>
                                 </Col>
@@ -79,7 +79,7 @@ const index = () => {
                                 </Col>
                                 <Col span={24}>
                                     <a>
-                                        <Button size="large" className="round-button bgc-blackish c-white" href="/blog">READ MORE</Button>
+                                        <Button size="large" className="round-button bgc-goldish c-white hover-bgc-blackish hover-c-white" href="/blog">READ MORE</Button>
                                     </a>
                                 </Col>
                             </Row>

@@ -44,7 +44,7 @@
   float: left;
   position: relative;
   z-index: 99;
-  height: 30px;
+  height: 24px;
 }
 .header-basement-btn{
   font-family: 'Barlow Condensed', sans-serif;
@@ -83,11 +83,20 @@
     margin-bottom: 0px;
     margin-top: -2px;
     padding-left: 30px;
-    background-color: #28427b;
+    background-color: #d8ae5e;
     border: none;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
-    line-height: 24px;
+    line-height: 24px !important;
+    height:auto !important;
+    padding-top: 0px !important;
+    padding-bottom: 2px !important
     /* height: 86px; */
+}
+.ant-btn.header-basment-mobile-btn:focus{
+  background-color: #d8ae5e;
+}
+.ant-btn-primary.ant-btn.header-basment-mobile-btn:hover{
+  background-color: #d8ae5e;
 }
 .header-basment-mobile-btn-left{
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
@@ -101,11 +110,20 @@
     margin-top: -2px;
     padding-left: 5px;
     margin-right: 10px;
-    background-color: #28427b;
+    background-color: #1d1f1c;
     border: none;
     clip-path: polygon(100% 0, 87% 100%, 87% 100%, 0 100%, 0 0);
-    line-height: 24px;
+    line-height: 24px !important;
+    height:auto !important;
+    padding:0px !important;
+    padding-bottom: 2px !important
     /* height: 86px; */
+}
+.ant-btn.header-basment-mobile-btn-left:focus{
+  background-color: #1d1f1c;
+}
+.ant-btn-primary.ant-btn.header-basment-mobile-btn-left:hover{
+  background-color: #1d1f1c;
 }
 
 .fb-icon {
@@ -273,6 +291,17 @@
 }
 .is-sticky-mobile .img-visible{
   display:inline
+}
+header.is-sticky.header-section button.c-white.b-blackish.bgc-blackish.hover-bgc-blackish.hover-b-blackish.hover-c-white.hover-s-goldish{
+  color : #1d1f1c !important;
+  border-color : #d8ae5e !important;
+  background-color: #d8ae5e !important;
+  height: auto !important;
+  padding: 0px !important;
+  width: 70% !important;
+}
+header.is-sticky.header-section button.c-white.b-blackish.bgc-blackish.hover-bgc-blackish.hover-b-blackish.hover-c-white.hover-s-goldish:hover{
+  box-shadow: 7px 3px 14px 4px #1d1f1c !important;
 }
 
  /* @media only screen and (max-width: 862px) {

@@ -74,6 +74,13 @@ body{
   color : #ffffff !important;
 
 }
+/* .ant-btn:hover, .ant-btn:focus {
+  color: currentColor !important;
+  border-color: currentColor !important;
+  text-decoration: none !important;
+  background: currentColor!important;
+} */
+.ant-btn[ant-click-animating-without-extra-node='false']::after{display:none;}
 .hover-bgc-goldish:hover{
   background-color : #d8ae5e !important;
 
@@ -195,6 +202,27 @@ h5.ant-typography.c-blackish{
 }
 .bgc-blackish.ant-btn-primary:not([class^="hover-b-"]):hover{
   border-color: #1d1f1c !important;
+}
+.bgc-blackish.ant-btn:focus{
+  background-color : #1d1f1c !important;
+}
+.b-blackish.ant-btn:focus{
+  border-color : #1d1f1c !important;
+}
+.c-blackish.ant-btn:focus{
+  color : #1d1f1c !important;
+}
+.bgc-goldish.ant-btn:focus{
+  background-color : #d8ae5e !important;
+}
+.b-goldish.ant-btn:focus{
+  border-color : #d8ae5e !important;
+}
+.c-goldish.ant-btn:focus{
+  color : #d8ae5e !important;
+}
+.c-white.ant-btn:focus{
+  color : #ffffff !important;
 }
 
 .banner-user{
