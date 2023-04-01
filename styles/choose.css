@@ -104,21 +104,24 @@ h1.conact-for-basment-renovation{
     text-transform: capitalize;
 }    
 
-.conact-area-btn{
+a.ant-btn.conact-area-btn{
     font-weight: 600;
     padding: 21px 53px !important;
     border-width: 3px;
     height: auto !important ;
     text-transform: uppercase;
     font-size: 18px;
+    width: 226.81px;
 }
-
+.conact-area-btn:hover {
+    color: #333333 !important;
+    background-color: #ffffff !important;
+}
 .appointment{
     width: 100%;
     /* float: left; */
     padding-top: 40px;
     padding-bottom: 20px;
-    background-color: #28427b;
 }
 
 .appointment-legal{
@@ -129,7 +132,6 @@ h1.conact-for-basment-renovation{
 h1.legal-title{
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
-    color: #ffffff;
     word-wrap: normal;
     font-weight: 600;
     margin-bottom: 10px;
@@ -148,7 +150,6 @@ h5.legal-text{
     line-height: 32px;
 }
 h5.appointment-sub-title{
-    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     width: 100%;
@@ -159,9 +160,7 @@ h5.appointment-sub-title{
     
 }
 h1.appointment-title{
-    
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
     font-size: 49px;
     width: 100%;
     margin-top: 8px !important;
@@ -173,11 +172,19 @@ h1.appointment-title{
 
 form.appointment-form  .ant-input-lg {
     line-height: 1.57 !important;
-  }
+}
 
-.municipal-container{
-    padding-top: 50px;
-    padding-bottom: 50px;
+h3.ant-typography.municpal-title{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 24px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    margin-left: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .municipal-logo-box{
@@ -260,22 +267,21 @@ form.appointment-form  .ant-input-lg {
     line-height: 26px;
 }
 
-.blog-wrapper .more .round-button{
-    color: #ffffff;
+.blog-wrapper .more a.ant-btn.round-button{
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     font-size: 19px;
     text-align: center;
     margin-top: 19px;
     font-weight: 600;
-    background-color: #05ade7;
     border: none;
-    padding: 15px 33px;
+    padding: 15px 33px !important;
+    height: auto;
     border-radius: 0px;
     width: auto;
     text-transform: uppercase;
 }
 .blog-card{
     width: 100%;
-    box-shadow: 0px 6px 10px -2px #979797;
     padding: 24px;
     margin-bottom: 29px;
     min-height: 350px;
@@ -306,19 +312,17 @@ form.appointment-form  .ant-input-lg {
     padding-bottom: 40px ;
 }
 .blog-page h3.ant-typography.blog-date{
-    color: #080808;
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     font-size: 15px;
     width: 100%;
     margin-top: 20px;
     font-weight: 500;
     margin-bottom: 18px;
-    border-bottom: 1px dashed #b2afaf;
+    border-bottom: 1px dashed #737373;
     padding-bottom: 17px;
 }
 
 .blog-page h2.ant-typography.blog-title{
-    color: #080808;
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     width: 100%;
@@ -327,7 +331,6 @@ form.appointment-form  .ant-input-lg {
     margin-bottom: 7px;
 }
 .blog-page p.blog-content{
-    color: #080808;
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     font-size: 14px;
     text-align: left;
@@ -339,8 +342,6 @@ form.appointment-form  .ant-input-lg {
 }
 
 .blog-page .round-button{
-    background-color: #0a75c2;
-    color: #ffffff;
     padding: 11px 37px;
     text-decoration: none;
     display: inline-block;
@@ -350,13 +351,12 @@ form.appointment-form  .ant-input-lg {
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     border-radius: 46px;
     width: auto;
-    border: 2px solid #fff;
+    border: 2px solid #1d1f1c;
     font-weight: 600;
     text-transform: uppercase;
     box-shadow: inset 0 3px 8px rgb(0 0 0 / 60%);
 }
 h3.ant-typography.blog-services{
-    color: #080808;
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
     font-size: 22px;
     width: 100%;
@@ -375,9 +375,21 @@ h5.ant-typography.blog-services-item{
     width: 100%;
     font-weight: 400;
     margin-bottom: 10px;
-    color: #080808;
     text-decoration: none;
     padding: 10px 17px;
+}
+a.ant-btn.ant-btn-link.blog-services-item{
+    font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
+    font-size: 14px !important;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    margin-bottom: 10px !important;
+    text-decoration: none;
+    padding: 10px 17px !important;
+    text-align: left;
+    white-space: break-spaces;
+    line-height: 1.5;
 }
 .border-1{
     border: 1px solid #dfdbdb;

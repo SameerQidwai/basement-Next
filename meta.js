@@ -86,3 +86,48 @@ GTA: home renovation GTA, basement renovation GTA, kitchen renovation GTA, bathr
 <meta property="og:title" content="Leaders of Legal Basement Specialist in Ontario"/>
 
 <meta property="og:image" content=""></meta>
+
+
+
+
+<h1>Creating your favourite place SPACES</</h1>
+<p>Designing your bathroom to give you a soothing experience to start your day.</p>
+
+This is the title shows on my carousel behined it ouor some images of my project pictures
+I want you to rephrase above heading as such I can put it as heading on carousel and will also 
+will be good for SEO, remember this website is for struction company who's experties is basment, kitchen and renovation
+
+
+
+rephrase
+"Unleash Your Culinary Creativity" - Our kitchen remodeling services can transform your space into a chef's paradise, with modern amenities and sleek design that will inspire your cooking.
+
+good looking
+BATHROOM 
+    Create Your Relaxing Place <span>Spaces</span> - Transform your bathroom into a serene retreat to start your day refreshed and relaxed.
+    Experience Luxury in Your Own <span>Bathroom</span> - We can Transform a bathroom that feels like a spa retreat to start your day refreshed and relaxed.
+
+BASEMENTS 
+"Elevate your basement to the <span> next level </span>" - Elevate your basement VISIONS with premium finishes and modern design elements that enhance your home's aesthetic appeal.
+
+"Elevate your basement to the <span> next level </span>" - Utilize your basement as an additional living space to enhance the comfort and functionality of your home.
+
+KITCHENS
+"Unleash Your Culinary <span>Creativity</span>" - Our kitchen remodeling services can transform your space into a chef's paradise, with modern amenities and sleek design that will inspire your cooking.
+
+OTHERWISE
+Turn Your Vision Into <span>Reality</span> - Let us help you bring your dream  to life with our collaborative design approach and high-quality workmanship.
+
+
+
+
+
+
+
+
+
+
+
+
+GIF
+https://assets.cdn.filesafe.space/oIvM37LAang2VJMnbtte/media/636f5891ab6c3ba4a53fbbdb.gif

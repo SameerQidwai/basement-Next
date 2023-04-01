@@ -30,11 +30,11 @@ const  Municipalities = () => {
 
     const router = useRouter()
     return (
-      <Row className="my-50">
-        <Col span={24} className="municipal-container">
+      <Row className="py-50 bgc-white">
+        <Col span={24}>
           <Row className="choose-container" justify="center">
             <Col span={24} className="txt-center">
-              <Title level={3}>MUNICIPALITIES WE WORK WITH</Title>
+              <Title level={3} className="municpal-title">Our Partnerships with Municipalities</Title>
             </Col>
             <Col span={20}>
               <Row gutter={[20, 34]}>

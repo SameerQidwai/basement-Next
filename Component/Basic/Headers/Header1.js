@@ -9,7 +9,7 @@ const Header1 = (props) => {
     <Header style={styles.header}>
       <div>
         <Row
-          className="hedear-basement-1 bgc-blackish shadow-goldish"
+          className="hedear-basement-1 bgc-blackish s-goldish"
           align="stretch"
           justify="space-between"
         >
@@ -34,7 +34,7 @@ const Header1 = (props) => {
                         href="https://www.facebook.com/"
                         className="reset-a"
                       >
-                        <FacebookFilled className="fs-25 fb-icon bgc-blackish" />
+                        <FacebookFilled className="fs-25 fb-icon " />
                       </a>
                     </Tooltip>
                   </Col>
@@ -45,7 +45,7 @@ const Header1 = (props) => {
                         href="https://www.twitter.com/"
                         className="reset-a"
                       >
-                        <TwitterSquareFilled className="fs-25 tw-icon bgc-blackish" />
+                        <TwitterSquareFilled className="fs-25 tw-icon " />
                       </a>
                     </Tooltip>
                   </Col>
@@ -57,18 +57,18 @@ const Header1 = (props) => {
                         className="reset-a"
                       >
                         {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
-                        <div className="instagram bgc-blackish"></div>
+                        <div className="instagram "></div>
                       </a>
                     </Tooltip>
                   </Col>
                 </Row>
               </Col>
-              <Col className="shadow-blackish" >
+              <Col className="s-blackish" >
                 {/* xs={24} sm={8} md={6} */}
                 <Button
                   type="primary"
                   size="large"
-                  className="header-basment-btn bgc-goldish  c-white"
+                  className="header-basement-btn bgc-goldish  c-white"
                   block
                   href="tel:+16472189786"
                 >

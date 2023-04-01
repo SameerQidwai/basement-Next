@@ -9,7 +9,7 @@ const SlideCarousel = () => {
     <Carousel
       className="carousel-slider"
       effect="fade"
-      // autoplay
+      autoplay
       autoplaySpeed={2000}
       // accessibility
       // arrows
@@ -37,7 +37,7 @@ const SlideCarousel = () => {
                   <Row>
                     <Col>
                       <Title className="carousel-title">
-                        Marvelous Kitchen Remodels
+                        Unleash Your Culinary
                       </Title>
                     </Col>
                   </Row>
@@ -49,7 +49,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Title level={2} className="carousel-title">
-                        Interior
+                        Creativity
                       </Title>
                     </Col>
                   </Row>
@@ -61,7 +61,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Paragraph className="carousel-p">
-                        Revamp Your Home with Marvelous Kitchen Remodeling
+                        Our kitchen remodeling services can transform your space into a chef's paradise, with modern amenities and sleek design that will inspire your cooking.
                       </Paragraph>
                     </Col>
                   </Row>
@@ -75,7 +75,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -83,7 +83,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
+                          className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>
@@ -115,7 +115,7 @@ const SlideCarousel = () => {
                   <Row>
                     <Col>
                       <Title className="carousel-title">
-                        Enhancing your living
+                        Elevate your basement to the
                       </Title>
                     </Col>
                   </Row>
@@ -127,7 +127,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Title level={2} className="carousel-title">
-                        spaces
+                        next level
                       </Title>
                     </Col>
                   </Row>
@@ -139,8 +139,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Paragraph className="carousel-p">
-                        We collaborate with you to create your desired basement
-                        by turning your vision into a reality.
+                        Utilize your basement as an additional living space to enhance the comfort and functionality of your home.
                       </Paragraph>
                     </Col>
                   </Row>
@@ -154,7 +153,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -162,7 +161,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
+                          className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>
@@ -194,23 +193,23 @@ const SlideCarousel = () => {
                   <Row>
                     <Col>
                       <Title className="carousel-title">
-                        Below Grade Entrance
+                      Turn Your Vision Into
                       </Title>
                     </Col>
                   </Row>
                 </Col>
-                {/* <Col span={24}>
+                <Col span={24}>
                   <Row
                     data-animation="animated zoomInRight"
                     className="animated zoomInRight"
                   >
                     <Col>
                       <Title level={2} className="carousel-title">
-                      spaces	
+                      Reality	
                       </Title>
                     </Col>
                   </Row>
-                </Col> */}
+                </Col>
                 <Col span={24}>
                   <Row
                     data-animation="animated fadeInLeft"
@@ -218,8 +217,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Paragraph className="carousel-p">
-                        We design and build below & above grade entrances for
-                        basement apartments.
+                      Let us help you bring your dream  to life with our collaborative design approach and high-quality workmanship.
                       </Paragraph>
                     </Col>
                   </Row>
@@ -233,7 +231,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -241,7 +239,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
+                          className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>
@@ -273,7 +271,7 @@ const SlideCarousel = () => {
                   <Row>
                     <Col>
                       <Title className="carousel-title">
-                        Creating your favourite place
+                        Experience Luxury in Your Own
                       </Title>
                     </Col>
                   </Row>
@@ -285,7 +283,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Title level={2} className="carousel-title">
-                        spaces
+                        Spaces
                       </Title>
                     </Col>
                   </Row>
@@ -297,8 +295,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Paragraph className="carousel-p">
-                        Designing your bathroom to give you a soothing
-                        experience to start your day.
+                        We can Transform a bathroom that feels like a spa retreat to start your day refreshed and relaxed..
                       </Paragraph>
                     </Col>
                   </Row>
@@ -312,7 +309,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-blackish bgc-goldish b-goldish shadow-blackish hover-b-goldish"
+                          className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
                         >
                           SEE ARE PROCESS
                         </Button>
@@ -320,7 +317,7 @@ const SlideCarousel = () => {
                       <Col className="carousel-btn-col">
                         <Button
                           size="large"
-                          className="carousel-btn c-white bgc-blackish b-blackish  shadow-blackish hover-b-blackish"
+                          className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         >
                           GET A QOUTE TODAY
                         </Button>

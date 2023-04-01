@@ -6,9 +6,9 @@ const { Title } = Typography;
 
 const Projects = () => {
   return (
-    <div className="mt-50 mb-25 bgc-white">
+    <div className="pt-50 pb-25 bgc-white">
       <div className='txt-center'>
-        <Title level={1}>OUR PROJECTS</Title>
+        <Title level={3} className="service-title c-blackish "><span>OUR</span> PROJECTS</Title>
       </div>
       <ProjectsPreview />
     </div>

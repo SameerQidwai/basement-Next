@@ -10,8 +10,15 @@ body{
 .bgc-goldish{
   background-color : #d8ae5e ;
 }
+.bgc-browinsh{
+  background-color : #daad66 ;
+}
 .bgc-white{
   background-color : #ffffff ;
+}
+.bgc-transparent{
+  background-color: transparent ;
+  background: transparent ;
 }
 .c-blackish{
   color : #1d1f1c ;
@@ -22,10 +29,13 @@ body{
 .c-white{
   color : #ffffff ;
 }
-.shadow-goldish{
+.s-goldish{
   box-shadow: 7px 3px 14px 0px #d8ae5e;
 }
-.shadow-blackish{
+.s-t-goldish{
+  box-shadow: 0px 2px 14px 7px #d8ae5e;
+}
+.s-blackish{
   box-shadow: 7px 3px 14px 4px #1d1f1c;
 }
 .b-blackish{
@@ -44,11 +54,8 @@ body{
 .b-goldish-hover:hover{
   border-color : #d8ae5e !important;
 }
+/* HOVER */
 .hover-b-blackish:hover{
-  border-color : #1d1f1c !important;
-
-}
-.hover-c-blackish:hover{
   border-color : #1d1f1c !important;
 
 }
@@ -59,6 +66,42 @@ body{
 .hover-c-goldish:hover{
   color : #d8ae5e !important;
 
+}
+.hover-c-blackish:hover{
+  color : #1d1f1c !important;
+}
+.hover-c-white:hover{
+  color : #ffffff !important;
+
+}
+.hover-bgc-goldish:hover{
+  background-color : #d8ae5e !important;
+
+}
+.hover-bgc-transparent:hover{
+  background-color: transparent !important;
+  background: transparent !important;
+}
+.hover-bgc-blackish:hover{
+  background-color : #1d1f1c !important;
+
+}
+.hover-s-goldish:hover{
+  box-shadow: 7px 3px 14px 0px #d8ae5e !important;
+}
+.hover-s-blackish:hover{
+  box-shadow: 7px 3px 14px 0px #1d1f1c !important;
+}
+
+.sec-bt-goldish{
+  border-top: 10px solid #d8ae5e;
+}
+.sec-bb-goldish{
+  border-bottom: 10px solid #d8ae5e;
+}
+.sec-by-goldish{
+  border-top: 10px solid #d8ae5e;
+  border-bottom: 10px solid #d8ae5e;
 }
 /* .shodow-goldish-black{
   box-shadow: 7px 3px 14px 4px #d8ae5e, 3px 3px 6px 4px #1d1f1c;
@@ -131,13 +174,26 @@ h5.ant-typography.c-blackish{
   border-bottom-color : #1d1f1c !important;
 }
 
+
+/* TABS */
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active, .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color : #d8ae5e !important;
+}
+
 /* Button */
 .bgc-goldish.ant-btn-primary:not([class^="hover-b-"]):hover{
-  background-color : #d8ae5e;
+  background-color : #d8ae5e !important;
   
 }
 .bgc-goldish.ant-btn-primary:not([class^="hover-b-"]):hover{
-  border-color: #d8ae5e;
+  border-color: #d8ae5e !important;
+}
+.bgc-blackish.ant-btn-primary:not([class^="hover-b-"]):hover{
+  background-color : #1d1f1c !important;
+  
+}
+.bgc-blackish.ant-btn-primary:not([class^="hover-b-"]):hover{
+  border-color: #1d1f1c !important;
 }
 
 .banner-user{

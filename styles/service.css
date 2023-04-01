@@ -1,12 +1,13 @@
 .services {
     width: 100%;
     float: left;
-    background: url(/process-background.jpeg) no-repeat;
+    background: url(/basements_bathroo_renovation_servies.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    padding-top: 55px;
+    padding-top: 100px;
     padding-bottom: 55px;
+    margin-top: -70px;
 }
 .services-container {
     padding-right: 15px;
@@ -23,15 +24,14 @@
     left: 0;
     right: 0;
     /* background-image: linear-gradient(to top,#d69e5a,#e8c090); */
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.2);
     overflow: hidden;
     width: 100%;
     height: 100%;
 }
 .services-card{
-    box-shadow: 7px 9px 10px -7px #bcbcbc;
+    /* box-shadow: 7px 9px 10px -7px #bcbcbc; */
     z-index: 10;
-    background-color: #ffffff;
     padding: 40px
 }
 h3.ant-typography.h3-ff{
@@ -47,7 +47,6 @@ h5.ant-typography.services-point{
 }
 
 h2.ant-typography.services-title {
-    color: #131010;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     font-size: 30px;
     width: 100%;

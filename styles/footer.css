@@ -1,7 +1,7 @@
 .ant-layout-footer.page-footer-widget {
   padding: 0px 30px;
-  border-top: 12px #3f3f3f solid;
-  background-color: #1e1e1e
+  border-top: 12px #d8ae5e solid;
+  background-color: #1d1f1c
 }
 
 .page-footer-widget .top-footer{
@@ -13,7 +13,7 @@
 }
 
 .page-footer-widget .top-footer h4.ant-typography{
-  color: #336f94;
+  color: #d8ae5e;
   line-height: 1.5;
   font-size: 15px;
   margin-bottom: 1.33em;
@@ -24,6 +24,17 @@
   color: #747474;
   line-height: 2em;
 }
+.page-footer-widget .top-footer a.ant-btn.ant-btn-text{
+  font-size: 15px;
+  color: #747474;
+  line-height: 2em;
+  padding: 0px !important
+}
+.page-footer-widget .top-footer a.ant-btn.ant-btn-text:hover{
+  /* color: #d8ae5e; */
+  color: #bca08f;
+}
+
 
 .page-footer-widget .top-footer button{
   height: auto;
@@ -59,12 +70,23 @@
 }
 .page-footer-bottom .link-footer {
   padding: 10px;
-  background-color: #111111
+  background-color: #d8ae5e
 }
 .page-footer-bottom .link-footer span.ant-typography{
   /* font-size: 11px; */
-  color: #747474;
+  color: #1d1f1c;
   line-height: 1em;
+}
+.page-footer-bottom .link-footer a.ant-btn.ant-btn-text{
+  /* font-size: 15px; */
+  color: #1d1f1c;
+  line-height: 1em;
+  height: auto !important;
+  padding: 0px !important
+}
+.page-footer-bottom .link-footer a.ant-btn.ant-btn-text:hover{
+  /* color: #d8ae5e; */
+  color: #f2f2f2 ;
 }
 
 .page-footer-bottom .bottom-footer{
@@ -76,6 +98,8 @@
   color: #747474;
   line-height: 1em;
 }
+
+
 /* .page-footer-bottom .bottom-footer span.anticon{
   font-size: 18px;
   color: #ffffff;

@@ -26,7 +26,7 @@ const Appointment = () => {
   };
 
   return (
-    <Row>
+    <Row className="sec-by-goldish">
       <Col span={24} className="appointment">
         <Row
           gutter={[40, 0]}
@@ -36,7 +36,7 @@ const Appointment = () => {
           align="stretch"
         >
           <Col xs={24} sm={24} md={9} className="appointment-legal mb-20">
-            <Title level={1} className="legal-title">Expertise in Legal Basements & more</Title>
+            <Title level={1} className="legal-title c-goldish">Expertise in Legal Basements & more</Title>
             <Title level={5} className="legal-text">
               At our construction company, we offer a range of services including legal 
               basement second dwelling units, kitchen remodeling, and complete teardowns. 
@@ -50,6 +50,7 @@ const Appointment = () => {
                 // sm={24}
                 size='large'
                 ghost
+                className="hover-b-goldish hover-c-goldish"
                 // shape="round"
                 href={'/service-pricing'}
                 type="ghost"
@@ -60,8 +61,8 @@ const Appointment = () => {
             
           </Col>
           <Col xs={24} sm={24} md={14}>
-            <Title level={5} className="appointment-sub-title">We are ready to help build your dreams</Title>
-            <Title level={1} className="appointment-title">Get In Touch</Title>
+            <Title level={5} className="appointment-sub-title c-goldish">We are ready to help build your dreams</Title>
+            <Title level={1} className="appointment-title c-goldish">Get In Touch</Title>
 
             <Form
               id={'my-form'}
@@ -141,7 +142,7 @@ const Appointment = () => {
                 <Button
                   type="primary"
                   size="large"
-                  // className="conact-area-btn"
+                  className="c-blackish b-goldish bgc-goldish hover-s-goldish hover-c-white"
                   block
                   htmlType="submit"
                 >

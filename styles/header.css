@@ -46,22 +46,23 @@
   z-index: 99;
   height: 30px;
 }
-.header-basment-btn{
-    font-family: 'Barlow Condensed', 'Poppins', sans-serif;
-    font-size: 34px;
-    font-weight: 600;
-    float: none;
-    text-align: left;
-    margin-bottom: 0px;
-    margin-top: -3px;
-    padding-left: 108px;
-    border: none;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
-    line-height: 24px;
-    height: 97px;
+.header-basement-btn{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+  float: none;
+  width: auto;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: -3px;
+  padding-left: 108px;
+  border: none;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
+  line-height: 24px;
+  height: 99px;
 }
 
-.header-basment-btn::after{
+.header-basement-btn::after{
   content: "";
   position: absolute;
   background: url(/phone-icone.png) no-repeat;

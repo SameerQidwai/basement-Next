@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Divider, Row, Tooltip, Typography } from 'antd';
+import { Button, Col, Divider, Row, Tooltip, Typography } from 'antd';
 import { FacebookFilled, TwitterSquareFilled, } from '@ant-design/icons';
 
 const { Text } = Typography;
@@ -7,12 +7,12 @@ const { Text } = Typography;
 const BottomFooter = () => {
   return (
     <div>
-        <Row justify='center' className="link-footer row-margin-null" gutter={[30,10]}>
-            <Col><Text>ARCHITECTURAL DRAWINGS & BUILDING PERMITS</Text></Col>
-            <Col><Text>BASEMENT CONSTRUCTION</Text></Col>
-            <Col><Text>KITCHENS</Text></Col>
-            <Col><Text>BATHROOMS</Text></Col>
-            <Col><Text>HOME IMPROVEMENTS</Text></Col>
+        <Row justify='center' className="link-footer row-margin-null " gutter={[30,10]}>
+            <Col><Button type="text" href="#">ARCHITECTURAL DRAWINGS & BUILDING PERMITS</Button></Col>
+            <Col><Button type="text" href="#">BASEMENT CONSTRUCTION</Button></Col>
+            <Col><Button type="text" href="#">KITCHENS</Button></Col>
+            <Col><Button type="text" href="#">BATHROOMS</Button></Col>
+            <Col><Button type="text" href="#">HOME IMPROVEMENTS</Button></Col>
         </Row>
         <Row
             className="bottom-footer"

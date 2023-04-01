@@ -6,13 +6,13 @@ const { Title, Text } = Typography;
 const Introduction = () => {
   const router = useRouter();
   return (
-    <Row className='shadow-goldish'>
+    <Row className='sec-by-goldish'>
       <Col span={24} className="intro">
         <Row className="intro-container">
           <Col xs={24} sm={24} md={24} lg={12}>
             <img
               style={{ width: '91%', height: '91%' }}
-              className="shadow-goldish"
+              className="s-goldish"
               src="/basement-renovation-into-pic.png"
               alt=""
             />
@@ -42,7 +42,7 @@ const Introduction = () => {
             <Row></Row>
             <Col xs={24} sm={24} md={12}>
               <a href="https://mylegalbasement.ca/our-process">
-                <button className="lop_mommb c-white bgc-goldish">Read More</button>
+                <button className="lop_mommb c-blackish bgc-goldish hover-s-goldish hover-c-white">Read More</button>
               </a>
             </Col>
           </Col>

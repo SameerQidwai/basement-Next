@@ -99,7 +99,7 @@ h2.ant-typography.carousel-title {
     color: #ffffff;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
     /* font-size: 74px; */
-    font-size: 3.2em;
+    font-size: 3em;
     font-style: normal;
     text-align: left;
     width: 100%;
@@ -162,110 +162,3 @@ div.ant-typography.carousel-p {
 .carousel-btn-col{
     /* width: auto !important; */
 }
-
-/* .carousel-btn1{
-    background-color: #48a7d6;
-    border:#48a7d6;
-} */
-
-/* .carousel-btn2{
-    background-color:  #336f94;
-    border: #336f94;
-} */
-
-/* @media only screen and (min-width: 1100px) {
-    .carousel-title{
-        font-size: 60px !important; 
-    }
-    .carousel-text {
-        font-size: 24px !important;
-    }
-    .margin-top-vw{
-        margin-top: 250px;
-    }
-    
-}
-
-@media only screen and (max-width: 597px) {
-    .carousel-text {
-        line-height: 1 !important;
-    }
-    .carousel-btn {
-        font-size: 12px !important;
-        padding: 10px 20px !important;
-    }
-    .margin-top-vw{
-        margin-top: 15vw;
-    }
-}
-@media only screen and (max-width: 500px) {
-    .carousel-text {
-        line-height: 1 !important;
-    }
-    .carousel-btn {
-        font-size: 10px !important;
-        padding: 5px 10px !important;
-    }
-    .margin-top-vw{
-        margin-top: 2vw;
-    }
-}
-
-@media only screen and (min-width: 1200px){
-    .carousel-container {
-        width: 1170px;
-    }
-    
-}
-@media only screen and (min-width: 992px){
-    .carousel-container {
-        width: 970px;
-    }
-    h1.ant-typography.carousel-title {
-        font-size: 2.5em;
-        margin-top: 0.8em;
-    }
-    h2.ant-typography.carousel-title {
-        font-size: 3.2em;
-    }
-    div.ant-typography.carousel-p {
-        font-size: 1.1em;
-        margin-top: 0.9em;
-        margin-bottom: 1em;
-        line-height: 1.3em;
-    }
-}
-@media only screen and (min-width: 768px){
-    .carousel-container {
-        width: 750px;
-    }
-    h1.ant-typography.carousel-title {
-        font-size: 2em;
-        margin-top: 0.5em;
-    }
-    h2.ant-typography.carousel-title {
-        font-size: 3em;
-    }
-    div.ant-typography.carousel-p {
-        font-size: 0.9em;
-        margin-top: 0.7em;
-        margin-bottom: 0.7em;
-        line-height: 1.2em;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    h1.ant-typography.carousel-title {
-        font-size: 1.5em;
-        margin-top: 0.2em;
-    }
-    h2.ant-typography.carousel-title {
-        font-size: 2.5em;
-    }
-    div.ant-typography.carousel-p {
-        font-size: 0.9em;
-        margin-top: 0.2em;
-        margin-bottom: 0.4em;
-        line-height: 1.1em;
-    }
-} */

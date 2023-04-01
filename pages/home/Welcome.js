@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 const { Title, Paragraph } = Typography;
 const Welcome = () => {
   return (
-    <Row>
+    <Row className='s-goldish'>
       <Col span={24} className="welcome">
         <div className="welcome-overlay"></div>
         <Row className="welcome-container" align="middle">
@@ -26,7 +26,7 @@ const Welcome = () => {
                 size='large'
                 ghost
                 shape="round"
-                className="hover-b-goldish hover-c-goldish"
+                className="c-white bgc-transparent  b-white hover-bgc-goldish  hover-c-blackish hover-b-goldish hover-s-goldish"
                 href={'/service-pricing'}
                 type="ghost"
               >

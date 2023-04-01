@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Col, Divider, Row, Typography } from 'antd';
 import { CalendarOutlined } from '@ant-design/icons';
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 const blogging = [
   {
     date: 'February 28, 2023',
@@ -56,30 +56,30 @@ const index = () => {
     }
 
     return (
-        <div className="blog-page ">
+        <div className="blog-page bgc-white">
         <Row  gutter={[20,40]} justify="space-around" style={{margin: 0}}>
-            <Col xs={20} sm={20} md={20} lg={17} className='choose-container'>
+            <Col xs={20} sm={20} md={20} lg={17} className='choose-container '>
                 <Row gutter={[30,20]} justify="space-between" align="stretch">
                     {blogging.map(({ date, title, content }, index) => (
                     <Col key={index} xs={24} md={12}>
-                        <div className='blog-card'>
+                        <div className='blog-card s-goldish'>
                             <Row gutter={[10,0]}>
                                 <Col span={24}>
-                                    <Title level={3} className="blog-date">
+                                    <Title level={3} className="blog-date c-goldish">
                                         <CalendarOutlined /> {date}
                                     </Title>
                                 </Col>
                                 <Col span={24}>
-                                    <Title level={2} className="blog-title">
+                                    <Title level={2} className="blog-title c-goldish">
                                     {title}
                                     </Title>
                                 </Col>
                                 <Col span={24}>
-                                    <p className="blog-content">{content}</p>
+                                    <p className="blog-content c-blackish">{content}</p>
                                 </Col>
                                 <Col span={24}>
                                     <a>
-                                        <Button size="large" className="round-button" href="/blog">READ MORE</Button>
+                                        <Button size="large" className="round-button bgc-blackish c-white" href="/blog">READ MORE</Button>
                                     </a>
                                 </Col>
                             </Row>
@@ -93,11 +93,11 @@ const index = () => {
                 <Col xs={24} sm={24} md={24} >
                     <Row className="border-1">
                         <Col span={24}>
-                            <Title level={3}className="blog-services" >Recent Post</Title>
+                            <Title level={3}className="blog-services c-goldish" >Recent Post</Title>
                         </Col>
                         {someBlog().map(({title},index)=>(
                             <Col span={24} key={index} className="bottom-border">
-                                <Title level={5} className="blog-services-item">{title}</Title>
+                                <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="#"> {title}</Button>
                             </Col>
                         ))}
                     </Row>
@@ -105,22 +105,22 @@ const index = () => {
                 <Col xs={24} sm={24} md={24} >
                     <Row gutter={[10,0]}  className="border-1">
                         <Col span={24}>
-                            <Title level={3}className="blog-services" >OUR SERVICE</Title>
+                            <Title level={3}className="blog-services c-goldish" >OUR SERVICE</Title>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Title level={5} className="blog-services-item">Architectural Drawings & Building Permits</Title>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="#" alt='Architectural Drawings & Building Permits'> {'Architectural Drawings & Building Permits'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Title level={5} className="blog-services-item">Basement Construction</Title>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="#" alt='Basement Construction'> {'Basement Construction'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Title level={5} className="blog-services-item">Kitchens</Title>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="#" alt='Kitchens'> {'Kitchens'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Title level={5} className="blog-services-item">Bathrooms</Title>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="#" alt='Bathrooms'> {'Bathrooms'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Title level={5} className="blog-services-item">Home Improvements</Title>
+                            <Button type="link" className="blog-services-item c-blackish" href="#" alt='Home Improvements'> {'Home Improvements'}</Button>
                         </Col>
                     </Row>
                 </Col>

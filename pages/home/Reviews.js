@@ -29,7 +29,7 @@ const Reviews = () => {
           <Col span={18}>
             {/* autoplay  */}
             <Carousel
-              autoplay
+              // autoplay
               // dots={false}
               adaptiveHeight
               pauseOnDotsHover
@@ -44,14 +44,14 @@ const Reviews = () => {
                   <Col className='mb-30'>
                     {/* <UserOutlined /> */}
                     <Avatar 
-                      size={{lg:100, md:80, sm:80, xs:80}} 
-                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                      size={80} 
+                      src="man_avatar.png" 
                     />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col xs={24} sm={21} md={18} lg={15}>
-                    <Text italic>
+                  <Col className="txt-center"xs={24} sm={21} md={18} lg={15}>
+                    <Text italic >
                       “It was a pleasure to work with such professional, honest
                       and caring people throughout my project. They are a team
                       of exceptional individuals, competent in their specific
@@ -71,12 +71,12 @@ const Reviews = () => {
                 <Row justify="space-around">
                   <Col className='mb-30'>
                     <Avatar 
-                      size={{lg:100, md:80, sm:80, xs:80}} 
-                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                      size={48.19} 
+                      src="man_avatar.png" 
                     />                  </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col xs={24} sm={21} md={18} lg={15}>
+                  <Col className="txt-center"xs={24} sm={21} md={18} lg={15}>
                     <Text italic>
                       “Anvale Homes did an outstanding job finishing our
                       basement. Angelo listened to what we wanted and was very
@@ -98,13 +98,13 @@ const Reviews = () => {
                 <Row justify="space-around">
                   <Col className='mb-30'>
                     <Avatar 
-                      size={{lg:100, md:80, sm:80, xs:80}} 
-                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                      size={48.19} 
+                      src="man_avatar.png" 
                     />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col xs={24} sm={22} md={20} lg={20} xl={18} xxl={15}>
+                  <Col className="txt-center"xs={24} sm={22} md={20} lg={20} xl={18} xxl={15}>
                     <Text italic>
                       “Angelo was a complete joy to work with. He was attentive
                       to my detailing during the design development process. He
@@ -129,13 +129,13 @@ const Reviews = () => {
                 <Row justify="space-around">
                   <Col className='mb-30'>
                     <Avatar 
-                      size={{lg:100, md:80, sm:80, xs:80}} 
-                      src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/av_man.png" 
+                      size={48.19} 
+                      src="man_avatar.png" 
                     />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col xs={24} sm={22} md={20} lg={20} xl={18} xxl={15}>
+                  <Col className="txt-center"xs={24} sm={22} md={20} lg={20} xl={18} xxl={15}>
                     <Text italic>
                       “Highly satisfied with their work. My basement was
                       finished on time, not once did I have to chase them. Very

@@ -90,7 +90,7 @@ const index = () => {
         <Row gutter={[0, 40]} className="services-container" justify="center">
           {/* back ground Color */}
           {processes.map(({ title, children }, index) => (
-            <Col xs={24} sm={24} md={22} lg={22} className="services-card">
+            <Col xs={24} sm={24} md={22} lg={22} className={index%2===0?'services-card s-goldish bgc-blackish': 'services-card s-blackish bgc-white'}>
               <Row justify="space-between">
                 {/* background number Color */}
                 <Col
@@ -106,13 +106,13 @@ const index = () => {
                     <Col span={24}>
                       <Row gutter={[10,10]}>
                       <Col span={width < 790 && 24}>
-                        <Button size="large" type="primary" block>
-                          <Title level={3} className="m h3-ff">
+                        <Button size="large" type="primary" block className={index%2===0 ?'bgc-goldish b-goldish': 'bgc-blackish b-blackish'}>
+                          <Title level={3} className="m h3-ff" >
                             0{index + 1}
                           </Title>
                         </Button>
                       </Col>
-                      <Col ><Title level={2} className="services-title">
+                      <Col ><Title level={2} className={index%2===0 ?"services-title c-white": "services-title c-goldish"}>
                         {title}
                       </Title></Col>
                     </Row>
@@ -121,7 +121,7 @@ const index = () => {
                       <Row justify="space-between">
                         {children.map((process) => (
                           <Col span={11}>
-                            <Title level={5} className="services-point">
+                            <Title level={5} className={index%2===0 ?"services-point c-white": "services-point c-goldish"}>
                               <CaretRightOutlined /> {process}
                             </Title>
                           </Col>
@@ -136,6 +136,7 @@ const index = () => {
                     size="large"
                     block
                     href="tel:+16472189786"
+                    className={index%2===0? 'bgc-goldish b-goldish c-white hover-s-goldish': 'bgc-blackish b-blackish c-golidsh hover-s-blackish'}
                   >
                     <span>CONTACT US</span>
                   </Button>
