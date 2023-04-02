@@ -1,13 +1,9 @@
 import React from 'react';
-import { Col, Row, Typography, Button, Divider, Card, Avatar } from 'antd';
-import {
-  LinkOutlined,
-  RightCircleOutlined,
-  SearchOutlined,
-} from '@ant-design/icons';
+import { Col, Row, Typography, Button } from 'antd';
+import Image from "next/image"
+import { RightCircleOutlined, } from '@ant-design/icons';
 
-const { Meta } = Card;
-const { Title, Text, Paragraph } = Typography;
+const { Title } = Typography;
 
 const Blogs = () => {
   const cards = [
@@ -65,19 +61,21 @@ const Blogs = () => {
           </Col>
           <Col lg={7} md={8} sm={23} xs={23}>
             <Row>
-              <Col span={24}>
-                <img
-                  className="smblog_picture"
-                  src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg"
-                  alt="Legal Basement Apartment"
-                />
+              <Col span={24} className="txt-center">
+                <div className="smblog_picture">
+                  <Image 
+                    src="/basement_kitchen_renovation_remodal.jpg"
+                    layout="fill"
+                    alt="Blog `Steps To Get a Azim Constructions Apartment` "
+                  />
+                </div>
               </Col>
               <Col>
                 <Title level={3} className="blog-date">
                   DATE : FEBRUARY 28, 2023
                 </Title>
                 <Title level={2} className="blog-title">
-                  Steps To Get a Legal Basement Apartment
+                  Steps To Get a Azim Constructions Apartment
                 </Title>
                   <Button size="small" type="link">
                     READ MORE <RightCircleOutlined />
@@ -87,13 +85,14 @@ const Blogs = () => {
           </Col>
           <Col lg={7} md={8} sm={23} xs={23}>
             <Row>
-              <Col span={24}>
-                {' '}
-                <img
-                  className="smblog_picture"
-                  src="https://mylegalbasement.ca/wp-content/uploads/2023/02/03.jpg"
-                  alt="Legal Basement Apartment"
-                />
+              <Col span={24} className="txt-center">
+              <div className="smblog_picture">
+                  <Image 
+                    src="/basement_kitchen_renovation_remodal.jpg"
+                    layout="fill"
+                    alt="Blog `Steps To Get a Azim Constructions Apartment` "
+                  />
+                </div>
               </Col>
               <Col>
                 <Title level={3} className="blog-date">

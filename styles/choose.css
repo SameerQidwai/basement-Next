@@ -410,6 +410,34 @@ a.ant-btn.ant-btn-link.blog-services-item{
     object-fit: cover;
     object-position: center;
 }
+.service-description-img{
+    width: 100%;
+    float: left;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+h5.ant-typography.service-description-page-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+p.service-description-page-content{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    line-height: 29px;
+}
 
 .news-letter-background{
     width: 100%;

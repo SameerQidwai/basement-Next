@@ -31,7 +31,9 @@
 .header_logo{
   width: 38%;
   margin-left: 10px;
-  margin-top: 4px
+  margin-top: 4px;
+  height: 100%;
+  position: relative
 }
 .hedear-basement-1{
   width: 100%;

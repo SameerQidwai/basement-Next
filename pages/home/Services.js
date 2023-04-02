@@ -3,7 +3,6 @@ import {
   Col,
   Row,
   Typography,
-  Image,
   Card,
   Avatar,
   Button,
@@ -13,11 +12,12 @@ import {
   LinkOutlined,
   SearchOutlined,
 } from '@ant-design/icons';
+import Image from 'next/image'
 const { Title, Text, Paragraph } = Typography;
 
 const cards = [
   {
-    img: 'HOME_Remodling_Renovations.jpeg',
+    img: '/HOME_Remodling_Renovations.jpeg',
     title: 'HOME',
     link: 'a',
     type: 'IMPROVEMENTS',
@@ -27,7 +27,7 @@ const cards = [
     details: 'LOCATION: Richmond Hill',
   },
   {
-    img: 'Kitchen_Renovations_Imrovments.jpg',
+    img: '/Kitchen_Renovations_Imrovments.jpg',
     title: 'KITCHENS',
     link: 'a',
     type: 'RENOVATIONS',
@@ -37,7 +37,7 @@ const cards = [
     details: 'Details coming soon ',
   },
   {
-    img: 'Basements-legal-basment.jpeg',
+    img: '/Basements-legal-basment.jpeg',
     title: 'BASEMENT',
     link: 'a',
     type: 'CONSTRUCTION',
@@ -47,7 +47,7 @@ const cards = [
     details: 'LOCATION  Etobicoke,',
   },
   {
-    img: 'Architectural_drawing_permits_builds_Planning.jpg',
+    img: '/Architectural_drawing_permits_builds_Planning.jpg',
     title: 'ARCHITECTURAL DRAWINGS/',
     link: 'a',
     type: 'BUILDING PERMITS',
@@ -57,7 +57,7 @@ const cards = [
     details: 'Details coming soon',
   },
   {
-    img: 'Bathroom.jpg',
+    img: '/Bathroom.jpg',
     title: 'BATHROOMS',
     link: 'a',
     type: 'RENOVATIONS',
@@ -133,11 +133,18 @@ const Services = () => {
                   cover={
                     <div>
                         <div className="card-Q-cover">
-                        <img
+                          <div className="card-Q-image">
+                            <Image
+                            layout="fill" 
+                              alt={cards[0].img}
+                              src={cards[0].img}
+                            />
+                          </div>
+                        {/* <img
                             alt={cards[0].img}
                             src={cards[0].img}
                             className="card-Q-image"
-                        />
+                        /> */}
                         <div className="card-Q-overlay">
                             <div className="card-Q-text">
                             <Row justify="center" gutter={16} align="middle">
@@ -193,11 +200,13 @@ const Services = () => {
                   cover={
                     <div>
                         <div className="card-Q-cover">
-                        <img
-                            alt={cards[1].img}
-                            src={cards[1].img}
-                            className="card-Q-image"
-                        />
+                        <div className="card-Q-image">
+                            <Image
+                            layout="fill" 
+                              alt={cards[1].img}
+                              src={cards[1].img}
+                            />
+                          </div>
                         <div className="card-Q-overlay">
                             <div className="card-Q-text">
                             <Row justify="center" gutter={16} align="middle">
@@ -253,11 +262,13 @@ const Services = () => {
                   cover={
                     <div>
                         <div className="card-Q-cover">
-                        <img
-                            alt={cards[2].img}
-                            src={cards[2].img}
-                            className="card-Q-image"
-                        />
+                        <div className="card-Q-image">
+                            <Image
+                            layout="fill" 
+                              alt={cards[2].img}
+                              src={cards[2].img}
+                            />
+                          </div>
                         <div className="card-Q-overlay">
                             <div className="card-Q-text">
                             <Row justify="center" gutter={16} align="middle">
@@ -313,11 +324,13 @@ const Services = () => {
                   cover={
                     <div>
                         <div className="card-Q-cover">
-                        <img
-                            alt={cards[3].img}
-                            src={cards[3].img}
-                            className="card-Q-image"
-                        />
+                        <div className="card-Q-image">
+                            <Image
+                            layout="fill" 
+                              alt={cards[3].img}
+                              src={cards[3].img}
+                            />
+                          </div>
                         <div className="card-Q-overlay">
                             <div className="card-Q-text">
                             <Row justify="center" gutter={16} align="middle">
@@ -373,11 +386,13 @@ const Services = () => {
                   cover={
                     <div>
                         <div className="card-Q-cover">
-                        <img
-                            alt={cards[4].img}
-                            src={cards[4].img}
-                            className="card-Q-image"
-                        />
+                        <div className="card-Q-image">
+                            <Image
+                            layout="fill" 
+                              alt={cards[4].img}
+                              src={cards[4].img}
+                            />
+                          </div>
                         <div className="card-Q-overlay">
                             <div className="card-Q-text">
                             <Row justify="center" gutter={16} align="middle">

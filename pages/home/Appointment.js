@@ -1,14 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Col, Row, Typography, Button, Divider, Form, Input } from 'antd';
-import { useRouter } from 'next/router';
-import { MailOutlined, PhoneFilled } from '@ant-design/icons';
+import { useIntersection } from '../../Component/useFunction'
 
 const { Title, Text } = Typography;
 const Appointment = () => {
-  const router = useRouter();
+  const ref = useRef();
+  const inViewport = useIntersection(ref, '-100px'); // Trigger if 200px is visible from the element
   const [required, setRequried] = useState(true);
   const [form] = Form.useForm();
-
   const onFinish = (values) => {
     fetch('/api/send', {
       method: 'POST',
@@ -26,7 +25,7 @@ const Appointment = () => {
   };
 
   return (
-    <Row className="sec-by-goldish">
+    <Row className="sec-by-goldish" ref={ref}>
       <Col span={24} className="appointment">
         <Row
           gutter={[40, 0]}
@@ -58,9 +57,12 @@ const Appointment = () => {
               </Button>
             
           </Col>
-          <Col xs={24} sm={24} md={14}>
+          <Col xs={24} sm={24} md={14} data-animation={inViewport&&"animated fadeInLeft"}
+                    className={inViewport&&"animated fadeInLeft"}>
             <Title level={5} className="appointment-sub-title c-goldish">We are ready to help build your dreams</Title>
-            <Title level={1} className="appointment-title c-goldish">Get In Touch</Title>
+            <Title level={1} 
+            // className="appointment-title c-goldish" 
+            className={inViewport?'appointment-title c-goldish blur-effect': 'appointment-title c-goldish'}>Get In Touch</Title>
 
             <Form
               id={'my-form'}

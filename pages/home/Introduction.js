@@ -21,7 +21,7 @@ const Introduction = () => {
               style={{ width: '91%', height: '91%', position: 'relative' }}
               className="s-goldish"
             >
-              <Image src="/basement-renovation-into-pic.png" layout="fill" />
+              <Image src="/basement-renovation-into-pic.png" layout="fill"  alt='basement Renovation introduction'/>
             </div>
           </Col>
           <Col xs={24} sm={24} md={24} lg={12}>

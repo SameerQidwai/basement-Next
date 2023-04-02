@@ -3,10 +3,10 @@ import { Button, Col, Divider, Row, Typography } from 'antd';
 import { CalendarOutlined } from '@ant-design/icons';
 
 const { Title, Text } = Typography;
-const blogging = [
+export const blogging = [
   {
     date: 'February 28, 2023',
-    title: 'Steps To Get a Legal Basement Apartment',
+    title: 'Steps To Get a Azim Constructions Apartment',
     content:
       'For the past year and a half, we have seen a dramatic increase in the rental market all across North America.',
   },
@@ -106,19 +106,19 @@ const index = () => {
                             <Title level={3}className="blog-services c-goldish" >OUR SERVICE</Title>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/#ARCHITECTURAL DRAWINGS & BUILDING PERMITS" alt='Architectural Drawings & Building Permits'> {'Architectural Drawings & Building Permits'}</Button>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/architectural-drawings-building-permits/" alt='Architectural Drawings & Building Permits'> {'Architectural Drawings & Building Permits'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/#BASEMENT CONSTRUCTION" alt='Basement Construction'> {'Basement Construction'}</Button>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/basement-construction/" alt='Basement Construction'> {'Basement Construction'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/#KITCHEN" alt='Kitchens'> {'Kitchens'}</Button>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/kitchens" alt='Kitchens'> {'Kitchens'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/#BATHROOM" alt='Bathrooms'> {'Bathrooms'}</Button>
+                            <Button type="link" className="blog-services-item c-blackish hover-c-goldish" href="/our-services/bathrooms" alt='Bathrooms'> {'Bathrooms'}</Button>
                         </Col>
                         <Col span={24} className="bottom-border">
-                            <Button type="link" className="blog-services-item c-blackish" href="/our-services/#HOME IMPROVEMENTS" alt='Home Improvements'> {'Home Improvements'}</Button>
+                            <Button type="link" className="blog-services-item c-blackish" href="/our-services/home-improvements/" alt='Home Improvements'> {'Home Improvements'}</Button>
                         </Col>
                     </Row>
                 </Col>

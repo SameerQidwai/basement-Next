@@ -56,10 +56,11 @@
 }
 .welcome-picture{
     width: 94%;
-    float: left;
     height: 438px;
     object-fit: cover;
     object-position: center;
+    position: relative;
+    text-align: center;
 }
 h1.welcome-title{
     color: #ffffff;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row, Button, Tooltip, Typography, Layout } from 'antd';
 import { FacebookFilled, TwitterSquareFilled } from '@ant-design/icons';
-
+import Image from 'next/image'
 const { Paragraph, Text } = Typography;
 const { Header } = Layout;
 const Header1 = (props) => {
@@ -14,13 +14,22 @@ const Header1 = (props) => {
           justify="space-between"
         >
           <Col xs={24} sm={10} md={10}>
-            <a href="https://mylegalbasement.ca/">
-              <img
+            <div className="header_logo">
+            <a href="https://mylegalbasement.ca/" >
+                <Image
+                  src="/logo-mobile.png"
+                  alt="https://mylegalbasement.ca/"
+                  width="100%"
+                  height="100%"
+                  layout="fill"
+                />
+              </a>
+              </div>
+              {/* <img
                 className="header_logo"
-                src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/logo.png"
+                src="/logo-mobile.png"
                 alt=""
-              />
-            </a>
+              /> */}
           </Col>
           <Col>
             <Row justify="end" align="middle">

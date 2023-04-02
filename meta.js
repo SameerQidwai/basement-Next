@@ -85,11 +85,11 @@ GTA: home renovation GTA, basement renovation GTA, kitchen renovation GTA, bathr
 <meta property="og:description" content="My Construction and Renovation is a construction and renovation company that provides quality services in Toronto, Mississauga, and the Greater Toronto Area. Our services include basement, kitchen, and bathroom remodeling, flooring and roofing installations, and interior and exterior painting." />
 
 <meta property="og:url" content="https://mylegalbasement.ca/our-services/"/>
-<meta property="og:site_name" content="My Legal Basement"/>
+<meta property="og:site_name" content="Azim Constructions"/>
 <meta property="og:type" content="website"/>
 
-<title>Leaders of Legal Basement Specialist in Ontario</title>
-<meta property="og:title" content="Leaders of Legal Basement Specialist in Ontario"/>
+<title>Leaders of Azim Constructions Specialist in Ontario</title>
+<meta property="og:title" content="Leaders of Azim Constructions Specialist in Ontario"/>
 
 <meta property="og:image" content=""></meta>
 
