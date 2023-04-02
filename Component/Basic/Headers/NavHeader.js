@@ -53,8 +53,8 @@ const NavHeader = (props) =>{
                         <Menu.Item key="/careers"  onClick={() => router.push('/careers')}>
                             Careers
                         </Menu.Item>
-                        <Menu.Item key="/consulting" onClick={() => router.push('/consulting')}>
-                            Consulting
+                        <Menu.Item key="/contact-us" onClick={() => router.push('/contact-us')}>
+                            CONTACT US
                         </Menu.Item>
                     </Menu>
                 </Col>
@@ -66,7 +66,7 @@ const NavHeader = (props) =>{
                         block
                         className='c-white b-blackish bgc-blackish hover-bgc-blackish hover-b-blackish hover-c-white hover-s-goldish scroll-down'
                         onClick={()=>props.openModal()}
-                    > CONTACT US </Button>
+                    > CONSULTING </Button>
                 </Col>
             </Row>
         </Header>

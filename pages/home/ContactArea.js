@@ -37,7 +37,7 @@ const ContactArea = (props) => {
                   block
                   onClick={()=>setOpen(true)}
                 >
-                  <span>CONTACT US</span>
+                  <span>CONSULTING</span>
                 </Button>
               </Col>
             </Row>

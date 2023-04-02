@@ -600,6 +600,7 @@ a.hover-c-blackish:hover span{
 }
 
 .contact-main-avatar{
+    background-color: #c0934d;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;

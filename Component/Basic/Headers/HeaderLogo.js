@@ -76,14 +76,14 @@ const HeaderLogo = (props) =>{
                         {/* <Menu.Item key="Custom & Design Build" className='mr-a'>
                             Custom & Design Build
                         </Menu.Item> */}
-                        <Menu.Item key="/consulting" className='mr-a'onClick={() => router.push('/consulting')}>
-                            Consulting
+                        <Menu.Item key="/contact-us" className='mr-a'onClick={() => router.push('/consulting')}>
+                        Contact US
                         </Menu.Item>
                         <Menu.Item key="Contact us" >
                             <Button 
                                 style={{backgroundColor: '#fed03d', fontWeight: 600}} 
                                 onClick={()=>props.openModal()}
-                            > Contact US </Button>
+                            > Consulting </Button>
                         </Menu.Item>
                         </Menu>}
                     >

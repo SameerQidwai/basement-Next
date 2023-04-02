@@ -39,37 +39,37 @@ const WidgetFooter = () => {
               <Title level={4}>QUICK LINK</Title>
             </Col>
             <Col span={24}>
-              <Button type="text" href="#">
+              <Button type="text" href="/">
                 HOME
               </Button>
             </Col>
             <Col span={24}>
-              <Button type="text" href="#">
+              <Button type="text" href="/our-services">
                 OUR SERVICES
               </Button>
             </Col>
             <Col span={24}>
-              <Button type="text" href="#">
+              <Button type="text" href="/our-projects">
                 OUR PROJECTS
               </Button>
             </Col>
             <Col span={24}>
-              <Button type="text" href="#">
+              <Button type="text" href="/careers">
                 CAREERS
               </Button>
             </Col>
             <Col span={24}>
-              <Button type="text" href="#">
+              <Button type="text" href="/blog">
                 BLOG
               </Button>
             </Col>
             <Col span={24}>
               <Button type="text" href="#">
-                SERVICE PRICING
+              SERVICES AREAS
               </Button>
             </Col>
             <Col span={24}>
-              <Button type="text" href="#">
+              <Button type="text" href="/contact-us">
                 CONTACT US
               </Button>
             </Col>
@@ -113,7 +113,6 @@ const WidgetFooter = () => {
                 <Col span={24}>
                   <Row justify="space-between">
                     <Col>
-                      
                       <ClockCircleOutlined />
                     </Col>
                     <Col span={22}>
@@ -126,7 +125,6 @@ const WidgetFooter = () => {
                 <Col span={24}>
                   <Row justify="space-between">
                     <Col>
-                      
                       <ClockCircleOutlined />
                     </Col>
                     <Col span={22}>

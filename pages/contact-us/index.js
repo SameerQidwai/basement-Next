@@ -93,7 +93,7 @@ const Index = () => {
                 <Row className="contact-main-box bgc-goldish">
                   <Col span={24} className="txt-center">
                     <Avatar
-                      className="contact-main-avatar bgc-blackish c-white"
+                      className="contact-main-avatar c-white"
                       size={80}
                       icon={<UserOutlined />}
                     />
@@ -107,7 +107,7 @@ const Index = () => {
                     <Title level={4} className="txt-center">
                       <Button
                         type="text"
-                        href="mail:info@mylegalbasement.ca"
+                        href="mailto:info@mylegalbasement.ca"
                         className="hover-c-blackish"
                       >
                         info@mylegalbasement.ca

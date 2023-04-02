@@ -97,7 +97,7 @@ const index = () => {
                     type="primary"
                     size="large"
                     block
-                    href="/consulting"
+                    href="/contact-us"
                     className={
                       index % 2 === 0
                         ? 'bgc-goldish b-goldish c-white hover-s-goldish'

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import Intoduction from './Intoduction'
+import Introduction from './Introduction'
 import Process from './Process'
 import Services from './Services'
 import SlideCarousel from './SlideCarousel'
@@ -21,7 +21,7 @@ const  Index = (props) =>{
   return (
     <>
       <SlideCarousel/>
-      <Intoduction />
+      <Introduction />
       <Services/>
       <Welcome/>
       {/* <Work /> */}

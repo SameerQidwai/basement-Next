@@ -90,7 +90,7 @@ const index = () => {
         <Row gutter={[0, 40]} className="services-container" justify="center">
           {/* back ground Color */}
           {processes.map(({ title, children }, index) => (
-            <Col xs={24} sm={24} md={22} lg={22} className={index%2===0?'services-card s-goldish bgc-blackish': 'services-card s-blackish bgc-white'}>
+            <Col xs={24} sm={24} md={22} lg={22} className={index%2===0?'services-card s-goldish bgc-blackish': 'services-card s-blackish bgc-white'} id={title}>
               <Row justify="space-between">
                 {/* background number Color */}
                 <Col
@@ -135,7 +135,7 @@ const index = () => {
                     type="primary"
                     size="large"
                     block
-                    href="tel:+16472189786"
+                    href="/contact-us"
                     className={index%2===0? 'bgc-goldish b-goldish c-white hover-s-goldish': 'bgc-blackish b-blackish c-golidsh hover-s-blackish'}
                   >
                     <span>CONTACT US</span>

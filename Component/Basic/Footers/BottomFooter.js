@@ -8,11 +8,11 @@ const BottomFooter = () => {
   return (
     <div>
         <Row justify='center' className="link-footer row-margin-null " gutter={[30,10]}>
-            <Col><Button type="text" href="#" style={{whiteSpace: "break-spaces"}}>ARCHITECTURAL DRAWINGS & BUILDING PERMITS</Button></Col>
-            <Col><Button type="text" href="#">BASEMENT CONSTRUCTION</Button></Col>
-            <Col><Button type="text" href="#">KITCHENS</Button></Col>
-            <Col><Button type="text" href="#">BATHROOMS</Button></Col>
-            <Col><Button type="text" href="#">HOME IMPROVEMENTS</Button></Col>
+            <Col><Button type="text" href="#ARCHITECTURAL DRAWINGS & BUILDING PERMITS" style={{whiteSpace: "break-spaces"}}>ARCHITECTURAL DRAWINGS & BUILDING PERMITS</Button></Col>
+            <Col><Button type="text" href="#BASEMENT CONSTRUCTION">BASEMENT CONSTRUCTION</Button></Col>
+            <Col><Button type="text" href="#KITCHEN">KITCHENS</Button></Col>
+            <Col><Button type="text" href="#BATHROOM">BATHROOMS</Button></Col>
+            <Col><Button type="text" href="#HOME IMPROVEMENTS">HOME IMPROVEMENTS</Button></Col>
         </Row>
         <Row
             className="bottom-footer"
@@ -22,7 +22,7 @@ const BottomFooter = () => {
         >
             <Col className="left-center h-auto" xs={24} md={24} lg={12}>
             <Text>
-                COPYRIGHT ANVALE HOMES
+                COPYRIGHT AZIM CONSTRUCTIONS
                 <Divider type="vertical" />
                 ALL RIGHTS RESERVED
                 <Divider type="vertical" />

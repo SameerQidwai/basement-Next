@@ -85,7 +85,7 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
-                        href='/consulting'
+                        href='/contact-us'
                         >
                           GET A QOUTE NOW
                         </Button>
@@ -165,7 +165,7 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
-                        href='/consulting'
+                        href='/contact-us'
                         >
                           GET A QOUTE NOW
                         </Button>
@@ -245,7 +245,7 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
-                        href='/consulting'
+                        href='/contact-us'
                         >
                           GET A QOUTE NOW
                         </Button>
@@ -325,7 +325,7 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
-                          href='/consulting'
+                          href='/contact-us'
                         >
                           GET A QOUTE NOW
                         </Button>
