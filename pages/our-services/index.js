@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row, Typography, Image, Divider, Avatar, Button } from 'antd';
 import { CaretRightOutlined, } from '@ant-design/icons';
+// eslint-disable-next-line
 import { useWindowDimensions } from '../../Component/useFunction';
 
 const { Title, Text } = Typography;
@@ -81,6 +82,7 @@ const processes = [
 ];
 
 const index = () => {
+  // eslint-disable-next-line
   const {height, width} = useWindowDimensions()
   return (
     <Row>
@@ -90,7 +92,7 @@ const index = () => {
         <Row gutter={[0, 40]} className="services-container" justify="center">
           {/* back ground Color */}
           {processes.map(({ title, children }, index) => (
-            <Col xs={24} sm={24} md={22} lg={22} className={index%2===0?'services-card s-goldish bgc-blackish': 'services-card s-blackish bgc-white'} id={title}>
+            <Col xs={24} sm={24} md={22} lg={22} key={index} className={index%2===0?'services-card s-goldish bgc-blackish': 'services-card s-blackish bgc-white'} id={title}>
               <Row justify="space-between">
                 {/* background number Color */}
                 <Col
@@ -119,9 +121,9 @@ const index = () => {
                     </Col>
                     <Col span={24}>
                       <Row justify="space-between">
-                        {children.map((process) => (
-                          <Col span={11}>
-                            <Title level={5} className={index%2===0 ?"services-point c-white": "services-point c-goldish"}>
+                        {children.map((process, pIndex) => (
+                          <Col span={11} key={pIndex}>
+                            <Title level={5}  className={index%2===0 ?"services-point c-white": "services-point c-goldish"}>
                               <CaretRightOutlined /> {process}
                             </Title>
                           </Col>

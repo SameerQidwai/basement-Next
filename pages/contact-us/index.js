@@ -120,6 +120,7 @@ const Index = () => {
                       <Tooltip title="Facebook" arrowPointAtCenter>
                         <a
                           target={'_blank'}
+                          rel="noreferrer"
                           href="https://www.facebook.com/"
                           className="reset-a"
                         >
@@ -131,6 +132,7 @@ const Index = () => {
                       <Tooltip title="Twitter" arrowPointAtCenter>
                         <a
                           target={'_blank'}
+                          rel="noreferrer"
                           href="https://www.twitter.com/"
                           className="reset-a"
                         >
@@ -142,6 +144,7 @@ const Index = () => {
                       <Tooltip title="Instagram" arrowPointAtCenter>
                         <a
                           target={'_blank'}
+                          rel="noreferrer"
                           href="https://www.instagram.com/"
                           className="reset-a"
                         >

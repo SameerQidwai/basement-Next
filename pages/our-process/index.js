@@ -21,6 +21,7 @@ const processes = [
 ];
 
 const index = () => {
+  // eslint-disable-next-line
   const { height, width } = useWindowDimensions();
   return (
     <Row justify='center'>
@@ -34,6 +35,7 @@ const index = () => {
           {/* back ground Color */}
           {processes.map(({ title, description }, index) => (
             <Col
+            key={index}
               xs={24}
               sm={24}
               md={22}
