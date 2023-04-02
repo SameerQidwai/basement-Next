@@ -65,7 +65,7 @@
     text-align: center;
 }
 
-.work-card button{
+.work-card a.ant-btn{
     margin-top: 19px;
 }
 
