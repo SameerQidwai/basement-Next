@@ -49,7 +49,7 @@ const ProjectsPreview = ({ home = false }) => {
         {home && (
           <Col xs={12} sm={6} md={8} lg={8}>
             <NextImage src="/blur-show-more-project.jpg" alt='blur-show-more-project' layout='fill'/>
-              <Button type="text" ghost block className="c-blackish button-overlay">
+              <Button type="text" block className="c-blackish button-overlay">
                 <a href="/our-projects">SHOW MORE <RightCircleOutlined /></a>
             </Button>
           </Col>

@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Col, Row, Typography, Button, Divider } from 'antd';
 import { useRouter } from 'next/router';
+import EModal from '../../Component/Modals/EModal';
 
 const { Title, Text } = Typography;
-const ContactArea = () => {
+const ContactArea = (props) => {
+  const [open, setOpen] = useState(false)
   const router = useRouter();
   return (
     <Row className='s-t-goldish'>
@@ -21,7 +23,7 @@ const ContactArea = () => {
                   type="primary"
                   size="large"
                   block
-                  className="conact-area-btn  c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
+                  className="conact-area-btn  c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish hover-bgc-blackish hover-s-goldish"
                   href="tel:+16472189786"
                 >
                   <span>CALL US</span>
@@ -31,9 +33,9 @@ const ContactArea = () => {
                 <Button
                   type="primary"
                   size="large"
-                  className="conact-area-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
+                  className="conact-area-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish hover-bgc-goldish hover-s-goldish"
                   block
-                  href="tel:+16472189786"
+                  onClick={()=>setOpen(true)}
                 >
                   <span>CONTACT US</span>
                 </Button>
@@ -42,6 +44,7 @@ const ContactArea = () => {
           </Col>
         </Row>
       </Col>
+      <EModal visible={open} close={()=>setOpen(false)}/>
     </Row>
   );
 };

@@ -1,3 +1,9 @@
+LEFT:{
+    'welcome Learn more': "service pricing not in our page"
+    'Leagal Basement View More': "service pricing not in our page"
+    'View More of bolgs': "read full blog"
+}
+
 construction
 renovation
 remodeling

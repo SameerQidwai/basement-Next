@@ -79,11 +79,9 @@ const Blogs = () => {
                 <Title level={2} className="blog-title">
                   Steps To Get a Legal Basement Apartment
                 </Title>
-                <a>
                   <Button size="small" type="link">
                     READ MORE <RightCircleOutlined />
                   </Button>
-                </a>
               </Col>
             </Row>
           </Col>
@@ -104,11 +102,9 @@ const Blogs = () => {
                 <Title level={2} className="blog-title">
                   2023 basement ideas
                 </Title>
-                <a>
                   <Button size="small" type="link" >
                     READ MORE <RightCircleOutlined />
                   </Button>
-                </a>
               </Col>
             </Row>
           </Col>

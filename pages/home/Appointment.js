@@ -44,7 +44,6 @@ const Appointment = () => {
               aspect of the project from start to finish. We prioritize staying on time and budget 
               to ensure maximum value for our clients. Contact us today to bring your vision to life.
             </Title>
-            <a href={'/service-pricing'}>
             <Button
                 // xs={24}
                 // sm={24}
@@ -57,7 +56,6 @@ const Appointment = () => {
               >
                 VIEW MORE
               </Button>
-             </a>
             
           </Col>
           <Col xs={24} sm={24} md={14}>

@@ -78,9 +78,7 @@ const index = () => {
                                     <p className="blog-content c-blackish">{content}</p>
                                 </Col>
                                 <Col span={24}>
-                                    <a>
                                         <Button size="large" className="round-button bgc-goldish c-white hover-bgc-blackish hover-c-white" href="/blog">READ MORE</Button>
-                                    </a>
                                 </Col>
                             </Row>
                         </div>
