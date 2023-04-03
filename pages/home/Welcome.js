@@ -12,7 +12,7 @@ const Welcome = () => {
         <Row className="welcome-container" align="middle">
           <Col xs={24} sm={24} md={24} lg={12}>
             <div className='welcome-picture'>
-              <Image src="/images/basement1.jpg"  layout="fill" />
+              <Image src="/basement1.jpg"  layout="fill" />
 
             </div>
             {/* <img className="welcome-picture" src="/images/basement1.jpg" alt="" /> */}

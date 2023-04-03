@@ -99,7 +99,9 @@ const MobileNavHeader = (props) => {
           >
             <Row justify="space-between">
                 <Col>
-                <a href="https://mylegalbasement.ca/">
+                <a 
+                // href="https://mylegalbasement.ca/"
+                >
                     <img
                         className="header_logo"
                         src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/logo.png"

@@ -84,7 +84,7 @@ p.choose-card-txt{
 .conact-area{
     width: 100%;
     float: left;
-    background: url(/images/basement5.jpg) no-repeat;
+    background: url(/basement5.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -221,7 +221,7 @@ h3.ant-typography.municpal-title{
     float: left;
     padding-top: 40px;
     padding-bottom: 60px;
-    background: url(/images/basement2.jpg) no-repeat;
+    background: url(/basement2.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;

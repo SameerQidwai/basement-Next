@@ -45,7 +45,7 @@ const ProjectsPreview = () => {
         <Image.PreviewGroup>
             {(images ?? []).map(({ img, type, name }, index) => (
             <Col xs={12} sm={8} md={4} lg={3} key={index}>
-                    <Image src={img} width="100%"  />
+              <Image src={img} width="100%"  />
             </Col>
             ))}
         </Image.PreviewGroup>

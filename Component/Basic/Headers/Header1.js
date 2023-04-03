@@ -15,10 +15,12 @@ const Header1 = (props) => {
         >
           <Col xs={24} sm={10} md={10}>
             <div className="header_logo">
-            <a href="https://mylegalbasement.ca/" >
+            <a 
+            // href="https://mylegalbasement.ca/" 
+            >
                 <Image
                   src="/logo-mobile.png"
-                  alt="https://mylegalbasement.ca/"
+                  // alt="https://mylegalbasement.ca/"
                   width="100%"
                   height="100%"
                   layout="fill"
