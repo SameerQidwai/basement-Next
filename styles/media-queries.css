@@ -11,11 +11,15 @@
         width: 180px;
     }
 }
+
 @media only screen and (min-width:520px) and (max-width:574px)  { 
     a.ant-btn.conact-area-btn{
         font-weight: 600;
         padding: 15px 35px !important;
         width: 180px;
+    }
+    a.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
+        font-size: small;
     }
 }
 
@@ -80,8 +84,13 @@
     .ant-input-lg {
         line-height: 1.5 !important;
     }
+
+    a.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
+        font-size: medium;
+    }
       
 } 
+
 @media only screen and (min-width:576px) and (max-width:767px)  {
     .desktop-headers{
         display: none;
@@ -127,6 +136,7 @@
         line-height: 1.5 !important;
     }
 } 
+
 @media only screen and (min-width:768px) and (max-width:991px)  { 
     .carousel-container {
         width: 970px;
