@@ -21,7 +21,7 @@ const  Index = (props) =>{
   return (
     <>
       <SlideCarousel/>
-      <Introduction />
+      {/* <Introduction /> */}
       <Services/>
       <Welcome/>
       {/* <Work /> */}

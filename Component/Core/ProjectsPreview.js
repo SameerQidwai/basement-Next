@@ -106,6 +106,12 @@ const ProjectsPreview = ({ home = false }) => {
           <TabPane tab="HOME IMPROVEMENTS" key="home">
             {Image_Column()}
           </TabPane>
+          <TabPane tab="Below Grade Entrances" key="below">
+            {Image_Column()}
+          </TabPane>
+          <TabPane tab="Side Entrances" key="side">
+            {Image_Column()}
+          </TabPane>
         </Tabs>
       </Col>
     </Row>

@@ -8,7 +8,7 @@
     a.ant-btn.conact-area-btn{
         font-weight: 600;
         padding: 10px 20px !important;
-        width: 180px;
+        /* width: 180px; */
     }
 }
 
@@ -16,7 +16,7 @@
     a.ant-btn.conact-area-btn{
         font-weight: 600;
         padding: 15px 35px !important;
-        width: 180px;
+        /* width: 180px; */
     }
     a.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
         font-size: small;

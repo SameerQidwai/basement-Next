@@ -71,13 +71,7 @@ const MobileNavHeader = (props) => {
                   key="/our-projects"
                   onClick={() => callRoute('/our-projects')}
                 >
-                  Our Projects
-                </Menu.Item>
-                <Menu.Item
-                  key="/services-pricing"
-                  onClick={() => callRoute('/services-pricing')}
-                >
-                  Services Areas
+                  Our Works
                 </Menu.Item>
                 <Menu.Item key="/blog" onClick={() => callRoute('/blog')}>
                   Blog
@@ -87,12 +81,6 @@ const MobileNavHeader = (props) => {
                   onClick={() => callRoute('/careers')}
                 >
                   careers
-                </Menu.Item>
-                <Menu.Item
-                  key="/contact-us"
-                  onClick={() => callRoute('/contact-us')}
-                >
-                  Contact Us
                 </Menu.Item>
               </Menu>
             }

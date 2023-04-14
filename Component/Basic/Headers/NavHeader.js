@@ -42,19 +42,13 @@ const NavHeader = (props) =>{
                             Our Services
                         </Menu.Item>
                         <Menu.Item key="/our-projects"  onClick={() => router.push('/our-projects')}>
-                            Our Projects
-                        </Menu.Item>
-                        <Menu.Item key="/services-pricing"  onClick={() => router.push('/services-pricing')}>
-                            Services Areas
+                            Our Works
                         </Menu.Item>
                         <Menu.Item key="/blog"  onClick={() => router.push('/blog')}>
                             Blog
                         </Menu.Item>
                         <Menu.Item key="/careers"  onClick={() => router.push('/careers')}>
                             Careers
-                        </Menu.Item>
-                        <Menu.Item key="/contact-us" onClick={() => router.push('/contact-us')}>
-                            CONTACT US
                         </Menu.Item>
                     </Menu>
                 </Col>
@@ -66,7 +60,7 @@ const NavHeader = (props) =>{
                         block
                         className='c-white b-blackish bgc-blackish hover-bgc-blackish hover-b-blackish hover-c-white hover-s-goldish scroll-down'
                         onClick={()=>props.openModal()}
-                    > CONSULTING </Button>
+                    > CONTACT US </Button>
                 </Col>
             </Row>
         </Header>

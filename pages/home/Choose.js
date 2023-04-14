@@ -35,7 +35,7 @@ const Choose = () => {
                       <Avatar
                           className="choose-number bgc-blackish c-white"
                           size={80} 
-                      ><span className='choose-number'>01</span></Avatar>
+                      ><span className='choose-number'>1</span></Avatar>
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
                       {/* change this with ant icon */}
@@ -50,11 +50,12 @@ const Choose = () => {
                         alt="Renovation Expert"
                       /> */}
                     </Col>
-                    <Title level={2} className="choose-card-title c-blackish">Skilled &amp; Trained</Title>
+                    <Title level={2} className="choose-card-title c-blackish">Expertise &amp; Support</Title>
                     <p className='choose-card-txt c-blackish'>
-                      We create exquisite basement spaces for new and existing
-                      properties and provide the guidance, advice and support
-                      you need for a successful project.
+                      We skilled and trained in creating exquisite basement 
+                      spaces for both new and existing properties. We provide 
+                      expert guidance, advice, and support throughout the entire 
+                      project to ensure its success.
                     </p>
                   </Row>
                 </Card>
@@ -66,7 +67,7 @@ const Choose = () => {
                       <Avatar
                           className="choose-number bgc-blackish c-white"
                           size={80} 
-                      ><span className='choose-number'>02</span></Avatar>
+                      ><span className='choose-number'>2</span></Avatar>
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
                       {/* change this with ant icon */}
@@ -76,11 +77,11 @@ const Choose = () => {
                           icon={<BookOutlined />}
                       />
                     </Col>
-                    <Title level={2} className="choose-card-title c-blackish">Honest Customer Service</Title>
+                    <Title level={2} className="choose-card-title c-blackish">Transparent Customer Service</Title>
                     <p className='choose-card-txt c-blackish'>
-                      We believe in upfront, honest customer service as our
-                      business is dedicated to providing stress-free solutions.
-                      We will keep you updated throughout the whole project.
+                    we value transparency and strive to provide open communication with our clients.
+                     Our business is dedicated to offering stress-free solutions, 
+                     and we'll keep you informed every step of the way throughout your project.
                     </p>
                   </Row>
                 </Card>
@@ -92,7 +93,7 @@ const Choose = () => {
                       <Avatar
                           className="choose-number bgc-blackish c-white"
                           size={80} 
-                      ><span className='choose-number'>03</span></Avatar>
+                      ><span className='choose-number'>3</span></Avatar>
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
                       {/* change this with ant icon */}
@@ -102,10 +103,12 @@ const Choose = () => {
                           icon={<BarsOutlined />}
                       />
                     </Col>
-                    <Title level={2} className="choose-card-title c-blackish">Fully Licensed</Title>
+                    <Title level={2} className="choose-card-title c-blackish">Professional Licensing</Title>
                     <p className='choose-card-txt c-blackish'>
-                      Our company is fully qualified with full residential and
-                      commercial building licenses.
+                    As a professional construction company, 
+                    we hold full residential and commercial building 
+                    licenses to ensure that we can deliver top-quality 
+                    construction services that meet industry standards and regulations.
                     </p>
                   </Row>
                 </Card>

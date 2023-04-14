@@ -26,18 +26,7 @@ const ContactArea = (props) => {
                   className="conact-area-btn  c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish hover-bgc-blackish hover-s-goldish"
                   href="tel:+16472189786"
                 >
-                  <span>CALL US</span>
-                </Button>
-              </Col>
-              <Col>
-                <Button
-                  type="primary"
-                  size="large"
-                  className="conact-area-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish hover-bgc-goldish hover-s-goldish"
-                  block
-                  onClick={()=>setOpen(true)}
-                >
-                  <span>CONSULTING</span>
+                  <span>Get YOU FREE QOUTE</span>
                 </Button>
               </Col>
             </Row>

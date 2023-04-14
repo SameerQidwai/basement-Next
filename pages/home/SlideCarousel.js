@@ -37,7 +37,7 @@ const SlideCarousel = () => {
                   <Row>
                     <Col>
                       <Title className="carousel-title">
-                        Unleash Your Culinary
+                        ELEVATE YOUR SPACE 
                       </Title>
                     </Col>
                   </Row>
@@ -49,7 +49,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Title level={2} className="carousel-title">
-                        Creativity
+                        
                       </Title>
                     </Col>
                   </Row>

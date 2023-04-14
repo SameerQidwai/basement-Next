@@ -6,9 +6,9 @@ const {Title , Text} = Typography
 
 const logos  = [
     'oakville-logo.webp',
-    'Aurora-logo.webp',
-    'ajax-logo.webp',
-    'richmond-hill-logo.webp',
+    'milton-logo.jfif',
+    'Burlington-logo3.png',
+    'Halton-Hills-logo.png',
     'brampton-logo.webp',
     'toronto-logo.webp',
     'oshawa-logo.webp',
