@@ -33,17 +33,6 @@ const Header1Dep = (props) => {
                 </Tooltip>
               </Col>
               <Col>
-                <Tooltip title="Twitter" arrowPointAtCenter>
-                  <a
-                    target={'_blank'}
-                    href="https://www.twitter.com/"
-                    className="reset-a"
-                  >
-                    <TwitterOutlined className="fs-18" />
-                  </a>
-                </Tooltip>
-              </Col>
-              <Col>
                 <Tooltip title="LinkedIn" arrowPointAtCenter>
                   <a
                     target={'_blank'}

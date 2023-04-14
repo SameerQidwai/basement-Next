@@ -49,17 +49,6 @@ const BottomFooter = () => {
                     </a>
                 </Tooltip>
                 </Col>
-                <Col>
-                <Tooltip title="Twitter" arrowPointAtCenter>
-                    <a
-                    target={'_blank'}
-                    href="https://www.twitter.com/"
-                    className="reset-a mb-16"
-                    >
-                    <TwitterSquareFilled  className="fs-25 tw-icon"/> 
-                    </a>
-                </Tooltip>
-                </Col>
                 {/* <Col>
                 <Tooltip title="LinkedIn" arrowPointAtCenter>
                     <a

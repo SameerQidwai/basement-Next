@@ -129,18 +129,6 @@ const Index = () => {
                       </Tooltip>
                     </Col>
                     <Col>
-                      <Tooltip title="Twitter" arrowPointAtCenter>
-                        <a
-                          target={'_blank'}
-                          rel="noreferrer"
-                          href="https://www.twitter.com/"
-                          className="reset-a"
-                        >
-                          <TwitterSquareFilled className="fs-25 tw-icon" />
-                        </a>
-                      </Tooltip>
-                    </Col>
-                    <Col>
                       <Tooltip title="Instagram" arrowPointAtCenter>
                         <a
                           target={'_blank'}

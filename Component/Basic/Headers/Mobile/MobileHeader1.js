@@ -46,17 +46,6 @@ const MobileHeader1 = (props) => {
                 </Tooltip>
               </Col>
               <Col>
-                <Tooltip title="Twitter" arrowPointAtCenter>
-                  <a
-                    target={'_blank'}
-                    href="https://www.twitter.com/"
-                    className="reset-a"
-                  >
-                    <TwitterSquareFilled className="fs-25 tw-icon" />
-                  </a>
-                </Tooltip>
-              </Col>
-              <Col>
                 <Tooltip title="Instagram" arrowPointAtCenter>
                   <a
                     target={'_blank'}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row, Button, Tooltip, Typography, Layout } from 'antd';
-import { FacebookFilled, TwitterSquareFilled } from '@ant-design/icons';
+import { FacebookFilled, PhoneOutlined, TwitterSquareFilled } from '@ant-design/icons';
 import Image from 'next/image'
 const { Paragraph, Text } = Typography;
 const { Header } = Layout;
@@ -50,17 +50,6 @@ const Header1 = (props) => {
                     </Tooltip>
                   </Col>
                   <Col>
-                    <Tooltip title="Twitter" arrowPointAtCenter>
-                      <a
-                        target={'_blank'}
-                        href="https://www.twitter.com/"
-                        className="reset-a"
-                      >
-                        <TwitterSquareFilled className="fs-25 tw-icon " />
-                      </a>
-                    </Tooltip>
-                  </Col>
-                  <Col>
                     <Tooltip title="Instagram" arrowPointAtCenter>
                       <a
                         target={'_blank'}
@@ -79,15 +68,23 @@ const Header1 = (props) => {
                 <Button
                   type="primary"
                   size="large"
-                  className="header-basement-btn bgc-goldish  c-white"
+                  className="header-basement-btn bgc-goldish c-white"
                   block
                   href="tel:+16472189786"
                 >
-                  <span className="fs-13 lh-1">
-                    we are only a phone call away
-                  </span>
-                  <br />
-                  <span> 647 218 9786</span>
+                  <Row align="middle" gutter={15}>
+                    <Col>
+                      <PhoneOutlined style={{fontSize: 48, marginTop:20}}/>
+                    </Col>
+                    <Col>
+                      <span className="fs-13 lh-1">
+                      Get your Free Estimate Now
+                    </span>
+                    <br />
+                    <span> 647 218 9786</span>
+                    </Col>
+                  </Row>
+                 
                 </Button>
               </Col>
             </Row>
