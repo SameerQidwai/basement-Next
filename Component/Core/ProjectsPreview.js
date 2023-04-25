@@ -2,6 +2,8 @@ import { RightCircleOutlined } from '@ant-design/icons';
 import { Col, Row, Tabs, Typography, Image, Button } from 'antd';
 import NextImage from "next/image";
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router'
+
 const { Title, Text } = Typography;
 const { TabPane } = Tabs;
 const imagesINPublic = [
@@ -37,16 +39,18 @@ const imagesINPublic = [
   {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM.jpg"},
   ] ;
 
-const ProjectsPreview = ({ home = false, tabKey='all' }) => {
-  const [selectedKey, setSelectedKey] = useState(tabKey)
+const ProjectsPreview = ({ home = false }) => {
+  const router = useRouter()
+  const { key } = router.query;
+  const [selectedKey, setSelectedKey] = useState(key?? 'all')
   const [images, setImagesName] = useState(
     home ? [...imagesINPublic.slice(0, 5)] : [...imagesINPublic]
   );
 
   useEffect(() => {
-    tabChange(tabKey)
+    tabChange(key)
     // setSelectedKey(tabKey)
-  }, [tabKey])
+  }, [router])
   
 
   const Image_Column = () => {

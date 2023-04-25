@@ -1,12 +1,10 @@
 import { Typography } from 'antd'
 import React from 'react'
 import ProjectsPreview from '../../Component/Core/ProjectsPreview'
-import { useRouter } from 'next/router'
+
 const {Title} = Typography
 
 const index = () =>{
-  const router = useRouter();
-  const { key } = router.query;
   return (
       // <div className="mb-30">
       //     <ProjectsPreview/>
@@ -17,7 +15,7 @@ const index = () =>{
             <span>OUR</span> PROJECTS
           </Title>
         </div>
-        <ProjectsPreview tabKey={key}/>
+        <ProjectsPreview />
       </div>
     );
 }
