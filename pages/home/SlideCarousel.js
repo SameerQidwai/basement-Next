@@ -61,7 +61,7 @@ const SlideCarousel = () => {
                   >
                     <Col>
                       <Paragraph className="carousel-p">
-                        Our kitchen remodeling services can transform your space into a chef's paradise, with modern amenities and sleek design that will inspire your cooking.
+                        Our kitchen remodeling PROCESS can transform your space into a chef's paradise, with modern amenities and sleek design that will inspire your cooking.
                       </Paragraph>
                     </Col>
                   </Row>
@@ -76,9 +76,9 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
-                        href='/our-services'
+                        href='/our-process'
                         >
-                          SEE OUR SERVICES
+                          SEE OUR PROCESS
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
@@ -156,9 +156,9 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
-                        href='/our-services'
+                        href='/our-process'
                         >
-                          SEE OUR SERVICES
+                          SEE OUR PROCESS
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
@@ -236,9 +236,9 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
-                        href='/our-services'
+                        href='/our-process'
                         >
-                          SEE OUR SERVICES
+                          SEE OUR PROCESS
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">
@@ -316,9 +316,9 @@ const SlideCarousel = () => {
                         <Button
                           size="large"
                           className="carousel-btn c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish"
-                          href='/our-services'
+                          href='/our-process'
                         >
-                          SEE OUR SERVICES
+                          SEE OUR PROCESS
                         </Button>
                       </Col>
                       <Col className="carousel-btn-col">

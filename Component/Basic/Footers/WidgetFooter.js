@@ -44,8 +44,8 @@ const WidgetFooter = () => {
               </Button>
             </Col>
             <Col span={24}>
-              <Button type="text" href="/our-services">
-                OUR SERVICES
+              <Button type="text" href="/our-process">
+                OUR PROCESS
               </Button>
             </Col>
             <Col span={24}>

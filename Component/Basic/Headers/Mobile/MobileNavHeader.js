@@ -62,10 +62,10 @@ const MobileNavHeader = (props) => {
                   Home
                 </Menu.Item>
                 <Menu.Item
-                  key="/our-services"
-                  onClick={() => callRoute('/our-services')}
+                  key="/our-process"
+                  onClick={() => callRoute('/our-process')}
                 >
-                  Our services
+                  Our Process
                 </Menu.Item>
                 <Menu.Item
                   key="/our-projects"

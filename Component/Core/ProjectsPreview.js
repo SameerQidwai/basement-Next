@@ -47,8 +47,9 @@ const ProjectsPreview = ({ home = false }) => {
     home ? [...imagesINPublic.slice(0, 5)] : [...imagesINPublic]
   );
 
+  console.log({selectedKey})
   useEffect(() => {
-    tabChange(key)
+    tabChange(key??'all')
     // setSelectedKey(tabKey)
   }, [router])
   
@@ -99,7 +100,7 @@ const ProjectsPreview = ({ home = false }) => {
         <Tabs
           type="card"
           animated
-          activeKey={selectedKey}
+          activeKey={selectedKey??'all'}
           centered
           destroyInactiveTabPane
           onChange={tabChange}
