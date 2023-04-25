@@ -6,7 +6,7 @@ const { Title, Text } = Typography;
 export const blogging = [
   {
     date: 'February 28, 2023',
-    title: 'Steps To Get a Azim Constructions Apartment',
+    title: 'Steps To Get a ELITEOX RENO Apartment',
     content:
       'For the past year and a half, we have seen a dramatic increase in the rental market all across North America.',
   },

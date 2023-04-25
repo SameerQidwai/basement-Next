@@ -32,7 +32,7 @@ const index = () => {
                 </strong>
               </p>
               <p className="service-description-page-content">
-                At Azim Constructions, we strive to make the process of designing
+                At ELITEOX RENO, we strive to make the process of designing
                 and renovating your kitchen as hassle-free as possible. With our
                 reputation for providing excellent customer service,
                 high-quality workmanship, and a team of skilled professionals,

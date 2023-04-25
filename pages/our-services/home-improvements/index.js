@@ -29,7 +29,7 @@ const index = () => {
                 <strong> Expert Home Renovation Solutions</strong>
               </p>
               <p className="service-description-page-content">
-                At Azim Constructions, we aim to provide homeowners with
+                At ELITEOX RENO, we aim to provide homeowners with
                 customized refurbishment solutions using rigorous planning,
                 creative design, premium materials, and skilled implementation.
                 We're experts in completely remodeling and extending old homes,
@@ -39,7 +39,7 @@ const index = () => {
                 transparency and excellent communication. We collaborate with
                 you to create creative home renovation solutions that fit your
                 schedule and financial constraints. Experience the difference
-                with Azim Constructions today and transform your current home
+                with ELITEOX RENO today and transform your current home
                 into your dream home.
               </p>
               <p className="service-description-page-content">

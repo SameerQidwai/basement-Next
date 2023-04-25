@@ -26,7 +26,7 @@ const index = () => {
   return (
     <Row justify='center'>
       <Col span={24} className="bgc-white txt-center process-page-services">
-          <p className='process-page-descition c-blackish'>With years of experience, Azim Constructions has worked on hundreds of basement constructions along with Kitchen and Bathroom renovation projects. With skilled engineers and architects, we are efficient enough to cater to your needs through professional renovation and construction services.</p>
+          <p className='process-page-descition c-blackish'>With years of experience, ELITEOX RENO has worked on hundreds of basement constructions along with Kitchen and Bathroom renovation projects. With skilled engineers and architects, we are efficient enough to cater to your needs through professional renovation and construction services.</p>
       </Col>
       {/* background Image  */}
       <Col span={24} className="services">

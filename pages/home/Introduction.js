@@ -46,7 +46,7 @@ const Introduction = () => {
             </p>
 
             <p className="c-white">
-              At Azim Constructions, we understand the importance of creating
+              At ELITEOX RENO, we understand the importance of creating
               maximum value for our clients. That's why we work diligently to
               stay on top of industry trends, technology, and best practices to
               ensure that we deliver exceptional results. Whether you're looking

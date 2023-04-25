@@ -35,7 +35,7 @@ const index = () => {
                 Obtaining building permits for home renovations can be a
                 daunting and restrictive process. However, it is crucial to
                 acquire them to ensure compliance with regulations and safety
-                standards. At Azim Constructions, we specialize in developing
+                standards. At ELITEOX RENO, we specialize in developing
                 legal finished basements and have a track record of achieving
                 high levels of client satisfaction. Our expertise and attention
                 to detail ensure that your renovation project meets all
@@ -45,7 +45,7 @@ const index = () => {
                 <strong> Renovate with confidence &Quality </strong>
               </p>
               <p className="service-description-page-content">
-                Azim Constructions simplifies the permit process with
+                ELITEOX RENO simplifies the permit process with
                 architectural drawings and permit services. We ensure that every
                 aspect of your renovation meets code standards, so you don't
                 have to worry about it. Our goal is to make your experience with

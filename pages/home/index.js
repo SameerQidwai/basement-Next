@@ -31,7 +31,7 @@ const  Index = (props) =>{
       <Appointment/>
       <Reviews/>
       <Municipalities/>
-      <Blogs />
+      {/* <Blogs /> */}
       {/* <Success />
       <Process />
       <Conclusion /> */}

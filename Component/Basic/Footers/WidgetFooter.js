@@ -58,7 +58,7 @@ const WidgetFooter = () => {
                 CAREERS
               </Button>
             </Col>
-            <Col span={24}>
+            {/* <Col span={24}>
               <Button type="text" href="/blog">
                 BLOG
               </Button>
@@ -67,7 +67,7 @@ const WidgetFooter = () => {
               <Button type="text" href="#">
               SERVICES AREAS
               </Button>
-            </Col>
+            </Col> */}
             <Col span={24}>
               <Button type="text" href="/contact-us">
                 CONTACT US
@@ -100,12 +100,23 @@ const WidgetFooter = () => {
                 <Col span={24}>
                   <Row justify="space-between">
                     <Col>
-                      
                       <PhoneFilled />
                     </Col>
                     <Col span={22}>
                       <Button type="text" href="tel:+16472189786">
-                        905-669-0471
+                        Azim: 905-669-0471
+                      </Button>
+                    </Col>
+                  </Row>
+                </Col>
+                <Col span={24}>
+                  <Row justify="space-between">
+                    <Col>
+                      <PhoneFilled />
+                    </Col>
+                    <Col span={22}>
+                      <Button type="text" href="tel:+12894004307 ">
+                        Faraz: (289) 400-4307 
                       </Button>
                     </Col>
                   </Row>
@@ -117,19 +128,7 @@ const WidgetFooter = () => {
                     </Col>
                     <Col span={22}>
                       <Button type="text" href="#">
-                        Monday - Friday: 9:00 AM - 6:00 PM
-                      </Button>
-                    </Col>
-                  </Row>
-                </Col>
-                <Col span={24}>
-                  <Row justify="space-between">
-                    <Col>
-                      <ClockCircleOutlined />
-                    </Col>
-                    <Col span={22}>
-                      <Button type="text" href="#">
-                        Saturday: 9:00 AM - 12:00 PM
+                        Monday - Saturday: 9:00 AM - 6:00 PM
                       </Button>
                     </Col>
                   </Row>

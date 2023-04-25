@@ -111,6 +111,10 @@
 .mb-10 {
     margin-bottom: 10px;
 }
+.mb-5{
+    margin-bottom: 5px !important;
+} 
+
 .mb-20 {
     margin-bottom: 20px;
 }

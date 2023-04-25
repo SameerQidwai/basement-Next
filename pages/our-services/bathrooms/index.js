@@ -28,12 +28,11 @@ const index = () => {
               <p className="service-description-page-content">
                 <strong>
                   {' '}
-                  Transform Your Bathroom into Your Dream Space with Azim
-                  Constructions{' '}
+                  Transform Your Bathroom into Your Dream Space with ELITEOX RENO
                 </strong>
               </p>
               <p className="service-description-page-content">
-                At Azim Constructions, we make bathroom renovation a breeze by
+                At ELITEOX RENO, we make bathroom renovation a breeze by
                 offering full-service packages and bringing materials straight
                 to your door for your convenience. Our team of professionals has
                 years of experience creating unique and stunning bathrooms that
@@ -48,7 +47,7 @@ const index = () => {
                 <strong> Superior Quality Bathroom Renovations</strong>
               </p>
               <p className="service-description-page-content">
-                At Azim Constructions, we pride ourselves on being the top-rated
+                At ELITEOX RENO, we pride ourselves on being the top-rated
                 renovators in the industry. Our skilled team of professionals
                 can transform your outdated bathroom into a relaxing and
                 rejuvenating spa-like retreat. Our success is due in large part

@@ -49,14 +49,14 @@
     padding-bottom: 55px;
 }
 .welcome-container{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
     margin-right: auto;
     margin-left: auto;
 }
 .welcome-picture{
-    width: 94%;
-    height: 438px;
+    /* width: 94%; */
+    height: 385px;
     object-fit: cover;
     object-position: center;
     position: relative;

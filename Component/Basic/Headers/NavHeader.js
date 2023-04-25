@@ -44,9 +44,9 @@ const NavHeader = (props) =>{
                         <Menu.Item key="/our-projects"  onClick={() => router.push('/our-projects')}>
                             Our Works
                         </Menu.Item>
-                        <Menu.Item key="/blog"  onClick={() => router.push('/blog')}>
+                        {/* <Menu.Item key="/blog"  onClick={() => router.push('/blog')}>
                             Blog
-                        </Menu.Item>
+                        </Menu.Item> */}
                         <Menu.Item key="/careers"  onClick={() => router.push('/careers')}>
                             Careers
                         </Menu.Item>

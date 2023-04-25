@@ -6,41 +6,48 @@ const { Title, Text } = Typography;
 const { TabPane } = Tabs;
 const imagesINPublic = [
   {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM- 11",
-  "type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-11.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-10","type":["basement"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-10.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-12","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-12.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-13","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-13.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-14","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-14.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-15","type":["basement"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-15.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-16","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-16.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-17","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-17.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-18","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-18.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-19","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-19.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-2","type":["basement"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-2.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-20","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-20.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-21","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-21.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-22","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-22.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-23","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-23.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-24","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-24.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-25","type":["basement"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-25.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-26","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-26.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-27","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-27.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-28","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-28.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-29","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-29.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-3","type":["basement"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-3.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-4","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-4.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-5","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-5.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-6","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-6.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-7","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-7.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-8","type":["basement"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-8.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-9","type":["kitchen"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-9.jpg"},
-  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM","type":["home"],"img":"/images/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM.jpg"},
+  "type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-11.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-10","type":["basement"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-10.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-12","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-12.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-13","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-13.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-14","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-14.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-15","type":["basement"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-15.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-16","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-16.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-17","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-17.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-18","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-18.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-19","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-19.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-2","type":["basement"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-2.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-20","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-20.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-21","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-21.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-22","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-22.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-23","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-23.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-24","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-24.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-25","type":["basement"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-25.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-26","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-26.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-27","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-27.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-28","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-28.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-29","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-29.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-3","type":["basement"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-3.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-4","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-4.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-5","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-5.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-6","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-6.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-7","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-7.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-8","type":["basement"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-8.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-9","type":["kitchen"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM-9.jpg"},
+  {"name":"BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM","type":["home"],"img":"/BASEMENT-KITCHEN-RENOVATION-REMODELING-BATHROOM.jpg"},
   ] ;
 
-const ProjectsPreview = ({ home = false }) => {
+const ProjectsPreview = ({ home = false, tabKey='all' }) => {
+  const [selectedKey, setSelectedKey] = useState(tabKey)
   const [images, setImagesName] = useState(
     home ? [...imagesINPublic.slice(0, 5)] : [...imagesINPublic]
   );
+
+  useEffect(() => {
+    tabChange(tabKey)
+    // setSelectedKey(tabKey)
+  }, [tabKey])
+  
 
   const Image_Column = () => {
     return (
@@ -48,15 +55,15 @@ const ProjectsPreview = ({ home = false }) => {
         <Image.PreviewGroup>
           {(images ?? []).map(({ img, type, name }, index) => (
             <Col xs={12} sm={6} md={8} lg={8} key={index}>
-              <Image src={img} width="100%" placeholder={<div>{name}</div>} />
+              <Image src={`/images${img}`} width="100%" placeholder={<div>{name}</div>} />
             </Col>
           ))}
         </Image.PreviewGroup>
         {home && (
-          <Col xs={12} sm={6} md={8} lg={8}>
+          <Col xs={12} sm={6} md={8} lg={8} style={{width: '100%', height: '272px'}}>
             <NextImage src="/blur-show-more-project.jpg" alt='blur-show-more-project' layout='fill'/>
               <Button type="text" block className="c-blackish button-overlay">
-                <a href="/our-projects">SHOW MORE <RightCircleOutlined /></a>
+                <a href={`/our-projects?key=${selectedKey}`}>SHOW MORE <RightCircleOutlined /></a>
             </Button>
           </Col>
         )}
@@ -76,8 +83,9 @@ const ProjectsPreview = ({ home = false }) => {
       newObj =[...imagesINPublic]
     }
     setImagesName(
-      home ? [...imagesINPublic.slice(0, 5)] : [...newObj]
+      home ? [...newObj.slice(0, 5)] : [...newObj]
     );
+    setSelectedKey(key)
   };
 
 
@@ -87,6 +95,7 @@ const ProjectsPreview = ({ home = false }) => {
         <Tabs
           type="card"
           animated
+          activeKey={selectedKey}
           centered
           destroyInactiveTabPane
           onChange={tabChange}

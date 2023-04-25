@@ -44,6 +44,19 @@ h5.choose-text{
 .choose-card{
     background-color: #d8ae5e;
 }
+.choose-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
 .choose-number{
     color: #ffffff;
     font-size: 48px;
@@ -204,7 +217,7 @@ h3.ant-typography.municpal-title{
 
 .municipal-logo-box .logo {
     width: 100%;
-    background-color: #000;
+    /* background-color: #000; */
     padding: 10px;
     height: 91px;
     object-fit: contain;
@@ -439,15 +452,25 @@ p.service-description-page-content{
     line-height: 29px;
 }
 
+.news-letter{
+    padding: 0px 30px;
+    border-top: 12px #d8ae5e solid;
+    background-color: #1d1f1c
+}
+.news-letter-headings{
+    padding: 50px 0 70px;
+}
+
 .news-letter-background{
     width: 100%;
     float: left;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #BFDFEC;
-    background-repeat: repeat-x;
-    background-image: url(/lopp.png);
-    animation: movement 10s linear infinite;
+    background-size: cover;
+    /* background-repeat: repeat-x; */
+    background-image: url(/architchture_designing.gif);
+    /* animation: movement 10s linear infinite; */
 }
 .news-letter-background input.ant-input-lg{
     line-height: 1.5715 !important;

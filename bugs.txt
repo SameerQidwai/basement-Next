@@ -4,3 +4,13 @@
 FONT SIze consistent
 welcome and our contact background image from out 
 ABOUT US FOOTER
+
+BOOK a call 
+    (change font size and sentence)
+    
+Welcome
+    (change font size and sentence)
+    images
+
+choose
+    font size and sentence

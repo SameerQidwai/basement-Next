@@ -73,9 +73,9 @@ const MobileNavHeader = (props) => {
                 >
                   Our Works
                 </Menu.Item>
-                <Menu.Item key="/blog" onClick={() => callRoute('/blog')}>
+                {/* <Menu.Item key="/blog" onClick={() => callRoute('/blog')}>
                   Blog
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item
                   key="/careers"
                   onClick={() => callRoute('/careers')}

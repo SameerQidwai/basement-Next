@@ -9,7 +9,7 @@ const someBlog = [...blogging.slice(0,5)]
 function SideLinks() {
   return (
     <Row gutter={[20, 20]}>
-      <Col xs={24} sm={24} md={24}>
+      {/* <Col xs={24} sm={24} md={24}>
         <Row className="border-1">
           <Col span={24}>
             <Title level={3} className="blog-services c-goldish">
@@ -29,7 +29,7 @@ function SideLinks() {
             </Col>
           ))}
         </Row>
-      </Col>
+      </Col> */}
       <Col xs={24} sm={24} md={24}>
         <Row gutter={[10, 0]} className="border-1">
           <Col span={24}>

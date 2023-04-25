@@ -5,18 +5,18 @@ import {useRouter} from 'next/router';
 const {Title , Text} = Typography
 
 const logos  = [
-    'oakville-logo.webp',
-    'milton-logo.jfif',
-    'Burlington-logo3.png',
-    'Halton-Hills-logo.png',
-    'brampton-logo.webp',
-    'toronto-logo.webp',
-    'oshawa-logo.webp',
-    'vaughan-logo.webp',
-    'markham-logo.webp',
-    'whityby-logo.webp',
-    'newmarket-logo.webp',
-    'mississauga-logo.webp',
+    'municipalities/town-of-oakville-logo.jpg',
+    'municipalities/milton-logo.png',
+    'municipalities/Burlington-logo.jpg',
+    'municipalities/halton-hills-logo.jpg',
+    'municipalities/brampton-flower-city-logo.png',
+    'municipalities/city_of_Toronto_logo.jpg',
+    'municipalities/guelph-logo.jpg',
+    'municipalities/city_of_vaughan_logo.png',
+    'municipalities/niagara-logo.png',
+    'municipalities/cambridge-logo.jpg',
+    'municipalities/kitchener-logo.webp',
+    'municipalities/mississauga_logo.png',
 ]
 
 const  Municipalities = () => {

@@ -29,14 +29,14 @@ const index = () => {
                 <strong> Re-Design Your Basement The Way You Live </strong>
               </p>
               <p className="service-description-page-content">
-                Azim Constructions can help transform your unfinished basement
+                ELITEOX RENO can help transform your unfinished basement
                 into a functional and stylish living space. We approach every
                 project with creativity, taking into account your needs and
                 budget. Our skilled crew members work efficiently to deliver a
                 finished product that you'll love for years to come. We pride
                 ourselves on our honesty, ethics, and guiding principles, which
                 inform every aspect of our business and ensure top-notch service
-                for our clients. Trust Azim Constructions to bring your basement
+                for our clients. Trust ELITEOX RENO to bring your basement
                 renovation dreams to life.
               </p>
               <p className="service-description-page-content">

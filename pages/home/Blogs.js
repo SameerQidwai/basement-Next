@@ -66,7 +66,7 @@ const Blogs = () => {
                   <Image 
                     src="/basement_kitchen_renovation_remodal.jpg"
                     layout="fill"
-                    alt="Blog `Steps To Get a Azim Constructions Apartment` "
+                    alt="Blog `Steps To Get a ELITEOX RENO Apartment` "
                   />
                 </div>
               </Col>
@@ -75,7 +75,7 @@ const Blogs = () => {
                   DATE : FEBRUARY 28, 2023
                 </Title>
                 <Title level={2} className="blog-title">
-                  Steps To Get a Azim Constructions Apartment
+                  Steps To Get a ELITEOX RENO Apartment
                 </Title>
                   <Button size="small" type="link">
                     READ MORE <RightCircleOutlined />
@@ -90,7 +90,7 @@ const Blogs = () => {
                   <Image 
                     src="/basement_kitchen_renovation_remodal.jpg"
                     layout="fill"
-                    alt="Blog `Steps To Get a Azim Constructions Apartment` "
+                    alt="Blog `Steps To Get a ELITEOX RENO Apartment` "
                   />
                 </div>
               </Col>
