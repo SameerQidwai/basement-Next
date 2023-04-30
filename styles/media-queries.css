@@ -165,8 +165,8 @@
 
 /* For screens between 992px and 1124px */
 @media only screen and (max-width: 1124px) and (min-width: 992px) {
-    /* h2.ant-typography.carousel-title {
-        font-size: 2.8em;
+    /* .core-values{
+        width: 100%;
     } */
 }
 /* @media only screen and (min-width:1024px) and (max-width:1899px) { 

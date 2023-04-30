@@ -485,7 +485,12 @@ p.service-description-page-content{
     }
   }
 
-.carrers-form{
+.careers-content{
+    z-index: 1000 !important; 
+    padding: 0px 5px
+}
+
+.careers-form{
     width: 100%;
     border: 1px solid #e3e1e1;
     padding: 25px;
@@ -551,12 +556,15 @@ h1.ant-typography.consult-form-title{
 .contact-main-box h4.ant-typography a{
     color: #ffffff;
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     width: 100%;
-    margin-top: 10px;
-    font-weight: 700;
+    margin-top: 0px;
+    font-weight: 500 !important;
     float: left;
+}
+.contact-main-box h4.ant-typography {
+    margin-top: 5px;
 }
 
 
@@ -594,6 +602,19 @@ h1.ant-typography.consult-form-title{
     font-weight: 700;
     text-transform: capitalize;
 }
+.contact-box h5.ant-typography{
+    margin-top: 5px;
+}
+.contact-box h5.ant-typography span{
+    color: #ffffff;
+    font-family: 'Barlow Condensed', 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    /* margin-top: 10px; */
+    font-weight: 500;
+    text-transform: capitalize;
+}
 
 .contact-last-box{
     width: 100%;
@@ -616,13 +637,16 @@ h1.ant-typography.consult-form-title{
 .contact-last-box h4.ant-typography span{
     color: #ffffff;
     font-family: 'Barlow Condensed', 'Poppins', sans-serif;
-    font-size: 20px !important;
+    font-size: 18px !important;
     text-align: center;
     width: 100%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-weight: 700;
     text-transform: capitalize;
     white-space:    break-spaces !important;
+}
+.contact-last-box h4.ant-typography {
+    margin-top: 0px;
 }
 .contact-box h4.ant-typography a.ant-btn-text{
     padding: 0 !important
@@ -683,4 +707,47 @@ a.ant-btn.ant-btn-text.ant-btn-block.button-overlay:hover{
 
 form.modal-form .ant-input-lg {
     line-height: 1.42 !important;
+}
+
+.about-us-banner{
+    width: 100%;
+    background-image: url(/about-us-basement.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.about-us-title{
+    z-index: 1000;
+    position: inherit;
+}
+
+.about-us-overlay{
+    background-color: rgba(69,99,127,0.6) !important;
+}
+
+.process-bg-image{
+    width: 100%;
+    background-image: url(/basement_sketch.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* height: 200px; */
+}
+
+.process-overlay{
+    /* background-color: rgba(179, 39, 48, 0.3); */
+}
+
+h1.process-elite-title{
+    font-family: 'Barlow Condensed', 'Poppins';
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    margin-left: 0px;
+    font-weight: 500;
+    text-transform: capitalize;
 }

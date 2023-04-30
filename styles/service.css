@@ -30,7 +30,7 @@
     height: 100%;
 }
 .services-card{
-    /* box-shadow: 7px 9px 10px -7px #bcbcbc; */
+    box-shadow: 7px 9px 10px -7px #bcbcbc;
     z-index: 10;
     padding: 40px
 }

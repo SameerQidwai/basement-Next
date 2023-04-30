@@ -50,6 +50,9 @@ const NavHeader = (props) =>{
                         <Menu.Item key="/careers"  onClick={() => router.push('/careers')}>
                             Careers
                         </Menu.Item>
+                        <Menu.Item key="/about-us"  onClick={() => router.push('/about-us')}>
+                            About Us
+                        </Menu.Item>
                     </Menu>
                 </Col>
                 <Col xs={24} sm={24} md={3} className="txt-center">

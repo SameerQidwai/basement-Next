@@ -27,8 +27,7 @@ const index = () => {
               </Title>
               <p className="service-description-page-content">
                 <strong>
-                  {' '}
-                  Looking To Give Your Kitchen A Fresh New Look?{' '}
+                  Looking To Give Your Kitchen A Fresh New Look?
                 </strong>
               </p>
               <p className="service-description-page-content">

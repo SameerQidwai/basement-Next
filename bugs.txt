@@ -14,3 +14,11 @@ Welcome
 
 choose
     font size and sentence
+
+our-process 
+    cards images
+    fonts
+
+MAP MAP
+
+email & with resume

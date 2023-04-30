@@ -80,7 +80,13 @@ const MobileNavHeader = (props) => {
                   key="/careers"
                   onClick={() => callRoute('/careers')}
                 >
-                  careers
+                  Careers
+                </Menu.Item>
+                <Menu.Item
+                  key="/about-us"
+                  onClick={() => callRoute('/about-us')}
+                >
+                  About Us
                 </Menu.Item>
               </Menu>
             }
@@ -92,7 +98,7 @@ const MobileNavHeader = (props) => {
                 >
                     <img
                         className="header_logo"
-                        src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/logo.png"
+                        src="/logos/mobile_header_logo.svg"
                         alt=""
                     />
                 </a>

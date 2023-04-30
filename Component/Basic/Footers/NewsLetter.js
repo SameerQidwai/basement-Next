@@ -7,43 +7,45 @@ const NewsLetter = () => {
     <Row align="middle">
       <Col span={24} className=" news-letter news-letter-headings">
         <Row justify="space-evenly">
-        <Col >
-          <Row>
-            <Col span={24}>
-              <Title level={1} className="c-white mb-5">
-                Book a call with us!
-              </Title>
-            </Col>
-            <Col span={24} className="c-white">
-              Our team is proud to serve GTA for 6+ Years!
-            </Col>
-          </Row>
-        </Col>
-        <Col >
-          <Button
-            type="primary"
-            size="large"
-            block
-            className="conact-area-btn  c-white bgc-goldish b-goldish s-blackish hover-b-goldish hover-bgc-blackish hover-s-goldish"
-            href="tel:+16472189786"
-          >
-            <span>book a call</span>
-          </Button>
-        </Col>
+          <Col>
+            <Row>
+              <Col span={24}>
+                <Title level={1} className="c-white mb-5">
+                  Call For Immediate Assistance!
+                </Title>
+              </Col>
+              <Col span={24} className="c-white">
+                Our team is proud to serve GTA for 15+ Years!
+              </Col>
+            </Row>
+          </Col>
+          <Col>
+            <Button
+              type="primary"
+              size="large"
+              block
+              className="conact-area-btn c-white bgc-goldish b-goldish s-blackish hover-b-goldish hover-bgc-blackish hover-s-goldish"
+              href="tel:+16472189786"
+            >
+              <span>Call Now</span>
+            </Button>
+          </Col>
         </Row>
       </Col>
       <Col span={24} className="news-letter-background">
-        <div className='welcome-overlay'></div>
-        <Row className='py-30'>
-          <Col offset={10} span={14} >
-            <Title level={1} className='c-white mb-20'>Book a call with us!</Title>
+        <div className="welcome-overlay"></div>
+        <Row className="py-30">
+          <Col offset={10} span={14}>
+            <Title level={1} className="c-white mb-20">
+              Connect with us live for a consultation now!
+            </Title>
           </Col>
-          <Col offset={10} span={14} className='c-white mt-25'>
-            Maxima Reno entered the renovation business in 2016 with an
-            operating philosophy in delivering quality build, work efficiently
-            and innovatively. Maxima Reno provides affordable and reliable
-            basement remodeling service that works collaboratively with our
-            clients to help them to achieve their vision at minimum hassle.
+          <Col offset={10} span={14} className="c-white mt-25">
+            At <b>ELITEOX RENO</b>, we are committed to providing quality
+            construction, efficient work, and innovative solutions to meet our
+            clients' needs. We offer reliable and affordable basement remodeling
+            services, working closely with our clients to achieve their vision
+            with minimal hassle.
           </Col>
         </Row>
       </Col>

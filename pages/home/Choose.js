@@ -3,7 +3,7 @@ import { Col, Row, Typography, Button, Divider, Card, Avatar } from 'antd';
 import { useRouter } from 'next/router';
 import { BarsOutlined, BookOutlined, HeartOutlined } from '@ant-design/icons';
 
-const { Title, Text } = Typography;
+const { Title, Text, Paragraph } = Typography;
 const Choose = () => {
   const router = useRouter();
   return (
@@ -24,15 +24,15 @@ const Choose = () => {
             <Row justify="center">
               <Col xs={22} sm={22} md={22}>
                 <Title level={5} className="choose-text c-white">
-                  Are you looking for a reliable construction company that
-                  specializes in legal basement construction, kitchen
-                  remodeling, and home renovation? Look no further! Our team of
-                  construction and engineering professionals with over 30 years
-                  of industry experience offers end-to-end client experience
-                  that includes seamless communication, budgeting, staffing,
-                  on-site organization, and top-quality workmanship every time.
-                  Contact us today and let us bring our expertise to your next
-                  project!
+                  If you're in search of a dependable construction company that
+                  focuses on legal basement construction, kitchen remodeling,
+                  and home renovation, then your search is over. Our team
+                  consists of experienced construction and engineering
+                  professionals with 15+ years of industry expertise, offering a
+                  hassle-free client experience that encompasses transparent
+                  communication, budgeting, staffing, on-site organization, and
+                  premium workmanship. Reach out to us now and let us utilize
+                  our skills on your next project!
                 </Title>
               </Col>
             </Row>
@@ -51,17 +51,17 @@ const Choose = () => {
                       <Text>Designers</Text>
                     </Col>
                     <Col sm={4} xs={4} className="txt-center">
-                      {' '}
                       <Divider className="process-line bgc-blackish" />
                     </Col>
                     {/* <Title level={2} className="choose-card-title c-blackish">Expertise &amp; Support</Title> */}
                     <Col sm={24} xs={24} className="txt-center">
-                      <p className="choose-card-txt c-white">
-                        We skilled and trained in creating exquisite basement
-                        spaces for both new and existing properties. We provide
-                        expert guidance, advice, and support throughout the
-                        entire project to ensure its success.
-                      </p>
+                      <Paragraph className="choose-card-txt c-white"><p>
+                        Our team is highly skilled and trained in creating
+                        beautiful basement spaces for both new and existing
+                        properties. We offer expert guidance, advice, and
+                        support throughout the entire project to ensure its
+                        success.</p>
+                      </Paragraph>
                     </Col>
                   </Row>
                 </Card>
@@ -78,17 +78,17 @@ const Choose = () => {
                       <Text>Reliable</Text>
                     </Col>
                     <Col sm={4} xs={4} className="txt-center">
-                      {' '}
                       <Divider className="process-line bgc-blackish" />
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
-                      <p className="choose-card-txt c-white">
-                        we value transparency and strive to provide open
-                        communication with our clients. Our business is
-                        dedicated to offering stress-free solutions, and we'll
-                        keep you informed every step of the way throughout your
-                        project.
-                      </p>
+                      <Paragraph className="choose-card-txt c-white">
+                        <p>At our company, trust is paramount. We prioritize
+                        transparency and maintain open communication with our
+                        clients to ensure complete confidence in our services.
+                        Our mission is to deliver stress-free solutions, and we
+                        will keep you fully informed throughout every step of
+                        your project.</p>
+                      </Paragraph>
                     </Col>
                     {/* <Title level={2} className="choose-card-title c-blackish">Transparent Customer Service</Title> */}
                   </Row>
@@ -106,16 +106,17 @@ const Choose = () => {
                       <Text>Meticulous</Text>
                     </Col>
                     <Col sm={4} xs={4} className="txt-center">
-                      {' '}
                       <Divider className="process-line bgc-blackish" />
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
-                      <p className="choose-card-txt c-white">
-                        As a professional construction company, we hold full
-                        residential and commercial building licenses to ensure
-                        that we can deliver top-quality construction services
-                        that meet industry standards and regulations.
-                      </p>
+                      <Paragraph className="choose-card-txt c-white">
+                        <p>
+                          Our expertise in construction is backed by our full
+                          residential and commercial building licenses, which
+                          allow us to deliver exceptional construction services
+                          that meet industry standards and regulations.
+                        </p>
+                      </Paragraph>
                     </Col>
                     {/* <Title level={2} className="choose-card-title c-blackish">Professional Licensing</Title> */}
                   </Row>

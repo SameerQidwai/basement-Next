@@ -29,9 +29,9 @@
     color: white !important
 }
 .header_logo{
-  width: 38%;
-  margin-left: 10px;
-  margin-top: 4px;
+  /* width: 100%; */
+  /* margin-left: 10px; */
+  /* margin-top: 4px; */
   height: 100%;
   position: relative
 }

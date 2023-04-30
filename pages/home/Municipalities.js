@@ -34,7 +34,7 @@ const  Municipalities = () => {
         <Col span={24}>
           <Row className="choose-container" justify="center">
             <Col span={24} className="txt-center">
-              <Title level={3} className="municpal-title">Our Partnerships with Municipalities</Title>
+              <Title level={3} className="municpal-title">Worked with Municipalities</Title>
             </Col>
             <Col span={20}>
               <Row gutter={[20, 34]}>

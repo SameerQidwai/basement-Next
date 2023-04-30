@@ -43,7 +43,25 @@ const ContactArea = () => {
     <Row>
       <Col span={24} className="conact-area s-blackish">
         <Row justify="center">
-          <Col sm={24} md={18} xs={24}>
+          <Col sm={24} md={24} xs={24} className="  py-20 h-auto">
+            <Row justify={'center'}>
+              <Col sm={24} md={18} xs={24} className='careers-content'>
+                <Title level={5} className="c-white" >
+                  We are actively seeking experienced professionals with
+                  expertise in architecture, electrical, plumbing, HVAC,
+                  carpentry, flooring, painting, drywalling, stairs, and deck
+                  installation to join our team. If you have the necessary
+                  skills and would like to work with us, please don't hesitate
+                  to get in touch.
+                </Title>
+              </Col>
+              <div className="welcome-overlay"></div>
+            </Row>
+          </Col>
+          <Col sm={24} md={18} xs={24} className='pt-10'>
+            {/* <Title level={5}>
+            We are actively seeking experienced professionals with expertise in architecture, electrical, plumbing, HVAC, carpentry, flooring, painting, drywalling, stairs, and deck installation to join our team. If you have the necessary skills and would like to work with us, please don't hesitate to get in touch.
+            </Title> */}
             <Button
               type="primary"
               size="large"
@@ -53,7 +71,7 @@ const ContactArea = () => {
               Upload Your Resume
             </Button>
           </Col>
-          <Col sm={24} md={18} xs={24} className="carrers-form">
+          <Col sm={24} md={18} xs={24} className="careers-form">
             <Form
               id={'my-form'}
               onFinish={onFinish}

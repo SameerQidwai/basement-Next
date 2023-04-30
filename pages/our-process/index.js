@@ -2,8 +2,9 @@ import React from 'react';
 import { Col, Row, Typography, Image, Divider, Avatar, Button } from 'antd';
 import { CaretRightOutlined } from '@ant-design/icons';
 import { useWindowDimensions } from '../../Component/useFunction';
+// import Image from 'next/image';
 
-const { Title, Text } = Typography;
+const { Title, Text, Paragraph } = Typography;
 
 const processes = [
   {
@@ -24,94 +25,203 @@ const index = () => {
   // eslint-disable-next-line
   const { height, width } = useWindowDimensions();
   return (
-    <Row justify='center'>
-      <Col span={24} className="bgc-white txt-center process-page-services">
-          <p className='process-page-descition c-blackish'>With years of experience, ELITEOX RENO has worked on hundreds of basement constructions along with Kitchen and Bathroom renovation projects. With skilled engineers and architects, we are efficient enough to cater to your needs through professional renovation and construction services.</p>
+    <Row justify="center" className="bgc-white">
+      <Col span={23} className="process-bg-image py-40">
+        <div className="welcome-overlay process-overlay"></div>
+        <Row justify={'center'}>
+          <Col className="txt-right">
+            <Title className="c-white" level={3}>
+              EXPERIENCE
+            </Title>
+          </Col>
+          <Col style={{ position: 'relative', left: -8 }}>
+            <img src="/logos/new_shadow_center.svg" />
+          </Col>
+          <Col className="txt-left">
+            <Title className="c-white" level={3}>
+              QUALITY
+            </Title>
+          </Col>
+        </Row>
+        <Row justify="center">
+          <Col className="txt-right">
+            <Title className="c-white" level={3}>
+              CUSTOMER SATISFACTION
+            </Title>
+          </Col>
+          <Col>
+            <div style={{ width: 300 }} />
+          </Col>
+          <Col>
+            <Title className="c-white" level={3}>
+              ASSURANCE
+            </Title>
+          </Col>
+        </Row>
       </Col>
-      {/* background Image  */}
-      <Col span={24} className="services">
-        <div className="services-overlay"></div>
-        <Row gutter={[0, 40]} className="services-container" justify="center">
-          {/* back ground Color */}
-          {processes.map(({ title, description }, index) => (
-            <Col
-            key={index}
-              xs={24}
-              sm={24}
-              md={22}
-              lg={22}
-              className={
-                index % 2 === 0
-                  ? 'services-card s-goldish bgc-blackish'
-                  : 'services-card s-blackish bgc-white'
-              }
-            >
-              <Row justify="space-between">
-                {/* background number Color */}
-                <Col
-                  xs={24}
-                  sm={18}
-                  md={18}
-                  lg={18}
-                  className="txt-center mb-16"
-                ></Col>
-                <Col xs={24} sm={24} md={16} lg={18}>
-                  <Row gutter={[0, 20]}>
-                    <Col span={24}>
-                      <Row gutter={[10, 10]}>
-                        <Col span={width < 790 && 24}>
-                          <Button
-                            size="large"
-                            type="primary"
-                            block
-                            className={
-                              index % 2 === 0
-                                ? 'bgc-goldish b-goldish'
-                                : 'bgc-blackish b-blackish'
-                            }
-                          >
-                            <Title level={3} className="m h3-ff">
-                              0{index + 1}
-                            </Title>
-                          </Button>
-                        </Col>
-                        <Col>
-                          <Title
-                            level={2}
-                            className={
-                              index % 2 === 0
-                                ? 'services-title c-white'
-                                : 'services-title c-goldish'
-                            }
-                          >
-                            {title}
-                          </Title>
-                        </Col>
-                      </Row>
-                    </Col>
-                    <Col span={24}>
-                      <p className={ index % 2 === 0 ? 'services-point c-white' : 'services-point c-goldish' }>{description}</p>
-                    </Col>
-                  </Row>
-                </Col>
-                <Col>
-                  <Button
-                    type="primary"
-                    size="large"
-                    block
-                    href="/contact-us"
-                    className={
-                      index % 2 === 0
-                        ? 'bgc-goldish b-goldish c-white hover-s-goldish'
-                        : 'bgc-blackish b-blackish c-golidsh hover-s-blackish'
-                    }
-                  >
-                    <span>CONTACT US</span>
-                  </Button>
-                </Col>
-              </Row>
-            </Col>
-          ))}
+      <Col xs={24} sm={24} md={24} className="txt-center">
+        <Title className="process-elite-title c-goldish">
+          <span>Our</span> Process
+        </Title>
+      </Col>
+      <Col span={24}>
+        <Row
+          justify={'space-around'}
+          align="middle"
+          gutter={[0, 40]}
+          className="px-30 pb-25"
+        >
+          <Col span={10} className="services-card bgc-blackish">
+            <Title level={3} className="c-white">
+              DESIGNING YOUR DREAMS
+            </Title>
+            <Paragraph className="c-white">
+              <p>
+                Before starting any basement renovation project, it's important
+                to determine your wants and needs. At Eliteox Reno, we'll work
+                closely with you to establish your vision for the space. Whether
+                you're looking to create a family gathering area, home theater,
+                gym, wine room, kitchen, guest suite, or even a rentable
+                apartment, our team can turn your dreams into reality. Contact
+                us today to get started.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="txt-right">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
+          <Col span={10} className="txt-left">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
+          <Col span={10} className="services-card bgc-white">
+            <Title level={3} className="c-goldish">
+              BASEMENT DESIGN CONSULTATION
+            </Title>
+            <Paragraph className="c-goldish">
+              <p>
+                Collaborate with our experienced designer to create the basement
+                of your dreams. Using your wish list and our expertise, we'll
+                present a functional 3D concept with real-time adjustments to
+                ensure your satisfaction. Get a comprehensive itemized list of
+                high-quality materials, features, and components included in our
+                package. Our detailed agreement and payment structure and
+                budget-friendly financing options will make your dream basement
+                a reality.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="services-card bgc-blackish">
+            <Title level={3} className="c-goldish">
+              LET OUR EXPERTS GUIDE YOU!
+            </Title>
+            <Paragraph className="c-goldish">
+              <p>
+                Our expert Project Manager and Designer will conduct a thorough
+                technical inspection of your space with the Design Concept,
+                taking into account structural, plumbing, and mechanical
+                layouts. They will make necessary adjustments or incorporate any
+                changes you have decided on since the Virtual Design Appointment
+                to create a Final Design that will serve as the blueprint for
+                the build.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="txt-right">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
+          <Col span={10} className="txt-left">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
+          <Col span={10} className="services-card bgc-white">
+            <Title level={3} className="c-goldish">
+              SELECT FINISHES
+            </Title>
+            <Paragraph className="c-goldish">
+              <p>
+                Our Designers can guide you through our array of high-quality
+                included finishes and other optional choices to make your
+                basement suit your personal style.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="services-card bgc-blackish">
+            <Title level={3} className="c-goldish">
+              STREAMLINED CONSTRUCTION CREATION
+            </Title>
+            <Paragraph className="c-goldish">
+              <p>
+                Streamlined Construction Creation is our approach to making the
+                construction process as seamless and hassle-free as possible for
+                our clients. We take care of all the details, from ordering
+                materials to scheduling deliveries and managing the build
+                schedule. Our dedicated Project Managers keep you informed every
+                step of the way, providing regular updates and addressing any
+                concerns you may have.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="txt-right">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
+          <Col span={10} className="txt-left">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
+          <Col span={10} className="services-card bgc-white">
+            <Title level={3} className="c-goldish">
+              OUR COMMITMENT TO EXCELLENCE
+            </Title>
+            <Paragraph className="c-goldish">
+              <p>
+                Our top priority is your satisfaction. Our commitment to you
+                includes a comprehensive warranty and a willingness to address
+                any minor imperfections that may arise. Our team of dedicated
+                handymen will work tirelessly to ensure that every last detail
+                is just right. Once your project is complete, we love to
+                showcase our work with professional photography to document the
+                stunning transformation of your space. You can trust that with
+                us, your satisfaction is guaranteed.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="services-card bgc-blackish">
+            <Title level={3} className="c-goldish">
+              JOIN OUR SATISFIED CUSTOMER COMMUNITY
+            </Title>
+            <Paragraph className="c-goldish">
+              <p>
+                Discover why Eliteox Reno is the top choice for homeowners
+                looking to transform their basements into beautiful and
+                functional living spaces. Our hundreds of satisfied customers
+                can attest to the quality of our work and our commitment to
+                excellence. Check out our Google Reviews and see for yourself
+                why we stand out from our competitors.
+              </p>
+            </Paragraph>
+          </Col>
+          <Col span={10} className="txt-right">
+            <Image
+              width={'70%'}
+              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+            />
+          </Col>
         </Row>
       </Col>
     </Row>

@@ -18,12 +18,16 @@ const Header1 = (props) => {
             <a 
             // href="https://mylegalbasement.ca/" 
             >
-                <Image
+                {/* <Image
                   src="/logo-mobile.png"
                   // alt="https://mylegalbasement.ca/"
                   width="100%"
                   height="100%"
                   layout="fill"
+                /> */}
+                <img
+                  src="/logos/XL-shadow-logo_96.svg"
+                  // alt="https://mylegalbasement.ca/"
                 />
               </a>
               </div>

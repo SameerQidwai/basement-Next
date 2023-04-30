@@ -18,14 +18,15 @@ const WidgetFooter = () => {
               <Title level={4}>ABOUT OUR COMPANY</Title>
             </Col>
             <Col span={24}>
-              <img src="footer-logo.png" width={80} height={80} />
+              {/* <img src="footer-logo.png" width={80} height={80} /> */}
+              <img src="/logos/logo-smokey_150.svg"  />
             </Col>
             <Col span={24}>
               <Text>
-                At our construction company, we specialize in crafting
+                At <b>ELITEOX RENO</b>, we specialize in crafting
                 one-of-a-kind and luxurious properties that are sure to impress.
                 Let us inspire you with our outstanding workmanship and
-                expertise..
+                expertise.
               </Text>
             </Col>
             {/* <Col span={24}>
@@ -56,6 +57,11 @@ const WidgetFooter = () => {
             <Col span={24}>
               <Button type="text" href="/careers">
                 CAREERS
+              </Button>
+            </Col>
+            <Col span={24}>
+              <Button type="text" href="/about-us">
+                ABOUT US
               </Button>
             </Col>
             {/* <Col span={24}>
@@ -90,6 +96,21 @@ const WidgetFooter = () => {
                     <Col span={22}>
                       <Button
                         type="text"
+                        href="mailto:reno@eliteox.com?subject=Please Add Subject For Better Reach"
+                      >
+                        reno@eliteox.com
+                      </Button>
+                    </Col>
+                  </Row>
+                </Col>
+                <Col span={24}>
+                  <Row justify="space-around" align='middle' className="hover-with-logo">
+                    <Col>
+                      <MailOutlined className="logo"/>
+                    </Col>
+                    <Col span={22}>
+                      <Button
+                        type="text"
                         href="mailto:azim.qidwai@gmail.com?subject=Please Add Subject For Better Reach"
                       >
                         azim.qidwai@gmail.com
@@ -104,7 +125,7 @@ const WidgetFooter = () => {
                     </Col>
                     <Col span={22}>
                       <Button type="text" href="tel:+16472189786">
-                        Azim: 905-669-0471
+                        Azim Qidwai: (647) 218-9786
                       </Button>
                     </Col>
                   </Row>
@@ -115,8 +136,8 @@ const WidgetFooter = () => {
                       <PhoneFilled />
                     </Col>
                     <Col span={22}>
-                      <Button type="text" href="tel:+12894004307 ">
-                        Faraz: (289) 400-4307 
+                      <Button type="text" href="tel:+12894004307">
+                        Faraz Sami: (289) 400-4307 
                       </Button>
                     </Col>
                   </Row>

@@ -49,7 +49,7 @@ export default function EModal ({visible, close}) {
         onCancel={()=>{form.resetFields(); close()}}
     >
         <Row gutter={[30 , 0]} align="top">
-            <Col span={6} className="bg-f5 py-80 px-80">
+            <Col span={6} className="bg-f5 py-30 px-80">
                 <Row>
                     <Col span={24}>
                         {/* <Title className='fs-15 ls-1 lh-1_45' level={5}> MAIN OFFICE</Title> */}
@@ -70,7 +70,15 @@ export default function EModal ({visible, close}) {
                     <Col span={22}  >
                         <Button
                         type="link"
-                        href="mail:info@mylegalbasement.ca">azim.qidwai@gmail.com</Button>
+                        href="mail:reno@eliteox.com">reno@eliteox.com</Button>
+                    </Col>
+                </Row>
+                <Row justify="space-between" className='mb-10' align='middle'>
+                    <Col><MailOutlined /></Col>
+                    <Col span={22}  >
+                        <Button
+                        type="link"
+                        href="mail:azim.qidwai@gmail.com">azim.qidwai@gmail.com</Button>
                     </Col>
                 </Row>
                 <Row justify="space-between" className='mb-10' align='middle'>
@@ -78,14 +86,22 @@ export default function EModal ({visible, close}) {
                     <Col span={22}>
                         <Button
                       type="link"
-                      href="tel:9058055633">905-669-0471</Button>
+                      href="tel:+16472189786">Azim: +1 (647) 218-9786</Button>
+                    </Col>
+                </Row>
+                <Row justify="space-between" className='mb-10' align='middle'>
+                    <Col> <PhoneFilled /> </Col>
+                    <Col span={22}>
+                        <Button
+                      type="link"
+                      href="tel:+12894004307">Faraz: +1 (289) 400-4307</Button>
                     </Col>
                 </Row>
                 <Row justify="space-between" className='mb-10' align='middle'>
                 <Col> <GlobalOutlined /> </Col>
                     <Col span={22}> Follow us </Col>
                 </Row>
-                <Row gutter={[16]} justify="center" style={{ width: '100%' }}>
+                <Row gutter={[16]} >
                     <Col>
                       <Tooltip title="Facebook" arrowPointAtCenter>
                         <a

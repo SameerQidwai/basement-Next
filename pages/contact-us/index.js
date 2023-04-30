@@ -78,13 +78,22 @@ const Index = () => {
                     />
                   </Col>
                   <Title level={3}>Frequently Asked Questions</Title>
-                  <Title level={4}>
+                  <Title level={5}>
                     <Button
                       type="text"
-                      href="tel:9058055633"
+                      href="tel:+16472189786"
                       className="hover-c-goldish"
                     >
-                      905 805 5633
+                      Azim Qidwai: +1 (647) 218-9786
+                    </Button>
+                  </Title>
+                  <Title level={5}>
+                    <Button
+                      type="text"
+                      href="tel:+12894004307"
+                      className="hover-c-goldish"
+                    >
+                      Faraz Sami: +1 (289) 400-4307
                     </Button>
                   </Title>
                 </Row>
@@ -107,10 +116,19 @@ const Index = () => {
                     <Title level={4} className="txt-center">
                       <Button
                         type="text"
-                        href="mailto:info@mylegalbasement.ca"
+                        href="mailto:reno@eliteox.com"
                         className="hover-c-blackish"
                       >
-                        info@mylegalbasement.ca
+                        reno@eliteox.com
+                      </Button>
+                    </Title>
+                    <Title level={4} className="txt-center">
+                      <Button
+                        type="text"
+                        href="mailto:azim.qidwai@gmail.com"
+                        className="hover-c-blackish"
+                      >
+                        azim.qidwai@gmail.com
                       </Button>
                     </Title>
                   </Col>

@@ -11,6 +11,10 @@
     padding-top: 30px;
     padding-bottom: 30px;
 } 
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
 .py-5{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -123,6 +127,12 @@
 
 .left-center{
     text-align: left !important;
+}
+.txt-left{
+    text-align: left !important;
+}
+.txt-right{
+    text-align: right !important;
 }
 
 .txt-center {
