@@ -27,12 +27,11 @@ const index = () => {
               </Title>
               <p className="service-description-page-content">
                 <strong>
-                  {' '}
                   Transform Your Bathroom into Your Dream Space with ELITEOX RENO
                 </strong>
               </p>
               <p className="service-description-page-content">
-                At ELITEOX RENO, we make bathroom renovation a breeze by
+                At <b>ELITEOX RENO</b>, we make bathroom renovation a breeze by
                 offering full-service packages and bringing materials straight
                 to your door for your convenience. Our team of professionals has
                 years of experience creating unique and stunning bathrooms that

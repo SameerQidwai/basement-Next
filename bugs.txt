@@ -19,6 +19,7 @@ our-process
     cards images
     fonts
 
-MAP MAP
 
+showmore on home
+MAP MAP
 email & with resume

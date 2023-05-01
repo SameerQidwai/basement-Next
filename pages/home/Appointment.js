@@ -37,7 +37,7 @@ const Appointment = () => {
           <Col xs={24} sm={24} md={9} className="appointment-legal mb-20">
             <Title level={1} className="legal-title c-goldish">Expertise in Legal Basements & more</Title>
             <Title level={5} className="legal-text">
-              At our construction company, we offer a range of services including legal 
+              At ELITEOX RENO, we offer a range of services including legal 
               basement second dwelling units, kitchen remodeling, and complete teardowns. 
               Our team of architectural designers, engineers and project managers handle every 
               aspect of the project from start to finish. We prioritize staying on time and budget 

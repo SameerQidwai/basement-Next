@@ -14,7 +14,7 @@ const NewsLetter = () => {
                   Call For Immediate Assistance!
                 </Title>
               </Col>
-              <Col span={24} className="c-white">
+              <Col span={24} className="c-white fs-16">
                 Our team is proud to serve GTA for 15+ Years!
               </Col>
             </Row>
@@ -35,17 +35,21 @@ const NewsLetter = () => {
       <Col span={24} className="news-letter-background">
         <div className="welcome-overlay"></div>
         <Row className="py-30">
-          <Col offset={10} span={14}>
+          <Col xs={{ span: 20, offset: 4 }} sm={{ span: 18, offset: 6 }} md={{ span: 14, offset: 10 }}>
             <Title level={1} className="c-white mb-20">
               Connect with us live for a consultation now!
             </Title>
           </Col>
-          <Col offset={10} span={14} className="c-white mt-25">
-            At <b>ELITEOX RENO</b>, we are committed to providing quality
-            construction, efficient work, and innovative solutions to meet our
-            clients' needs. We offer reliable and affordable basement remodeling
-            services, working closely with our clients to achieve their vision
-            with minimal hassle.
+          <Col xs={{ span: 20, offset: 4 }} sm={{ span: 18, offset: 6 }} md={{ span: 14, offset: 10 }} className="c-white mt-25">
+            <Text className='c-white'>
+              <p>
+                At <b>ELITEOX RENO</b>, we are committed to providing quality
+                construction, efficient work, and innovative solutions to meet our
+                clients' needs. We offer reliable and affordable basement remodeling
+                services, working closely with our clients to achieve their vision
+                with minimal hassle.
+              </p>
+            </Text>
           </Col>
         </Row>
       </Col>

@@ -25,7 +25,6 @@ h2.choose-title{
 
 h5.choose-text{
     font-family: 'IBM Plex Sans', 'Poppins' sans-serif;
-    font-size: 15px;
     margin-top: 0px;
     margin-bottom: 2px;
     font-weight: 400;
@@ -103,6 +102,7 @@ p.choose-card-txt{
     background-position: center;
     padding-top: 40px;
     padding-bottom: 60px;
+    margin-top: -70px;
 }
 h1.conact-for-basment-renovation{
     color: #ffffff;
@@ -161,7 +161,6 @@ h1.legal-title{
 }
 h5.legal-text{
     font-family: 'IBM Plex Sans', 'Poppins', sans-serif;
-    font-size: 14px;
     color: #ffffff;
     font-weight: 400;
     float: left;
@@ -196,9 +195,8 @@ form.appointment-form  .ant-input-lg {
     line-height: 1.57 !important;
 }
 
-h3.ant-typography.municpal-title{
+h1.ant-typography.municpal-title{
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 24px;
     float: left;
     width: 100%;
     text-align: center;
@@ -487,7 +485,8 @@ p.service-description-page-content{
 
 .careers-content{
     z-index: 1000 !important; 
-    padding: 0px 5px
+    padding: 0px 5px;
+    
 }
 
 .careers-form{
@@ -715,7 +714,9 @@ form.modal-form .ant-input-lg {
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    height: 200px;
+    /* height: 200px; */
+    margin-top: -70px;
+    /* padding: 70px 70px */
 }
 
 .about-us-title{
@@ -733,6 +734,7 @@ form.modal-form .ant-input-lg {
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    margin-top: -70px;
     /* height: 200px; */
 }
 

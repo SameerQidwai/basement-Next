@@ -41,15 +41,16 @@ export default function EModal ({visible, close}) {
         centered={false}
         destroyOnClose
         visible={visible}
-        okButtonProps={{ htmlType: 'submit', form: 'my-form' }}
+        okButtonProps={{ htmlType: 'submit', form: 'modal-form' }}
         okText={"Submit"}
-        zIndex={1}
+        zIndex={1001}
         width={width - (width *10/100)}
         confirmLoading={loading}
         onCancel={()=>{form.resetFields(); close()}}
+
     >
         <Row gutter={[30 , 0]} align="top">
-            <Col span={6} className="bg-f5 py-30 px-80">
+            <Col span={6} className="bg-f5 py-30">
                 <Row>
                     <Col span={24}>
                         {/* <Title className='fs-15 ls-1 lh-1_45' level={5}> MAIN OFFICE</Title> */}
@@ -129,7 +130,7 @@ export default function EModal ({visible, close}) {
             </Col>
             <Col span={18}>
                 <Form
-                    id={'my-form'}
+                    id={'modal-form'}
                     onFinish={onFinish}
                     form={form}
                     scrollToFirstError={true}

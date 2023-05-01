@@ -18,35 +18,45 @@ const Welcome = () => {
               Elevate Your Living Space
             </Title>
             <Paragraph className="c-white">
-              If you're considering finishing your basement for personal or
-              income purposes, you've landed in the right spot. At Eliteox Reno,
-              we pride ourselves on utilizing high-quality materials to
-              construct custom basements that meet our clients' unique
-              requirements at an affordable cost. We are the experts in basement
-              finishing.
+              <p>
+                If you're considering finishing your basement for personal or
+                income purposes, you've landed in the right spot. At Eliteox
+                Reno, we pride ourselves on utilizing high-quality materials to
+                construct custom basements that meet our clients' unique
+                requirements at an affordable cost. We are the experts in
+                basement finishing.
+              </p>
             </Paragraph>
           </Col>
           <Col xs={22} sm={22} md={11} lg={11}>
             <div className="welcome-picture">
-              <Image src="/basement1.jpg" layout="fill" />
+              <Image src="/recreational_basement.jpg" layout="fill" />
             </div>
-            <Title level={2} className="txt-center c-goldish">
+            <Title level={3} className="txt-center c-goldish">
               BASEMENT RECREATION
             </Title>
             {/* <img className="welcome-picture" src="/images/basement1.jpg" alt="" /> */}
           </Col>
           <Col xs={22} sm={22} md={11} lg={11}>
             <div className="welcome-picture">
-              <Image src="/basement1.jpg" layout="fill" />
+              <Image src="/rental_basement.jpg" layout="fill" />
             </div>
-            <Title level={2} className="txt-center c-goldish">
+            <Title level={3} className="txt-center c-goldish">
               RENTABLE LEGAL BASEMENTS
             </Title>
           </Col>
           <Col span={22}>
             <Paragraph className="c-white">
-              
-Renovating your basement is a wise investment as it adds significant value to your home and provides additional livable space. At our company, we offer basement renovation services to clients across GTA, including Oakville, Mitton, Burlington, Mississauga, Brampton, Hamilton, Toronto, Vaughn, Richmond Hill, Ajax, Whitby, and other surrounding cities. We take pride in using high-quality materials and delivering customized solutions at a fair price.
+              <p>
+                Renovating your basement is a wise investment as it adds
+                significant value to your home and provides additional livable
+                space. At our company, we offer basement renovation services to
+                clients across GTA, including Oakville, Mitton, Burlington,
+                Mississauga, Brampton, Hamilton, Toronto, Vaughn, Richmond Hill,
+                Ajax, Whitby, and other surrounding cities. We take pride in
+                using high-quality materials and delivering customized solutions
+                at a fair price.
+              </p>
             </Paragraph>
           </Col>
         </Row>

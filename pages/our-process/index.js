@@ -1,5 +1,6 @@
 import React from 'react';
-import { Col, Row, Typography, Image, Divider, Avatar, Button } from 'antd';
+import { Col, Row, Typography } from 'antd';
+import Image from 'next/image';
 import { CaretRightOutlined } from '@ant-design/icons';
 import { useWindowDimensions } from '../../Component/useFunction';
 // import Image from 'next/image';
@@ -28,34 +29,72 @@ const index = () => {
     <Row justify="center" className="bgc-white">
       <Col span={23} className="process-bg-image py-40">
         <div className="welcome-overlay process-overlay"></div>
-        <Row justify={'center'}>
-          <Col className="txt-right">
+        <Row
+          justify={'space-evenly'}
+          style={{ marginTop: '70px' }}
+          className="desktop-about-us"
+        >
+          <Col className="txt-right" span={6}>
             <Title className="c-white" level={3}>
               EXPERIENCE
             </Title>
           </Col>
-          <Col style={{ position: 'relative', left: -8 }}>
+          <Col
+            style={{ position: 'relative', left: 14 }}
+            className="middle-image"
+          >
             <img src="/logos/new_shadow_center.svg" />
           </Col>
-          <Col className="txt-left">
+          <Col className="txt-left" span={6}>
             <Title className="c-white" level={3}>
               QUALITY
             </Title>
           </Col>
-        </Row>
-        <Row justify="center">
-          <Col className="txt-right">
+          <Col className="txt-left" span={8}>
             <Title className="c-white" level={3}>
               CUSTOMER SATISFACTION
             </Title>
           </Col>
-          <Col>
+          {/* <Col>
             <div style={{ width: 300 }} />
-          </Col>
-          <Col>
+          </Col> */}
+          <Col className="txt-right" span={6}>
             <Title className="c-white" level={3}>
               ASSURANCE
             </Title>
+          </Col>
+        </Row>
+        <Row
+          justify={'center'}
+          style={{ marginTop: '70px' }}
+          className="mobile-about-us"
+        >
+          <Col className="middle-image">
+            <img src="/logos/new_shadow_center.svg" />
+          </Col>
+          <Col span={15}>
+            <Row>
+              <Col>
+                <Title className="c-white" level={3}>
+                  EXPERIENCE
+                </Title>
+              </Col>
+              <Col className="txt-left">
+                <Title className="c-white" level={3}>
+                  QUALITY
+                </Title>
+              </Col>
+              <Col>
+                <Title className="c-white" level={3}>
+                  CUSTOMER SATISFACTION
+                </Title>
+              </Col>
+              <Col>
+                <Title className="c-white" level={3}>
+                  ASSURANCE
+                </Title>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Col>
@@ -71,11 +110,18 @@ const index = () => {
           gutter={[0, 40]}
           className="px-30 pb-25"
         >
-          <Col span={10} className="services-card bgc-blackish">
-            <Title level={3} className="c-white">
+          <Col
+            span={10}
+            className="services-card bgc-blackish"
+            sm={{ span: 20, order: 2 }}
+            xs={{ span: 24, order: 2 }}
+            md={{ span: 18, order: 2 }}
+            lg={{ span: 10, order: 1 }}
+          >
+            <Title level={3} className="c-goldish">
               DESIGNING YOUR DREAMS
             </Title>
-            <Paragraph className="c-white">
+            <Paragraph className="c-goldish">
               <p>
                 Before starting any basement renovation project, it's important
                 to determine your wants and needs. At Eliteox Reno, we'll work
@@ -87,19 +133,46 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="txt-right">
+          <Col
+            span={10}
+            className="txt-right"
+            sm={{ span: 20, order: 1 }}
+            xs={{ span: 24, order: 1 }}
+            md={{ span: 18, order: 1 }}
+            lg={{ span: 10, order: 2 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/man-looking-for-renovation.jpg"
             />
           </Col>
-          <Col span={10} className="txt-left">
+          <Col
+            span={10}
+            className="txt-left"
+            sm={{ span: 20, order: 3 }}
+            xs={{ span: 24, order: 3 }}
+            md={{ span: 18, order: 3 }}
+            lg={{ span: 10, order: 3 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/3d-designing.webp"
             />
           </Col>
-          <Col span={10} className="services-card bgc-white">
+          <Col
+            span={10}
+            className="services-card bgc-white"
+            sm={{ span: 20, order: 4 }}
+            xs={{ span: 24, order: 4 }}
+            md={{ span: 18, order: 4 }}
+            lg={{ span: 10, order: 4 }}
+          >
             <Title level={3} className="c-goldish">
               BASEMENT DESIGN CONSULTATION
             </Title>
@@ -116,7 +189,14 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="services-card bgc-blackish">
+          <Col
+            span={10}
+            className="services-card bgc-blackish"
+            sm={{ span: 20, order: 6 }}
+            xs={{ span: 24, order: 6 }}
+            md={{ span: 18, order: 6 }}
+            lg={{ span: 10, order: 5 }}
+          >
             <Title level={3} className="c-goldish">
               LET OUR EXPERTS GUIDE YOU!
             </Title>
@@ -132,19 +212,46 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="txt-right">
+          <Col
+            span={10}
+            className="txt-right"
+            sm={{ span: 20, order: 5 }}
+            xs={{ span: 24, order: 5 }}
+            md={{ span: 18, order: 5 }}
+            lg={{ span: 10, order: 6 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/basement-construction-inspection.jpg"
             />
           </Col>
-          <Col span={10} className="txt-left">
+          <Col
+            span={10}
+            className="txt-left"
+            sm={{ span: 20, order: 7 }}
+            xs={{ span: 24, order: 7 }}
+            md={{ span: 18, order: 7 }}
+            lg={{ span: 10, order: 7 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/SELECT_FINISHES.jpg"
             />
           </Col>
-          <Col span={10} className="services-card bgc-white">
+          <Col
+            span={10}
+            className="services-card bgc-white"
+            sm={{ span: 20, order: 8 }}
+            xs={{ span: 24, order: 8 }}
+            md={{ span: 18, order: 8 }}
+            lg={{ span: 10, order: 8 }}
+          >
             <Title level={3} className="c-goldish">
               SELECT FINISHES
             </Title>
@@ -156,7 +263,14 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="services-card bgc-blackish">
+          <Col
+            span={10}
+            className="services-card bgc-blackish"
+            sm={{ span: 20, order: 10 }}
+            xs={{ span: 24, order: 10 }}
+            md={{ span: 18, order: 10 }}
+            lg={{ span: 10, order: 9 }}
+          >
             <Title level={3} className="c-goldish">
               STREAMLINED CONSTRUCTION CREATION
             </Title>
@@ -172,19 +286,46 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="txt-right">
+          <Col
+            span={10}
+            className="txt-right"
+            sm={{ span: 20, order: 9 }}
+            xs={{ span: 24, order: 9 }}
+            md={{ span: 18, order: 9 }}
+            lg={{ span: 10, order: 10 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/BUILDING_BASMENT_FLOOR.jpg"
             />
           </Col>
-          <Col span={10} className="txt-left">
+          <Col
+            span={10}
+            className="txt-left"
+            sm={{ span: 20, order: 11 }}
+            xs={{ span: 24, order: 11 }}
+            md={{ span: 18, order: 11 }}
+            lg={{ span: 10, order: 11 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/OUR_COMMITMENT_TO_EXCELLENCE.jpg"
             />
           </Col>
-          <Col span={10} className="services-card bgc-white">
+          <Col
+            span={10}
+            className="services-card bgc-white"
+            sm={{ span: 20, order: 12 }}
+            xs={{ span: 24, order: 12 }}
+            md={{ span: 18, order: 12 }}
+            lg={{ span: 10, order: 12 }}
+          >
             <Title level={3} className="c-goldish">
               OUR COMMITMENT TO EXCELLENCE
             </Title>
@@ -201,7 +342,14 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="services-card bgc-blackish">
+          <Col
+            span={10}
+            className="services-card bgc-blackish"
+            sm={{ span: 20, order: 14 }}
+            xs={{ span: 24, order: 14 }}
+            md={{ span: 18, order: 14 }}
+            lg={{ span: 10, order: 13 }}
+          >
             <Title level={3} className="c-goldish">
               JOIN OUR SATISFIED CUSTOMER COMMUNITY
             </Title>
@@ -216,10 +364,20 @@ const index = () => {
               </p>
             </Paragraph>
           </Col>
-          <Col span={10} className="txt-right">
+          <Col
+            span={10}
+            className="txt-right"
+            sm={{ span: 20, order: 13 }}
+            xs={{ span: 24, order: 13 }}
+            md={{ span: 18, order: 13 }}
+            lg={{ span: 10, order: 14 }}
+          >
             <Image
-              width={'70%'}
-              src="https://agmbasements.com/static/media/establish_wants_and_needs.f7b315d9.webp"
+              layout="responsive"
+              width={524}
+              height={329}
+              aspectRatio={16 / 9} // set aspect ratio to 16:9
+              src="/JOIN_OUR_SATISFIED_CUSTOMER_COMMUNITY.jpg"
             />
           </Col>
         </Row>

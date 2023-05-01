@@ -9,13 +9,19 @@ import {
   Input,
   Upload,
 } from 'antd';
-import { useRouter } from 'next/router';
 import { UploadOutlined } from '@ant-design/icons';
 
 const { Title, Text } = Typography;
 const ContactArea = () => {
   const [form] = Form.useForm();
   const onFinish = (values) => {
+    const {message = '-', contact = '-', email = '-', name = '-', pincode = '-', subject = '-', upload = []} = values
+
+    if (upload?.[0]){
+      values.files = upload?.[0]
+    }
+    delete values.upload
+    
     fetch('/api/send', {
       method: 'POST',
       headers: {
@@ -24,15 +30,16 @@ const ContactArea = () => {
       },
       body: JSON.stringify(values),
     }).then((res) => {
-      form.resetFields();
-      close();
+      // form.resetFields();
+      // close();
       if (res.status === 200) {
       }
-    });
+      console.log(res)
+    }).catch(err=>console.log(err));
   };
 
   const normFile = (e) => {
-    console.log('Upload event:', e);
+    // console.log('Upload event:', e);
     if (Array.isArray(e)) {
       return e;
     }
@@ -43,7 +50,7 @@ const ContactArea = () => {
     <Row>
       <Col span={24} className="conact-area s-blackish">
         <Row justify="center">
-          <Col sm={24} md={24} xs={24} className="  py-20 h-auto">
+          <Col sm={24} md={24} xs={24} className="py-20 h-auto mt-70">
             <Row justify={'center'}>
               <Col sm={24} md={18} xs={24} className='careers-content'>
                 <Title level={5} className="c-white" >
@@ -68,7 +75,7 @@ const ContactArea = () => {
               block
               className="bgc-goldish c-white b-goldish  py-20 h-auto"
             >
-              Upload Your Resume
+               UPLOAD YOUR RESUME 
             </Button>
           </Col>
           <Col sm={24} md={18} xs={24} className="careers-form">
@@ -138,14 +145,14 @@ const ContactArea = () => {
                   </Form.Item>
                 </Col>
                 <Col span={24}>
-                  <Form.Item name="Address:">
+                  <Form.Item name="message">
                     <Input.TextArea
                       autoSize={{ minRows: 3, maxRows: 3 }}
-                      placeholder="Address:"
+                      placeholder="Message:"
                     />
                   </Form.Item>
                 </Col>
-                <Col xs={24} sm={24} md={12}>
+                {/* <Col xs={24} sm={24} md={12}>
                   <Form.Item
                     name="upload"
                     valuePropName="fileList"
@@ -153,14 +160,15 @@ const ContactArea = () => {
                   >
                     <Upload
                       name="logo"
-                      action="/upload.do"
+                      // action="/upload.do"
                       listType="text"
                       maxCount="1"
+                      beforeUpload={() => false}
                     >
                       <Button icon={<UploadOutlined />}>Click to upload</Button>
                     </Upload>
                   </Form.Item>
-                </Col>
+                </Col> */}
               </Row>
               <Row className="py-30" style={{ width: '100%' }} justify="center">
                 <Col xs={18} md={8}>

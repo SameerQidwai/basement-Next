@@ -161,6 +161,27 @@ h5.ant-typography.c-blackish{
   color : #1d1f1c ;
 }
 
+h1.ant-typography{
+  font-size: 55px ;
+}
+
+h2.ant-typography{
+  font-size: 38px ;
+}
+h3.ant-typography{
+  font-size: 30px ;
+}
+span.ant-typography p{
+  font-size: 16px;
+  margin: 0px;
+}
+div.ant-typography p{
+  font-size: 16px;
+}
+h5.ant-typography p{
+  font-size: 16px;
+}
+.fs-16{}
 /* Menu Color */
 .c-goldish.custom-menu li.ant-menu-item.ant-menu-item-selected span.ant-menu-title-content{ 
   color : #d8ae5e !important;

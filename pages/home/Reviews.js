@@ -17,12 +17,12 @@ const Reviews = () => {
           <Col span={22}>
             <Row justify="space-around">
               <Col>
-                <Title level={3} className="review-title">What Our Clients Say</Title>
+                <Title level={5} className="review-title">What Our Clients Say</Title>
               </Col>
             </Row>
             <Row justify="space-around">
               <Col>
-                <Title level={2} className="reviews-testimonials"> OUR TESTIMONIAL</Title>
+                <Title level={3} className="reviews-testimonials"> OUR TESTIMONIAL</Title>
               </Col>
             </Row>
           </Col>

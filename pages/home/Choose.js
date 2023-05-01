@@ -45,10 +45,10 @@ const Choose = () => {
                   <Row justify="center">
                     <div className="choose-overlay"></div>
                     <Col sm={24} xs={24}>
-                      <Title className="txt-center mb-5">Professional</Title>
+                      <Title level={2} className="txt-center mb-5">Professional</Title>
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
-                      <Text>Designers</Text>
+                      <Text> <p>Designers</p></Text>
                     </Col>
                     <Col sm={4} xs={4} className="txt-center">
                       <Divider className="process-line bgc-blackish" />
@@ -72,10 +72,10 @@ const Choose = () => {
                   <Row justify="center">
                     <div className="choose-overlay"></div>
                     <Col sm={24} xs={24}>
-                      <Title className="txt-center mb-5">TRUSTED</Title>
+                      <Title level={2} className="txt-center mb-5">TRUSTED</Title>
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
-                      <Text>Reliable</Text>
+                      <Text> <p>Reliable</p></Text>
                     </Col>
                     <Col sm={4} xs={4} className="txt-center">
                       <Divider className="process-line bgc-blackish" />
@@ -100,10 +100,10 @@ const Choose = () => {
                   <Row justify="center">
                     <div className="choose-overlay"></div>
                     <Col sm={24} xs={24}>
-                      <Title className="txt-center mb-5">EXPERTS</Title>
+                      <Title level={2} className="txt-center mb-5">EXPERTS</Title>
                     </Col>
                     <Col sm={24} xs={24} className="txt-center">
-                      <Text>Meticulous</Text>
+                      <Text> <p>Meticulous</p></Text>
                     </Col>
                     <Col sm={4} xs={4} className="txt-center">
                       <Divider className="process-line bgc-blackish" />

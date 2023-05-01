@@ -1,13 +1,7 @@
 import React, { useState } from 'react'
 
-import Introduction from './Introduction'
-import Process from './Process'
 import Services from './Services'
 import SlideCarousel from './SlideCarousel'
-import Success from './Success'
-import Work from './Work'
-import Blogs from './Blogs'
-import Conclusion from './Conclusion'
 import Reviews from './Reviews'
 import Welcome from './Welcome'
 import Choose from './Choose'
@@ -21,21 +15,14 @@ const  Index = (props) =>{
   return (
     <>
       <SlideCarousel/>
-      {/* <Introduction /> */}
       <Services/>
       <Welcome/>
-      {/* <Work /> */}
       <Choose/>
       <ContactArea/>
       <Projects/>
       <Appointment/>
       <Reviews/>
       <Municipalities/>
-      {/* <Blogs /> */}
-      {/* <Success />
-      <Process />
-      <Conclusion /> */}
-      {/* <EModal visible={open} close={()=>setOpen(false)}/> */}
     </>
   )
 }

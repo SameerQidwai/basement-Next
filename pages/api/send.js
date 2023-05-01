@@ -1,6 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import {  notification } from 'antd';
 import nodemailer from 'nodemailer';
+import fs from 'fs';
 
 const transporter = nodemailer.createTransport({
   port: 465,
@@ -13,14 +14,20 @@ const transporter = nodemailer.createTransport({
 })  
 
 export default (req, res) => {
-  const {Fname = '-', Lname = '-', email = '-', contact = '-', subject = '-', message = '-',} = req.body
-
+  const {name = '-' , email = '-', contact = '-', subject = '-', message = '-', pincode = '-', files, address= '-'} = req.body
+  let attachments =[]
+  if(files){
+    attachments = [{
+      filename: files.name,
+      content: fs.createReadStream(files.path),
+    }]
+  }
   const mailData = {
     from: 'contact.1lm.au@gmail.com',
     to: 'sameeerqidwai@gmail.com',
     subject: `Need your ${subject}`,
     html: `<div>
-    <h3>Name: ${Fname} ${Lname}</h3>
+    <h3>Name: ${name}</h3>
     <br/><br/>
     <h4>${message}</h4>
     <br/>
@@ -28,6 +35,8 @@ export default (req, res) => {
     <h3>Contact Details </h3>
     <p>Contact Numner: ${contact}</p>
     <p>Email Address: ${email}</p>
+    <p>Postal Code: ${pincode}</p>
+    <p>Address: ${address}</p>
     </div>`
   }  
 
