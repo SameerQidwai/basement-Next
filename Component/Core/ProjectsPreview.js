@@ -77,8 +77,8 @@ const ProjectsPreview = ({ home = false }) => {
           ))}
         </Image.PreviewGroup>
         {home && (
-          <Col xs={12} sm={6} md={8} lg={8}>
-            <Image width="100%" src="/blur-show-more-project.jpg" alt='blur-show-more-project' preview={false}/>
+          <Col xs={12} sm={6} md={8} lg={8} style={{maxHeight: 273.16}}>
+            <Image width="100%" height={"auto"} style={{maxHeight: 273.16}}  src="/blur-show-more-project.jpg" alt='blur-show-more-project' preview={false}/>
             <div className='welcome-overlay'>
               <Button type="text" block className="c-blackish button-overlay">
                 <a href={`/our-projects?key=${selectedKey}`}>SHOW MORE <RightCircleOutlined /></a>

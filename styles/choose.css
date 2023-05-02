@@ -686,7 +686,7 @@ button.ant-btn.ant-btn-text.ant-btn-block.button-overlay {
     height: 100% !important;
     font-weight:600;
     font-size: x-large !important;
-    padding: auto !important;
+    padding: 0px !important;
 }
 button.ant-btn.ant-btn-text.ant-btn-block.button-overlay:hover{
     color:#d8ae5e !important
@@ -698,7 +698,7 @@ a.ant-btn.ant-btn-text.ant-btn-block.button-overlay {
     height: 100% !important;
     font-weight:600;
     font-size: x-large !important;
-    padding: auto !important;
+    padding: 0px !important;
 }
 a.ant-btn.ant-btn-text.ant-btn-block.button-overlay:hover{
     color:#d8ae5e !important
