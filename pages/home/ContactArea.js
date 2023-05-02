@@ -9,7 +9,7 @@ const ContactArea = (props) => {
   const router = useRouter();
   return (
     <Row className='s-t-goldish'>
-      <Col span={24} className="conact-area choose-container">
+      <Col span={24} className="conact-area choose-container mt-0" >
         <Row>
           <Col sm={24} md={24} xs={24}>
             <Title level={1} className="conact-for-basment-renovation">
