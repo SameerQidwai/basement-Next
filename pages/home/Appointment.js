@@ -50,7 +50,7 @@ const Appointment = () => {
                 ghost
                 className="hover-b-goldish hover-c-goldish"
                 // shape="round"
-                href={'/service-pricing'}
+                href={'/about-us'}
                 type="ghost"
               >
                 VIEW MORE

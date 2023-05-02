@@ -26,7 +26,7 @@ const ContactArea = (props) => {
                   className="conact-area-btn  c-blackish bgc-goldish b-goldish s-blackish hover-b-goldish hover-bgc-blackish hover-s-goldish"
                   href="tel:+16472189786"
                 >
-                  <span>Get YOUR FREE QOUTE</span>
+                  <span>Get YOUR FREE QUOTE</span>
                 </Button>
               </Col>
             </Row>

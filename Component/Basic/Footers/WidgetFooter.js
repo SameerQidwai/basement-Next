@@ -88,37 +88,37 @@ const WidgetFooter = () => {
             <Col span={24}>
               <Title level={4} >MUNICIPALITIES</Title>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 OAKVILLE
               </Button>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 MILTON
               </Button>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 BURLINGTON
               </Button>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 HALTON HILLS
               </Button>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 BRAMPTON
               </Button>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 TORONTO
               </Button>
             </Col>
-            <Col md={12} sm={24} xs={12} >
+            <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
                 GUELPH
               </Button>

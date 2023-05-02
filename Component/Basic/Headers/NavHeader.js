@@ -62,7 +62,7 @@ const NavHeader = (props) =>{
                         size='large'
                         block
                         className='c-white b-blackish bgc-blackish hover-bgc-blackish hover-b-blackish hover-c-white hover-s-goldish scroll-down'
-                        onClick={()=>props.openModal()}
+                        onClick={()=>router.push('/contact-us')}
                     > CONTACT US </Button>
                 </Col>
             </Row>

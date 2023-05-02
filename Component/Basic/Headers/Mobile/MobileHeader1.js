@@ -6,10 +6,12 @@ import {
   SolutionOutlined,
   PhoneFilled,
 } from '@ant-design/icons';
+import {useRouter} from 'next/router';
 
 const { Paragraph, Text } = Typography;
 const { Header } = Layout;
 const MobileHeader1 = (props) => {
+  const router = useRouter();
   return (
     <Header style={styles.header}>
       <div>
@@ -25,7 +27,7 @@ const MobileHeader1 = (props) => {
               // size="large"
               className="header-basment-mobile-btn-left"
               block
-              onClick={() => props.openModal()}
+              onClick={() => router.push('/contact-us')}
             >
               <SolutionOutlined />
               <span>Get A Quote</span>

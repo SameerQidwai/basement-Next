@@ -87,7 +87,7 @@ const SlideCarousel = () => {
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         href='/contact-us'
                         >
-                          GET A QOUTE NOW
+                          GET A QUOTE NOW
                         </Button>
                       </Col>
                     </Row>
@@ -167,7 +167,7 @@ const SlideCarousel = () => {
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         href='/contact-us'
                         >
-                          GET A QOUTE NOW
+                          GET A QUOTE NOW
                         </Button>
                       </Col>
                     </Row>
@@ -247,7 +247,7 @@ const SlideCarousel = () => {
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                         href='/contact-us'
                         >
-                          GET A QOUTE NOW
+                          GET A QUOTE NOW
                         </Button>
                       </Col>
                     </Row>
@@ -327,7 +327,7 @@ const SlideCarousel = () => {
                           className="carousel-btn c-white bgc-blackish b-blackish  s-blackish hover-b-blackish"
                           href='/contact-us'
                         >
-                          GET A QOUTE NOW
+                          GET A QUOTE NOW
                         </Button>
                       </Col>
                     </Row>
