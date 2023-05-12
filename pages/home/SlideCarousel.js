@@ -10,10 +10,11 @@ const SlideCarousel = () => {
       className="carousel-slider"
       effect="fade"
       autoplay
-      autoplaySpeed={2000}
+      autoplaySpeed={5000}
       // accessibility
       // arrows
-      lazyLoad="ondemand"
+      lazyLoad="progressive"
+      // lazyLoad="ondemand"
       beforeChange={(from, to) => {
         setSlideNumber(to);
       }}
