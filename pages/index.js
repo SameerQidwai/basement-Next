@@ -19,7 +19,7 @@ export default function Home() {
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Leaders of ELITEOX RENO Specialist in Ontario"/>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
-        <link rel="icon" href="/favicon_horns.ico" />
+        <link rel="icon" href="https://eliteoxreno.com/favicon_horns.ico" />
       </Head>
       <HomeIndex/>   
       </React.StrictMode>

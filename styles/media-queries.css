@@ -10,6 +10,9 @@
         padding: 10px 20px !important;
         /* width: 180px; */
     }
+    button.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
+        font-size: small !important;
+    }
 }
 
 @media only screen and (min-width:520px) and (max-width:574px)  { 
@@ -21,6 +24,7 @@
     a.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
         font-size: small;
     }
+    
     .desktop-about-us{display: none}
 }
 
@@ -95,10 +99,11 @@
     a.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
         font-size: medium;
     }
+    /* button.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
+        font-size: medium !important;
+    } */
+    
     .desktop-about-us{display: none}
-    button.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
-        font-size: large !important;
-    }
 } 
 
 @media only screen and (min-width:576px) and (max-width:767px)  {
@@ -152,7 +157,7 @@
     }
     .desktop-about-us{display: none}
     button.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
-        font-size: larger !important;
+        font-size: medium !important;
     }
 } 
 
@@ -187,6 +192,9 @@
         display: block;
     }
     .mobile-about-us{display: none}
+    button.ant-btn.ant-btn-text.ant-btn-block.button-overlay{
+        font-size: larger !important;
+    }
 } 
 
 /* For screens between 992px and 1124px */

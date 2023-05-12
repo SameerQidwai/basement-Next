@@ -29,21 +29,25 @@ const Welcome = () => {
             </Paragraph>
           </Col>
           <Col xs={22} sm={22} md={11} lg={11}>
-            <div className="welcome-picture">
-              <Image src="/recreational_basement.jpg" layout="fill" />
-            </div>
-            <Title level={3} className="txt-center c-goldish">
-              BASEMENT RECREATION
-            </Title>
+            <a href="/our-projects?key=kitchen">
+              <div className="welcome-picture">
+                <Image src="/recreational_basement.jpg" layout="fill" style={{objectFit: "contain"}} />
+              </div>
+              <Title level={3} className="txt-center c-goldish">
+                HOME RENOVATIONS 
+              </Title>
+            </a>
             {/* <img className="welcome-picture" src="/images/basement1.jpg" alt="" /> */}
           </Col>
           <Col xs={22} sm={22} md={11} lg={11}>
-            <div className="welcome-picture">
-              <Image src="/rental_basement.jpg" layout="fill" />
-            </div>
-            <Title level={3} className="txt-center c-goldish">
-              RENTABLE LEGAL BASEMENTS
-            </Title>
+            <a href="/our-projects?key=basement">
+              <div className="welcome-picture">
+                <Image src="/rental_basement.jpg" layout="fill" style={{objectFit: "contain"}} />
+              </div>
+              <Title level={3} className="txt-center c-goldish">
+                RENTABLE LEGAL BASEMENTS
+              </Title>
+            </a>
           </Col>
           <Col span={22}>
             <Paragraph className="c-white">

@@ -68,7 +68,7 @@ const ProjectsPreview = ({ home = false }) => {
 
   const Image_Column = () => {
     return (
-      <Row gutter={[30, 30]}>
+      <Row gutter={[30, 30]} style={{marginLeft: 5, marginRight: 5}}>
         <Image.PreviewGroup>
           {(images ?? []).map(({ img, type, name }, index) => (
             <Col xs={12} sm={6} md={8} lg={8} key={index} style={{maxHeight: 273.16}}>
@@ -78,11 +78,12 @@ const ProjectsPreview = ({ home = false }) => {
         </Image.PreviewGroup>
         {home && (
           <Col xs={12} sm={6} md={8} lg={8} style={{maxHeight: 273.16}}>
-            <Image width="100%" height={"auto"} style={{maxHeight: 273.16}}  src="/blur-show-more-project.jpg" alt='blur-show-more-project' preview={false}/>
-            <div className='welcome-overlay'>
+            <div className='blur-img'>
+              <div className='blur-img-overlay'>
               <Button type="text" block className="c-blackish button-overlay">
                 <a href={`/our-projects?key=${selectedKey}`}>SHOW MORE <RightCircleOutlined /></a>
             </Button>
+            </div>
             </div>
           </Col>
         )}

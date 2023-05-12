@@ -19,15 +19,14 @@ const WidgetFooter = () => {
             </Col>
             <Col span={24}>
               {/* <img src="footer-logo.png" width={80} height={80} /> */}
-              <img src="/logos/logo-smokey_150.svg"  />
+              <img src="/logos/logo-smokey_150.svg" />
             </Col>
             <Col span={24}>
               <Text>
                 <p>
-                At <b>ELITEOX RENO</b>, we specialize in crafting
-                one-of-a-kind and luxurious properties that are sure to impress.
-                Let us inspire you with our outstanding workmanship and
-                expertise.
+                  At <b>ELITEOX RENO</b>, we specialize in catering to
+                  individual needs that are sure to impress. Let us inspire you
+                  with our outstanding workmanship and expertise.
                 </p>
               </Text>
             </Col>
@@ -86,7 +85,7 @@ const WidgetFooter = () => {
         <Col xs={24} sm={7} md={5}>
           <Row gutter={[16, 5]}>
             <Col span={24}>
-              <Title level={4} >MUNICIPALITIES</Title>
+              <Title level={4}>MUNICIPALITIES</Title>
             </Col>
             <Col lg={12} md={24} sm={24} xs={12} >
               <Button type="text" href="#">
@@ -158,9 +157,13 @@ const WidgetFooter = () => {
             <Col span={24}>
               <Row gutter={[0, 10]}>
                 <Col span={24}>
-                  <Row justify="space-around" align='middle' className="hover-with-logo">
+                  <Row
+                    justify="space-around"
+                    align="middle"
+                    className="hover-with-logo"
+                  >
                     <Col>
-                      <MailOutlined className="logo"/>
+                      <MailOutlined className="logo" />
                     </Col>
                     <Col span={22}>
                       <Button
@@ -173,9 +176,13 @@ const WidgetFooter = () => {
                   </Row>
                 </Col>
                 <Col span={24}>
-                  <Row justify="space-around" align='middle' className="hover-with-logo">
+                  <Row
+                    justify="space-around"
+                    align="middle"
+                    className="hover-with-logo"
+                  >
                     <Col>
-                      <MailOutlined className="logo"/>
+                      <MailOutlined className="logo" />
                     </Col>
                     <Col span={22}>
                       <Button
@@ -206,7 +213,7 @@ const WidgetFooter = () => {
                     </Col>
                     <Col span={22}>
                       <Button type="text" href="tel:+12894004307">
-                        Faraz Sami: (289) 400-4307 
+                        Faraz Sami: (289) 400-4307
                       </Button>
                     </Col>
                   </Row>
@@ -217,7 +224,11 @@ const WidgetFooter = () => {
                       <ClockCircleOutlined />
                     </Col>
                     <Col span={22}>
-                      <Button type="text" href="#" style={{whiteSpace: "break-spaces"}}>
+                      <Button
+                        type="text"
+                        href="#"
+                        style={{ whiteSpace: 'break-spaces' }}
+                      >
                         Monday - Saturday: 9:00 AM - 6:00 PM
                       </Button>
                     </Col>

@@ -20,7 +20,7 @@ const SlideCarousel = () => {
     >
       <div>
         <img
-          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban2.jpg"
+          src="myban.jpg"
           alt=""
           className="carousel-img"
         />
@@ -100,7 +100,7 @@ const SlideCarousel = () => {
       </div>
       <div>
         <img
-          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban2.jpg"
+          src="myban2.jpg"
           alt=""
           className="carousel-img"
         />
@@ -180,7 +180,7 @@ const SlideCarousel = () => {
       </div>
       <div>
         <img
-          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban3.jpg"
+          src="myban3.jpg"
           alt=""
           className="carousel-img"
         />
@@ -260,7 +260,7 @@ const SlideCarousel = () => {
       </div>
       <div>
         <img
-          src="https://mylegalbasement.ca/wp-content/themes/mylegalbasement/images/myban4.jpg"
+          src="myban4.jpg"
           alt=""
           className="carousel-img"
         />

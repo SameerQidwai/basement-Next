@@ -16,7 +16,7 @@ const Header1 = (props) => {
           <Col xs={24} sm={10} md={10}>
             <div className="header_logo">
             <a 
-            // href="https://mylegalbasement.ca/" 
+              href="https://eliteoxreno.com/" 
             >
                 {/* <Image
                   src="/logo-mobile.png"
@@ -27,7 +27,7 @@ const Header1 = (props) => {
                 /> */}
                 <img
                   src="/logos/XL-shadow-logo_96.svg"
-                  // alt="https://mylegalbasement.ca/"
+                  alt="https://eliteoxreno.com/"
                 />
               </a>
               </div>

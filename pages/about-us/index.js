@@ -47,7 +47,7 @@ const Index = (props) => {
       </Col>
       <Col span={22}  className='py-20 txt-center' >
         {/* <Image src="/core_value.jpg" width={786} height={350}  /> */}
-        <Image src="/core_value.jpg" width={'100%'}   />
+        <Image src="/core_value.jpg"  width={'60%'}  height={'90%'}  />
       </Col>
     </Row>
   );

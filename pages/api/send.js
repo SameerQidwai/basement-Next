@@ -7,8 +7,8 @@ const transporter = nodemailer.createTransport({
   port: 465,
   host: "smtp.gmail.com",
   auth: {
-    user: 'contact.1lm.au@gmail.com',
-    pass: 'eiakgvsmqxoqvrnb',
+    user: 'eliteoxreno@gmail.com',
+    pass: 'otkxcxekjrmchnal',
   },
   secure: true,
 })  
@@ -16,6 +16,7 @@ const transporter = nodemailer.createTransport({
 export default (req, res) => {
   const {name = '-' , email = '-', contact = '-', subject = '-', message = '-', pincode = '-', files, address= '-'} = req.body
   let attachments =[]
+  files = undefined
   if(files){
     attachments = [{
       filename: files.name,
@@ -23,8 +24,9 @@ export default (req, res) => {
     }]
   }
   const mailData = {
-    from: 'contact.1lm.au@gmail.com',
-    to: 'sameeerqidwai@gmail.com',
+    from: 'eliteoxreno@gmail.com',
+    sender:'eliteoxreno@gmail.com',
+    to: ['sameeerqidwai@gmail.com', 'hamdard.sameer@gmail.com'],
     subject: `Need your ${subject}`,
     html: `<div>
     <h3>Name: ${name}</h3>
