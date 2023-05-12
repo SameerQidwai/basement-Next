@@ -15,11 +15,11 @@ export default function Home() {
         <meta name="author" content="sQidwai"/>
 
         <meta property="og:image" content="https://eliteoxreno.com/myban2.jpg"/>
-        <meta property="og:image" content="https://eliteoxreno.com/myban4.jpg"/>
-        <meta property="og:image" content="https://eliteoxreno.com/myban.jpg"/>
-  {/* <meta property="og:image:type" content="image/jpeg"/>
+        {/* <meta property="og:image" content="https://eliteoxreno.com/myban4.jpg"/> */}
+        {/* <meta property="og:image" content="https://eliteoxreno.com/myban.jpg"/> */}
+  {/* <meta property="og:image:type" content="image/jpeg"/>*/}
   <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/> */}
+  <meta property="og:image:height" content="630"/> 
 
         <meta property="og:author" content="sQidwai"/>
         <meta property="og:locale" content="en_US"/>
