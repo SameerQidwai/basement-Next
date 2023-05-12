@@ -9,8 +9,8 @@ const SlideCarousel = () => {
     <Carousel
       className="carousel-slider"
       effect="fade"
-      // autoplay
-      // autoplaySpeed={2000}
+      autoplay
+      autoplaySpeed={2000}
       // accessibility
       // arrows
       lazyLoad="ondemand"
@@ -20,7 +20,7 @@ const SlideCarousel = () => {
     >
       <div>
         <img
-          src="myban.jpg"
+          src="myban2.jpg"
           alt=""
           className="carousel-img"
         />
@@ -100,7 +100,7 @@ const SlideCarousel = () => {
       </div>
       <div>
         <img
-          src="myban2.jpg"
+          src="myban.jpg"
           alt=""
           className="carousel-img"
         />
