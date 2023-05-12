@@ -12,9 +12,17 @@ export default function Home() {
         <meta name="description" content="We offer custom construction and renovation services in Milton, Oakville, Burlington, Halton Hills, Guelph, Mississauga, Toronto, and the GTA. Our services include basement, kitchen, and bathroom renovation, flooring, roofing, painting, custom home building, building permits, and more. Contact us for your next home improvement project and let us build your dream." />
         <meta name="keywords" content="construction, renovation, remodeling, design, basement finishing, kitchen renovation, bathroom renovation, flooring, roofing, painting, custom home building, general contractor, building contractor, residential construction, commercial construction, architectural drawings, building permits, Milton, Oakville, Burlington, Halton Hills, Guelph, Mississauga, Toronto, GTA, custom homes, additions, underpinning, laneway suites, multi-family dwellings, below grade entrances, detached garages, custom cabinetry, countertops, waterproofing, walkout basement." />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+        <meta name="author" content="sQidwai"/>
+
+        <meta property="og:image" content="https://eliteoxreno.com/myban2.jpg, https://eliteoxreno.com/myban4.jpg, https://eliteoxreno.com/myban.jpg"/>
+  <meta property="og:image:type" content="image/jpeg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+        <meta property="og:author" content="sQidwai"/>
         <meta property="og:locale" content="en_US"/>
         <meta property="og:description" content="ELITEOX Building and Renovation is a construction and renovation company that provides quality services in Toronto, Mississauga, and the Greater Toronto Area. Our services include basement, kitchen, and bathroom remodeling, flooring and roofing installations, and interior and exterior painting." />
-        {/* <meta property="og:url" content="https://mylegalbasement.ca/our-services/"/> */}
+        <meta property="og:url" content="https://eliteoxreno.com/our-services/"/>
         <meta property="og:site_name" content="ELITEOX RENO"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="Leaders of ELITEOX RENO Specialist in Ontario"/>
