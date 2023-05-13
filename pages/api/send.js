@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 })  
 
 export default (req, res) => {
-  const {name = '-' , email = '-', contact = '-', subject = '-', message = '-', pincode = '-', files, address= '-'} = req.body
+  let {name = '-' , email = '-', contact = '-', subject = '-', message = '-', pincode = '-', files, address= '-'} = req.body
   let attachments =[]
   files = undefined
   if(files){
