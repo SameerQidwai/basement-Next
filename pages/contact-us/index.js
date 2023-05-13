@@ -174,7 +174,7 @@ const Index = () => {
                   <Title level={3}>our opening hours</Title>
                   <Title level={4}>
                     <Button type="text" href="#">
-                      MONDAY - FRIDAY : 9am - 5pm
+                      Monday - Saturday: 9:00 AM - 6:00 PM
                     </Button>
                   </Title>
                 </Row>

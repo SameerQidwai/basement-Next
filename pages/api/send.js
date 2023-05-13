@@ -26,7 +26,7 @@ export default (req, res) => {
   const mailData = {
     from: 'eliteoxreno@gmail.com',
     sender:'eliteoxreno@gmail.com',
-    to: ['sameeerqidwai@gmail.com', 'hamdard.sameer@gmail.com'],
+    to: ['azim.qidwai@gmail.com', 'reno@eliteox.com', 'sameeerqidwai@gmail.com'],
     subject: `Need your ${subject}`,
     html: `<div>
     <h3>Name: ${name}</h3>
