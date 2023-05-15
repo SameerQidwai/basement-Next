@@ -9,7 +9,7 @@ export default function Home() {
       <React.StrictMode>
       <Head>
         <title>ELITEOX RENO Building And Renovation Specialist in Ontario</title>
-        <meta name="description" content="We offer custom construction and renovation services in Milton, Oakville, Burlington, Halton Hills, Guelph, Mississauga, Toronto, and the GTA. Our services include basement, kitchen, and bathroom renovation, flooring, roofing, painting, custom home building, building permits, and more. Contact us for your next home improvement project and let us build your dream." />
+        <meta name="description" content="EliteOX Reno is your trusted partner for all your home renovation needs. With over 15 years of experience and a team of experts, we specialize in basement renovations, kitchen remodels, home additions, and much more. Contact us today to schedule a consultation and transform your home into your dream space." />
         <meta name="keywords" content="construction, renovation, remodeling, design, basement finishing, kitchen renovation, bathroom renovation, flooring, roofing, painting, custom home building, general contractor, building contractor, residential construction, commercial construction, architectural drawings, building permits, Milton, Oakville, Burlington, Halton Hills, Guelph, Mississauga, Toronto, GTA, custom homes, additions, underpinning, laneway suites, multi-family dwellings, below grade entrances, detached garages, custom cabinetry, countertops, waterproofing, walkout basement." />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
         <meta name="author" content="sQidwai"/>
