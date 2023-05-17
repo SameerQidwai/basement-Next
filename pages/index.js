@@ -15,7 +15,7 @@ export default function Home() {
         <meta name="author" content="sQidwai"/>
 
         {/* <meta property="og:image" content="https://eliteoxreno.com/meta-img.jpg"/> */}
-        <meta property="og:image" content="https://eliteoxreno.com/meta_img4.jpg"/>
+        <meta property="og:image" content="/meta_img4.jpg"/>
         {/* <meta property="og:image" content="https://eliteoxreno.com/myban4.jpg"/> */}
         {/* <meta property="og:image" content="https://eliteoxreno.com/myban.jpg"/> */}
         {/* <meta property="og:image:type" content="image/jpeg"/>*/}
