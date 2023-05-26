@@ -23,22 +23,22 @@ const BottomFooter = () => {
             gutter={[0, 10]}
             align="middle"
         >
-            <Col className="left-center h-auto" xs={24} md={24} lg={12}>
+            <Col className="left-center h-auto" xs={24} md={24} lg={20}>
             <Text>
-                COPYRIGHT ELITEOX RENO
+                Copyright © EliteOX Reno, a subsidiary company of 1877396 Ontario Inc.
                 <Divider type="vertical" />
                 ALL RIGHTS RESERVED
                 <Divider type="vertical" />
-                Design by Qidwai
+                Designed and developed by sQidwai in collaboration with EliteOX Marketing Team.
             </Text>
             </Col>
             <Col
-            className="txt-center h-auto"
-            xs={24}
-            md={24}
-            lg={4}
-            xl={3}
-            xxl={2}
+                className="txt-center h-auto"
+                xs={24}
+                md={24}
+                lg={4}
+                xl={3}
+                xxl={2}
             >
             <Row gutter={[16]} justify="center" className="mt-10">
                 <Col>
