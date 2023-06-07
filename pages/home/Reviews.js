@@ -17,12 +17,17 @@ const Reviews = () => {
           <Col span={22}>
             <Row justify="space-around">
               <Col>
-                <Title level={5} className="review-title">What Our Clients Say</Title>
+                <Title level={5} className="review-title">
+                  What Our Clients Say
+                </Title>
               </Col>
             </Row>
             <Row justify="space-around">
               <Col>
-                <Title level={3} className="reviews-testimonials"> OUR TESTIMONIAL</Title>
+                <Title level={3} className="reviews-testimonials">
+                  {' '}
+                  OUR TESTIMONIAL
+                </Title>
               </Col>
             </Row>
           </Col>
@@ -35,118 +40,129 @@ const Reviews = () => {
               pauseOnDotsHover
               style={{ cursor: 'pointer' }}
               swipeToSlide
-            //   arrows
+              //   arrows
               // nextArrow={'<'}
               // prevArrow={'>'}
             >
               <div>
                 <Row justify="space-around">
-                  <Col className='mb-30'>
+                  <Col className="mb-30">
                     {/* <UserOutlined /> */}
-                    <Avatar 
-                      size={80} 
-                      src="man_avatar.png" 
-                    />
+                    <Avatar size={80} src="man_avatar.png" />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col className="txt-center"xs={24} sm={21} md={18} lg={15}>
-                    <Text italic >
-                      “It was a pleasure to work with such professional, honest
-                      and caring people throughout my project. They are a team
-                      of exceptional individuals, competent in their specific
-                      areas of trade. Angelo is extremely detail-oriented, a
-                      perfectionist, and a craftsman. He is meticulous with
-                      every facet of his work and leaves the work site clean.
-                      Thank you for making this remodeling job so painless and
-                      for adding so much to our home!”
+                  <Col className="txt-center" xs={24} sm={21} md={18} lg={15}>
+                    <Text italic>
+                      “Working with Azim and Faraz was an absolute pleasure.
+                      They paid great attention to detail during the design
+                      process and was accommodating when it came to making
+                      changes to the scope of work. Their team of subcontractors
+                      were highly skilled professionals who took pride in their
+                      work and were easy to collaborate with. The project was
+                      completed efficiently, causing minimal disruption to our
+                      household, and there were no unexpected delays. It's rare
+                      to find contractors who are not only good at what they do
+                      but also good people, and I wholeheartedly recommend Azim,
+                      Faraz and EliteOX Reno!”
                     </Text>
                   </Col>
                   <Col span={22} className={'txt-center'}>
-                    <Title level={4}>RANDY DEANGELIS</Title>
+                    <Title level={4}>Simone T.</Title>
                   </Col>
                 </Row>
               </div>
               <div>
                 <Row justify="space-around">
-                  <Col className='mb-30'>
-                    <Avatar 
-                      size={48.19} 
-                      src="man_avatar.png" 
-                    />                  </Col>
+                  <Col className="mb-30">
+                    <Avatar size={48.19} src="man_avatar.png" />{' '}
+                  </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col className="txt-center"xs={24} sm={21} md={18} lg={15}>
+                  <Col className="txt-center" xs={24} sm={21} md={18} lg={15}>
                     <Text italic>
-                      “Anvale Homes did an outstanding job finishing our
-                      basement. Angelo listened to what we wanted and was very
-                      helpful with design ideas. The crew was very skilled,
-                      always on time and did a great job keeping the workplace
-                      clean. The entire process was stress-free. Everyone was
-                      great to work with and did a great job of keeping it all
-                      on schedule and within the budget. I would highly
-                      recommend Anvale Homes and Angelo Gerardi to assist in any
-                      of your renovations or home building needs.”
+                      “EliteOX Reno exceeded our expectations in completing our
+                      basement project. Faraz took the time to understand our
+                      vision and provided valuable design suggestions. The
+                      team's craftsmanship was exceptional, always punctual, and
+                      maintained a clean work environment. The entire process
+                      was seamless, making it stress-free for us. Working with
+                      everyone at EliteOX Reno was a pleasure, as they ensured
+                      the project stayed on schedule and within budget. I highly
+                      recommend EliteOX Reno, Faraz for any renovation or home
+                      building needs.”
                     </Text>
                   </Col>
                   <Col span={22} className={'txt-center'}>
-                    <Title level={4}>VITO MACRI</Title>
+                    <Title level={4}>Humera k.</Title>
                   </Col>
                 </Row>
               </div>
               <div>
                 <Row justify="space-around">
-                  <Col className='mb-30'>
-                    <Avatar 
-                      size={48.19} 
-                      src="man_avatar.png" 
-                    />
+                  <Col className="mb-30">
+                    <Avatar size={48.19} src="man_avatar.png" />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col className="txt-center"xs={24} sm={22} md={20} lg={20} xl={18} xxl={15}>
+                  <Col
+                    className="txt-center"
+                    xs={24}
+                    sm={22}
+                    md={20}
+                    lg={20}
+                    xl={18}
+                    xxl={15}
+                  >
                     <Text italic>
-                      “Angelo was a complete joy to work with. He was attentive
-                      to my detailing during the design development process. He
-                      was very accommodating during the build and fairly
-                      negotiated changes (both additions and deletions to
-                      scope). His crew of subcontractors were top notch,
-                      professional, perfectionists and easy to work with. The
-                      work was performed in a timely fashion with minimal
-                      description to the household and no unexpected
-                      delays/breaks in work progress … Good contractors and most
-                      importantly good people are hard to find these days so I
-                      try to support them as much as I can once i find them.
-                      Anvale Homes gets my full recommendation!”
+                      “It was truly a pleasure collaborating with such a
+                      dedicated, honest, and compassionate team during my
+                      project. Azim and his highly skilled colleagues possess
+                      exceptional expertise in their respective trades. Azim's
+                      attention to detail, commitment to perfection, and
+                      craftsmanship are unparalleled. He diligently ensures that
+                      every aspect of the work is meticulously executed, leaving
+                      the work site impeccably clean. I extend my heartfelt
+                      appreciation for making this remodeling experience
+                      effortless and for significantly enhancing our home. Thank
+                      you, Azim, and the entire team at EliteOX Reno!”
                     </Text>
                   </Col>
                   <Col span={22} className={'txt-center'}>
-                    <Title level={4}>PAUL C</Title>
+                    <Title level={4}>Pamella A.</Title>
                   </Col>
                 </Row>
               </div>
               <div>
                 <Row justify="space-around">
-                  <Col className='mb-30'>
-                    <Avatar 
-                      size={48.19} 
-                      src="man_avatar.png" 
-                    />
+                  <Col className="mb-30">
+                    <Avatar size={48.19} src="man_avatar.png" />
                   </Col>
                 </Row>
                 <Row justify="space-around" gutter={[0, 30]}>
-                  <Col className="txt-center"xs={24} sm={22} md={20} lg={20} xl={18} xxl={15}>
+                  <Col
+                    className="txt-center"
+                    xs={24}
+                    sm={22}
+                    md={20}
+                    lg={20}
+                    xl={18}
+                    xxl={15}
+                  >
                     <Text italic>
-                      “Highly satisfied with their work. My basement was
-                      finished on time, not once did I have to chase them. Very
-                      flexible, willing to accommodate any workable request or
-                      change to existing plan. Fairly priced. A relationship for
-                      long term. Khalid, Mabroor & Usman, you make a great team.
-                      Very professional and highly recommended”
+                      “I am extremely pleased with the exceptional work provided
+                      by Azim and Faraz. They completed my basement within the
+                      agreed-upon timeline, and I never had to follow up with
+                      them. They were highly flexible and open to accommodating
+                      any reasonable requests or modifications to the original
+                      plan. Their pricing was fair, and I look forward to
+                      maintaining a long-term relationship with them. Azim and
+                      Faraz form a remarkable team that exemplifies
+                      professionalism. I highly recommend their services”
                     </Text>
                   </Col>
                   <Col span={22} className={'txt-center'}>
-                    <Title level={4}>Abdul Azeem Farooqi</Title>
+                    <Title level={4}>Shazia M</Title>
                   </Col>
                 </Row>
               </div>
