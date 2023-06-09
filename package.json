@@ -2,9 +2,6 @@
   "name": "basment",
   "version": "0.2.0",
   "private": true,
-  "engines": {
-    "node": "14.17.6"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
