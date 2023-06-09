@@ -40,7 +40,7 @@ const index = () => {
             <p>Do you store cookies?</p>
             <p>
               By using our site, you accept the use of cookies with{' '}
-              <a src="https://aws.amazon.com">aws.amazon.com</a> for us to
+              <a href="https://aws.amazon.com">aws.amazon.com</a> for us to
               provide a better and more personalized experience. By registering
               to our site, you will automatically be enrolled in our email
               marketing programs to be provided with the latest news, discounts,
