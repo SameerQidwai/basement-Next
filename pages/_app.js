@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import App from "next/app";
 import Head from 'next/head'
 
@@ -24,8 +24,15 @@ import "../styles/media-queries.css";
 import Layout from "../Component/Basic/PageLayout";
 import EModal from "../Component/Modals/EModal";
 
+import { FacebookPixelEvents } from '../Component/Core/PixelEvents'
+
 const MyApp = ({ Component, pageProps })=> {
   const [open, setOpen] = useState(false)
+  const [isFbPixel, setIsFbPixel] = useState(false);
+
+  useEffect(() => {
+    setIsFbPixel(true);
+  }, []);
 
   return <>
     <Layout openContact={()=>setOpen(true)} >
@@ -57,6 +64,8 @@ const MyApp = ({ Component, pageProps })=> {
       <Component {...pageProps}  openContact={()=>setOpen(true)} />
     </Layout>
     <EModal visible={open} close={()=>setOpen(false)}/>
+    
+    {isFbPixel && <FacebookPixelEvents />}
   </>
 }
  // https://nextjs.org/docs/basic-features/layouts
