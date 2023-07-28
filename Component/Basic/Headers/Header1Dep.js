@@ -25,7 +25,7 @@ const Header1Dep = (props) => {
                 <Tooltip title="Facebook" arrowPointAtCenter>
                   <a
                     target={'_blank'}
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/eliteoxreno"
                     className="reset-a"
                   >
                     <FacebookOutlined className="fs-18" />
@@ -47,7 +47,7 @@ const Header1Dep = (props) => {
                 <Tooltip title="Instagram" arrowPointAtCenter>
                   <a
                     target={'_blank'}
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/eliteoxreno/"
                     className="reset-a"
                   >
                     <InstagramOutlined className="fs-18" />

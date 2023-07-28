@@ -2,6 +2,7 @@ import {useState} from 'react'
 import {  Button, Col, Divider, Form, Input, Modal, Row, Tooltip, Typography } from "antd";
 import { useWindowDimensions } from '../useFunction';
 import { GlobalOutlined, PhoneFilled, MailOutlined, TwitterSquareFilled, FacebookFilled } from '@ant-design/icons';
+import { FacebookIcon, InstgramIcon, ThreadIcon } from '../IconsLink';
 
 const { Text, Title } = Typography
 export default function EModal ({visible, close}) {
@@ -104,27 +105,13 @@ export default function EModal ({visible, close}) {
                 </Row>
                 <Row gutter={[16]} >
                     <Col>
-                      <Tooltip title="Facebook" arrowPointAtCenter>
-                        <a
-                          target={'_blank'}
-                          href="https://www.facebook.com/"
-                          className="reset-a"
-                        >
-                          <FacebookFilled className="fs-25 fb-icon" />
-                        </a>
-                      </Tooltip>
+                      <FacebookIcon/>
                     </Col>
                     <Col>
-                      <Tooltip title="Instagram" arrowPointAtCenter>
-                        <a
-                          target={'_blank'}
-                          href="https://www.instagram.com/"
-                          className="reset-a"
-                        >
-                          {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
-                          <div className="instagram"></div>
-                        </a>
-                      </Tooltip>
+                      <InstgramIcon/>
+                    </Col>
+                    <Col>
+                      <ThreadIcon/>
                     </Col>
                   </Row>
             </Col>

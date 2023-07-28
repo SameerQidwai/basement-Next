@@ -3,22 +3,17 @@ import {
   Avatar,
   Button,
   Col,
-  Divider,
   Form,
   Input,
   Row,
-  Tooltip,
   Typography,
 } from 'antd';
 import {
-  FacebookFilled,
-  MailOutlined,
-  PhoneFilled,
-  TwitterSquareFilled,
   UserOutlined,
 } from '@ant-design/icons';
+import { FacebookIcon, InstgramIcon, ThreadIcon } from '../../Component/IconsLink';
 
-const { Text, Title } = Typography;
+const { Title } = Typography;
 
 const Index = () => {
   const [required, setRequried] = useState(true);
@@ -135,29 +130,13 @@ const Index = () => {
                   <Title level={3}>follow Us</Title>
                   <Row gutter={[16]} justify="center" style={{ width: '100%' }}>
                     <Col>
-                      <Tooltip title="Facebook" arrowPointAtCenter>
-                        <a
-                          target={'_blank'}
-                          rel="noreferrer"
-                          href="https://www.facebook.com/"
-                          className="reset-a"
-                        >
-                          <FacebookFilled className="fs-25 fb-icon" />
-                        </a>
-                      </Tooltip>
+                      <FacebookIcon/>
                     </Col>
                     <Col>
-                      <Tooltip title="Instagram" arrowPointAtCenter>
-                        <a
-                          target={'_blank'}
-                          rel="noreferrer"
-                          href="https://www.instagram.com/"
-                          className="reset-a"
-                        >
-                          {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
-                          <div className="instagram"></div>
-                        </a>
-                      </Tooltip>
+                      <InstgramIcon/>
+                    </Col>
+                    <Col>
+                      <ThreadIcon/>
                     </Col>
                   </Row>
                 </Row>

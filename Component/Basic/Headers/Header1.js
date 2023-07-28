@@ -1,8 +1,7 @@
 import React from 'react';
-import { Col, Row, Button, Tooltip, Typography, Layout } from 'antd';
-import { FacebookFilled, PhoneOutlined, TwitterSquareFilled } from '@ant-design/icons';
-import Image from 'next/image'
-const { Paragraph, Text } = Typography;
+import { Col, Row, Button, Layout } from 'antd';
+import {  PhoneOutlined } from '@ant-design/icons';
+import { FacebookIcon, InstgramIcon, ThreadIcon } from '../../IconsLink';
 const { Header } = Layout;
 const Header1 = (props) => {
   return (
@@ -43,27 +42,13 @@ const Header1 = (props) => {
                 {/* xs={24} sm={8} md={10} */}
                 <Row gutter={[16]} justify="end" align="middle">
                   <Col>
-                    <Tooltip title="Facebook" arrowPointAtCenter>
-                      <a
-                        target={'_blank'}
-                        href="https://www.facebook.com/"
-                        className="reset-a"
-                      >
-                        <FacebookFilled className="fs-25 fb-icon " />
-                      </a>
-                    </Tooltip>
+                    <FacebookIcon/>
                   </Col>
                   <Col>
-                    <Tooltip title="Instagram" arrowPointAtCenter>
-                      <a
-                        target={'_blank'}
-                        href="https://www.instagram.com/"
-                        className="reset-a"
-                      >
-                        {/* <InstagramFilled  className="fs-25 ig-icon"/>  */}
-                        <div className="instagram "></div>
-                      </a>
-                    </Tooltip>
+                    <InstgramIcon/>
+                  </Col>
+                  <Col>
+                    <ThreadIcon/>
                   </Col>
                 </Row>
               </Col>

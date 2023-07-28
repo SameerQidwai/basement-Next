@@ -14,7 +14,7 @@ export const FacebookPixelEvents = () => {
     import("react-facebook-pixel")
       .then((x) => x.default)
       .then((ReactPixel) => {
-        ReactPixel.init("829711405328990"); //don't forget to change this
+        ReactPixel.init("809469287298666"); //don't forget to change this
         ReactPixel.pageView();
       });
   }, [pathname, searchParams]);
